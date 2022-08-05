@@ -3,17 +3,17 @@ const SUBTITLE_STATES = [
     {
         id: 1,
         name: 'Não mapeado',
-        color: 'rgb(255,255,255)'
+        color: 'rgba(255,255,255,0.5)'
     },
     {
         id: 2,
         name: 'Concluído',
-        color: 'rgb(145,207,96)'
+        color: 'rgba(145,207,96,0.5)'
     },
     {
         id: 3,
         name: 'Múltiplas edições',
-        color: 'rgb(102,178,255)'
+        color: 'rgba(102,178,255,0.5)'
     }
 ]
 
@@ -48,7 +48,7 @@ var PROJECTS = {
                         'type': 'fill',
                         'layout': {},
                         'paint': {
-                            'fill-opacity': 0.4
+                            
                         }
                     },
                     {
@@ -69,10 +69,15 @@ var PROJECTS = {
                         "maxzoom": 10,
                         'layout': {
                             'text-field': [
-                                'format', 
+                                'concat', 
                                 ['get', 'identificador'],
                                 '\n',
-                                ['get', 'data', ['at', 0, ['get', 'edicoes']]]
+                                [
+                                    'case',
+                                    ['>', ['length', ['get', 'edicoes']], 0],
+                                    ['get', 'data', ['at', 0, ['get', 'edicoes']]],
+                                    ''
+                                ]
                             ]
                         },
                         'paint': {
@@ -113,7 +118,7 @@ var PROJECTS = {
                         'type': 'fill',
                         'layout': {},
                         'paint': {
-                            'fill-opacity': 0.7
+                            
                         }
                     },
                     {
@@ -130,14 +135,19 @@ var PROJECTS = {
                         'id': 'mapintfter-sub-meta-a1-carta-topo-25k-florianopolis-text',
                         'source': 'mapintfter-sub-meta-a1-carta-topo-25k-florianopolis',
                         "type": "symbol",
-                        "maxzoom": 10,
+                        "maxzoom": 10.90,
                         "minzoom": 8.86,
                         'layout': {
                             'text-field': [
                                 'format', 
                                 ['get', 'identificador'],
                                 '\n',
-                                ['get', 'data', ['at', 0, ['get', 'edicoes']]]
+                                [
+                                    'case',
+                                    ['>', ['length', ['get', 'edicoes']], 0],
+                                    ['get', 'data', ['at', 0, ['get', 'edicoes']]],
+                                    ''
+                                ]
                             ]
 
                         },
