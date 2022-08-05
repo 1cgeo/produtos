@@ -3,7 +3,7 @@ const SUBTITLE_STATES = [
     {
         id: 1,
         name: 'Não mapeado',
-        color: 'rgba(255,255,255,0.5)'
+        color: 'rgba(255,255,255,0.0)'
     },
     {
         id: 2,
@@ -23,18 +23,18 @@ const INIT_ZOOM = {
 }
 
 var PROJECTS = {
-    'plano-desenvolvimento': {
-        title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2022',
+    'situacao-geral': {
+        title: 'Situação Geral da Área de Suprimento Cartográfico de responsabilidade do 1º CGEO',
         group: "Situação Geral",
-        description: `O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, indicando ainda o ano de produção da carta.`,
         lotes: [
             {
-                name: 'pddmt-sub-meta-a-carta-orto-50k-pr',
-                subtitle: 'Carta Ortoimagem 1:50.000 no PR',
-                description: `Construção de 76 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações no Lago de Itaipu para o CMS.`,
+                name: 'situacao_geral_25k',
+                subtitle: 'Carta Topográfica 1:25.000',
+                description: `Ao aproximar é possível ver o ano de mapeamento da carta`,
                 zoom: [
-                    [-55.06047536706811, -26.185466546679336], // southwestern corner of the bounds
-                    [-52.33035587933817, -23.8751537623843] // northeastern corner of the bounds
+                    [-58.00, -34.00], // southwestern corner of the bounds
+                    [-47.875, -22.875] // northeastern corner of the bounds
                 ],
                 legend: [
                     1,
@@ -43,8 +43,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'pddmt-sub-meta-a-carta-orto-50k-pr-fill',
-                        'source': 'pddmt-sub-meta-a-carta-orto-50k-pr',
+                        'id': 'situacao_geral_25k-fill',
+                        'source': 'situacao_geral_25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -52,8 +52,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-a-carta-orto-50k-pr-border',
-                        'source': 'pddmt-sub-meta-a-carta-orto-50k-pr',
+                        'id': 'situacao_geral_25k-border',
+                        'source': 'situacao_geral_25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -62,11 +62,11 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-sub-meta-a-carta-orto-50k-pr-text',
-                        'source': 'pddmt-sub-meta-a-carta-orto-50k-pr',
+                        'id': 'situacao_geral_25k-text',
+                        'source': 'situacao_geral_25k',
                         "type": "symbol",
-                        "minzoom": 7.99,
-                        "maxzoom": 10,
+                        "minzoom": 8.5,
+                        "maxzoom": 15,
                         'layout': {
                             'text-field': [
                                 'concat', 
@@ -75,7 +75,7 @@ var PROJECTS = {
                                 [
                                     'case',
                                     ['>', ['length', ['get', 'edicoes']], 0],
-                                    ['get', 'data', ['at', 0, ['get', 'edicoes']]],
+                                    ['at', 0, ['get', 'edicoes']],
                                     ''
                                 ]
                             ]
@@ -145,7 +145,7 @@ var PROJECTS = {
                                 [
                                     'case',
                                     ['>', ['length', ['get', 'edicoes']], 0],
-                                    ['get', 'data', ['at', 0, ['get', 'edicoes']]],
+                                    ['at', 0, ['get', 'edicoes']],
                                     ''
                                 ]
                             ]

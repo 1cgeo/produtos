@@ -101,7 +101,7 @@ loadGeoJSON = (loteName, styles) => {
                                         return `
                                         <tr>
                                             <td>${editions.length - idx}</td>
-                                            <td>${item.data}</td>
+                                            <td>${item}</td>
                                         </tr>
                                         `
                                     }).join('\n')
