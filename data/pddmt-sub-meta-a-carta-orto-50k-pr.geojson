@@ -27,11 +27,8 @@
 			"properties" : {
 				"id" : 0,
 				"identificador" : "2833-1",
-				"situacao" : "Não iniciado",
+				"situacao" : "Não mapeado",
 				"edicoes": [
-					{
-						"data": "10/10/2022"
-					}
 				]
 			}
 		},
@@ -60,11 +57,8 @@
 			"properties" : {
 				"id" : 1,
 				"identificador" : "2833-2",
-				"situacao" : "Não iniciado",
+				"situacao" : "Não mapeado",
 				"edicoes": [
-					{
-						"data": "10/10/2022"
-					}
 				]
 			}
 		},
@@ -93,11 +87,8 @@
 			"properties" : {
 				"id" : 2,
 				"identificador" : "2833-3",
-				"situacao" : "Não iniciado",
+				"situacao" : "Não mapeado",
 				"edicoes": [
-					{
-						"data": "10/10/2022"
-					}
 				]
 			}
 		},

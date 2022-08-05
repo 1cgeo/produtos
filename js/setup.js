@@ -2,7 +2,7 @@
 const SUBTITLE_STATES = [
     {
         id: 1,
-        name: 'Não iniciado',
+        name: 'Não mapeado',
         color: 'rgb(255,255,255)'
     },
     {
@@ -48,7 +48,7 @@ var PROJECTS = {
                         'type': 'fill',
                         'layout': {},
                         'paint': {
-                            'fill-opacity': 0.7
+                            'fill-opacity': 0.4
                         }
                     },
                     {
