@@ -31,7 +31,7 @@ var PROJECTS = {
             {
                 name: 'situacao_geral_25k',
                 subtitle: 'Carta Topográfica 1:25.000',
-                description: `Ao aproximar é possível ver o ano de mapeamento da carta`,
+                description: `Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar será mostrado os anos que a carta possui edição`,
                 zoom: [
                     [-58.00, -34.00], // southwestern corner of the bounds
                     [-47.875, -22.875] // northeastern corner of the bounds
@@ -69,7 +69,185 @@ var PROJECTS = {
                         "maxzoom": 15,
                         'layout': {
                             'text-field': [
+                                'concat',
+                                'MI ', 
+                                ['get', 'identificador'],
+                                '\n',
+                                [
+                                    'case',
+                                    ['>', ['length', ['get', 'edicoes']], 0],
+                                    ['at', 0, ['get', 'edicoes']],
+                                    ''
+                                ]
+                            ]
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'situacao_geral_50k',
+                subtitle: 'Carta Topográfica 1:50.000',
+                description: `Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar será mostrado os anos que a carta possui edição`,
+                zoom: [
+                    [-58.125, -34.125], // southwestern corner of the bounds
+                    [-47.875, -22.875] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    2,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'situacao_geral_50k-fill',
+                        'source': 'situacao_geral_50k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            
+                        }
+                    },
+                    {
+                        'id': 'situacao_geral_50k-border',
+                        'source': 'situacao_geral_50k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'situacao_geral_50k-text',
+                        'source': 'situacao_geral_50k',
+                        "type": "symbol",
+                        "minzoom": 8.5,
+                        "maxzoom": 15,
+                        'layout': {
+                            'text-field': [
                                 'concat', 
+                                'MI ',
+                                ['get', 'identificador'],
+                                '\n',
+                                [
+                                    'case',
+                                    ['>', ['length', ['get', 'edicoes']], 0],
+                                    ['at', 0, ['get', 'edicoes']],
+                                    ''
+                                ]
+                            ]
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'situacao_geral_100k',
+                subtitle: 'Carta Topográfica 1:100.000',
+                description: `Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar será mostrado os anos que a carta possui edição`,
+                zoom: [
+                    [-58.250, -34.125], // southwestern corner of the bounds
+                    [-47.875, -22.875] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    2,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'situacao_geral_100k-fill',
+                        'source': 'situacao_geral_100k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            
+                        }
+                    },
+                    {
+                        'id': 'situacao_geral_100k-border',
+                        'source': 'situacao_geral_100k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'situacao_geral_100k-text',
+                        'source': 'situacao_geral_100k',
+                        "type": "symbol",
+                        "minzoom": 8.5,
+                        "maxzoom": 15,
+                        'layout': {
+                            'text-field': [
+                                'concat', 
+                                'MI ',
+                                ['get', 'identificador'],
+                                '\n',
+                                [
+                                    'case',
+                                    ['>', ['length', ['get', 'edicoes']], 0],
+                                    ['at', 0, ['get', 'edicoes']],
+                                    ''
+                                ]
+                            ]
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'situacao_geral_250k',
+                subtitle: 'Carta Topográfica 1:250.000',
+                description: `Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar será mostrado os anos que a carta possui edição`,
+                zoom: [
+                    [-58.625, -34.125], // southwestern corner of the bounds
+                    [-47.875, -22.875] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    2,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'situacao_geral_250k-fill',
+                        'source': 'situacao_geral_250k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            
+                        }
+                    },
+                    {
+                        'id': 'situacao_geral_250k-border',
+                        'source': 'situacao_geral_250k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'situacao_geral_250k-text',
+                        'source': 'situacao_geral_250k',
+                        "type": "symbol",
+                        "minzoom": 8.5,
+                        "maxzoom": 15,
+                        'layout': {
+                            'text-field': [
+                                'concat', 
+                                'MIR ',
                                 ['get', 'identificador'],
                                 '\n',
                                 [
