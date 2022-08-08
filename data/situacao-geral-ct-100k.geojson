@@ -1,0 +1,2248 @@
+﻿{
+	"type" : "FeatureCollection",
+	"name" : "nome",
+	"features" : [
+    		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-23.5],[-54,-23],[-53.5,-23],[-53.5,-23.5],[-54,-23.5]]]},
+			"properties" : {
+				"id" : "0",
+				"identificador" : "2753",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-23.5],[-53.5,-23],[-53,-23],[-53,-23.5],[-53.5,-23.5]]]},
+			"properties" : {
+				"id" : "1",
+				"identificador" : "2754",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-23.5],[-53,-23],[-52.5,-23],[-52.5,-23.5],[-53,-23.5]]]},
+			"properties" : {
+				"id" : "2",
+				"identificador" : "2755",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-23.5],[-52.5,-23],[-52,-23],[-52,-23.5],[-52.5,-23.5]]]},
+			"properties" : {
+				"id" : "3",
+				"identificador" : "2756",
+				"situacao" : "Concluído",
+				"edicoes": ["2000"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-23.5],[-52,-23],[-51.5,-23],[-51.5,-23.5],[-52,-23.5]]]},
+			"properties" : {
+				"id" : "4",
+				"identificador" : "2757",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-23.5],[-51.5,-23],[-51,-23],[-51,-23.5],[-51.5,-23.5]]]},
+			"properties" : {
+				"id" : "5",
+				"identificador" : "2758",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-23.5],[-51,-23],[-50.5,-23],[-50.5,-23.5],[-51,-23.5]]]},
+			"properties" : {
+				"id" : "6",
+				"identificador" : "2759",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-23.5],[-50.5,-23],[-50,-23],[-50,-23.5],[-50.5,-23.5]]]},
+			"properties" : {
+				"id" : "7",
+				"identificador" : "2760",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-23.5],[-50,-23],[-49.5,-23],[-49.5,-23.5],[-50,-23.5]]]},
+			"properties" : {
+				"id" : "8",
+				"identificador" : "2761",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-24],[-54,-23.5],[-53.5,-23.5],[-53.5,-24],[-54,-24]]]},
+			"properties" : {
+				"id" : "9",
+				"identificador" : "2779",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-24],[-53.5,-23.5],[-53,-23.5],[-53,-24],[-53.5,-24]]]},
+			"properties" : {
+				"id" : "10",
+				"identificador" : "2780",
+				"situacao" : "Concluído",
+				"edicoes": ["1970"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-24],[-53,-23.5],[-52.5,-23.5],[-52.5,-24],[-53,-24]]]},
+			"properties" : {
+				"id" : "11",
+				"identificador" : "2781",
+				"situacao" : "Concluído",
+				"edicoes": ["1970"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-24],[-52.5,-23.5],[-52,-23.5],[-52,-24],[-52.5,-24]]]},
+			"properties" : {
+				"id" : "12",
+				"identificador" : "2782",
+				"situacao" : "Concluído",
+				"edicoes": ["2000"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-24],[-52,-23.5],[-51.5,-23.5],[-51.5,-24],[-52,-24]]]},
+			"properties" : {
+				"id" : "13",
+				"identificador" : "2783",
+				"situacao" : "Concluído",
+				"edicoes": ["2000"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-24],[-51.5,-23.5],[-51,-23.5],[-51,-24],[-51.5,-24]]]},
+			"properties" : {
+				"id" : "14",
+				"identificador" : "2784",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-24],[-51,-23.5],[-50.5,-23.5],[-50.5,-24],[-51,-24]]]},
+			"properties" : {
+				"id" : "15",
+				"identificador" : "2785",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-24],[-50.5,-23.5],[-50,-23.5],[-50,-24],[-50.5,-24]]]},
+			"properties" : {
+				"id" : "16",
+				"identificador" : "2786",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-24],[-50,-23.5],[-49.5,-23.5],[-49.5,-24],[-50,-24]]]},
+			"properties" : {
+				"id" : "17",
+				"identificador" : "2787",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55.5,-24.5],[-55.5,-24],[-55,-24],[-55,-24.5],[-55.5,-24.5]]]},
+			"properties" : {
+				"id" : "18",
+				"identificador" : "2797",
+				"situacao" : "Concluído",
+				"edicoes": ["1970"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-24.5],[-54.5,-24],[-54,-24],[-54,-24.5],[-54.5,-24.5]]]},
+			"properties" : {
+				"id" : "19",
+				"identificador" : "2799",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-24.5],[-54,-24],[-53.5,-24],[-53.5,-24.5],[-54,-24.5]]]},
+			"properties" : {
+				"id" : "20",
+				"identificador" : "2800",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-24.5],[-53.5,-24],[-53,-24],[-53,-24.5],[-53.5,-24.5]]]},
+			"properties" : {
+				"id" : "21",
+				"identificador" : "2801",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-24.5],[-53,-24],[-52.5,-24],[-52.5,-24.5],[-53,-24.5]]]},
+			"properties" : {
+				"id" : "22",
+				"identificador" : "2802",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-24.5],[-52.5,-24],[-52,-24],[-52,-24.5],[-52.5,-24.5]]]},
+			"properties" : {
+				"id" : "23",
+				"identificador" : "2803",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-24.5],[-52,-24],[-51.5,-24],[-51.5,-24.5],[-52,-24.5]]]},
+			"properties" : {
+				"id" : "24",
+				"identificador" : "2804",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-24.5],[-51.5,-24],[-51,-24],[-51,-24.5],[-51.5,-24.5]]]},
+			"properties" : {
+				"id" : "25",
+				"identificador" : "2805",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-24.5],[-51,-24],[-50.5,-24],[-50.5,-24.5],[-51,-24.5]]]},
+			"properties" : {
+				"id" : "26",
+				"identificador" : "2806",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-24.5],[-50.5,-24],[-50,-24],[-50,-24.5],[-50.5,-24.5]]]},
+			"properties" : {
+				"id" : "27",
+				"identificador" : "2807",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-24.5],[-50,-24],[-49.5,-24],[-49.5,-24.5],[-50,-24.5]]]},
+			"properties" : {
+				"id" : "28",
+				"identificador" : "2808",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-24.5],[-49.5,-24],[-49,-24],[-49,-24.5],[-49.5,-24.5]]]},
+			"properties" : {
+				"id" : "29",
+				"identificador" : "2809",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49,-24.5],[-49,-24],[-48.5,-24],[-48.5,-24.5],[-49,-24.5]]]},
+			"properties" : {
+				"id" : "30",
+				"identificador" : "2810",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-48.5,-24.5],[-48.5,-24],[-48,-24],[-48,-24.5],[-48.5,-24.5]]]},
+			"properties" : {
+				"id" : "31",
+				"identificador" : "2811",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-25],[-54.5,-24.5],[-54,-24.5],[-54,-25],[-54.5,-25]]]},
+			"properties" : {
+				"id" : "32",
+				"identificador" : "2816",
+				"situacao" : "Concluído",
+				"edicoes": ["1976"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-25],[-54,-24.5],[-53.5,-24.5],[-53.5,-25],[-54,-25]]]},
+			"properties" : {
+				"id" : "33",
+				"identificador" : "2817",
+				"situacao" : "Concluído",
+				"edicoes": ["1995"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-25],[-53.5,-24.5],[-53,-24.5],[-53,-25],[-53.5,-25]]]},
+			"properties" : {
+				"id" : "34",
+				"identificador" : "2818",
+				"situacao" : "Concluído",
+				"edicoes": ["1995"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-25],[-53,-24.5],[-52.5,-24.5],[-52.5,-25],[-53,-25]]]},
+			"properties" : {
+				"id" : "35",
+				"identificador" : "2819",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-25],[-52.5,-24.5],[-52,-24.5],[-52,-25],[-52.5,-25]]]},
+			"properties" : {
+				"id" : "36",
+				"identificador" : "2820",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-25],[-52,-24.5],[-51.5,-24.5],[-51.5,-25],[-52,-25]]]},
+			"properties" : {
+				"id" : "37",
+				"identificador" : "2821",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-25],[-51.5,-24.5],[-51,-24.5],[-51,-25],[-51.5,-25]]]},
+			"properties" : {
+				"id" : "38",
+				"identificador" : "2822",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-25],[-51,-24.5],[-50.5,-24.5],[-50.5,-25],[-51,-25]]]},
+			"properties" : {
+				"id" : "39",
+				"identificador" : "2823",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-25],[-50.5,-24.5],[-50,-24.5],[-50,-25],[-50.5,-25]]]},
+			"properties" : {
+				"id" : "40",
+				"identificador" : "2824",
+				"situacao" : "Concluído",
+				"edicoes": ["1955"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-25],[-50,-24.5],[-49.5,-24.5],[-49.5,-25],[-50,-25]]]},
+			"properties" : {
+				"id" : "41",
+				"identificador" : "2825",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-25],[-49.5,-24.5],[-49,-24.5],[-49,-25],[-49.5,-25]]]},
+			"properties" : {
+				"id" : "42",
+				"identificador" : "2826",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49,-25],[-49,-24.5],[-48.5,-24.5],[-48.5,-25],[-49,-25]]]},
+			"properties" : {
+				"id" : "43",
+				"identificador" : "2827",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-48.5,-25],[-48.5,-24.5],[-48,-24.5],[-48,-25],[-48.5,-25]]]},
+			"properties" : {
+				"id" : "44",
+				"identificador" : "2828",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-25.5],[-55,-25],[-54.5,-25],[-54.5,-25.5],[-55,-25.5]]]},
+			"properties" : {
+				"id" : "45",
+				"identificador" : "2831",
+				"situacao" : "Concluído",
+				"edicoes": ["1995"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-25.5],[-54.5,-25],[-54,-25],[-54,-25.5],[-54.5,-25.5]]]},
+			"properties" : {
+				"id" : "46",
+				"identificador" : "2832",
+				"situacao" : "Concluído",
+				"edicoes": ["1976"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-25.5],[-54,-25],[-53.5,-25],[-53.5,-25.5],[-54,-25.5]]]},
+			"properties" : {
+				"id" : "47",
+				"identificador" : "2833",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-25.5],[-53.5,-25],[-53,-25],[-53,-25.5],[-53.5,-25.5]]]},
+			"properties" : {
+				"id" : "48",
+				"identificador" : "2834",
+				"situacao" : "Concluído",
+				"edicoes": ["1961"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-25.5],[-53,-25],[-52.5,-25],[-52.5,-25.5],[-53,-25.5]]]},
+			"properties" : {
+				"id" : "49",
+				"identificador" : "2835",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-25.5],[-52.5,-25],[-52,-25],[-52,-25.5],[-52.5,-25.5]]]},
+			"properties" : {
+				"id" : "50",
+				"identificador" : "2836",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-25.5],[-52,-25],[-51.5,-25],[-51.5,-25.5],[-52,-25.5]]]},
+			"properties" : {
+				"id" : "51",
+				"identificador" : "2837",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-25.5],[-51.5,-25],[-51,-25],[-51,-25.5],[-51.5,-25.5]]]},
+			"properties" : {
+				"id" : "52",
+				"identificador" : "2838",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-25.5],[-51,-25],[-50.5,-25],[-50.5,-25.5],[-51,-25.5]]]},
+			"properties" : {
+				"id" : "53",
+				"identificador" : "2839",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-25.5],[-50.5,-25],[-50,-25],[-50,-25.5],[-50.5,-25.5]]]},
+			"properties" : {
+				"id" : "54",
+				"identificador" : "2840",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-25.5],[-50,-25],[-49.5,-25],[-49.5,-25.5],[-50,-25.5]]]},
+			"properties" : {
+				"id" : "55",
+				"identificador" : "2841",
+				"situacao" : "Concluído",
+				"edicoes": ["1957"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-25.5],[-49.5,-25],[-49,-25],[-49,-25.5],[-49.5,-25.5]]]},
+			"properties" : {
+				"id" : "56",
+				"identificador" : "2842",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49,-25.5],[-49,-25],[-48.5,-25],[-48.5,-25.5],[-49,-25.5]]]},
+			"properties" : {
+				"id" : "57",
+				"identificador" : "2843",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-48.5,-25.5],[-48.5,-25],[-48,-25],[-48,-25.5],[-48.5,-25.5]]]},
+			"properties" : {
+				"id" : "58",
+				"identificador" : "2844",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-26],[-55,-25.5],[-54.5,-25.5],[-54.5,-26],[-55,-26]]]},
+			"properties" : {
+				"id" : "59",
+				"identificador" : "2846",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-26],[-54.5,-25.5],[-54,-25.5],[-54,-26],[-54.5,-26]]]},
+			"properties" : {
+				"id" : "60",
+				"identificador" : "2847",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-26],[-54,-25.5],[-53.5,-25.5],[-53.5,-26],[-54,-26]]]},
+			"properties" : {
+				"id" : "61",
+				"identificador" : "2848",
+				"situacao" : "Concluído",
+				"edicoes": ["1958"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-26],[-53.5,-25.5],[-53,-25.5],[-53,-26],[-53.5,-26]]]},
+			"properties" : {
+				"id" : "62",
+				"identificador" : "2849",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-26],[-53,-25.5],[-52.5,-25.5],[-52.5,-26],[-53,-26]]]},
+			"properties" : {
+				"id" : "63",
+				"identificador" : "2850",
+				"situacao" : "Concluído",
+				"edicoes": ["1957"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-26],[-52.5,-25.5],[-52,-25.5],[-52,-26],[-52.5,-26]]]},
+			"properties" : {
+				"id" : "64",
+				"identificador" : "2851",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-26],[-52,-25.5],[-51.5,-25.5],[-51.5,-26],[-52,-26]]]},
+			"properties" : {
+				"id" : "65",
+				"identificador" : "2852",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-26],[-51.5,-25.5],[-51,-25.5],[-51,-26],[-51.5,-26]]]},
+			"properties" : {
+				"id" : "66",
+				"identificador" : "2853",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-26],[-51,-25.5],[-50.5,-25.5],[-50.5,-26],[-51,-26]]]},
+			"properties" : {
+				"id" : "67",
+				"identificador" : "2854",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-26],[-50.5,-25.5],[-50,-25.5],[-50,-26],[-50.5,-26]]]},
+			"properties" : {
+				"id" : "68",
+				"identificador" : "2855",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-26],[-50,-25.5],[-49.5,-25.5],[-49.5,-26],[-50,-26]]]},
+			"properties" : {
+				"id" : "69",
+				"identificador" : "2856",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-26],[-49.5,-25.5],[-49,-25.5],[-49,-26],[-49.5,-26]]]},
+			"properties" : {
+				"id" : "70",
+				"identificador" : "2857",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49,-26],[-49,-25.5],[-48.5,-25.5],[-48.5,-26],[-49,-26]]]},
+			"properties" : {
+				"id" : "71",
+				"identificador" : "2858",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-48.5,-26],[-48.5,-25.5],[-48,-25.5],[-48,-26],[-48.5,-26]]]},
+			"properties" : {
+				"id" : "72",
+				"identificador" : "2859",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-26.5],[-54,-26],[-53.5,-26],[-53.5,-26.5],[-54,-26.5]]]},
+			"properties" : {
+				"id" : "73",
+				"identificador" : "2860",
+				"situacao" : "Concluído",
+				"edicoes": ["1958"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-26.5],[-53.5,-26],[-53,-26],[-53,-26.5],[-53.5,-26.5]]]},
+			"properties" : {
+				"id" : "74",
+				"identificador" : "2861",
+				"situacao" : "Concluído",
+				"edicoes": ["1957"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-26.5],[-53,-26],[-52.5,-26],[-52.5,-26.5],[-53,-26.5]]]},
+			"properties" : {
+				"id" : "75",
+				"identificador" : "2862",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-26.5],[-52.5,-26],[-52,-26],[-52,-26.5],[-52.5,-26.5]]]},
+			"properties" : {
+				"id" : "76",
+				"identificador" : "2863",
+				"situacao" : "Concluído",
+				"edicoes": ["1958"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-26.5],[-52,-26],[-51.5,-26],[-51.5,-26.5],[-52,-26.5]]]},
+			"properties" : {
+				"id" : "77",
+				"identificador" : "2864",
+				"situacao" : "Concluído",
+				"edicoes": ["1971"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-26.5],[-51.5,-26],[-51,-26],[-51,-26.5],[-51.5,-26.5]]]},
+			"properties" : {
+				"id" : "78",
+				"identificador" : "2865",
+				"situacao" : "Concluído",
+				"edicoes": ["1971"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-26.5],[-51,-26],[-50.5,-26],[-50.5,-26.5],[-51,-26.5]]]},
+			"properties" : {
+				"id" : "79",
+				"identificador" : "2866",
+				"situacao" : "Concluído",
+				"edicoes": ["1971"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-26.5],[-50.5,-26],[-50,-26],[-50,-26.5],[-50.5,-26.5]]]},
+			"properties" : {
+				"id" : "80",
+				"identificador" : "2867",
+				"situacao" : "Concluído",
+				"edicoes": ["1971"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-26.5],[-50,-26],[-49.5,-26],[-49.5,-26.5],[-50,-26.5]]]},
+			"properties" : {
+				"id" : "81",
+				"identificador" : "2868",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-26.5],[-49.5,-26],[-49,-26],[-49,-26.5],[-49.5,-26.5]]]},
+			"properties" : {
+				"id" : "82",
+				"identificador" : "2869",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49,-26.5],[-49,-26],[-48.5,-26],[-48.5,-26.5],[-49,-26.5]]]},
+			"properties" : {
+				"id" : "83",
+				"identificador" : "2870",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-48.5,-26.5],[-48.5,-26],[-48,-26],[-48,-26.5],[-48.5,-26.5]]]},
+			"properties" : {
+				"id" : "84",
+				"identificador" : "2871",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-27],[-54,-26.5],[-53.5,-26.5],[-53.5,-27],[-54,-27]]]},
+			"properties" : {
+				"id" : "85",
+				"identificador" : "2872",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-27],[-53.5,-26.5],[-53,-26.5],[-53,-27],[-53.5,-27]]]},
+			"properties" : {
+				"id" : "86",
+				"identificador" : "2873",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-27],[-53,-26.5],[-52.5,-26.5],[-52.5,-27],[-53,-27]]]},
+			"properties" : {
+				"id" : "87",
+				"identificador" : "2874",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-27],[-52.5,-26.5],[-52,-26.5],[-52,-27],[-52.5,-27]]]},
+			"properties" : {
+				"id" : "88",
+				"identificador" : "2875",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-27],[-52,-26.5],[-51.5,-26.5],[-51.5,-27],[-52,-27]]]},
+			"properties" : {
+				"id" : "89",
+				"identificador" : "2876",
+				"situacao" : "Concluído",
+				"edicoes": ["1971"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-27],[-51.5,-26.5],[-51,-26.5],[-51,-27],[-51.5,-27]]]},
+			"properties" : {
+				"id" : "90",
+				"identificador" : "2877",
+				"situacao" : "Concluído",
+				"edicoes": ["1971"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-27],[-51,-26.5],[-50.5,-26.5],[-50.5,-27],[-51,-27]]]},
+			"properties" : {
+				"id" : "91",
+				"identificador" : "2878",
+				"situacao" : "Concluído",
+				"edicoes": ["2016"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-27],[-50.5,-26.5],[-50,-26.5],[-50,-27],[-50.5,-27]]]},
+			"properties" : {
+				"id" : "92",
+				"identificador" : "2879",
+				"situacao" : "Concluído",
+				"edicoes": ["2016"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-27],[-50,-26.5],[-49.5,-26.5],[-49.5,-27],[-50,-27]]]},
+			"properties" : {
+				"id" : "93",
+				"identificador" : "2880",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-27],[-49.5,-26.5],[-49,-26.5],[-49,-27],[-49.5,-27]]]},
+			"properties" : {
+				"id" : "94",
+				"identificador" : "2881",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49,-27],[-49,-26.5],[-48.5,-26.5],[-48.5,-27],[-49,-27]]]},
+			"properties" : {
+				"id" : "95",
+				"identificador" : "2882",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-27.5],[-55,-27],[-54.5,-27],[-54.5,-27.5],[-55,-27.5]]]},
+			"properties" : {
+				"id" : "96",
+				"identificador" : "2882A",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-27.5],[-54.5,-27],[-54,-27],[-54,-27.5],[-54.5,-27.5]]]},
+			"properties" : {
+				"id" : "97",
+				"identificador" : "2883",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-27.5],[-54,-27],[-53.5,-27],[-53.5,-27.5],[-54,-27.5]]]},
+			"properties" : {
+				"id" : "98",
+				"identificador" : "2884",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-27.5],[-53.5,-27],[-53,-27],[-53,-27.5],[-53.5,-27.5]]]},
+			"properties" : {
+				"id" : "99",
+				"identificador" : "2885",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-27.5],[-53,-27],[-52.5,-27],[-52.5,-27.5],[-53,-27.5]]]},
+			"properties" : {
+				"id" : "100",
+				"identificador" : "2886",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-27.5],[-52.5,-27],[-52,-27],[-52,-27.5],[-52.5,-27.5]]]},
+			"properties" : {
+				"id" : "101",
+				"identificador" : "2887",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-27.5],[-52,-27],[-51.5,-27],[-51.5,-27.5],[-52,-27.5]]]},
+			"properties" : {
+				"id" : "102",
+				"identificador" : "2888",
+				"situacao" : "Concluído",
+				"edicoes": ["1971"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-27.5],[-51.5,-27],[-51,-27],[-51,-27.5],[-51.5,-27.5]]]},
+			"properties" : {
+				"id" : "103",
+				"identificador" : "2889",
+				"situacao" : "Concluído",
+				"edicoes": ["2016"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-27.5],[-51,-27],[-50.5,-27],[-50.5,-27.5],[-51,-27.5]]]},
+			"properties" : {
+				"id" : "104",
+				"identificador" : "2890",
+				"situacao" : "Concluído",
+				"edicoes": ["2016"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-27.5],[-50.5,-27],[-50,-27],[-50,-27.5],[-50.5,-27.5]]]},
+			"properties" : {
+				"id" : "105",
+				"identificador" : "2891",
+				"situacao" : "Concluído",
+				"edicoes": ["2016"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-27.5],[-50,-27],[-49.5,-27],[-49.5,-27.5],[-50,-27.5]]]},
+			"properties" : {
+				"id" : "106",
+				"identificador" : "2892",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-27.5],[-49.5,-27],[-49,-27],[-49,-27.5],[-49.5,-27.5]]]},
+			"properties" : {
+				"id" : "107",
+				"identificador" : "2893",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49,-27.5],[-49,-27],[-48.5,-27],[-48.5,-27.5],[-49,-27.5]]]},
+			"properties" : {
+				"id" : "108",
+				"identificador" : "2894",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-48.5,-27.5],[-48.5,-27],[-48,-27],[-48,-27.5],[-48.5,-27.5]]]},
+			"properties" : {
+				"id" : "109",
+				"identificador" : "2895",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55.5,-28],[-55.5,-27.5],[-55,-27.5],[-55,-28],[-55.5,-28]]]},
+			"properties" : {
+				"id" : "110",
+				"identificador" : "2896",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-28],[-55,-27.5],[-54.5,-27.5],[-54.5,-28],[-55,-28]]]},
+			"properties" : {
+				"id" : "111",
+				"identificador" : "2897",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-28],[-54.5,-27.5],[-54,-27.5],[-54,-28],[-54.5,-28]]]},
+			"properties" : {
+				"id" : "112",
+				"identificador" : "2898",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-28],[-54,-27.5],[-53.5,-27.5],[-53.5,-28],[-54,-28]]]},
+			"properties" : {
+				"id" : "113",
+				"identificador" : "2899",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-28],[-53.5,-27.5],[-53,-27.5],[-53,-28],[-53.5,-28]]]},
+			"properties" : {
+				"id" : "114",
+				"identificador" : "2900",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-28],[-53,-27.5],[-52.5,-27.5],[-52.5,-28],[-53,-28]]]},
+			"properties" : {
+				"id" : "115",
+				"identificador" : "2901",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-28],[-52.5,-27.5],[-52,-27.5],[-52,-28],[-52.5,-28]]]},
+			"properties" : {
+				"id" : "116",
+				"identificador" : "2902",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-28],[-52,-27.5],[-51.5,-27.5],[-51.5,-28],[-52,-28]]]},
+			"properties" : {
+				"id" : "117",
+				"identificador" : "2903",
+				"situacao" : "Concluído",
+				"edicoes": ["1964"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-28],[-51.5,-27.5],[-51,-27.5],[-51,-28],[-51.5,-28]]]},
+			"properties" : {
+				"id" : "118",
+				"identificador" : "2904",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-28],[-51,-27.5],[-50.5,-27.5],[-50.5,-28],[-51,-28]]]},
+			"properties" : {
+				"id" : "119",
+				"identificador" : "2905",
+				"situacao" : "Concluído",
+				"edicoes": ["2016"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-28],[-50.5,-27.5],[-50,-27.5],[-50,-28],[-50.5,-28]]]},
+			"properties" : {
+				"id" : "120",
+				"identificador" : "2906",
+				"situacao" : "Concluído",
+				"edicoes": ["2016"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-28],[-50,-27.5],[-49.5,-27.5],[-49.5,-28],[-50,-28]]]},
+			"properties" : {
+				"id" : "121",
+				"identificador" : "2907",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-28],[-49.5,-27.5],[-49,-27.5],[-49,-28],[-49.5,-28]]]},
+			"properties" : {
+				"id" : "122",
+				"identificador" : "2908",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49,-28],[-49,-27.5],[-48.5,-27.5],[-48.5,-28],[-49,-28]]]},
+			"properties" : {
+				"id" : "123",
+				"identificador" : "2909",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-48.5,-28],[-48.5,-27.5],[-48,-27.5],[-48,-28],[-48.5,-28]]]},
+			"properties" : {
+				"id" : "124",
+				"identificador" : "2910",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56,-28.5],[-56,-28],[-55.5,-28],[-55.5,-28.5],[-56,-28.5]]]},
+			"properties" : {
+				"id" : "125",
+				"identificador" : "2911",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55.5,-28.5],[-55.5,-28],[-55,-28],[-55,-28.5],[-55.5,-28.5]]]},
+			"properties" : {
+				"id" : "126",
+				"identificador" : "2912",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-28.5],[-55,-28],[-54.5,-28],[-54.5,-28.5],[-55,-28.5]]]},
+			"properties" : {
+				"id" : "127",
+				"identificador" : "2913",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-28.5],[-54.5,-28],[-54,-28],[-54,-28.5],[-54.5,-28.5]]]},
+			"properties" : {
+				"id" : "128",
+				"identificador" : "2914",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-28.5],[-54,-28],[-53.5,-28],[-53.5,-28.5],[-54,-28.5]]]},
+			"properties" : {
+				"id" : "129",
+				"identificador" : "2915",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-28.5],[-53.5,-28],[-53,-28],[-53,-28.5],[-53.5,-28.5]]]},
+			"properties" : {
+				"id" : "130",
+				"identificador" : "2916",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-28.5],[-53,-28],[-52.5,-28],[-52.5,-28.5],[-53,-28.5]]]},
+			"properties" : {
+				"id" : "131",
+				"identificador" : "2917",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-28.5],[-52.5,-28],[-52,-28],[-52,-28.5],[-52.5,-28.5]]]},
+			"properties" : {
+				"id" : "132",
+				"identificador" : "2918",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-28.5],[-52,-28],[-51.5,-28],[-51.5,-28.5],[-52,-28.5]]]},
+			"properties" : {
+				"id" : "133",
+				"identificador" : "2919",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-28.5],[-51.5,-28],[-51,-28],[-51,-28.5],[-51.5,-28.5]]]},
+			"properties" : {
+				"id" : "134",
+				"identificador" : "2920",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-28.5],[-51,-28],[-50.5,-28],[-50.5,-28.5],[-51,-28.5]]]},
+			"properties" : {
+				"id" : "135",
+				"identificador" : "2921",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-28.5],[-50.5,-28],[-50,-28],[-50,-28.5],[-50.5,-28.5]]]},
+			"properties" : {
+				"id" : "136",
+				"identificador" : "2922",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-28.5],[-50,-28],[-49.5,-28],[-49.5,-28.5],[-50,-28.5]]]},
+			"properties" : {
+				"id" : "137",
+				"identificador" : "2923",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-28.5],[-49.5,-28],[-49,-28],[-49,-28.5],[-49.5,-28.5]]]},
+			"properties" : {
+				"id" : "138",
+				"identificador" : "2924",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49,-28.5],[-49,-28],[-48.5,-28],[-48.5,-28.5],[-49,-28.5]]]},
+			"properties" : {
+				"id" : "139",
+				"identificador" : "2925",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56.5,-29],[-56.5,-28.5],[-56,-28.5],[-56,-29],[-56.5,-29]]]},
+			"properties" : {
+				"id" : "140",
+				"identificador" : "2926",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56,-29],[-56,-28.5],[-55.5,-28.5],[-55.5,-29],[-56,-29]]]},
+			"properties" : {
+				"id" : "141",
+				"identificador" : "2927",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55.5,-29],[-55.5,-28.5],[-55,-28.5],[-55,-29],[-55.5,-29]]]},
+			"properties" : {
+				"id" : "142",
+				"identificador" : "2928",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-29],[-55,-28.5],[-54.5,-28.5],[-54.5,-29],[-55,-29]]]},
+			"properties" : {
+				"id" : "143",
+				"identificador" : "2929",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-29],[-54.5,-28.5],[-54,-28.5],[-54,-29],[-54.5,-29]]]},
+			"properties" : {
+				"id" : "144",
+				"identificador" : "2930",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-29],[-54,-28.5],[-53.5,-28.5],[-53.5,-29],[-54,-29]]]},
+			"properties" : {
+				"id" : "145",
+				"identificador" : "2931",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-29],[-53.5,-28.5],[-53,-28.5],[-53,-29],[-53.5,-29]]]},
+			"properties" : {
+				"id" : "146",
+				"identificador" : "2932",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-29],[-53,-28.5],[-52.5,-28.5],[-52.5,-29],[-53,-29]]]},
+			"properties" : {
+				"id" : "147",
+				"identificador" : "2933",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-29],[-52.5,-28.5],[-52,-28.5],[-52,-29],[-52.5,-29]]]},
+			"properties" : {
+				"id" : "148",
+				"identificador" : "2934",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-29],[-52,-28.5],[-51.5,-28.5],[-51.5,-29],[-52,-29]]]},
+			"properties" : {
+				"id" : "149",
+				"identificador" : "2935",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-29],[-51.5,-28.5],[-51,-28.5],[-51,-29],[-51.5,-29]]]},
+			"properties" : {
+				"id" : "150",
+				"identificador" : "2936",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-29],[-51,-28.5],[-50.5,-28.5],[-50.5,-29],[-51,-29]]]},
+			"properties" : {
+				"id" : "151",
+				"identificador" : "2937",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-29],[-50.5,-28.5],[-50,-28.5],[-50,-29],[-50.5,-29]]]},
+			"properties" : {
+				"id" : "152",
+				"identificador" : "2938",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-29],[-50,-28.5],[-49.5,-28.5],[-49.5,-29],[-50,-29]]]},
+			"properties" : {
+				"id" : "153",
+				"identificador" : "2939",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-29],[-49.5,-28.5],[-49,-28.5],[-49,-29],[-49.5,-29]]]},
+			"properties" : {
+				"id" : "154",
+				"identificador" : "2940",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49,-29],[-49,-28.5],[-48.5,-28.5],[-48.5,-29],[-49,-29]]]},
+			"properties" : {
+				"id" : "155",
+				"identificador" : "2941",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-57,-29.5],[-57,-29],[-56.5,-29],[-56.5,-29.5],[-57,-29.5]]]},
+			"properties" : {
+				"id" : "156",
+				"identificador" : "2942",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56.5,-29.5],[-56.5,-29],[-56,-29],[-56,-29.5],[-56.5,-29.5]]]},
+			"properties" : {
+				"id" : "157",
+				"identificador" : "2943",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56,-29.5],[-56,-29],[-55.5,-29],[-55.5,-29.5],[-56,-29.5]]]},
+			"properties" : {
+				"id" : "158",
+				"identificador" : "2944",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55.5,-29.5],[-55.5,-29],[-55,-29],[-55,-29.5],[-55.5,-29.5]]]},
+			"properties" : {
+				"id" : "159",
+				"identificador" : "2945",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-29.5],[-55,-29],[-54.5,-29],[-54.5,-29.5],[-55,-29.5]]]},
+			"properties" : {
+				"id" : "160",
+				"identificador" : "2946",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-29.5],[-54.5,-29],[-54,-29],[-54,-29.5],[-54.5,-29.5]]]},
+			"properties" : {
+				"id" : "161",
+				"identificador" : "2947",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-29.5],[-54,-29],[-53.5,-29],[-53.5,-29.5],[-54,-29.5]]]},
+			"properties" : {
+				"id" : "162",
+				"identificador" : "2948",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-29.5],[-53.5,-29],[-53,-29],[-53,-29.5],[-53.5,-29.5]]]},
+			"properties" : {
+				"id" : "163",
+				"identificador" : "2949",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-29.5],[-53,-29],[-52.5,-29],[-52.5,-29.5],[-53,-29.5]]]},
+			"properties" : {
+				"id" : "164",
+				"identificador" : "2950",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-29.5],[-52.5,-29],[-52,-29],[-52,-29.5],[-52.5,-29.5]]]},
+			"properties" : {
+				"id" : "165",
+				"identificador" : "2951",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-29.5],[-52,-29],[-51.5,-29],[-51.5,-29.5],[-52,-29.5]]]},
+			"properties" : {
+				"id" : "166",
+				"identificador" : "2952",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-29.5],[-51.5,-29],[-51,-29],[-51,-29.5],[-51.5,-29.5]]]},
+			"properties" : {
+				"id" : "167",
+				"identificador" : "2953",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-29.5],[-51,-29],[-50.5,-29],[-50.5,-29.5],[-51,-29.5]]]},
+			"properties" : {
+				"id" : "168",
+				"identificador" : "2954",
+				"situacao" : "Concluído",
+				"edicoes": ["1966"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-29.5],[-50.5,-29],[-50,-29],[-50,-29.5],[-50.5,-29.5]]]},
+			"properties" : {
+				"id" : "169",
+				"identificador" : "2955",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-29.5],[-50,-29],[-49.5,-29],[-49.5,-29.5],[-50,-29.5]]]},
+			"properties" : {
+				"id" : "170",
+				"identificador" : "2956",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-49.5,-29.5],[-49.5,-29],[-49,-29],[-49,-29.5],[-49.5,-29.5]]]},
+			"properties" : {
+				"id" : "171",
+				"identificador" : "2957",
+				"situacao" : "Concluído",
+				"edicoes": ["1965"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-57.5,-30],[-57.5,-29.5],[-57,-29.5],[-57,-30],[-57.5,-30]]]},
+			"properties" : {
+				"id" : "172",
+				"identificador" : "2958",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-57,-30],[-57,-29.5],[-56.5,-29.5],[-56.5,-30],[-57,-30]]]},
+			"properties" : {
+				"id" : "173",
+				"identificador" : "2959",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56.5,-30],[-56.5,-29.5],[-56,-29.5],[-56,-30],[-56.5,-30]]]},
+			"properties" : {
+				"id" : "174",
+				"identificador" : "2960",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56,-30],[-56,-29.5],[-55.5,-29.5],[-55.5,-30],[-56,-30]]]},
+			"properties" : {
+				"id" : "175",
+				"identificador" : "2961",
+				"situacao" : "Concluído",
+				"edicoes": ["1957"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55.5,-30],[-55.5,-29.5],[-55,-29.5],[-55,-30],[-55.5,-30]]]},
+			"properties" : {
+				"id" : "176",
+				"identificador" : "2962",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-30],[-55,-29.5],[-54.5,-29.5],[-54.5,-30],[-55,-30]]]},
+			"properties" : {
+				"id" : "177",
+				"identificador" : "2963",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-30],[-54.5,-29.5],[-54,-29.5],[-54,-30],[-54.5,-30]]]},
+			"properties" : {
+				"id" : "178",
+				"identificador" : "2964",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-30],[-54,-29.5],[-53.5,-29.5],[-53.5,-30],[-54,-30]]]},
+			"properties" : {
+				"id" : "179",
+				"identificador" : "2965",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-30],[-53.5,-29.5],[-53,-29.5],[-53,-30],[-53.5,-30]]]},
+			"properties" : {
+				"id" : "180",
+				"identificador" : "2966",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-30],[-53,-29.5],[-52.5,-29.5],[-52.5,-30],[-53,-30]]]},
+			"properties" : {
+				"id" : "181",
+				"identificador" : "2967",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-30],[-52.5,-29.5],[-52,-29.5],[-52,-30],[-52.5,-30]]]},
+			"properties" : {
+				"id" : "182",
+				"identificador" : "2968",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-30],[-52,-29.5],[-51.5,-29.5],[-51.5,-30],[-52,-30]]]},
+			"properties" : {
+				"id" : "183",
+				"identificador" : "2969",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-30],[-51.5,-29.5],[-51,-29.5],[-51,-30],[-51.5,-30]]]},
+			"properties" : {
+				"id" : "184",
+				"identificador" : "2970",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-30],[-51,-29.5],[-50.5,-29.5],[-50.5,-30],[-51,-30]]]},
+			"properties" : {
+				"id" : "185",
+				"identificador" : "2971",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-30],[-50.5,-29.5],[-50,-29.5],[-50,-30],[-50.5,-30]]]},
+			"properties" : {
+				"id" : "186",
+				"identificador" : "2972",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50,-30],[-50,-29.5],[-49.5,-29.5],[-49.5,-30],[-50,-30]]]},
+			"properties" : {
+				"id" : "187",
+				"identificador" : "2973",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-58,-30.5],[-58,-30],[-57.5,-30],[-57.5,-30.5],[-58,-30.5]]]},
+			"properties" : {
+				"id" : "188",
+				"identificador" : "2974",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-57.5,-30.5],[-57.5,-30],[-57,-30],[-57,-30.5],[-57.5,-30.5]]]},
+			"properties" : {
+				"id" : "189",
+				"identificador" : "2975",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-57,-30.5],[-57,-30],[-56.5,-30],[-56.5,-30.5],[-57,-30.5]]]},
+			"properties" : {
+				"id" : "190",
+				"identificador" : "2976",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56.5,-30.5],[-56.5,-30],[-56,-30],[-56,-30.5],[-56.5,-30.5]]]},
+			"properties" : {
+				"id" : "191",
+				"identificador" : "2977",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56,-30.5],[-56,-30],[-55.5,-30],[-55.5,-30.5],[-56,-30.5]]]},
+			"properties" : {
+				"id" : "192",
+				"identificador" : "2978",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55.5,-30.5],[-55.5,-30],[-55,-30],[-55,-30.5],[-55.5,-30.5]]]},
+			"properties" : {
+				"id" : "193",
+				"identificador" : "2979",
+				"situacao" : "Concluído",
+				"edicoes": ["1975"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-30.5],[-55,-30],[-54.5,-30],[-54.5,-30.5],[-55,-30.5]]]},
+			"properties" : {
+				"id" : "194",
+				"identificador" : "2980",
+				"situacao" : "Concluído",
+				"edicoes": ["1975"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-30.5],[-54.5,-30],[-54,-30],[-54,-30.5],[-54.5,-30.5]]]},
+			"properties" : {
+				"id" : "195",
+				"identificador" : "2981",
+				"situacao" : "Concluído",
+				"edicoes": ["1975"]
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-30.5],[-54,-30],[-53.5,-30],[-53.5,-30.5],[-54,-30.5]]]},
+			"properties" : {
+				"id" : "196",
+				"identificador" : "2982",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-30.5],[-53.5,-30],[-53,-30],[-53,-30.5],[-53.5,-30.5]]]},
+			"properties" : {
+				"id" : "197",
+				"identificador" : "2983",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-30.5],[-53,-30],[-52.5,-30],[-52.5,-30.5],[-53,-30.5]]]},
+			"properties" : {
+				"id" : "198",
+				"identificador" : "2984",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-30.5],[-52.5,-30],[-52,-30],[-52,-30.5],[-52.5,-30.5]]]},
+			"properties" : {
+				"id" : "199",
+				"identificador" : "2985",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-30.5],[-52,-30],[-51.5,-30],[-51.5,-30.5],[-52,-30.5]]]},
+			"properties" : {
+				"id" : "200",
+				"identificador" : "2986",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-30.5],[-51.5,-30],[-51,-30],[-51,-30.5],[-51.5,-30.5]]]},
+			"properties" : {
+				"id" : "201",
+				"identificador" : "2987",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-30.5],[-51,-30],[-50.5,-30],[-50.5,-30.5],[-51,-30.5]]]},
+			"properties" : {
+				"id" : "202",
+				"identificador" : "2988",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-30.5],[-50.5,-30],[-50,-30],[-50,-30.5],[-50.5,-30.5]]]},
+			"properties" : {
+				"id" : "203",
+				"identificador" : "2989",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56.5,-31],[-56.5,-30.5],[-56,-30.5],[-56,-31],[-56.5,-31]]]},
+			"properties" : {
+				"id" : "204",
+				"identificador" : "2990",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56,-31],[-56,-30.5],[-55.5,-30.5],[-55.5,-31],[-56,-31]]]},
+			"properties" : {
+				"id" : "205",
+				"identificador" : "2991",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55.5,-31],[-55.5,-30.5],[-55,-30.5],[-55,-31],[-55.5,-31]]]},
+			"properties" : {
+				"id" : "206",
+				"identificador" : "2992",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-31],[-55,-30.5],[-54.5,-30.5],[-54.5,-31],[-55,-31]]]},
+			"properties" : {
+				"id" : "207",
+				"identificador" : "2993",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-31],[-54.5,-30.5],[-54,-30.5],[-54,-31],[-54.5,-31]]]},
+			"properties" : {
+				"id" : "208",
+				"identificador" : "2994",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-31],[-54,-30.5],[-53.5,-30.5],[-53.5,-31],[-54,-31]]]},
+			"properties" : {
+				"id" : "209",
+				"identificador" : "2995",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-31],[-53.5,-30.5],[-53,-30.5],[-53,-31],[-53.5,-31]]]},
+			"properties" : {
+				"id" : "210",
+				"identificador" : "2996",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-31],[-53,-30.5],[-52.5,-30.5],[-52.5,-31],[-53,-31]]]},
+			"properties" : {
+				"id" : "211",
+				"identificador" : "2997",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-31],[-52.5,-30.5],[-52,-30.5],[-52,-31],[-52.5,-31]]]},
+			"properties" : {
+				"id" : "212",
+				"identificador" : "2998",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-31],[-52,-30.5],[-51.5,-30.5],[-51.5,-31],[-52,-31]]]},
+			"properties" : {
+				"id" : "213",
+				"identificador" : "2999",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-31],[-51.5,-30.5],[-51,-30.5],[-51,-31],[-51.5,-31]]]},
+			"properties" : {
+				"id" : "214",
+				"identificador" : "3000",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-31],[-51,-30.5],[-50.5,-30.5],[-50.5,-31],[-51,-31]]]},
+			"properties" : {
+				"id" : "215",
+				"identificador" : "3001",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-50.5,-31],[-50.5,-30.5],[-50,-30.5],[-50,-31],[-50.5,-31]]]},
+			"properties" : {
+				"id" : "216",
+				"identificador" : "3002",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56.5,-31.5],[-56.5,-31],[-56,-31],[-56,-31.5],[-56.5,-31.5]]]},
+			"properties" : {
+				"id" : "217",
+				"identificador" : "3003",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-56,-31.5],[-56,-31],[-55.5,-31],[-55.5,-31.5],[-56,-31.5]]]},
+			"properties" : {
+				"id" : "218",
+				"identificador" : "3004",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55.5,-31.5],[-55.5,-31],[-55,-31],[-55,-31.5],[-55.5,-31.5]]]},
+			"properties" : {
+				"id" : "219",
+				"identificador" : "3005",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-31.5],[-55,-31],[-54.5,-31],[-54.5,-31.5],[-55,-31.5]]]},
+			"properties" : {
+				"id" : "220",
+				"identificador" : "3006",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-31.5],[-54.5,-31],[-54,-31],[-54,-31.5],[-54.5,-31.5]]]},
+			"properties" : {
+				"id" : "221",
+				"identificador" : "3007",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-31.5],[-54,-31],[-53.5,-31],[-53.5,-31.5],[-54,-31.5]]]},
+			"properties" : {
+				"id" : "222",
+				"identificador" : "3008",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-31.5],[-53.5,-31],[-53,-31],[-53,-31.5],[-53.5,-31.5]]]},
+			"properties" : {
+				"id" : "223",
+				"identificador" : "3009",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-31.5],[-53,-31],[-52.5,-31],[-52.5,-31.5],[-53,-31.5]]]},
+			"properties" : {
+				"id" : "224",
+				"identificador" : "3010",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-31.5],[-52.5,-31],[-52,-31],[-52,-31.5],[-52.5,-31.5]]]},
+			"properties" : {
+				"id" : "225",
+				"identificador" : "3011",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-31.5],[-52,-31],[-51.5,-31],[-51.5,-31.5],[-52,-31.5]]]},
+			"properties" : {
+				"id" : "226",
+				"identificador" : "3012",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-31.5],[-51.5,-31],[-51,-31],[-51,-31.5],[-51.5,-31.5]]]},
+			"properties" : {
+				"id" : "227",
+				"identificador" : "3013",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51,-31.5],[-51,-31],[-50.5,-31],[-50.5,-31.5],[-51,-31.5]]]},
+			"properties" : {
+				"id" : "228",
+				"identificador" : "3014",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-55,-32],[-55,-31.5],[-54.5,-31.5],[-54.5,-32],[-55,-32]]]},
+			"properties" : {
+				"id" : "229",
+				"identificador" : "3015",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54.5,-32],[-54.5,-31.5],[-54,-31.5],[-54,-32],[-54.5,-32]]]},
+			"properties" : {
+				"id" : "230",
+				"identificador" : "3016",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-32],[-54,-31.5],[-53.5,-31.5],[-53.5,-32],[-54,-32]]]},
+			"properties" : {
+				"id" : "231",
+				"identificador" : "3017",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-32],[-53.5,-31.5],[-53,-31.5],[-53,-32],[-53.5,-32]]]},
+			"properties" : {
+				"id" : "232",
+				"identificador" : "3018",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-32],[-53,-31.5],[-52.5,-31.5],[-52.5,-32],[-53,-32]]]},
+			"properties" : {
+				"id" : "233",
+				"identificador" : "3019",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-32],[-52.5,-31.5],[-52,-31.5],[-52,-32],[-52.5,-32]]]},
+			"properties" : {
+				"id" : "234",
+				"identificador" : "3020",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-32],[-52,-31.5],[-51.5,-31.5],[-51.5,-32],[-52,-32]]]},
+			"properties" : {
+				"id" : "235",
+				"identificador" : "3021",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-51.5,-32],[-51.5,-31.5],[-51,-31.5],[-51,-32],[-51.5,-32]]]},
+			"properties" : {
+				"id" : "236",
+				"identificador" : "3022",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-32.5],[-54,-32],[-53.5,-32],[-53.5,-32.5],[-54,-32.5]]]},
+			"properties" : {
+				"id" : "237",
+				"identificador" : "3023",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-32.5],[-53.5,-32],[-53,-32],[-53,-32.5],[-53.5,-32.5]]]},
+			"properties" : {
+				"id" : "238",
+				"identificador" : "3024",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-32.5],[-53,-32],[-52.5,-32],[-52.5,-32.5],[-53,-32.5]]]},
+			"properties" : {
+				"id" : "239",
+				"identificador" : "3025",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-32.5],[-52.5,-32],[-52,-32],[-52,-32.5],[-52.5,-32.5]]]},
+			"properties" : {
+				"id" : "240",
+				"identificador" : "3026",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52,-32.5],[-52,-32],[-51.5,-32],[-51.5,-32.5],[-52,-32.5]]]},
+			"properties" : {
+				"id" : "241",
+				"identificador" : "3027",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-33],[-53.5,-32.5],[-53,-32.5],[-53,-33],[-53.5,-33]]]},
+			"properties" : {
+				"id" : "242",
+				"identificador" : "3029",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-33],[-53,-32.5],[-52.5,-32.5],[-52.5,-33],[-53,-33]]]},
+			"properties" : {
+				"id" : "243",
+				"identificador" : "3030",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-52.5,-33],[-52.5,-32.5],[-52,-32.5],[-52,-33],[-52.5,-33]]]},
+			"properties" : {
+				"id" : "244",
+				"identificador" : "3031",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-33.5],[-53.5,-33],[-53,-33],[-53,-33.5],[-53.5,-33.5]]]},
+			"properties" : {
+				"id" : "245",
+				"identificador" : "3033",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53,-33.5],[-53,-33],[-52.5,-33],[-52.5,-33.5],[-53,-33.5]]]},
+			"properties" : {
+				"id" : "246",
+				"identificador" : "3034",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-54,-34],[-54,-33.5],[-53.5,-33.5],[-53.5,-34],[-54,-34]]]},
+			"properties" : {
+				"id" : "247",
+				"identificador" : "3035",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		},		{
+			"type" : "Feature",
+			"geometry" : {"type":"Polygon","coordinates":[[[-53.5,-34],[-53.5,-33.5],[-53,-33.5],[-53,-34],[-53.5,-34]]]},
+			"properties" : {
+				"id" : "248",
+				"identificador" : "3036",
+				"situacao" : "Não mapeado",
+				"edicoes": []
+			}
+		}
+    	]
+}

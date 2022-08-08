@@ -23,15 +23,15 @@ const INIT_ZOOM = {
 }
 
 var PROJECTS = {
-    'situacao-geral': {
-        title: 'Situação Geral da Área de Suprimento Cartográfico de responsabilidade do 1º CGEO',
+    'situacao-geral-25k': {
+        title: 'Situação Geral 1:25.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, indicando ainda o ano de produção da carta.`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:25.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
         lotes: [
             {
-                name: 'situacao_geral_25k',
+                name: 'situacao-geral-ct-25k',
                 subtitle: 'Carta Topográfica 1:25.000',
-                description: `Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar será mostrado os anos que a carta possui edição`,
+                description: ``,
                 zoom: [
                     [-58.00, -34.00], // southwestern corner of the bounds
                     [-47.875, -22.875] // northeastern corner of the bounds
@@ -43,8 +43,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'situacao_geral_25k-fill',
-                        'source': 'situacao_geral_25k',
+                        'id': 'situacao-geral-ct-25k-fill',
+                        'source': 'situacao-geral-ct-25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -52,8 +52,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'situacao_geral_25k-border',
-                        'source': 'situacao_geral_25k',
+                        'id': 'situacao-geral-ct-25k-border',
+                        'source': 'situacao-geral-ct-25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -62,8 +62,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'situacao_geral_25k-text',
-                        'source': 'situacao_geral_25k',
+                        'id': 'situacao-geral-ct-25k-text',
+                        'source': 'situacao-geral-ct-25k',
                         "type": "symbol",
                         "minzoom": 8.5,
                         "maxzoom": 15,
@@ -86,11 +86,18 @@ var PROJECTS = {
                         }
                     }
                 ]
-            },
+            }
+        ]
+    },
+    'situacao-geral-50k': {
+        title: 'Situação Geral 1:50.000',
+        group: "Situação Geral",
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:25.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
+        lotes: [
             {
-                name: 'situacao_geral_50k',
+                name: 'situacao-geral-ct-50k',
                 subtitle: 'Carta Topográfica 1:50.000',
-                description: `Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar será mostrado os anos que a carta possui edição`,
+                description: ``,
                 zoom: [
                     [-58.125, -34.125], // southwestern corner of the bounds
                     [-47.875, -22.875] // northeastern corner of the bounds
@@ -102,8 +109,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'situacao_geral_50k-fill',
-                        'source': 'situacao_geral_50k',
+                        'id': 'situacao-geral-ct-50k-fill',
+                        'source': 'situacao-geral-ct-50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -111,8 +118,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'situacao_geral_50k-border',
-                        'source': 'situacao_geral_50k',
+                        'id': 'situacao-geral-ct-50k-border',
+                        'source': 'situacao-geral-ct-50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -121,8 +128,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'situacao_geral_50k-text',
-                        'source': 'situacao_geral_50k',
+                        'id': 'situacao-geral-ct-50k-text',
+                        'source': 'situacao-geral-ct-50k',
                         "type": "symbol",
                         "minzoom": 8.5,
                         "maxzoom": 15,
@@ -145,11 +152,18 @@ var PROJECTS = {
                         }
                     }
                 ]
-            },
+            }
+        ]
+    },
+    'situacao-geral-100k': {
+        title: 'Situação Geral 1:100.000',
+        group: "Situação Geral",
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:25.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
+        lotes: [
             {
-                name: 'situacao_geral_100k',
+                name: 'situacao-geral-ct-100k',
                 subtitle: 'Carta Topográfica 1:100.000',
-                description: `Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar será mostrado os anos que a carta possui edição`,
+                description: ``,
                 zoom: [
                     [-58.250, -34.125], // southwestern corner of the bounds
                     [-47.875, -22.875] // northeastern corner of the bounds
@@ -161,8 +175,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'situacao_geral_100k-fill',
-                        'source': 'situacao_geral_100k',
+                        'id': 'situacao-geral-ct-100k-fill',
+                        'source': 'situacao-geral-ct-100k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -170,8 +184,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'situacao_geral_100k-border',
-                        'source': 'situacao_geral_100k',
+                        'id': 'situacao-geral-ct-100k-border',
+                        'source': 'situacao-geral-ct-100k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -180,8 +194,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'situacao_geral_100k-text',
-                        'source': 'situacao_geral_100k',
+                        'id': 'situacao-geral-ct-100k-text',
+                        'source': 'situacao-geral-ct-100k',
                         "type": "symbol",
                         "minzoom": 8.5,
                         "maxzoom": 15,
@@ -204,11 +218,18 @@ var PROJECTS = {
                         }
                     }
                 ]
-            },
+            }
+        ]
+    },
+    'situacao-geral-250k': {
+        title: 'Situação Geral 1:250.000',
+        group: "Situação Geral",
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:25.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
+        lotes: [
             {
-                name: 'situacao_geral_250k',
+                name: 'situacao-geral-ct-250k',
                 subtitle: 'Carta Topográfica 1:250.000',
-                description: `Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar será mostrado os anos que a carta possui edição`,
+                description: ``,
                 zoom: [
                     [-58.625, -34.125], // southwestern corner of the bounds
                     [-47.875, -22.875] // northeastern corner of the bounds
@@ -220,8 +241,8 @@ var PROJECTS = {
                 ],
                 styles: [
                     {
-                        'id': 'situacao_geral_250k-fill',
-                        'source': 'situacao_geral_250k',
+                        'id': 'situacao-geral-ct-250k-fill',
+                        'source': 'situacao-geral-ct-250k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -229,8 +250,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'situacao_geral_250k-border',
-                        'source': 'situacao_geral_250k',
+                        'id': 'situacao-geral-ct-250k-border',
+                        'source': 'situacao-geral-ct-250k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -239,8 +260,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'situacao_geral_250k-text',
-                        'source': 'situacao_geral_250k',
+                        'id': 'situacao-geral-ct-250k-text',
+                        'source': 'situacao-geral-ct-250k',
                         "type": "symbol",
                         "minzoom": 8.5,
                         "maxzoom": 15,
@@ -337,5 +358,8 @@ var PROJECTS = {
             }
         ]
     },
-    
+    //2022
+    //Itaipu Orto 50k - 76 a ser carregado 
+    //SC 100k - 07 em Jul
+    //RS 50k - 37 em Jun
 }
