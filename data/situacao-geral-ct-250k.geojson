@@ -9,7 +9,7 @@
 				"id" : "0",
 				"identificador" : "495",
 				"situacao" : "Concluído",
-				"edicoes": ["1978"]
+				"edicoes": ["1977"]
 			}
 		},		{
 			"type" : "Feature",
@@ -18,7 +18,7 @@
 				"id" : "1",
 				"identificador" : "496",
 				"situacao" : "Concluído",
-				"edicoes": ["1977"]
+				"edicoes": ["1975"]
 			}
 		},		{
 			"type" : "Feature",
@@ -27,7 +27,7 @@
 				"id" : "2",
 				"identificador" : "497",
 				"situacao" : "Concluído",
-				"edicoes": ["1985"]
+				"edicoes": ["1984"]
 			}
 		},		{
 			"type" : "Feature",
@@ -36,7 +36,7 @@
 				"id" : "3",
 				"identificador" : "503",
 				"situacao" : "Concluído",
-				"edicoes": ["1980"]
+				"edicoes": ["1994"]
 			}
 		},		{
 			"type" : "Feature",
@@ -81,7 +81,7 @@
 				"id" : "8",
 				"identificador" : "510",
 				"situacao" : "Concluído",
-				"edicoes": ["2009"]
+				"edicoes": ["1996"]
 			}
 		},		{
 			"type" : "Feature",
@@ -170,8 +170,8 @@
 			"properties" : {
 				"id" : "18",
 				"identificador" : "521",
-				"situacao" : "Concluído",
-				"edicoes": ["2003"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -179,8 +179,8 @@
 			"properties" : {
 				"id" : "19",
 				"identificador" : "522",
-				"situacao" : "Concluído",
-				"edicoes": ["1981"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -188,8 +188,8 @@
 			"properties" : {
 				"id" : "20",
 				"identificador" : "523",
-				"situacao" : "Concluído",
-				"edicoes": ["1982"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1982"]
 			}
 		},		{
 			"type" : "Feature",
@@ -206,8 +206,8 @@
 			"properties" : {
 				"id" : "22",
 				"identificador" : "525",
-				"situacao" : "Concluído",
-				"edicoes": ["2003"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -215,8 +215,8 @@
 			"properties" : {
 				"id" : "23",
 				"identificador" : "526",
-				"situacao" : "Concluído",
-				"edicoes": ["2003"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1980"]
 			}
 		},		{
 			"type" : "Feature",
@@ -233,8 +233,8 @@
 			"properties" : {
 				"id" : "25",
 				"identificador" : "528",
-				"situacao" : "Concluído",
-				"edicoes": ["2003"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -242,8 +242,8 @@
 			"properties" : {
 				"id" : "26",
 				"identificador" : "529",
-				"situacao" : "Concluído",
-				"edicoes": ["1981"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -260,8 +260,8 @@
 			"properties" : {
 				"id" : "28",
 				"identificador" : "531",
-				"situacao" : "Concluído",
-				"edicoes": ["2003"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -269,8 +269,8 @@
 			"properties" : {
 				"id" : "29",
 				"identificador" : "532",
-				"situacao" : "Concluído",
-				"edicoes": ["2003"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -278,8 +278,8 @@
 			"properties" : {
 				"id" : "30",
 				"identificador" : "533",
-				"situacao" : "Concluído",
-				"edicoes": ["2003"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1996"]
 			}
 		},		{
 			"type" : "Feature",
@@ -287,8 +287,8 @@
 			"properties" : {
 				"id" : "31",
 				"identificador" : "534",
-				"situacao" : "Concluído",
-				"edicoes": ["2003"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -296,8 +296,8 @@
 			"properties" : {
 				"id" : "32",
 				"identificador" : "535",
-				"situacao" : "Concluído",
-				"edicoes": ["2003"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2003","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -305,8 +305,8 @@
 			"properties" : {
 				"id" : "33",
 				"identificador" : "536",
-				"situacao" : "Concluído",
-				"edicoes": ["1998"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["1998","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -314,8 +314,8 @@
 			"properties" : {
 				"id" : "34",
 				"identificador" : "536A",
-				"situacao" : "Concluído",
-				"edicoes": ["1998"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["1998","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -323,8 +323,8 @@
 			"properties" : {
 				"id" : "35",
 				"identificador" : "537",
-				"situacao" : "Concluído",
-				"edicoes": ["2002"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2001","1980"]
 			}
 		},		{
 			"type" : "Feature",
@@ -332,8 +332,8 @@
 			"properties" : {
 				"id" : "36",
 				"identificador" : "538",
-				"situacao" : "Concluído",
-				"edicoes": ["2002"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2001","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -341,8 +341,8 @@
 			"properties" : {
 				"id" : "37",
 				"identificador" : "539",
-				"situacao" : "Concluído",
-				"edicoes": ["2003"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2002","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -350,8 +350,8 @@
 			"properties" : {
 				"id" : "38",
 				"identificador" : "540",
-				"situacao" : "Concluído",
-				"edicoes": ["2002"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2001","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -359,8 +359,8 @@
 			"properties" : {
 				"id" : "39",
 				"identificador" : "541",
-				"situacao" : "Concluído",
-				"edicoes": ["2000"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["1999","1984"]
 			}
 		},		{
 			"type" : "Feature",
@@ -368,8 +368,8 @@
 			"properties" : {
 				"id" : "40",
 				"identificador" : "542",
-				"situacao" : "Concluído",
-				"edicoes": ["2001"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2000","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -377,8 +377,8 @@
 			"properties" : {
 				"id" : "41",
 				"identificador" : "543",
-				"situacao" : "Concluído",
-				"edicoes": ["2002"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2001","1980"]
 			}
 		},		{
 			"type" : "Feature",
@@ -386,8 +386,8 @@
 			"properties" : {
 				"id" : "42",
 				"identificador" : "544",
-				"situacao" : "Concluído",
-				"edicoes": ["2001"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["1999","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -395,8 +395,8 @@
 			"properties" : {
 				"id" : "43",
 				"identificador" : "545",
-				"situacao" : "Concluído",
-				"edicoes": ["2002"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2001","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -404,8 +404,8 @@
 			"properties" : {
 				"id" : "44",
 				"identificador" : "546",
-				"situacao" : "Concluído",
-				"edicoes": ["2002"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2001","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -413,8 +413,8 @@
 			"properties" : {
 				"id" : "45",
 				"identificador" : "547",
-				"situacao" : "Concluído",
-				"edicoes": ["2001"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2000","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -422,8 +422,8 @@
 			"properties" : {
 				"id" : "46",
 				"identificador" : "548",
-				"situacao" : "Concluído",
-				"edicoes": ["2001"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2001","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -431,8 +431,8 @@
 			"properties" : {
 				"id" : "47",
 				"identificador" : "549",
-				"situacao" : "Concluído",
-				"edicoes": ["2001"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2001","1981"]
 			}
 		},		{
 			"type" : "Feature",
@@ -440,8 +440,8 @@
 			"properties" : {
 				"id" : "48",
 				"identificador" : "550",
-				"situacao" : "Concluído",
-				"edicoes": ["2001"]
+				"situacao" : "Múltiplas edições",
+				"edicoes": ["2001","1981"]
 			}
 		}
     	]
