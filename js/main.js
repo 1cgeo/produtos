@@ -82,7 +82,7 @@ loadGeoJSON = (loteName, styles) => {
                 if (!style.id.includes('-fill')) continue
                 map.on('click', style.id, function (e) {
                     let situacao = e.features[0].properties.situacao
-                    if(situacao != 'Múltiplas edições') return
+                    //if(situacao != 'Múltiplas edições') return
                     var editions = JSON.parse(e.features[0].properties.edicoes)
                     if (!editions?.length > 0) return
                     new maplibregl.Popup()

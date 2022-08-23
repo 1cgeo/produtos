@@ -263,8 +263,8 @@ var PROJECTS = {
                         'id': 'situacao-geral-ct-250k-text',
                         'source': 'situacao-geral-ct-250k',
                         "type": "symbol",
-                        "minzoom": 8.5,
-                        "maxzoom": 15,
+                        "minzoom": 6,
+                        "maxzoom": 9.5,
                         'layout': {
                             'text-field': [
                                 'concat', 
