@@ -44,7 +44,7 @@
 			"properties" : {
 				"id" : "4",
 				"identificador" : "2757",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -71,7 +71,7 @@
 			"properties" : {
 				"id" : "7",
 				"identificador" : "2760",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -80,7 +80,7 @@
 			"properties" : {
 				"id" : "8",
 				"identificador" : "2761",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -152,7 +152,7 @@
 			"properties" : {
 				"id" : "16",
 				"identificador" : "2786",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -161,7 +161,7 @@
 			"properties" : {
 				"id" : "17",
 				"identificador" : "2787",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -269,7 +269,7 @@
 			"properties" : {
 				"id" : "29",
 				"identificador" : "2809",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -278,7 +278,7 @@
 			"properties" : {
 				"id" : "30",
 				"identificador" : "2810",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -287,7 +287,7 @@
 			"properties" : {
 				"id" : "31",
 				"identificador" : "2811",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -359,7 +359,7 @@
 			"properties" : {
 				"id" : "39",
 				"identificador" : "2823",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -377,7 +377,7 @@
 			"properties" : {
 				"id" : "41",
 				"identificador" : "2825",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -386,7 +386,7 @@
 			"properties" : {
 				"id" : "42",
 				"identificador" : "2826",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -431,7 +431,7 @@
 			"properties" : {
 				"id" : "47",
 				"identificador" : "2833",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -449,7 +449,7 @@
 			"properties" : {
 				"id" : "49",
 				"identificador" : "2835",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -485,7 +485,7 @@
 			"properties" : {
 				"id" : "53",
 				"identificador" : "2839",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -494,7 +494,7 @@
 			"properties" : {
 				"id" : "54",
 				"identificador" : "2840",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -512,7 +512,7 @@
 			"properties" : {
 				"id" : "56",
 				"identificador" : "2842",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -539,7 +539,7 @@
 			"properties" : {
 				"id" : "59",
 				"identificador" : "2846",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -548,7 +548,7 @@
 			"properties" : {
 				"id" : "60",
 				"identificador" : "2847",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -566,7 +566,7 @@
 			"properties" : {
 				"id" : "62",
 				"identificador" : "2849",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -584,7 +584,7 @@
 			"properties" : {
 				"id" : "64",
 				"identificador" : "2851",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -629,7 +629,7 @@
 			"properties" : {
 				"id" : "69",
 				"identificador" : "2856",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -638,7 +638,7 @@
 			"properties" : {
 				"id" : "70",
 				"identificador" : "2857",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -647,7 +647,7 @@
 			"properties" : {
 				"id" : "71",
 				"identificador" : "2858",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -656,7 +656,7 @@
 			"properties" : {
 				"id" : "72",
 				"identificador" : "2859",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -683,7 +683,7 @@
 			"properties" : {
 				"id" : "75",
 				"identificador" : "2862",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -737,7 +737,7 @@
 			"properties" : {
 				"id" : "81",
 				"identificador" : "2868",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -746,7 +746,7 @@
 			"properties" : {
 				"id" : "82",
 				"identificador" : "2869",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -755,7 +755,7 @@
 			"properties" : {
 				"id" : "83",
 				"identificador" : "2870",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -764,7 +764,7 @@
 			"properties" : {
 				"id" : "84",
 				"identificador" : "2871",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -773,7 +773,7 @@
 			"properties" : {
 				"id" : "85",
 				"identificador" : "2872",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -782,7 +782,7 @@
 			"properties" : {
 				"id" : "86",
 				"identificador" : "2873",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -791,7 +791,7 @@
 			"properties" : {
 				"id" : "87",
 				"identificador" : "2874",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -800,7 +800,7 @@
 			"properties" : {
 				"id" : "88",
 				"identificador" : "2875",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -845,7 +845,7 @@
 			"properties" : {
 				"id" : "93",
 				"identificador" : "2880",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -854,7 +854,7 @@
 			"properties" : {
 				"id" : "94",
 				"identificador" : "2881",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -863,7 +863,7 @@
 			"properties" : {
 				"id" : "95",
 				"identificador" : "2882",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -962,7 +962,7 @@
 			"properties" : {
 				"id" : "106",
 				"identificador" : "2892",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -971,7 +971,7 @@
 			"properties" : {
 				"id" : "107",
 				"identificador" : "2893",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -980,7 +980,7 @@
 			"properties" : {
 				"id" : "108",
 				"identificador" : "2894",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -989,7 +989,7 @@
 			"properties" : {
 				"id" : "109",
 				"identificador" : "2895",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -998,7 +998,7 @@
 			"properties" : {
 				"id" : "110",
 				"identificador" : "2896",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1097,7 +1097,7 @@
 			"properties" : {
 				"id" : "121",
 				"identificador" : "2907",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1106,7 +1106,7 @@
 			"properties" : {
 				"id" : "122",
 				"identificador" : "2908",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1115,7 +1115,7 @@
 			"properties" : {
 				"id" : "123",
 				"identificador" : "2909",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1124,7 +1124,7 @@
 			"properties" : {
 				"id" : "124",
 				"identificador" : "2910",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1133,7 +1133,7 @@
 			"properties" : {
 				"id" : "125",
 				"identificador" : "2911",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1142,7 +1142,7 @@
 			"properties" : {
 				"id" : "126",
 				"identificador" : "2912",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1250,7 +1250,7 @@
 			"properties" : {
 				"id" : "138",
 				"identificador" : "2924",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1259,7 +1259,7 @@
 			"properties" : {
 				"id" : "139",
 				"identificador" : "2925",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1268,7 +1268,7 @@
 			"properties" : {
 				"id" : "140",
 				"identificador" : "2926",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1277,7 +1277,7 @@
 			"properties" : {
 				"id" : "141",
 				"identificador" : "2927",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1286,7 +1286,7 @@
 			"properties" : {
 				"id" : "142",
 				"identificador" : "2928",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1394,7 +1394,7 @@
 			"properties" : {
 				"id" : "154",
 				"identificador" : "2940",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1403,7 +1403,7 @@
 			"properties" : {
 				"id" : "155",
 				"identificador" : "2941",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1412,7 +1412,7 @@
 			"properties" : {
 				"id" : "156",
 				"identificador" : "2942",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1421,7 +1421,7 @@
 			"properties" : {
 				"id" : "157",
 				"identificador" : "2943",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1430,7 +1430,7 @@
 			"properties" : {
 				"id" : "158",
 				"identificador" : "2944",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1439,7 +1439,7 @@
 			"properties" : {
 				"id" : "159",
 				"identificador" : "2945",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1466,7 +1466,7 @@
 			"properties" : {
 				"id" : "162",
 				"identificador" : "2948",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1484,7 +1484,7 @@
 			"properties" : {
 				"id" : "164",
 				"identificador" : "2950",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1493,7 +1493,7 @@
 			"properties" : {
 				"id" : "165",
 				"identificador" : "2951",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1556,7 +1556,7 @@
 			"properties" : {
 				"id" : "172",
 				"identificador" : "2958",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1565,7 +1565,7 @@
 			"properties" : {
 				"id" : "173",
 				"identificador" : "2959",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1574,7 +1574,7 @@
 			"properties" : {
 				"id" : "174",
 				"identificador" : "2960",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1583,7 +1583,7 @@
 			"properties" : {
 				"id" : "175",
 				"identificador" : "2961",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1592,7 +1592,7 @@
 			"properties" : {
 				"id" : "176",
 				"identificador" : "2962",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1601,7 +1601,7 @@
 			"properties" : {
 				"id" : "177",
 				"identificador" : "2963",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1610,7 +1610,7 @@
 			"properties" : {
 				"id" : "178",
 				"identificador" : "2964",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1619,7 +1619,7 @@
 			"properties" : {
 				"id" : "179",
 				"identificador" : "2965",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1628,7 +1628,7 @@
 			"properties" : {
 				"id" : "180",
 				"identificador" : "2966",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1637,7 +1637,7 @@
 			"properties" : {
 				"id" : "181",
 				"identificador" : "2967",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1646,7 +1646,7 @@
 			"properties" : {
 				"id" : "182",
 				"identificador" : "2968",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1655,7 +1655,7 @@
 			"properties" : {
 				"id" : "183",
 				"identificador" : "2969",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1682,7 +1682,7 @@
 			"properties" : {
 				"id" : "186",
 				"identificador" : "2972",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1691,7 +1691,7 @@
 			"properties" : {
 				"id" : "187",
 				"identificador" : "2973",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1700,7 +1700,7 @@
 			"properties" : {
 				"id" : "188",
 				"identificador" : "2974",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1709,7 +1709,7 @@
 			"properties" : {
 				"id" : "189",
 				"identificador" : "2975",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1718,7 +1718,7 @@
 			"properties" : {
 				"id" : "190",
 				"identificador" : "2976",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1727,7 +1727,7 @@
 			"properties" : {
 				"id" : "191",
 				"identificador" : "2977",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1736,7 +1736,7 @@
 			"properties" : {
 				"id" : "192",
 				"identificador" : "2978",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1772,7 +1772,7 @@
 			"properties" : {
 				"id" : "196",
 				"identificador" : "2982",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1781,7 +1781,7 @@
 			"properties" : {
 				"id" : "197",
 				"identificador" : "2983",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1790,7 +1790,7 @@
 			"properties" : {
 				"id" : "198",
 				"identificador" : "2984",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1799,7 +1799,7 @@
 			"properties" : {
 				"id" : "199",
 				"identificador" : "2985",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1826,7 +1826,7 @@
 			"properties" : {
 				"id" : "202",
 				"identificador" : "2988",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1835,7 +1835,7 @@
 			"properties" : {
 				"id" : "203",
 				"identificador" : "2989",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1844,7 +1844,7 @@
 			"properties" : {
 				"id" : "204",
 				"identificador" : "2990",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1853,7 +1853,7 @@
 			"properties" : {
 				"id" : "205",
 				"identificador" : "2991",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1862,7 +1862,7 @@
 			"properties" : {
 				"id" : "206",
 				"identificador" : "2992",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1871,7 +1871,7 @@
 			"properties" : {
 				"id" : "207",
 				"identificador" : "2993",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1880,7 +1880,7 @@
 			"properties" : {
 				"id" : "208",
 				"identificador" : "2994",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1889,7 +1889,7 @@
 			"properties" : {
 				"id" : "209",
 				"identificador" : "2995",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1898,7 +1898,7 @@
 			"properties" : {
 				"id" : "210",
 				"identificador" : "2996",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1907,7 +1907,7 @@
 			"properties" : {
 				"id" : "211",
 				"identificador" : "2997",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1916,7 +1916,7 @@
 			"properties" : {
 				"id" : "212",
 				"identificador" : "2998",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1943,7 +1943,7 @@
 			"properties" : {
 				"id" : "215",
 				"identificador" : "3001",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1952,7 +1952,7 @@
 			"properties" : {
 				"id" : "216",
 				"identificador" : "3002",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1961,7 +1961,7 @@
 			"properties" : {
 				"id" : "217",
 				"identificador" : "3003",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1970,7 +1970,7 @@
 			"properties" : {
 				"id" : "218",
 				"identificador" : "3004",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1979,7 +1979,7 @@
 			"properties" : {
 				"id" : "219",
 				"identificador" : "3005",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1988,7 +1988,7 @@
 			"properties" : {
 				"id" : "220",
 				"identificador" : "3006",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -1997,7 +1997,7 @@
 			"properties" : {
 				"id" : "221",
 				"identificador" : "3007",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2006,7 +2006,7 @@
 			"properties" : {
 				"id" : "222",
 				"identificador" : "3008",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2015,7 +2015,7 @@
 			"properties" : {
 				"id" : "223",
 				"identificador" : "3009",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2024,7 +2024,7 @@
 			"properties" : {
 				"id" : "224",
 				"identificador" : "3010",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2033,7 +2033,7 @@
 			"properties" : {
 				"id" : "225",
 				"identificador" : "3011",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2042,7 +2042,7 @@
 			"properties" : {
 				"id" : "226",
 				"identificador" : "3012",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2051,7 +2051,7 @@
 			"properties" : {
 				"id" : "227",
 				"identificador" : "3013",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2060,7 +2060,7 @@
 			"properties" : {
 				"id" : "228",
 				"identificador" : "3014",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2069,7 +2069,7 @@
 			"properties" : {
 				"id" : "229",
 				"identificador" : "3015",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2078,7 +2078,7 @@
 			"properties" : {
 				"id" : "230",
 				"identificador" : "3016",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2087,7 +2087,7 @@
 			"properties" : {
 				"id" : "231",
 				"identificador" : "3017",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2096,7 +2096,7 @@
 			"properties" : {
 				"id" : "232",
 				"identificador" : "3018",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2105,7 +2105,7 @@
 			"properties" : {
 				"id" : "233",
 				"identificador" : "3019",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2114,7 +2114,7 @@
 			"properties" : {
 				"id" : "234",
 				"identificador" : "3020",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2123,7 +2123,7 @@
 			"properties" : {
 				"id" : "235",
 				"identificador" : "3021",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2132,7 +2132,7 @@
 			"properties" : {
 				"id" : "236",
 				"identificador" : "3022",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2141,7 +2141,7 @@
 			"properties" : {
 				"id" : "237",
 				"identificador" : "3023",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2150,7 +2150,7 @@
 			"properties" : {
 				"id" : "238",
 				"identificador" : "3024",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2159,7 +2159,7 @@
 			"properties" : {
 				"id" : "239",
 				"identificador" : "3025",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2168,7 +2168,7 @@
 			"properties" : {
 				"id" : "240",
 				"identificador" : "3026",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2177,7 +2177,7 @@
 			"properties" : {
 				"id" : "241",
 				"identificador" : "3027",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2186,7 +2186,7 @@
 			"properties" : {
 				"id" : "242",
 				"identificador" : "3029",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2195,7 +2195,7 @@
 			"properties" : {
 				"id" : "243",
 				"identificador" : "3030",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2204,7 +2204,7 @@
 			"properties" : {
 				"id" : "244",
 				"identificador" : "3031",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2213,7 +2213,7 @@
 			"properties" : {
 				"id" : "245",
 				"identificador" : "3033",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2222,7 +2222,7 @@
 			"properties" : {
 				"id" : "246",
 				"identificador" : "3034",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2231,7 +2231,7 @@
 			"properties" : {
 				"id" : "247",
 				"identificador" : "3035",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		},		{
@@ -2240,7 +2240,7 @@
 			"properties" : {
 				"id" : "248",
 				"identificador" : "3036",
-				"situacao" : "Concluído",
+				"situacao" : "Não mapeado",
 				"edicoes": []
 			}
 		}
