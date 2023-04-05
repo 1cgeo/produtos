@@ -1,6 +1,6 @@
 const map = new maplibregl.Map({
     container: 'map',
-    style: 'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+    style: 'https://api.maptiler.com/maps/streets-v2/style.json?key=tLpO7P2cZG0MPIqHCFYJ',
     ...INIT_ZOOM
 
 });
@@ -9,6 +9,7 @@ var activeSubtitle = null;
 var activeSubtitleCount = null;
 var autoplay = false
 var presentationDelay = 5 * 1000
+var currentKML = null;
 
 loadLegend = (legend, legendCount) => {
     if (!legend || legend.length == 0) return
@@ -72,7 +73,8 @@ loadGeoJSON = (loteName, styles) => {
         .then(function (response) {
             return response.json();
         })
-        .then(async function (geoJson) {
+        .then(async (geoJson) => {
+            setKML(tokml(geoJson))
             map.addSource(loteName, {
                 "type": "geojson",
                 "data": geoJson
@@ -96,16 +98,15 @@ loadGeoJSON = (loteName, styles) => {
                                     <th>Edição</th>
                                     <th>Data</th>
                                 </tr>
-                                ${
-                                    editions.map((item, idx) => {
-                                        return `
+                                ${editions.map((item, idx) => {
+                            return `
                                         <tr>
                                             <td>${editions.length - idx}</td>
                                             <td>${item}</td>
                                         </tr>
                                         `
-                                    }).join('\n')
-                                }
+                        }).join('\n')
+                            }
                             </table>
                         <div/>
                         `)
@@ -120,6 +121,24 @@ loadGeoJSON = (loteName, styles) => {
             }
         });
 
+}
+
+const setKML = (kml) => {
+    if (!kml) {
+        $("#kml-button").remove()
+        return
+    }
+    var hash = window.btoa(unescape(encodeURIComponent(kml)))
+    var a = $(`
+    <a 
+        href="data:application/octet-stream;charset=utf-8;base64,${hash}" 
+        download="data.kml"
+        id="kml-button"
+        >
+            Download KML
+         </a>
+    `)
+    $(".append-buttons").append(a)
 }
 
 const getButtonProps = (active) => {
@@ -180,6 +199,7 @@ function plugin({ swiper, extendParams, on }) {
     });
 
     on('slideChange', async () => {
+        setKML(null)
         if (!swiper.slides[swiper.previousIndex]) return
         let previousSlideId = swiper.slides[swiper.previousIndex].getAttribute('id')
         let currentSlideId = swiper.slides[swiper.activeIndex].getAttribute('id')
@@ -288,9 +308,12 @@ connectEvents = () => {
         });
 
     document
-        .querySelectorAll('a')
+        .querySelectorAll('a:not(#kml-button)')
         .forEach(el => {
-            if (el.getAttribute('id') && el.getAttribute('id').includes('summary-button')) {
+            if (
+                el.getAttribute('id') && 
+                el.getAttribute('id').includes('summary-button')
+            ) {
                 return
             }
             el.addEventListener('click', (e) => {
@@ -442,7 +465,7 @@ getSummarySlide = () => {
     let projects = getProjectSettings()
     for (let projectName in projects) {
         let group
-        if(!groups[projects[projectName].group]){
+        if (!groups[projects[projectName].group]) {
             groups[projects[projectName].group] = $("<ul/>", {})
         }
         group = groups[projects[projectName].group]
@@ -466,7 +489,7 @@ getSummarySlide = () => {
 
     let ulMain = $("<ul/>", {})
 
-    for(let groupName of Object.keys(groups)){
+    for (let groupName of Object.keys(groups)) {
         ulMain.append(
             $("<li/>", {
                 class: "group",
@@ -528,7 +551,7 @@ const filterSections = (projects) => {
     for (let projectName in projects) {
         let groupName = projects[projectName].group
         let group
-        if(!groups[groupName]){
+        if (!groups[groupName]) {
             groups[groupName] = []
         }
         group = groups[groupName]
@@ -571,7 +594,7 @@ loadSlides = () => {
     $("#slides-content").append(getSummarySlide())
     let projects = getProjectSettings()
     let groups = filterSections(projects)
-    for(let groupName of Object.keys(groups)){
+    for (let groupName of Object.keys(groups)) {
         loadSection(groupName, groups[groupName])
     }
 }
