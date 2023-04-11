@@ -74,7 +74,7 @@ loadGeoJSON = (loteName, styles) => {
             return response.json();
         })
         .then(async (geoJson) => {
-            setKML(tokml(geoJson))
+            setKML(tokml(geoJson), loteName)
             map.addSource(loteName, {
                 "type": "geojson",
                 "data": geoJson
@@ -123,7 +123,7 @@ loadGeoJSON = (loteName, styles) => {
 
 }
 
-const setKML = (kml) => {
+const setKML = (kml, loteName) => {
     if (!kml) {
         $("#kml-button").remove()
         return
@@ -132,7 +132,7 @@ const setKML = (kml) => {
     var a = $(`
     <a 
         href="data:application/octet-stream;charset=utf-8;base64,${hash}" 
-        download="data.kml"
+        download="${loteName}.kml"
         id="kml-button"
         >
             Download KML
@@ -199,7 +199,7 @@ function plugin({ swiper, extendParams, on }) {
     });
 
     on('slideChange', async () => {
-        setKML(null)
+        setKML()
         if (!swiper.slides[swiper.previousIndex]) return
         let previousSlideId = swiper.slides[swiper.previousIndex].getAttribute('id')
         let currentSlideId = swiper.slides[swiper.activeIndex].getAttribute('id')
