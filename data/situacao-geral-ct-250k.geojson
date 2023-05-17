@@ -1,6 +1,6 @@
 ﻿{
 	"type" : "FeatureCollection",
-	"name" : "situacao_geral_ct_250k",
+	"name" : "situacao-geral-ct-250k",
 	"features" : [
     		{
 			"type" : "Feature",

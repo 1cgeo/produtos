@@ -1,6 +1,6 @@
 ﻿{
 	"type" : "FeatureCollection",
-	"name" : "situacao_geral_ct_50k",
+	"name" : "situacao-geral-ct-50k",
 	"features" : [
     		{
 			"type" : "Feature",
