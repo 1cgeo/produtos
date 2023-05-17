@@ -8,2925 +8,6 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
-						[ -51.375, -26.125 ],
-						[ -51.25, -26.125 ],
-						[ -51.25, -26 ],
-						[ -51.375, -26 ],
-						[ -51.375, -26.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "1166",
-				"identificador" : "2865-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -50.375, -26.125 ],
-						[ -50.25, -26.125 ],
-						[ -50.25, -26 ],
-						[ -50.375, -26 ],
-						[ -50.375, -26.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "1198",
-				"identificador" : "2867-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -50.125, -26.125 ],
-						[ -50, -26.125 ],
-						[ -50, -26 ],
-						[ -50.125, -26 ],
-						[ -50.125, -26.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "1202",
-				"identificador" : "2867-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -50.25, -26.125 ],
-						[ -50.125, -26.125 ],
-						[ -50.125, -26 ],
-						[ -50.25, -26 ],
-						[ -50.25, -26.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "1203",
-				"identificador" : "2867-2-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -50.125, -26.25 ],
-						[ -50, -26.25 ],
-						[ -50, -26.125 ],
-						[ -50.125, -26.125 ],
-						[ -50.125, -26.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "1204",
-				"identificador" : "2867-2-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -52, -29.875 ],
-						[ -51.875, -29.875 ],
-						[ -51.875, -29.75 ],
-						[ -52, -29.75 ],
-						[ -52, -29.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2714",
-				"identificador" : "2969-3-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.625, -30.25 ],
-						[ -57.5, -30.25 ],
-						[ -57.5, -30.125 ],
-						[ -57.625, -30.125 ],
-						[ -57.625, -30.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2772",
-				"identificador" : "2974-2-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.75, -30.25 ],
-						[ -57.625, -30.25 ],
-						[ -57.625, -30.125 ],
-						[ -57.75, -30.125 ],
-						[ -57.75, -30.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2773",
-				"identificador" : "2974-2-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.625, -30.375 ],
-						[ -57.5, -30.375 ],
-						[ -57.5, -30.25 ],
-						[ -57.625, -30.25 ],
-						[ -57.625, -30.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2774",
-				"identificador" : "2974-4-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.375, -30.125 ],
-						[ -57.25, -30.125 ],
-						[ -57.25, -30 ],
-						[ -57.375, -30 ],
-						[ -57.375, -30.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2775",
-				"identificador" : "2975-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.5, -30.125 ],
-						[ -57.375, -30.125 ],
-						[ -57.375, -30 ],
-						[ -57.5, -30 ],
-						[ -57.5, -30.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2776",
-				"identificador" : "2975-1-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.375, -30.25 ],
-						[ -57.25, -30.25 ],
-						[ -57.25, -30.125 ],
-						[ -57.375, -30.125 ],
-						[ -57.375, -30.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2777",
-				"identificador" : "2975-1-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.5, -30.25 ],
-						[ -57.375, -30.25 ],
-						[ -57.375, -30.125 ],
-						[ -57.5, -30.125 ],
-						[ -57.5, -30.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2778",
-				"identificador" : "2975-1-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.125, -30.125 ],
-						[ -57, -30.125 ],
-						[ -57, -30 ],
-						[ -57.125, -30 ],
-						[ -57.125, -30.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2779",
-				"identificador" : "2975-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.25, -30.125 ],
-						[ -57.125, -30.125 ],
-						[ -57.125, -30 ],
-						[ -57.25, -30 ],
-						[ -57.25, -30.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2780",
-				"identificador" : "2975-2-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.125, -30.25 ],
-						[ -57, -30.25 ],
-						[ -57, -30.125 ],
-						[ -57.125, -30.125 ],
-						[ -57.125, -30.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2781",
-				"identificador" : "2975-2-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.25, -30.25 ],
-						[ -57.125, -30.25 ],
-						[ -57.125, -30.125 ],
-						[ -57.25, -30.125 ],
-						[ -57.25, -30.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2782",
-				"identificador" : "2975-2-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.375, -30.375 ],
-						[ -57.25, -30.375 ],
-						[ -57.25, -30.25 ],
-						[ -57.375, -30.25 ],
-						[ -57.375, -30.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2783",
-				"identificador" : "2975-3-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.5, -30.375 ],
-						[ -57.375, -30.375 ],
-						[ -57.375, -30.25 ],
-						[ -57.5, -30.25 ],
-						[ -57.5, -30.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2784",
-				"identificador" : "2975-3-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57.25, -30.375 ],
-						[ -57.125, -30.375 ],
-						[ -57.125, -30.25 ],
-						[ -57.25, -30.25 ],
-						[ -57.25, -30.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2785",
-				"identificador" : "2975-4-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.875, -30.125 ],
-						[ -56.75, -30.125 ],
-						[ -56.75, -30 ],
-						[ -56.875, -30 ],
-						[ -56.875, -30.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2786",
-				"identificador" : "2976-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -57, -30.125 ],
-						[ -56.875, -30.125 ],
-						[ -56.875, -30 ],
-						[ -57, -30 ],
-						[ -57, -30.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2787",
-				"identificador" : "2976-1-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.875, -30.25 ],
-						[ -56.75, -30.25 ],
-						[ -56.75, -30.125 ],
-						[ -56.875, -30.125 ],
-						[ -56.875, -30.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2788",
-				"identificador" : "2976-1-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.625, -30.125 ],
-						[ -56.5, -30.125 ],
-						[ -56.5, -30 ],
-						[ -56.625, -30 ],
-						[ -56.625, -30.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2789",
-				"identificador" : "2976-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.75, -30.125 ],
-						[ -56.625, -30.125 ],
-						[ -56.625, -30 ],
-						[ -56.75, -30 ],
-						[ -56.75, -30.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2790",
-				"identificador" : "2976-2-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.625, -30.25 ],
-						[ -56.5, -30.25 ],
-						[ -56.5, -30.125 ],
-						[ -56.625, -30.125 ],
-						[ -56.625, -30.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2791",
-				"identificador" : "2976-2-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.75, -30.25 ],
-						[ -56.625, -30.25 ],
-						[ -56.625, -30.125 ],
-						[ -56.75, -30.125 ],
-						[ -56.75, -30.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2792",
-				"identificador" : "2976-2-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.625, -30.375 ],
-						[ -56.5, -30.375 ],
-						[ -56.5, -30.25 ],
-						[ -56.625, -30.25 ],
-						[ -56.625, -30.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2793",
-				"identificador" : "2976-4-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.25, -30.125 ],
-						[ -56.125, -30.125 ],
-						[ -56.125, -30 ],
-						[ -56.25, -30 ],
-						[ -56.25, -30.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2801",
-				"identificador" : "2977-2-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.25, -30.25 ],
-						[ -56.125, -30.25 ],
-						[ -56.125, -30.125 ],
-						[ -56.25, -30.125 ],
-						[ -56.25, -30.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2803",
-				"identificador" : "2977-2-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.375, -30.375 ],
-						[ -56.25, -30.375 ],
-						[ -56.25, -30.25 ],
-						[ -56.375, -30.25 ],
-						[ -56.375, -30.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2804",
-				"identificador" : "2977-3-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.375, -30.5 ],
-						[ -56.25, -30.5 ],
-						[ -56.25, -30.375 ],
-						[ -56.375, -30.375 ],
-						[ -56.375, -30.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2806",
-				"identificador" : "2977-3-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.5, -30.5 ],
-						[ -56.375, -30.5 ],
-						[ -56.375, -30.375 ],
-						[ -56.5, -30.375 ],
-						[ -56.5, -30.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2807",
-				"identificador" : "2977-3-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.125, -30.375 ],
-						[ -56, -30.375 ],
-						[ -56, -30.25 ],
-						[ -56.125, -30.25 ],
-						[ -56.125, -30.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2808",
-				"identificador" : "2977-4-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.25, -30.375 ],
-						[ -56.125, -30.375 ],
-						[ -56.125, -30.25 ],
-						[ -56.25, -30.25 ],
-						[ -56.25, -30.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2809",
-				"identificador" : "2977-4-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.125, -30.5 ],
-						[ -56, -30.5 ],
-						[ -56, -30.375 ],
-						[ -56.125, -30.375 ],
-						[ -56.125, -30.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2810",
-				"identificador" : "2977-4-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.25, -30.5 ],
-						[ -56.125, -30.5 ],
-						[ -56.125, -30.375 ],
-						[ -56.25, -30.375 ],
-						[ -56.25, -30.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2811",
-				"identificador" : "2977-4-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56, -30.375 ],
-						[ -55.875, -30.375 ],
-						[ -55.875, -30.25 ],
-						[ -56, -30.25 ],
-						[ -56, -30.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2821",
-				"identificador" : "2978-3-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56, -30.5 ],
-						[ -55.875, -30.5 ],
-						[ -55.875, -30.375 ],
-						[ -56, -30.375 ],
-						[ -56, -30.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2823",
-				"identificador" : "2978-3-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.375, -30.625 ],
-						[ -56.25, -30.625 ],
-						[ -56.25, -30.5 ],
-						[ -56.375, -30.5 ],
-						[ -56.375, -30.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "2999",
-				"identificador" : "2990-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.125, -30.625 ],
-						[ -56, -30.625 ],
-						[ -56, -30.5 ],
-						[ -56.125, -30.5 ],
-						[ -56.125, -30.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3001",
-				"identificador" : "2990-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.25, -30.625 ],
-						[ -56.125, -30.625 ],
-						[ -56.125, -30.5 ],
-						[ -56.25, -30.5 ],
-						[ -56.25, -30.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3002",
-				"identificador" : "2990-2-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.125, -30.75 ],
-						[ -56, -30.75 ],
-						[ -56, -30.625 ],
-						[ -56.125, -30.625 ],
-						[ -56.125, -30.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3003",
-				"identificador" : "2990-2-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.25, -30.75 ],
-						[ -56.125, -30.75 ],
-						[ -56.125, -30.625 ],
-						[ -56.25, -30.625 ],
-						[ -56.25, -30.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3004",
-				"identificador" : "2990-2-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.125, -30.875 ],
-						[ -56, -30.875 ],
-						[ -56, -30.75 ],
-						[ -56.125, -30.75 ],
-						[ -56.125, -30.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3005",
-				"identificador" : "2990-4-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.125, -31 ],
-						[ -56, -31 ],
-						[ -56, -30.875 ],
-						[ -56.125, -30.875 ],
-						[ -56.125, -31 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3006",
-				"identificador" : "2990-4-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.875, -30.625 ],
-						[ -55.75, -30.625 ],
-						[ -55.75, -30.5 ],
-						[ -55.875, -30.5 ],
-						[ -55.875, -30.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3007",
-				"identificador" : "2991-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56, -30.625 ],
-						[ -55.875, -30.625 ],
-						[ -55.875, -30.5 ],
-						[ -56, -30.5 ],
-						[ -56, -30.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3008",
-				"identificador" : "2991-1-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.875, -30.75 ],
-						[ -55.75, -30.75 ],
-						[ -55.75, -30.625 ],
-						[ -55.875, -30.625 ],
-						[ -55.875, -30.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3009",
-				"identificador" : "2991-1-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56, -30.75 ],
-						[ -55.875, -30.75 ],
-						[ -55.875, -30.625 ],
-						[ -56, -30.625 ],
-						[ -56, -30.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3010",
-				"identificador" : "2991-1-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.625, -30.625 ],
-						[ -55.5, -30.625 ],
-						[ -55.5, -30.5 ],
-						[ -55.625, -30.5 ],
-						[ -55.625, -30.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3011",
-				"identificador" : "2991-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.625, -30.75 ],
-						[ -55.5, -30.75 ],
-						[ -55.5, -30.625 ],
-						[ -55.625, -30.625 ],
-						[ -55.625, -30.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3013",
-				"identificador" : "2991-2-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.75, -30.75 ],
-						[ -55.625, -30.75 ],
-						[ -55.625, -30.625 ],
-						[ -55.75, -30.625 ],
-						[ -55.75, -30.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3014",
-				"identificador" : "2991-2-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.875, -30.875 ],
-						[ -55.75, -30.875 ],
-						[ -55.75, -30.75 ],
-						[ -55.875, -30.75 ],
-						[ -55.875, -30.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3015",
-				"identificador" : "2991-3-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56, -30.875 ],
-						[ -55.875, -30.875 ],
-						[ -55.875, -30.75 ],
-						[ -56, -30.75 ],
-						[ -56, -30.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3016",
-				"identificador" : "2991-3-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.875, -31 ],
-						[ -55.75, -31 ],
-						[ -55.75, -30.875 ],
-						[ -55.875, -30.875 ],
-						[ -55.875, -31 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3017",
-				"identificador" : "2991-3-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56, -31 ],
-						[ -55.875, -31 ],
-						[ -55.875, -30.875 ],
-						[ -56, -30.875 ],
-						[ -56, -31 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3018",
-				"identificador" : "2991-3-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.625, -30.875 ],
-						[ -55.5, -30.875 ],
-						[ -55.5, -30.75 ],
-						[ -55.625, -30.75 ],
-						[ -55.625, -30.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3019",
-				"identificador" : "2991-4-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.75, -30.875 ],
-						[ -55.625, -30.875 ],
-						[ -55.625, -30.75 ],
-						[ -55.75, -30.75 ],
-						[ -55.75, -30.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3020",
-				"identificador" : "2991-4-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.625, -31 ],
-						[ -55.5, -31 ],
-						[ -55.5, -30.875 ],
-						[ -55.625, -30.875 ],
-						[ -55.625, -31 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3021",
-				"identificador" : "2991-4-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.75, -31 ],
-						[ -55.625, -31 ],
-						[ -55.625, -30.875 ],
-						[ -55.75, -30.875 ],
-						[ -55.75, -31 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3022",
-				"identificador" : "2991-4-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.375, -30.625 ],
-						[ -55.25, -30.625 ],
-						[ -55.25, -30.5 ],
-						[ -55.375, -30.5 ],
-						[ -55.375, -30.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3023",
-				"identificador" : "2992-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.5, -30.625 ],
-						[ -55.375, -30.625 ],
-						[ -55.375, -30.5 ],
-						[ -55.5, -30.5 ],
-						[ -55.5, -30.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3024",
-				"identificador" : "2992-1-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.375, -30.75 ],
-						[ -55.25, -30.75 ],
-						[ -55.25, -30.625 ],
-						[ -55.375, -30.625 ],
-						[ -55.375, -30.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3025",
-				"identificador" : "2992-1-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.5, -30.75 ],
-						[ -55.375, -30.75 ],
-						[ -55.375, -30.625 ],
-						[ -55.5, -30.625 ],
-						[ -55.5, -30.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3026",
-				"identificador" : "2992-1-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.375, -30.875 ],
-						[ -55.25, -30.875 ],
-						[ -55.25, -30.75 ],
-						[ -55.375, -30.75 ],
-						[ -55.375, -30.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3031",
-				"identificador" : "2992-3-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.5, -30.875 ],
-						[ -55.375, -30.875 ],
-						[ -55.375, -30.75 ],
-						[ -55.5, -30.75 ],
-						[ -55.5, -30.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3032",
-				"identificador" : "2992-3-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.375, -31 ],
-						[ -55.25, -31 ],
-						[ -55.25, -30.875 ],
-						[ -55.375, -30.875 ],
-						[ -55.375, -31 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3033",
-				"identificador" : "2992-3-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.5, -31 ],
-						[ -55.375, -31 ],
-						[ -55.375, -30.875 ],
-						[ -55.5, -30.875 ],
-						[ -55.5, -31 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3034",
-				"identificador" : "2992-3-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.125, -30.875 ],
-						[ -55, -30.875 ],
-						[ -55, -30.75 ],
-						[ -55.125, -30.75 ],
-						[ -55.125, -30.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3035",
-				"identificador" : "2992-4-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.25, -30.875 ],
-						[ -55.125, -30.875 ],
-						[ -55.125, -30.75 ],
-						[ -55.25, -30.75 ],
-						[ -55.25, -30.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3036",
-				"identificador" : "2992-4-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.125, -31 ],
-						[ -55, -31 ],
-						[ -55, -30.875 ],
-						[ -55.125, -30.875 ],
-						[ -55.125, -31 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3037",
-				"identificador" : "2992-4-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.25, -31 ],
-						[ -55.125, -31 ],
-						[ -55.125, -30.875 ],
-						[ -55.25, -30.875 ],
-						[ -55.25, -31 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3038",
-				"identificador" : "2992-4-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56.125, -31.125 ],
-						[ -56, -31.125 ],
-						[ -56, -31 ],
-						[ -56.125, -31 ],
-						[ -56.125, -31.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3186",
-				"identificador" : "3003-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.875, -31.125 ],
-						[ -55.75, -31.125 ],
-						[ -55.75, -31 ],
-						[ -55.875, -31 ],
-						[ -55.875, -31.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3187",
-				"identificador" : "3004-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -56, -31.125 ],
-						[ -55.875, -31.125 ],
-						[ -55.875, -31 ],
-						[ -56, -31 ],
-						[ -56, -31.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3188",
-				"identificador" : "3004-1-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.375, -31.125 ],
-						[ -55.25, -31.125 ],
-						[ -55.25, -31 ],
-						[ -55.375, -31 ],
-						[ -55.375, -31.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3189",
-				"identificador" : "3005-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.5, -31.125 ],
-						[ -55.375, -31.125 ],
-						[ -55.375, -31 ],
-						[ -55.5, -31 ],
-						[ -55.5, -31.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3190",
-				"identificador" : "3005-1-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.375, -31.25 ],
-						[ -55.25, -31.25 ],
-						[ -55.25, -31.125 ],
-						[ -55.375, -31.125 ],
-						[ -55.375, -31.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3191",
-				"identificador" : "3005-1-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.125, -31.125 ],
-						[ -55, -31.125 ],
-						[ -55, -31 ],
-						[ -55.125, -31 ],
-						[ -55.125, -31.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3192",
-				"identificador" : "3005-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.25, -31.125 ],
-						[ -55.125, -31.125 ],
-						[ -55.125, -31 ],
-						[ -55.25, -31 ],
-						[ -55.25, -31.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3193",
-				"identificador" : "3005-2-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.125, -31.25 ],
-						[ -55, -31.25 ],
-						[ -55, -31.125 ],
-						[ -55.125, -31.125 ],
-						[ -55.125, -31.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3194",
-				"identificador" : "3005-2-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.25, -31.25 ],
-						[ -55.125, -31.25 ],
-						[ -55.125, -31.125 ],
-						[ -55.25, -31.125 ],
-						[ -55.25, -31.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3195",
-				"identificador" : "3005-2-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.125, -31.375 ],
-						[ -55, -31.375 ],
-						[ -55, -31.25 ],
-						[ -55.125, -31.25 ],
-						[ -55.125, -31.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3196",
-				"identificador" : "3005-4-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55.25, -31.375 ],
-						[ -55.125, -31.375 ],
-						[ -55.125, -31.25 ],
-						[ -55.25, -31.25 ],
-						[ -55.25, -31.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3197",
-				"identificador" : "3005-4-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.875, -31.125 ],
-						[ -54.75, -31.125 ],
-						[ -54.75, -31 ],
-						[ -54.875, -31 ],
-						[ -54.875, -31.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3198",
-				"identificador" : "3006-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55, -31.125 ],
-						[ -54.875, -31.125 ],
-						[ -54.875, -31 ],
-						[ -55, -31 ],
-						[ -55, -31.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3199",
-				"identificador" : "3006-1-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.875, -31.25 ],
-						[ -54.75, -31.25 ],
-						[ -54.75, -31.125 ],
-						[ -54.875, -31.125 ],
-						[ -54.875, -31.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3200",
-				"identificador" : "3006-1-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55, -31.25 ],
-						[ -54.875, -31.25 ],
-						[ -54.875, -31.125 ],
-						[ -55, -31.125 ],
-						[ -55, -31.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3201",
-				"identificador" : "3006-1-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.875, -31.375 ],
-						[ -54.75, -31.375 ],
-						[ -54.75, -31.25 ],
-						[ -54.875, -31.25 ],
-						[ -54.875, -31.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3206",
-				"identificador" : "3006-3-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55, -31.375 ],
-						[ -54.875, -31.375 ],
-						[ -54.875, -31.25 ],
-						[ -55, -31.25 ],
-						[ -55, -31.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3207",
-				"identificador" : "3006-3-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.875, -31.5 ],
-						[ -54.75, -31.5 ],
-						[ -54.75, -31.375 ],
-						[ -54.875, -31.375 ],
-						[ -54.875, -31.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3208",
-				"identificador" : "3006-3-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -55, -31.5 ],
-						[ -54.875, -31.5 ],
-						[ -54.875, -31.375 ],
-						[ -55, -31.375 ],
-						[ -55, -31.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3209",
-				"identificador" : "3006-3-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.625, -31.375 ],
-						[ -54.5, -31.375 ],
-						[ -54.5, -31.25 ],
-						[ -54.625, -31.25 ],
-						[ -54.625, -31.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3210",
-				"identificador" : "3006-4-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.75, -31.375 ],
-						[ -54.625, -31.375 ],
-						[ -54.625, -31.25 ],
-						[ -54.75, -31.25 ],
-						[ -54.75, -31.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3211",
-				"identificador" : "3006-4-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.625, -31.5 ],
-						[ -54.5, -31.5 ],
-						[ -54.5, -31.375 ],
-						[ -54.625, -31.375 ],
-						[ -54.625, -31.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3212",
-				"identificador" : "3006-4-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.75, -31.5 ],
-						[ -54.625, -31.5 ],
-						[ -54.625, -31.375 ],
-						[ -54.75, -31.375 ],
-						[ -54.75, -31.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3213",
-				"identificador" : "3006-4-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.625, -31.625 ],
-						[ -54.5, -31.625 ],
-						[ -54.5, -31.5 ],
-						[ -54.625, -31.5 ],
-						[ -54.625, -31.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3332",
-				"identificador" : "3015-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.375, -31.625 ],
-						[ -54.25, -31.625 ],
-						[ -54.25, -31.5 ],
-						[ -54.375, -31.5 ],
-						[ -54.375, -31.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3333",
-				"identificador" : "3016-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.5, -31.625 ],
-						[ -54.375, -31.625 ],
-						[ -54.375, -31.5 ],
-						[ -54.5, -31.5 ],
-						[ -54.5, -31.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3334",
-				"identificador" : "3016-1-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.375, -31.75 ],
-						[ -54.25, -31.75 ],
-						[ -54.25, -31.625 ],
-						[ -54.375, -31.625 ],
-						[ -54.375, -31.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3335",
-				"identificador" : "3016-1-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.5, -31.75 ],
-						[ -54.375, -31.75 ],
-						[ -54.375, -31.625 ],
-						[ -54.5, -31.625 ],
-						[ -54.5, -31.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3336",
-				"identificador" : "3016-1-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.125, -31.625 ],
-						[ -54, -31.625 ],
-						[ -54, -31.5 ],
-						[ -54.125, -31.5 ],
-						[ -54.125, -31.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3337",
-				"identificador" : "3016-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.25, -31.625 ],
-						[ -54.125, -31.625 ],
-						[ -54.125, -31.5 ],
-						[ -54.25, -31.5 ],
-						[ -54.25, -31.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3338",
-				"identificador" : "3016-2-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.125, -31.75 ],
-						[ -54, -31.75 ],
-						[ -54, -31.625 ],
-						[ -54.125, -31.625 ],
-						[ -54.125, -31.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3339",
-				"identificador" : "3016-2-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.25, -31.75 ],
-						[ -54.125, -31.75 ],
-						[ -54.125, -31.625 ],
-						[ -54.25, -31.625 ],
-						[ -54.25, -31.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3340",
-				"identificador" : "3016-2-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.375, -31.875 ],
-						[ -54.25, -31.875 ],
-						[ -54.25, -31.75 ],
-						[ -54.375, -31.75 ],
-						[ -54.375, -31.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3341",
-				"identificador" : "3016-3-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.125, -31.875 ],
-						[ -54, -31.875 ],
-						[ -54, -31.75 ],
-						[ -54.125, -31.75 ],
-						[ -54.125, -31.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3342",
-				"identificador" : "3016-4-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.25, -31.875 ],
-						[ -54.125, -31.875 ],
-						[ -54.125, -31.75 ],
-						[ -54.25, -31.75 ],
-						[ -54.25, -31.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3343",
-				"identificador" : "3016-4-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.125, -32 ],
-						[ -54, -32 ],
-						[ -54, -31.875 ],
-						[ -54.125, -31.875 ],
-						[ -54.125, -32 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3344",
-				"identificador" : "3016-4-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54.25, -32 ],
-						[ -54.125, -32 ],
-						[ -54.125, -31.875 ],
-						[ -54.25, -31.875 ],
-						[ -54.25, -32 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3345",
-				"identificador" : "3016-4-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.875, -31.875 ],
-						[ -53.75, -31.875 ],
-						[ -53.75, -31.75 ],
-						[ -53.875, -31.75 ],
-						[ -53.875, -31.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3354",
-				"identificador" : "3017-3-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54, -31.875 ],
-						[ -53.875, -31.875 ],
-						[ -53.875, -31.75 ],
-						[ -54, -31.75 ],
-						[ -54, -31.875 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3355",
-				"identificador" : "3017-3-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.875, -32 ],
-						[ -53.75, -32 ],
-						[ -53.75, -31.875 ],
-						[ -53.875, -31.875 ],
-						[ -53.875, -32 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3356",
-				"identificador" : "3017-3-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -54, -32 ],
-						[ -53.875, -32 ],
-						[ -53.875, -31.875 ],
-						[ -54, -31.875 ],
-						[ -54, -32 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3357",
-				"identificador" : "3017-3-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.75, -32 ],
-						[ -53.625, -32 ],
-						[ -53.625, -31.875 ],
-						[ -53.75, -31.875 ],
-						[ -53.75, -32 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3361",
-				"identificador" : "3017-4-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.875, -32.125 ],
-						[ -53.75, -32.125 ],
-						[ -53.75, -32 ],
-						[ -53.875, -32 ],
-						[ -53.875, -32.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3429",
-				"identificador" : "3023-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.625, -32.125 ],
-						[ -53.5, -32.125 ],
-						[ -53.5, -32 ],
-						[ -53.625, -32 ],
-						[ -53.625, -32.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3430",
-				"identificador" : "3023-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.75, -32.125 ],
-						[ -53.625, -32.125 ],
-						[ -53.625, -32 ],
-						[ -53.75, -32 ],
-						[ -53.75, -32.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3431",
-				"identificador" : "3023-2-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.625, -32.25 ],
-						[ -53.5, -32.25 ],
-						[ -53.5, -32.125 ],
-						[ -53.625, -32.125 ],
-						[ -53.625, -32.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3432",
-				"identificador" : "3023-2-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.75, -32.25 ],
-						[ -53.625, -32.25 ],
-						[ -53.625, -32.125 ],
-						[ -53.75, -32.125 ],
-						[ -53.75, -32.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3433",
-				"identificador" : "3023-2-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.625, -32.375 ],
-						[ -53.5, -32.375 ],
-						[ -53.5, -32.25 ],
-						[ -53.625, -32.25 ],
-						[ -53.625, -32.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3434",
-				"identificador" : "3023-4-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.75, -32.375 ],
-						[ -53.625, -32.375 ],
-						[ -53.625, -32.25 ],
-						[ -53.75, -32.25 ],
-						[ -53.75, -32.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3435",
-				"identificador" : "3023-4-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.625, -32.5 ],
-						[ -53.5, -32.5 ],
-						[ -53.5, -32.375 ],
-						[ -53.625, -32.375 ],
-						[ -53.625, -32.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3436",
-				"identificador" : "3023-4-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.75, -32.5 ],
-						[ -53.625, -32.5 ],
-						[ -53.625, -32.375 ],
-						[ -53.75, -32.375 ],
-						[ -53.75, -32.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3437",
-				"identificador" : "3023-4-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.5, -32.125 ],
-						[ -53.375, -32.125 ],
-						[ -53.375, -32 ],
-						[ -53.5, -32 ],
-						[ -53.5, -32.125 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3439",
-				"identificador" : "3024-1-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.5, -32.25 ],
-						[ -53.375, -32.25 ],
-						[ -53.375, -32.125 ],
-						[ -53.5, -32.125 ],
-						[ -53.5, -32.25 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3441",
-				"identificador" : "3024-1-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.375, -32.375 ],
-						[ -53.25, -32.375 ],
-						[ -53.25, -32.25 ],
-						[ -53.375, -32.25 ],
-						[ -53.375, -32.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3446",
-				"identificador" : "3024-3-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.5, -32.375 ],
-						[ -53.375, -32.375 ],
-						[ -53.375, -32.25 ],
-						[ -53.5, -32.25 ],
-						[ -53.5, -32.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3447",
-				"identificador" : "3024-3-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.375, -32.5 ],
-						[ -53.25, -32.5 ],
-						[ -53.25, -32.375 ],
-						[ -53.375, -32.375 ],
-						[ -53.375, -32.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3448",
-				"identificador" : "3024-3-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.5, -32.5 ],
-						[ -53.375, -32.5 ],
-						[ -53.375, -32.375 ],
-						[ -53.5, -32.375 ],
-						[ -53.5, -32.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3449",
-				"identificador" : "3024-3-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.25, -32.375 ],
-						[ -53.125, -32.375 ],
-						[ -53.125, -32.25 ],
-						[ -53.25, -32.25 ],
-						[ -53.25, -32.375 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3451",
-				"identificador" : "3024-4-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.25, -32.5 ],
-						[ -53.125, -32.5 ],
-						[ -53.125, -32.375 ],
-						[ -53.25, -32.375 ],
-						[ -53.25, -32.5 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3453",
-				"identificador" : "3024-4-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.375, -32.625 ],
-						[ -53.25, -32.625 ],
-						[ -53.25, -32.5 ],
-						[ -53.375, -32.5 ],
-						[ -53.375, -32.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3484",
-				"identificador" : "3029-1-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.5, -32.625 ],
-						[ -53.375, -32.625 ],
-						[ -53.375, -32.5 ],
-						[ -53.5, -32.5 ],
-						[ -53.5, -32.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3485",
-				"identificador" : "3029-1-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.125, -32.625 ],
-						[ -53, -32.625 ],
-						[ -53, -32.5 ],
-						[ -53.125, -32.5 ],
-						[ -53.125, -32.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3486",
-				"identificador" : "3029-2-NE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.25, -32.625 ],
-						[ -53.125, -32.625 ],
-						[ -53.125, -32.5 ],
-						[ -53.25, -32.5 ],
-						[ -53.25, -32.625 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3487",
-				"identificador" : "3029-2-NO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.125, -32.75 ],
-						[ -53, -32.75 ],
-						[ -53, -32.625 ],
-						[ -53.125, -32.625 ],
-						[ -53.125, -32.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3488",
-				"identificador" : "3029-2-SE",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
-						[ -53.25, -32.75 ],
-						[ -53.125, -32.75 ],
-						[ -53.125, -32.625 ],
-						[ -53.25, -32.625 ],
-						[ -53.25, -32.75 ]
-					]
-				]
-			},
-			"properties" : {
-				"id" : "3489",
-				"identificador" : "3029-2-SO",
-				"situacao" : "Não Mapeado",
-				"edicoes" : []
-			}
-		},
-		{
-			"type" : "Feature",
-			"geometry" : {
-				"type" : "Polygon",
-				"coordinates" : [
-					[
 						[ -53.875, -23.125 ],
 						[ -53.75, -23.125 ],
 						[ -53.75, -23 ],
@@ -27413,6 +24494,27 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -51.375, -26.125 ],
+						[ -51.25, -26.125 ],
+						[ -51.25, -26 ],
+						[ -51.375, -26 ],
+						[ -51.375, -26.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "1166",
+				"identificador" : "2865-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -51.5, -26.125 ],
 						[ -51.375, -26.125 ],
 						[ -51.375, -26 ],
@@ -28064,6 +25166,27 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -50.375, -26.125 ],
+						[ -50.25, -26.125 ],
+						[ -50.25, -26 ],
+						[ -50.375, -26 ],
+						[ -50.375, -26.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "1198",
+				"identificador" : "2867-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -50.5, -26.125 ],
 						[ -50.375, -26.125 ],
 						[ -50.375, -26 ],
@@ -28118,6 +25241,69 @@
 				"id" : "1201",
 				"identificador" : "2867-1-SO",
 				"situacao" : "Não mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -50.125, -26.125 ],
+						[ -50, -26.125 ],
+						[ -50, -26 ],
+						[ -50.125, -26 ],
+						[ -50.125, -26.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "1202",
+				"identificador" : "2867-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -50.25, -26.125 ],
+						[ -50.125, -26.125 ],
+						[ -50.125, -26 ],
+						[ -50.25, -26 ],
+						[ -50.25, -26.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "1203",
+				"identificador" : "2867-2-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -50.125, -26.25 ],
+						[ -50, -26.25 ],
+						[ -50, -26.125 ],
+						[ -50.125, -26.125 ],
+						[ -50.125, -26.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "1204",
+				"identificador" : "2867-2-SE",
+				"situacao" : "Não Mapeado",
 				"edicoes" : []
 			}
 		},
@@ -59816,6 +57002,27 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -52, -29.875 ],
+						[ -51.875, -29.875 ],
+						[ -51.875, -29.75 ],
+						[ -52, -29.75 ],
+						[ -52, -29.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2714",
+				"identificador" : "2969-3-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -51.875, -30 ],
 						[ -51.75, -30 ],
 						[ -51.75, -29.875 ],
@@ -61013,6 +58220,468 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -57.625, -30.25 ],
+						[ -57.5, -30.25 ],
+						[ -57.5, -30.125 ],
+						[ -57.625, -30.125 ],
+						[ -57.625, -30.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2772",
+				"identificador" : "2974-2-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.75, -30.25 ],
+						[ -57.625, -30.25 ],
+						[ -57.625, -30.125 ],
+						[ -57.75, -30.125 ],
+						[ -57.75, -30.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2773",
+				"identificador" : "2974-2-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.625, -30.375 ],
+						[ -57.5, -30.375 ],
+						[ -57.5, -30.25 ],
+						[ -57.625, -30.25 ],
+						[ -57.625, -30.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2774",
+				"identificador" : "2974-4-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.375, -30.125 ],
+						[ -57.25, -30.125 ],
+						[ -57.25, -30 ],
+						[ -57.375, -30 ],
+						[ -57.375, -30.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2775",
+				"identificador" : "2975-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.5, -30.125 ],
+						[ -57.375, -30.125 ],
+						[ -57.375, -30 ],
+						[ -57.5, -30 ],
+						[ -57.5, -30.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2776",
+				"identificador" : "2975-1-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.375, -30.25 ],
+						[ -57.25, -30.25 ],
+						[ -57.25, -30.125 ],
+						[ -57.375, -30.125 ],
+						[ -57.375, -30.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2777",
+				"identificador" : "2975-1-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.5, -30.25 ],
+						[ -57.375, -30.25 ],
+						[ -57.375, -30.125 ],
+						[ -57.5, -30.125 ],
+						[ -57.5, -30.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2778",
+				"identificador" : "2975-1-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.125, -30.125 ],
+						[ -57, -30.125 ],
+						[ -57, -30 ],
+						[ -57.125, -30 ],
+						[ -57.125, -30.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2779",
+				"identificador" : "2975-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.25, -30.125 ],
+						[ -57.125, -30.125 ],
+						[ -57.125, -30 ],
+						[ -57.25, -30 ],
+						[ -57.25, -30.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2780",
+				"identificador" : "2975-2-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.125, -30.25 ],
+						[ -57, -30.25 ],
+						[ -57, -30.125 ],
+						[ -57.125, -30.125 ],
+						[ -57.125, -30.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2781",
+				"identificador" : "2975-2-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.25, -30.25 ],
+						[ -57.125, -30.25 ],
+						[ -57.125, -30.125 ],
+						[ -57.25, -30.125 ],
+						[ -57.25, -30.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2782",
+				"identificador" : "2975-2-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.375, -30.375 ],
+						[ -57.25, -30.375 ],
+						[ -57.25, -30.25 ],
+						[ -57.375, -30.25 ],
+						[ -57.375, -30.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2783",
+				"identificador" : "2975-3-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.5, -30.375 ],
+						[ -57.375, -30.375 ],
+						[ -57.375, -30.25 ],
+						[ -57.5, -30.25 ],
+						[ -57.5, -30.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2784",
+				"identificador" : "2975-3-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57.25, -30.375 ],
+						[ -57.125, -30.375 ],
+						[ -57.125, -30.25 ],
+						[ -57.25, -30.25 ],
+						[ -57.25, -30.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2785",
+				"identificador" : "2975-4-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.875, -30.125 ],
+						[ -56.75, -30.125 ],
+						[ -56.75, -30 ],
+						[ -56.875, -30 ],
+						[ -56.875, -30.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2786",
+				"identificador" : "2976-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -57, -30.125 ],
+						[ -56.875, -30.125 ],
+						[ -56.875, -30 ],
+						[ -57, -30 ],
+						[ -57, -30.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2787",
+				"identificador" : "2976-1-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.875, -30.25 ],
+						[ -56.75, -30.25 ],
+						[ -56.75, -30.125 ],
+						[ -56.875, -30.125 ],
+						[ -56.875, -30.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2788",
+				"identificador" : "2976-1-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.625, -30.125 ],
+						[ -56.5, -30.125 ],
+						[ -56.5, -30 ],
+						[ -56.625, -30 ],
+						[ -56.625, -30.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2789",
+				"identificador" : "2976-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.75, -30.125 ],
+						[ -56.625, -30.125 ],
+						[ -56.625, -30 ],
+						[ -56.75, -30 ],
+						[ -56.75, -30.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2790",
+				"identificador" : "2976-2-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.625, -30.25 ],
+						[ -56.5, -30.25 ],
+						[ -56.5, -30.125 ],
+						[ -56.625, -30.125 ],
+						[ -56.625, -30.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2791",
+				"identificador" : "2976-2-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.75, -30.25 ],
+						[ -56.625, -30.25 ],
+						[ -56.625, -30.125 ],
+						[ -56.75, -30.125 ],
+						[ -56.75, -30.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2792",
+				"identificador" : "2976-2-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.625, -30.375 ],
+						[ -56.5, -30.375 ],
+						[ -56.5, -30.25 ],
+						[ -56.625, -30.25 ],
+						[ -56.625, -30.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2793",
+				"identificador" : "2976-4-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -56.75, -30.375 ],
 						[ -56.625, -30.375 ],
 						[ -56.625, -30.25 ],
@@ -61160,6 +58829,27 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -56.25, -30.125 ],
+						[ -56.125, -30.125 ],
+						[ -56.125, -30 ],
+						[ -56.25, -30 ],
+						[ -56.25, -30.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2801",
+				"identificador" : "2977-2-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -56.125, -30.25 ],
 						[ -56, -30.25 ],
 						[ -56, -30.125 ],
@@ -61172,6 +58862,48 @@
 				"id" : "2802",
 				"identificador" : "2977-2-SE",
 				"situacao" : "Não mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.25, -30.25 ],
+						[ -56.125, -30.25 ],
+						[ -56.125, -30.125 ],
+						[ -56.25, -30.125 ],
+						[ -56.25, -30.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2803",
+				"identificador" : "2977-2-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.375, -30.375 ],
+						[ -56.25, -30.375 ],
+						[ -56.25, -30.25 ],
+						[ -56.375, -30.25 ],
+						[ -56.375, -30.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2804",
+				"identificador" : "2977-3-NE",
+				"situacao" : "Não Mapeado",
 				"edicoes" : []
 			}
 		},
@@ -61194,6 +58926,132 @@
 				"identificador" : "2977-3-NO",
 				"situacao" : "Concluído",
 				"edicoes" : [ "1946" ]
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.375, -30.5 ],
+						[ -56.25, -30.5 ],
+						[ -56.25, -30.375 ],
+						[ -56.375, -30.375 ],
+						[ -56.375, -30.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2806",
+				"identificador" : "2977-3-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.5, -30.5 ],
+						[ -56.375, -30.5 ],
+						[ -56.375, -30.375 ],
+						[ -56.5, -30.375 ],
+						[ -56.5, -30.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2807",
+				"identificador" : "2977-3-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.125, -30.375 ],
+						[ -56, -30.375 ],
+						[ -56, -30.25 ],
+						[ -56.125, -30.25 ],
+						[ -56.125, -30.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2808",
+				"identificador" : "2977-4-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.25, -30.375 ],
+						[ -56.125, -30.375 ],
+						[ -56.125, -30.25 ],
+						[ -56.25, -30.25 ],
+						[ -56.25, -30.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2809",
+				"identificador" : "2977-4-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.125, -30.5 ],
+						[ -56, -30.5 ],
+						[ -56, -30.375 ],
+						[ -56.125, -30.375 ],
+						[ -56.125, -30.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2810",
+				"identificador" : "2977-4-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.25, -30.5 ],
+						[ -56.125, -30.5 ],
+						[ -56.125, -30.375 ],
+						[ -56.25, -30.375 ],
+						[ -56.25, -30.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2811",
+				"identificador" : "2977-4-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
 			}
 		},
 		{
@@ -61391,6 +59249,27 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -56, -30.375 ],
+						[ -55.875, -30.375 ],
+						[ -55.875, -30.25 ],
+						[ -56, -30.25 ],
+						[ -56, -30.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2821",
+				"identificador" : "2978-3-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -55.875, -30.5 ],
 						[ -55.75, -30.5 ],
 						[ -55.75, -30.375 ],
@@ -61403,6 +59282,27 @@
 				"id" : "2822",
 				"identificador" : "2978-3-SE",
 				"situacao" : "Não mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56, -30.5 ],
+						[ -55.875, -30.5 ],
+						[ -55.875, -30.375 ],
+						[ -56, -30.375 ],
+						[ -56, -30.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2823",
+				"identificador" : "2978-3-SO",
+				"situacao" : "Não Mapeado",
 				"edicoes" : []
 			}
 		},
@@ -65087,6 +62987,27 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -56.375, -30.625 ],
+						[ -56.25, -30.625 ],
+						[ -56.25, -30.5 ],
+						[ -56.375, -30.5 ],
+						[ -56.375, -30.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "2999",
+				"identificador" : "2990-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -56.5, -30.625 ],
 						[ -56.375, -30.625 ],
 						[ -56.375, -30.5 ],
@@ -65108,6 +63029,237 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -56.125, -30.625 ],
+						[ -56, -30.625 ],
+						[ -56, -30.5 ],
+						[ -56.125, -30.5 ],
+						[ -56.125, -30.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3001",
+				"identificador" : "2990-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.25, -30.625 ],
+						[ -56.125, -30.625 ],
+						[ -56.125, -30.5 ],
+						[ -56.25, -30.5 ],
+						[ -56.25, -30.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3002",
+				"identificador" : "2990-2-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.125, -30.75 ],
+						[ -56, -30.75 ],
+						[ -56, -30.625 ],
+						[ -56.125, -30.625 ],
+						[ -56.125, -30.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3003",
+				"identificador" : "2990-2-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.25, -30.75 ],
+						[ -56.125, -30.75 ],
+						[ -56.125, -30.625 ],
+						[ -56.25, -30.625 ],
+						[ -56.25, -30.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3004",
+				"identificador" : "2990-2-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.125, -30.875 ],
+						[ -56, -30.875 ],
+						[ -56, -30.75 ],
+						[ -56.125, -30.75 ],
+						[ -56.125, -30.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3005",
+				"identificador" : "2990-4-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56.125, -31 ],
+						[ -56, -31 ],
+						[ -56, -30.875 ],
+						[ -56.125, -30.875 ],
+						[ -56.125, -31 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3006",
+				"identificador" : "2990-4-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.875, -30.625 ],
+						[ -55.75, -30.625 ],
+						[ -55.75, -30.5 ],
+						[ -55.875, -30.5 ],
+						[ -55.875, -30.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3007",
+				"identificador" : "2991-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56, -30.625 ],
+						[ -55.875, -30.625 ],
+						[ -55.875, -30.5 ],
+						[ -56, -30.5 ],
+						[ -56, -30.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3008",
+				"identificador" : "2991-1-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.875, -30.75 ],
+						[ -55.75, -30.75 ],
+						[ -55.75, -30.625 ],
+						[ -55.875, -30.625 ],
+						[ -55.875, -30.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3009",
+				"identificador" : "2991-1-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56, -30.75 ],
+						[ -55.875, -30.75 ],
+						[ -55.875, -30.625 ],
+						[ -56, -30.625 ],
+						[ -56, -30.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3010",
+				"identificador" : "2991-1-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.625, -30.625 ],
+						[ -55.5, -30.625 ],
+						[ -55.5, -30.5 ],
+						[ -55.625, -30.5 ],
+						[ -55.625, -30.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3011",
+				"identificador" : "2991-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -55.75, -30.625 ],
 						[ -55.625, -30.625 ],
 						[ -55.625, -30.5 ],
@@ -65120,6 +63272,300 @@
 				"id" : "3012",
 				"identificador" : "2991-2-NO",
 				"situacao" : "Não mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.625, -30.75 ],
+						[ -55.5, -30.75 ],
+						[ -55.5, -30.625 ],
+						[ -55.625, -30.625 ],
+						[ -55.625, -30.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3013",
+				"identificador" : "2991-2-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.75, -30.75 ],
+						[ -55.625, -30.75 ],
+						[ -55.625, -30.625 ],
+						[ -55.75, -30.625 ],
+						[ -55.75, -30.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3014",
+				"identificador" : "2991-2-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.875, -30.875 ],
+						[ -55.75, -30.875 ],
+						[ -55.75, -30.75 ],
+						[ -55.875, -30.75 ],
+						[ -55.875, -30.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3015",
+				"identificador" : "2991-3-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56, -30.875 ],
+						[ -55.875, -30.875 ],
+						[ -55.875, -30.75 ],
+						[ -56, -30.75 ],
+						[ -56, -30.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3016",
+				"identificador" : "2991-3-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.875, -31 ],
+						[ -55.75, -31 ],
+						[ -55.75, -30.875 ],
+						[ -55.875, -30.875 ],
+						[ -55.875, -31 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3017",
+				"identificador" : "2991-3-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56, -31 ],
+						[ -55.875, -31 ],
+						[ -55.875, -30.875 ],
+						[ -56, -30.875 ],
+						[ -56, -31 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3018",
+				"identificador" : "2991-3-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.625, -30.875 ],
+						[ -55.5, -30.875 ],
+						[ -55.5, -30.75 ],
+						[ -55.625, -30.75 ],
+						[ -55.625, -30.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3019",
+				"identificador" : "2991-4-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.75, -30.875 ],
+						[ -55.625, -30.875 ],
+						[ -55.625, -30.75 ],
+						[ -55.75, -30.75 ],
+						[ -55.75, -30.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3020",
+				"identificador" : "2991-4-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.625, -31 ],
+						[ -55.5, -31 ],
+						[ -55.5, -30.875 ],
+						[ -55.625, -30.875 ],
+						[ -55.625, -31 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3021",
+				"identificador" : "2991-4-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.75, -31 ],
+						[ -55.625, -31 ],
+						[ -55.625, -30.875 ],
+						[ -55.75, -30.875 ],
+						[ -55.75, -31 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3022",
+				"identificador" : "2991-4-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.375, -30.625 ],
+						[ -55.25, -30.625 ],
+						[ -55.25, -30.5 ],
+						[ -55.375, -30.5 ],
+						[ -55.375, -30.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3023",
+				"identificador" : "2992-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.5, -30.625 ],
+						[ -55.375, -30.625 ],
+						[ -55.375, -30.5 ],
+						[ -55.5, -30.5 ],
+						[ -55.5, -30.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3024",
+				"identificador" : "2992-1-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.375, -30.75 ],
+						[ -55.25, -30.75 ],
+						[ -55.25, -30.625 ],
+						[ -55.375, -30.625 ],
+						[ -55.375, -30.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3025",
+				"identificador" : "2992-1-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.5, -30.75 ],
+						[ -55.375, -30.75 ],
+						[ -55.375, -30.625 ],
+						[ -55.5, -30.625 ],
+						[ -55.5, -30.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3026",
+				"identificador" : "2992-1-SO",
+				"situacao" : "Não Mapeado",
 				"edicoes" : []
 			}
 		},
@@ -65204,6 +63650,174 @@
 				"id" : "3030",
 				"identificador" : "2992-2-SO",
 				"situacao" : "Não mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.375, -30.875 ],
+						[ -55.25, -30.875 ],
+						[ -55.25, -30.75 ],
+						[ -55.375, -30.75 ],
+						[ -55.375, -30.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3031",
+				"identificador" : "2992-3-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.5, -30.875 ],
+						[ -55.375, -30.875 ],
+						[ -55.375, -30.75 ],
+						[ -55.5, -30.75 ],
+						[ -55.5, -30.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3032",
+				"identificador" : "2992-3-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.375, -31 ],
+						[ -55.25, -31 ],
+						[ -55.25, -30.875 ],
+						[ -55.375, -30.875 ],
+						[ -55.375, -31 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3033",
+				"identificador" : "2992-3-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.5, -31 ],
+						[ -55.375, -31 ],
+						[ -55.375, -30.875 ],
+						[ -55.5, -30.875 ],
+						[ -55.5, -31 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3034",
+				"identificador" : "2992-3-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.125, -30.875 ],
+						[ -55, -30.875 ],
+						[ -55, -30.75 ],
+						[ -55.125, -30.75 ],
+						[ -55.125, -30.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3035",
+				"identificador" : "2992-4-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.25, -30.875 ],
+						[ -55.125, -30.875 ],
+						[ -55.125, -30.75 ],
+						[ -55.25, -30.75 ],
+						[ -55.25, -30.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3036",
+				"identificador" : "2992-4-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.125, -31 ],
+						[ -55, -31 ],
+						[ -55, -30.875 ],
+						[ -55.125, -30.875 ],
+						[ -55.125, -31 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3037",
+				"identificador" : "2992-4-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.25, -31 ],
+						[ -55.125, -31 ],
+						[ -55.125, -30.875 ],
+						[ -55.25, -30.875 ],
+						[ -55.25, -31 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3038",
+				"identificador" : "2992-4-SO",
+				"situacao" : "Não Mapeado",
 				"edicoes" : []
 			}
 		},
@@ -68300,6 +66914,342 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -56.125, -31.125 ],
+						[ -56, -31.125 ],
+						[ -56, -31 ],
+						[ -56.125, -31 ],
+						[ -56.125, -31.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3186",
+				"identificador" : "3003-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.875, -31.125 ],
+						[ -55.75, -31.125 ],
+						[ -55.75, -31 ],
+						[ -55.875, -31 ],
+						[ -55.875, -31.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3187",
+				"identificador" : "3004-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -56, -31.125 ],
+						[ -55.875, -31.125 ],
+						[ -55.875, -31 ],
+						[ -56, -31 ],
+						[ -56, -31.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3188",
+				"identificador" : "3004-1-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.375, -31.125 ],
+						[ -55.25, -31.125 ],
+						[ -55.25, -31 ],
+						[ -55.375, -31 ],
+						[ -55.375, -31.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3189",
+				"identificador" : "3005-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.5, -31.125 ],
+						[ -55.375, -31.125 ],
+						[ -55.375, -31 ],
+						[ -55.5, -31 ],
+						[ -55.5, -31.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3190",
+				"identificador" : "3005-1-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.375, -31.25 ],
+						[ -55.25, -31.25 ],
+						[ -55.25, -31.125 ],
+						[ -55.375, -31.125 ],
+						[ -55.375, -31.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3191",
+				"identificador" : "3005-1-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.125, -31.125 ],
+						[ -55, -31.125 ],
+						[ -55, -31 ],
+						[ -55.125, -31 ],
+						[ -55.125, -31.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3192",
+				"identificador" : "3005-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.25, -31.125 ],
+						[ -55.125, -31.125 ],
+						[ -55.125, -31 ],
+						[ -55.25, -31 ],
+						[ -55.25, -31.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3193",
+				"identificador" : "3005-2-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.125, -31.25 ],
+						[ -55, -31.25 ],
+						[ -55, -31.125 ],
+						[ -55.125, -31.125 ],
+						[ -55.125, -31.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3194",
+				"identificador" : "3005-2-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.25, -31.25 ],
+						[ -55.125, -31.25 ],
+						[ -55.125, -31.125 ],
+						[ -55.25, -31.125 ],
+						[ -55.25, -31.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3195",
+				"identificador" : "3005-2-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.125, -31.375 ],
+						[ -55, -31.375 ],
+						[ -55, -31.25 ],
+						[ -55.125, -31.25 ],
+						[ -55.125, -31.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3196",
+				"identificador" : "3005-4-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55.25, -31.375 ],
+						[ -55.125, -31.375 ],
+						[ -55.125, -31.25 ],
+						[ -55.25, -31.25 ],
+						[ -55.25, -31.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3197",
+				"identificador" : "3005-4-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.875, -31.125 ],
+						[ -54.75, -31.125 ],
+						[ -54.75, -31 ],
+						[ -54.875, -31 ],
+						[ -54.875, -31.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3198",
+				"identificador" : "3006-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55, -31.125 ],
+						[ -54.875, -31.125 ],
+						[ -54.875, -31 ],
+						[ -55, -31 ],
+						[ -55, -31.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3199",
+				"identificador" : "3006-1-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.875, -31.25 ],
+						[ -54.75, -31.25 ],
+						[ -54.75, -31.125 ],
+						[ -54.875, -31.125 ],
+						[ -54.875, -31.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3200",
+				"identificador" : "3006-1-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55, -31.25 ],
+						[ -54.875, -31.25 ],
+						[ -54.875, -31.125 ],
+						[ -55, -31.125 ],
+						[ -55, -31.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3201",
+				"identificador" : "3006-1-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -54.625, -31.125 ],
 						[ -54.5, -31.125 ],
 						[ -54.5, -31 ],
@@ -68375,6 +67325,174 @@
 				"id" : "3205",
 				"identificador" : "3006-2-SO",
 				"situacao" : "Não mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.875, -31.375 ],
+						[ -54.75, -31.375 ],
+						[ -54.75, -31.25 ],
+						[ -54.875, -31.25 ],
+						[ -54.875, -31.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3206",
+				"identificador" : "3006-3-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55, -31.375 ],
+						[ -54.875, -31.375 ],
+						[ -54.875, -31.25 ],
+						[ -55, -31.25 ],
+						[ -55, -31.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3207",
+				"identificador" : "3006-3-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.875, -31.5 ],
+						[ -54.75, -31.5 ],
+						[ -54.75, -31.375 ],
+						[ -54.875, -31.375 ],
+						[ -54.875, -31.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3208",
+				"identificador" : "3006-3-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -55, -31.5 ],
+						[ -54.875, -31.5 ],
+						[ -54.875, -31.375 ],
+						[ -55, -31.375 ],
+						[ -55, -31.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3209",
+				"identificador" : "3006-3-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.625, -31.375 ],
+						[ -54.5, -31.375 ],
+						[ -54.5, -31.25 ],
+						[ -54.625, -31.25 ],
+						[ -54.625, -31.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3210",
+				"identificador" : "3006-4-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.75, -31.375 ],
+						[ -54.625, -31.375 ],
+						[ -54.625, -31.25 ],
+						[ -54.75, -31.25 ],
+						[ -54.75, -31.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3211",
+				"identificador" : "3006-4-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.625, -31.5 ],
+						[ -54.5, -31.5 ],
+						[ -54.5, -31.375 ],
+						[ -54.625, -31.375 ],
+						[ -54.625, -31.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3212",
+				"identificador" : "3006-4-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.75, -31.5 ],
+						[ -54.625, -31.5 ],
+						[ -54.625, -31.375 ],
+						[ -54.75, -31.375 ],
+						[ -54.75, -31.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3213",
+				"identificador" : "3006-4-SO",
+				"situacao" : "Não Mapeado",
 				"edicoes" : []
 			}
 		},
@@ -70862,6 +69980,300 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -54.625, -31.625 ],
+						[ -54.5, -31.625 ],
+						[ -54.5, -31.5 ],
+						[ -54.625, -31.5 ],
+						[ -54.625, -31.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3332",
+				"identificador" : "3015-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.375, -31.625 ],
+						[ -54.25, -31.625 ],
+						[ -54.25, -31.5 ],
+						[ -54.375, -31.5 ],
+						[ -54.375, -31.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3333",
+				"identificador" : "3016-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.5, -31.625 ],
+						[ -54.375, -31.625 ],
+						[ -54.375, -31.5 ],
+						[ -54.5, -31.5 ],
+						[ -54.5, -31.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3334",
+				"identificador" : "3016-1-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.375, -31.75 ],
+						[ -54.25, -31.75 ],
+						[ -54.25, -31.625 ],
+						[ -54.375, -31.625 ],
+						[ -54.375, -31.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3335",
+				"identificador" : "3016-1-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.5, -31.75 ],
+						[ -54.375, -31.75 ],
+						[ -54.375, -31.625 ],
+						[ -54.5, -31.625 ],
+						[ -54.5, -31.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3336",
+				"identificador" : "3016-1-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.125, -31.625 ],
+						[ -54, -31.625 ],
+						[ -54, -31.5 ],
+						[ -54.125, -31.5 ],
+						[ -54.125, -31.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3337",
+				"identificador" : "3016-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.25, -31.625 ],
+						[ -54.125, -31.625 ],
+						[ -54.125, -31.5 ],
+						[ -54.25, -31.5 ],
+						[ -54.25, -31.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3338",
+				"identificador" : "3016-2-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.125, -31.75 ],
+						[ -54, -31.75 ],
+						[ -54, -31.625 ],
+						[ -54.125, -31.625 ],
+						[ -54.125, -31.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3339",
+				"identificador" : "3016-2-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.25, -31.75 ],
+						[ -54.125, -31.75 ],
+						[ -54.125, -31.625 ],
+						[ -54.25, -31.625 ],
+						[ -54.25, -31.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3340",
+				"identificador" : "3016-2-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.375, -31.875 ],
+						[ -54.25, -31.875 ],
+						[ -54.25, -31.75 ],
+						[ -54.375, -31.75 ],
+						[ -54.375, -31.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3341",
+				"identificador" : "3016-3-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.125, -31.875 ],
+						[ -54, -31.875 ],
+						[ -54, -31.75 ],
+						[ -54.125, -31.75 ],
+						[ -54.125, -31.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3342",
+				"identificador" : "3016-4-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.25, -31.875 ],
+						[ -54.125, -31.875 ],
+						[ -54.125, -31.75 ],
+						[ -54.25, -31.75 ],
+						[ -54.25, -31.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3343",
+				"identificador" : "3016-4-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.125, -32 ],
+						[ -54, -32 ],
+						[ -54, -31.875 ],
+						[ -54.125, -31.875 ],
+						[ -54.125, -32 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3344",
+				"identificador" : "3016-4-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54.25, -32 ],
+						[ -54.125, -32 ],
+						[ -54.125, -31.875 ],
+						[ -54.25, -31.875 ],
+						[ -54.25, -32 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3345",
+				"identificador" : "3016-4-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -53.875, -31.625 ],
 						[ -53.75, -31.625 ],
 						[ -53.75, -31.5 ],
@@ -71030,6 +70442,90 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -53.875, -31.875 ],
+						[ -53.75, -31.875 ],
+						[ -53.75, -31.75 ],
+						[ -53.875, -31.75 ],
+						[ -53.875, -31.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3354",
+				"identificador" : "3017-3-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54, -31.875 ],
+						[ -53.875, -31.875 ],
+						[ -53.875, -31.75 ],
+						[ -54, -31.75 ],
+						[ -54, -31.875 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3355",
+				"identificador" : "3017-3-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.875, -32 ],
+						[ -53.75, -32 ],
+						[ -53.75, -31.875 ],
+						[ -53.875, -31.875 ],
+						[ -53.875, -32 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3356",
+				"identificador" : "3017-3-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -54, -32 ],
+						[ -53.875, -32 ],
+						[ -53.875, -31.875 ],
+						[ -54, -31.875 ],
+						[ -54, -32 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3357",
+				"identificador" : "3017-3-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -53.625, -31.875 ],
 						[ -53.5, -31.875 ],
 						[ -53.5, -31.75 ],
@@ -71084,6 +70580,27 @@
 				"id" : "3360",
 				"identificador" : "3017-4-SE",
 				"situacao" : "Não mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.75, -32 ],
+						[ -53.625, -32 ],
+						[ -53.625, -31.875 ],
+						[ -53.75, -31.875 ],
+						[ -53.75, -32 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3361",
+				"identificador" : "3017-4-SO",
+				"situacao" : "Não Mapeado",
 				"edicoes" : []
 			}
 		},
@@ -72500,6 +72017,195 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -53.875, -32.125 ],
+						[ -53.75, -32.125 ],
+						[ -53.75, -32 ],
+						[ -53.875, -32 ],
+						[ -53.875, -32.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3429",
+				"identificador" : "3023-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.625, -32.125 ],
+						[ -53.5, -32.125 ],
+						[ -53.5, -32 ],
+						[ -53.625, -32 ],
+						[ -53.625, -32.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3430",
+				"identificador" : "3023-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.75, -32.125 ],
+						[ -53.625, -32.125 ],
+						[ -53.625, -32 ],
+						[ -53.75, -32 ],
+						[ -53.75, -32.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3431",
+				"identificador" : "3023-2-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.625, -32.25 ],
+						[ -53.5, -32.25 ],
+						[ -53.5, -32.125 ],
+						[ -53.625, -32.125 ],
+						[ -53.625, -32.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3432",
+				"identificador" : "3023-2-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.75, -32.25 ],
+						[ -53.625, -32.25 ],
+						[ -53.625, -32.125 ],
+						[ -53.75, -32.125 ],
+						[ -53.75, -32.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3433",
+				"identificador" : "3023-2-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.625, -32.375 ],
+						[ -53.5, -32.375 ],
+						[ -53.5, -32.25 ],
+						[ -53.625, -32.25 ],
+						[ -53.625, -32.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3434",
+				"identificador" : "3023-4-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.75, -32.375 ],
+						[ -53.625, -32.375 ],
+						[ -53.625, -32.25 ],
+						[ -53.75, -32.25 ],
+						[ -53.75, -32.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3435",
+				"identificador" : "3023-4-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.625, -32.5 ],
+						[ -53.5, -32.5 ],
+						[ -53.5, -32.375 ],
+						[ -53.625, -32.375 ],
+						[ -53.625, -32.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3436",
+				"identificador" : "3023-4-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.75, -32.5 ],
+						[ -53.625, -32.5 ],
+						[ -53.625, -32.375 ],
+						[ -53.75, -32.375 ],
+						[ -53.75, -32.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3437",
+				"identificador" : "3023-4-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -53.375, -32.125 ],
 						[ -53.25, -32.125 ],
 						[ -53.25, -32 ],
@@ -72521,6 +72227,27 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -53.5, -32.125 ],
+						[ -53.375, -32.125 ],
+						[ -53.375, -32 ],
+						[ -53.5, -32 ],
+						[ -53.5, -32.125 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3439",
+				"identificador" : "3024-1-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -53.375, -32.25 ],
 						[ -53.25, -32.25 ],
 						[ -53.25, -32.125 ],
@@ -72533,6 +72260,27 @@
 				"id" : "3440",
 				"identificador" : "3024-1-SE",
 				"situacao" : "Não mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.5, -32.25 ],
+						[ -53.375, -32.25 ],
+						[ -53.375, -32.125 ],
+						[ -53.5, -32.125 ],
+						[ -53.5, -32.25 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3441",
+				"identificador" : "3024-1-SO",
+				"situacao" : "Não Mapeado",
 				"edicoes" : []
 			}
 		},
@@ -72626,6 +72374,90 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -53.375, -32.375 ],
+						[ -53.25, -32.375 ],
+						[ -53.25, -32.25 ],
+						[ -53.375, -32.25 ],
+						[ -53.375, -32.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3446",
+				"identificador" : "3024-3-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.5, -32.375 ],
+						[ -53.375, -32.375 ],
+						[ -53.375, -32.25 ],
+						[ -53.5, -32.25 ],
+						[ -53.5, -32.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3447",
+				"identificador" : "3024-3-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.375, -32.5 ],
+						[ -53.25, -32.5 ],
+						[ -53.25, -32.375 ],
+						[ -53.375, -32.375 ],
+						[ -53.375, -32.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3448",
+				"identificador" : "3024-3-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.5, -32.5 ],
+						[ -53.375, -32.5 ],
+						[ -53.375, -32.375 ],
+						[ -53.5, -32.375 ],
+						[ -53.5, -32.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3449",
+				"identificador" : "3024-3-SO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -53.125, -32.375 ],
 						[ -53, -32.375 ],
 						[ -53, -32.25 ],
@@ -72647,6 +72479,27 @@
 				"type" : "Polygon",
 				"coordinates" : [
 					[
+						[ -53.25, -32.375 ],
+						[ -53.125, -32.375 ],
+						[ -53.125, -32.25 ],
+						[ -53.25, -32.25 ],
+						[ -53.25, -32.375 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3451",
+				"identificador" : "3024-4-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
 						[ -53.125, -32.5 ],
 						[ -53, -32.5 ],
 						[ -53, -32.375 ],
@@ -72659,6 +72512,27 @@
 				"id" : "3452",
 				"identificador" : "3024-4-SE",
 				"situacao" : "Não mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.25, -32.5 ],
+						[ -53.125, -32.5 ],
+						[ -53.125, -32.375 ],
+						[ -53.25, -32.375 ],
+						[ -53.25, -32.5 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3453",
+				"identificador" : "3024-4-SO",
+				"situacao" : "Não Mapeado",
 				"edicoes" : []
 			}
 		},
@@ -73289,6 +73163,132 @@
 				"id" : "3483",
 				"identificador" : "3027-1-NO",
 				"situacao" : "Não mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.375, -32.625 ],
+						[ -53.25, -32.625 ],
+						[ -53.25, -32.5 ],
+						[ -53.375, -32.5 ],
+						[ -53.375, -32.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3484",
+				"identificador" : "3029-1-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.5, -32.625 ],
+						[ -53.375, -32.625 ],
+						[ -53.375, -32.5 ],
+						[ -53.5, -32.5 ],
+						[ -53.5, -32.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3485",
+				"identificador" : "3029-1-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.125, -32.625 ],
+						[ -53, -32.625 ],
+						[ -53, -32.5 ],
+						[ -53.125, -32.5 ],
+						[ -53.125, -32.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3486",
+				"identificador" : "3029-2-NE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.25, -32.625 ],
+						[ -53.125, -32.625 ],
+						[ -53.125, -32.5 ],
+						[ -53.25, -32.5 ],
+						[ -53.25, -32.625 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3487",
+				"identificador" : "3029-2-NO",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.125, -32.75 ],
+						[ -53, -32.75 ],
+						[ -53, -32.625 ],
+						[ -53.125, -32.625 ],
+						[ -53.125, -32.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3488",
+				"identificador" : "3029-2-SE",
+				"situacao" : "Não Mapeado",
+				"edicoes" : []
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [
+					[
+						[ -53.25, -32.75 ],
+						[ -53.125, -32.75 ],
+						[ -53.125, -32.625 ],
+						[ -53.25, -32.625 ],
+						[ -53.25, -32.75 ]
+					]
+				]
+			},
+			"properties" : {
+				"id" : "3489",
+				"identificador" : "3029-2-SO",
+				"situacao" : "Não Mapeado",
 				"edicoes" : []
 			}
 		},
