@@ -74,7 +74,11 @@ loadGeoJSON = (loteName, styles) => {
             return response.json();
         })
         .then(async (geoJson) => {
-            map.fitBounds(geojsonExtent(geoJson))
+            const extent = geojsonExtent(geoJson)
+            map.fitBounds([
+                [extent[0]-1, extent[1]-1],
+                [extent[2]+1, extent[3]+1]
+            ])
             setKML(tokml(geoJson), loteName)
             map.addSource(loteName, {
                 "type": "geojson",
