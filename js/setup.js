@@ -728,6 +728,58 @@ var PROJECTS = {
             }
         ]
     },
+    'uraricoera': {
+        title: 'Exercício Uraricoera',
+        group: "Entregas",
+        subgroup: "2021",
+        description: 'O objetivo do presente projeto consiste na elaboração de 48 cartas topográficas na escala 1:50.000 distribuídas no estado de Roraima visando atender demanda do COTER relativa a realização de exercícios de Problemas Militares Simulados.',
+        lotes: [
+            {
+                name: 'uraricoera',
+                subtitle: '',
+                zoom: [
+                    [-61.68024984824885, 1.3191292999480237],
+                    [-60.31974985130867, 4.9308586451198915]
+                ],
+                legend: [3],
+                styles: [
+                    {
+                        'id': 'uraricoera-fill',
+                        'source': 'uraricoera',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'uraricoera-border',
+                        'source': 'uraricoera',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'uraricoera-text',
+                        'source': 'uraricoera',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.26,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
     'rio-grande-do-sul': {
         title: 'Projeto de Mapeamento do Estado do Rio Grande do Sul',
         group: "Entregas",
@@ -826,160 +878,6 @@ var PROJECTS = {
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.89,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    'santa-catarina': {
-        title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Santa Catarina',
-        group: "Entregas",
-        subgroup: "2017",
-        description: 'Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas 1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação.',
-        lotes: [
-            {
-                name: 'santa-catarina-25k',
-                subtitle: 'Escala 1:25.000',
-                zoom: [
-                    [
-                        -52.5586923820878,
-                        -28.700997713134676
-                    ],
-                    [
-                        -48.54318247763669,
-                        -26.090528839826753
-                    ]
-                ],
-                legend: [3],
-                styles: [
-                    {
-                        'id': 'santa-catarina-25k-fill',
-                        'source': 'santa-catarina-25k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-25k-border',
-                        'source': 'santa-catarina-25k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-25k-text',
-                        'source': 'santa-catarina-25k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 9.01,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'santa-catarina-50k',
-                subtitle: 'Escala 1:50.000',
-                zoom: [
-                    [-52.454258275555226, -28.680443365430413],
-                    [-49.79574195439098, -26.069483443263103]
-                ],
-                legend: [3],
-                styles: [
-                    {
-                        'id': 'santa-catarina-50k-fill',
-                        'source': 'santa-catarina-50k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-50k-border',
-                        'source': 'santa-catarina-50k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-50k-text',
-                        'source': 'santa-catarina-50k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.4,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    'uraricoera': {
-        title: 'Exercício Uraricoera',
-        group: "Entregas",
-        subgroup: "2021",
-        description: 'O objetivo do presente projeto consiste na elaboração de 48 cartas topográficas na escala 1:50.000 distribuídas no estado de Roraima visando atender demanda do COTER relativa a realização de exercícios de Problemas Militares Simulados.',
-        lotes: [
-            {
-                name: 'uraricoera',
-                subtitle: '',
-                zoom: [
-                    [-61.68024984824885, 1.3191292999480237],
-                    [-60.31974985130867, 4.9308586451198915]
-                ],
-                legend: [3],
-                styles: [
-                    {
-                        'id': 'uraricoera-fill',
-                        'source': 'uraricoera',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'uraricoera-border',
-                        'source': 'uraricoera',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'uraricoera-text',
-                        'source': 'uraricoera',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.26,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
@@ -1243,10 +1141,112 @@ var PROJECTS = {
             }
         ]
     },
+    'santa-catarina': {
+        title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Santa Catarina',
+        group: "Entregas",
+        subgroup: "2017",
+        description: 'Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas 1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação.',
+        lotes: [
+            {
+                name: 'santa-catarina-25k',
+                subtitle: 'Escala 1:25.000',
+                zoom: [
+                    [
+                        -52.5586923820878,
+                        -28.700997713134676
+                    ],
+                    [
+                        -48.54318247763669,
+                        -26.090528839826753
+                    ]
+                ],
+                legend: [3],
+                styles: [
+                    {
+                        'id': 'santa-catarina-25k-fill',
+                        'source': 'santa-catarina-25k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'santa-catarina-25k-border',
+                        'source': 'santa-catarina-25k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'santa-catarina-25k-text',
+                        'source': 'santa-catarina-25k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 9.01,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'santa-catarina-50k',
+                subtitle: 'Escala 1:50.000',
+                zoom: [
+                    [-52.454258275555226, -28.680443365430413],
+                    [-49.79574195439098, -26.069483443263103]
+                ],
+                legend: [3],
+                styles: [
+                    {
+                        'id': 'santa-catarina-50k-fill',
+                        'source': 'santa-catarina-50k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'santa-catarina-50k-border',
+                        'source': 'santa-catarina-50k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'santa-catarina-50k-text',
+                        'source': 'santa-catarina-50k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.4,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
     'radiografia': {
         title: 'Projeto Radiografia da Amazônia',
         group: "Entregas",
-        subgroup: "2019",
+        subgroup: "2010-2019",
         description: 'O 1º CGEO foi responsável pela aquisição dos dados geoespaciais vetoriais (altimetria, hidrografia e planimetria) e edição de cartas topográficas, com base nos dados geoespaciais de vegetação obtidos pelo 2º CGEO (Brasília-DF), da área já imageada do projeto.',
         lotes: [
             {
