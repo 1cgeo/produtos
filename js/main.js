@@ -470,7 +470,7 @@ getSummarySlide = () => {
         }
 
         if (projects[projectName].subgroup && !subgroups[projects[projectName].subgroup]) {
-            subgroups[projects[projectName].subgroup] =  $("<li/>", {
+            subgroups[projects[projectName].subgroup] = $("<li/>", {
                 class: "group",
                 text: projects[projectName].subgroup
             })
@@ -569,6 +569,7 @@ const filterSections = (projects) => {
         let lotes = []
         for (let [idx, lote] of projects[projectName].lotes.entries()) {
             lotes.push({
+                subgroup: projects[projectName].subgroup,
                 slideId: `${projectName}${getSeperatorId()}${lote.name}`,
                 title: projects[projectName].title,
                 description: projects[projectName].description,
@@ -585,6 +586,10 @@ const loadSection = (name, sectionSlides) => {
     $("#slides-content").append(getSectionSlide(name))
 
     for (let lotes of sectionSlides) {
+        let { subgroup } = lotes[0]
+        if (subgroup) {
+            $("#slides-content").append(getSectionSlide(subgroup))
+        }
         for (var idx = 0; idx < lotes.length; idx++) {
             let { slideId, title, description, subtitle, loteDescription } = lotes[idx]
             if (idx == 0) {
