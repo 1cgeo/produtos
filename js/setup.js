@@ -288,7 +288,7 @@ var PROJECTS = {
         ]
     },
     'plano-desenvolvimento-2023': {
-        title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2023',
+        title: 'PDDMT 2023',
         group: "Entregas",
         subgroup: "2023",
         description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.',
@@ -398,7 +398,7 @@ var PROJECTS = {
         ]
     },
     'plano-desenvolvimento-2022': {
-        title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre 2022',
+        title: 'PDDMT 2022',
         group: "Entregas",
         subgroup: "2022",
         description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.',
@@ -508,7 +508,7 @@ var PROJECTS = {
         ]
     },   
     'mapeamento-interesse-da-forca-2022': {
-        title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2022',
+        title: 'Map Int F Ter 2022',
         group: "Entregas",
         subgroup: "2022",
         description: 'O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
@@ -781,7 +781,7 @@ var PROJECTS = {
         ]
     },
     'rio-grande-do-sul': {
-        title: 'Projeto de Mapeamento do Estado do Rio Grande do Sul',
+        title: 'Conv RS - RF1',
         group: "Entregas",
         subgroup: "2020",
         description: 'O objetivo principal do projeto é a elaboração de 174 (cento e setenta e quatro) cartas topográficas na escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais de elevação e dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre, Região Metropolitana e municípios adjacentes, identificadas segundo a nomenclatura utilizada no Mapa-Índice (MI), de acordo com as Normas e Especificações Técnicas previstas para a Infraestrutura Nacional de Dados Espaciais (INDE).',
@@ -1034,7 +1034,7 @@ var PROJECTS = {
         ]
     },
     'campo-instrucao': {
-        title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Campos de Instrução',
+        title: 'Map Int F Ter - Campos de Instrução',
         group: "Entregas",
         subgroup: "2018",
         description: 'Execução de mapeamento topográfico, totalizando 24 folhas na escala 1:25.000, referentes à 5 (cinco) Campos de Instrução (CIB, CISM, CIR, CIMH e CIBSB) da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação e que estão contidos na área de responsabilidade do Comando Militar do Sul.',
@@ -1142,7 +1142,7 @@ var PROJECTS = {
         ]
     },
     'santa-catarina': {
-        title: 'Mapeamento de Áreas de Interesse da Força Terrestre - Santa Catarina',
+        title: 'Map Int F Ter - Santa Catarina',
         group: "Entregas",
         subgroup: "2017",
         description: 'Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas 1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação.',
@@ -1244,7 +1244,7 @@ var PROJECTS = {
         ]
     },
     'radiografia': {
-        title: 'Projeto Radiografia da Amazônia',
+        title: 'RAM',
         group: "Entregas",
         subgroup: "2010-2019",
         description: 'O 1º CGEO foi responsável pela aquisição dos dados geoespaciais vetoriais (altimetria, hidrografia e planimetria) e edição de cartas topográficas, com base nos dados geoespaciais de vegetação obtidos pelo 2º CGEO (Brasília-DF), da área já imageada do projeto.',
