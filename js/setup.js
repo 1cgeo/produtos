@@ -290,6 +290,7 @@ var PROJECTS = {
     'mapeamento-interesse-da-forca': {
         title: 'Mapeamento de Áreas de Interesse da Força Terrestre 2022',
         group: "Entregas",
+        subgroup: "2022",
         description: `O objetivo do presente projeto consiste na elaboração de cartas ortoimagens em escalas
         entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de
         Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de

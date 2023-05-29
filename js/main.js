@@ -74,6 +74,7 @@ loadGeoJSON = (loteName, styles) => {
             return response.json();
         })
         .then(async (geoJson) => {
+            map.fitBounds(geojsonExtent(geoJson))
             setKML(tokml(geoJson), loteName)
             map.addSource(loteName, {
                 "type": "geojson",
@@ -153,8 +154,6 @@ setCurrentChapter = async (currentSlideId) => {
     let projectName = currentSlideId.split(getSeperatorId())[0]
     let loteName = currentSlideId.split(getSeperatorId())[1]
     let loteSettings = projectSettings[projectName].lotes.find(item => item.name == loteName)
-
-    map.fitBounds(loteSettings.zoom);
     await loadGeoJSON(loteName, loteSettings.styles)
     activeSubtitle = loteSettings.legend
     activeSubtitleCount = loteSettings.legendCount
@@ -311,7 +310,7 @@ connectEvents = () => {
         .querySelectorAll('a:not(#kml-button)')
         .forEach(el => {
             if (
-                el.getAttribute('id') && 
+                el.getAttribute('id') &&
                 el.getAttribute('id').includes('summary-button')
             ) {
                 return
@@ -461,6 +460,7 @@ getSummarySlide = () => {
     )
 
     let groups = {}
+    let subgroups = {}
 
     let projects = getProjectSettings()
     for (let projectName in projects) {
@@ -468,9 +468,20 @@ getSummarySlide = () => {
         if (!groups[projects[projectName].group]) {
             groups[projects[projectName].group] = $("<ul/>", {})
         }
-        group = groups[projects[projectName].group]
+
+        if (projects[projectName].subgroup && !subgroups[projects[projectName].subgroup]) {
+            subgroups[projects[projectName].subgroup] =  $("<li/>", {
+                class: "group",
+                text: projects[projectName].subgroup
+            })
+            groups[projects[projectName].group].append(subgroups[projects[projectName].subgroup])
+        }
+
+        group = projects[projectName].subgroup ? subgroups[projects[projectName].subgroup] : groups[projects[projectName].group]
+
+
         group.append(
-            $("<li/>", {})
+            $("<ol/>", {})
                 .append(
                     $("<a/>", {
 
