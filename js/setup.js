@@ -294,6 +294,57 @@ var PROJECTS = {
         description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.',
         lotes: [
             {
+                name: 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                subtitle: 'Carta Topográfica 1:100.000 do RS',
+                description: 'Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.',
+                zoom: [
+                    [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
+                    [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-fill',
+                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-border',
+                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-text',
+                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
                 name: 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
                 subtitle: 'Carta Topográfica 1:100.000 do PR - PDDM 2022',
                 description: 'Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.',
@@ -396,6 +447,66 @@ var PROJECTS = {
                 ]
             }
         ]
+    },   
+    'mapeamento-interesse-da-forca-2023': {
+        title: 'Map Int F Ter 2023',
+        group: "Entregas",
+        subgroup: "2023",
+        description: 'O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
+        lotes: [
+            {
+                name: 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
+                subtitle: 'Carta Topográfica 1:25.000 de Alegrete',
+                description: 'Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
+                zoom: [
+                    [-55.88536, -30.00902], // southwestern corner of the bounds
+                    [-55.61464, -29.74098] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-fill',
+                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-border',
+                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-text',
+                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.86,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
     },
     'plano-desenvolvimento-2022': {
         title: 'PDDMT 2022',
@@ -442,57 +553,6 @@ var PROJECTS = {
                     {
                         'id': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr-text',
                         'source': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
-                subtitle: 'Carta Topográfica 1:100.000 do RS',
-                description: 'Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.',
-                zoom: [
-                    [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
-                    [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
-                ],
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
-                styles: [
-                    {
-                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-fill',
-                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-border',
-                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-text',
-                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
