@@ -302,12 +302,7 @@ var PROJECTS = {
                     [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
                 ],
                 legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    2
                 ],
                 styles: [
                     {
@@ -353,12 +348,7 @@ var PROJECTS = {
                     [-50.99005, -22.99097]
                 ],
                 legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    2
                 ],
                 styles: [
                     {
@@ -404,12 +394,7 @@ var PROJECTS = {
                     [-52.49001, -22.49097] // northeastern corner of the bounds
                 ],
                 legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    2
                 ],
                 styles: [
                     {
@@ -463,12 +448,7 @@ var PROJECTS = {
                     [-55.61464, -29.74098] // northeastern corner of the bounds
                 ],
                 legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    2
                 ],
                 styles: [
                     {
@@ -523,12 +503,7 @@ var PROJECTS = {
                     [-52.30027568484421, -22.31939338230858] // northeastern corner of the bounds
                 ],
                 legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    2
                 ],
                 styles: [
                     {
@@ -582,12 +557,7 @@ var PROJECTS = {
                     [-48.046903497479974, -27.1945079332596] // northeastern corner of the bounds
                 ],
                 legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    2
                 ],
                 styles: [
                     {
@@ -634,12 +604,7 @@ var PROJECTS = {
                     [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
                 ],
                 legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    2
                 ],
                 styles: [
                     {
@@ -692,12 +657,7 @@ var PROJECTS = {
                     ]
                 ],
                 legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    2
                 ],
                 styles: [
                     {
@@ -744,11 +704,7 @@ var PROJECTS = {
                     [-49.79062798683473, -26.319489869099446]
                 ],
                 legend: [
-                    1,
-                    9,
-                    5,
-                    6,
-                    3
+                    2
                 ],
                 styles: [
                     {
