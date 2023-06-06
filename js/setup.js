@@ -339,7 +339,7 @@ var PROJECTS = {
             },
             {
                 name: 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
-                subtitle: 'Carta Topográfica 1:100.000 do PR - PDDM 2022',
+                subtitle: 'Carta Topográfica 1:100.000 do PR',
                 description: 'Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.',
                 zoom: [
                     [-54.00995, -25.50903],
@@ -955,7 +955,7 @@ var PROJECTS = {
                     [-61.68024984824885, 1.3191292999480237],
                     [-60.31974985130867, 4.9308586451198915]
                 ],
-                legend: [3],
+                legend: [2],
                 styles: [
                     {
                         'id': 'uraricoera-fill',
