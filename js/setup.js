@@ -1050,7 +1050,7 @@ var PROJECTS = {
     'santa-catarina-2019': {
         title: 'Map Int F Ter - Santa Catarina',
         group: "Entregas",
-        subgroup: "2017",
+        subgroup: "2019",
         description: 'Execução de generalização cartográfica do Projeto do Vazio SC, totalizando 42 na escala 1:50.000 na região do Santa Catarina.',
         lotes: [
             {
@@ -1102,7 +1102,7 @@ var PROJECTS = {
     'santa-catarina-2018': {
         title: 'Map Int F Ter - Santa Catarina',
         group: "Entregas",
-        subgroup: "2017",
+        subgroup: "2018",
         description: 'Execução de mapeamento topográfico, totalizando 168 folhas na escala 1:25.000, da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação na região de Santa Catarina.',
         lotes: [
             {
