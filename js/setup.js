@@ -301,9 +301,7 @@ var PROJECTS = {
                     [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
                     [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
                 ],
-                legend: [
-                    2
-                ],
+                legend: [2],
                 styles: [
                     {
                         'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-fill',
@@ -347,9 +345,7 @@ var PROJECTS = {
                     [-54.00995, -25.50903],
                     [-50.99005, -22.99097]
                 ],
-                legend: [
-                    2
-                ],
+                legend: [2],
                 styles: [
                     {
                         'id': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr-fill',
@@ -393,9 +389,7 @@ var PROJECTS = {
                     [-54.75999, -26.00903], // southwestern corner of the bounds
                     [-52.49001, -22.49097] // northeastern corner of the bounds
                 ],
-                legend: [
-                    2
-                ],
+                legend: [2],
                 styles: [
                     {
                         'id': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs-fill',
@@ -447,9 +441,7 @@ var PROJECTS = {
                     [-55.88536, -30.00902], // southwestern corner of the bounds
                     [-55.61464, -29.74098] // northeastern corner of the bounds
                 ],
-                legend: [
-                    2
-                ],
+                legend: [2],
                 styles: [
                     {
                         'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-fill',
@@ -502,9 +494,7 @@ var PROJECTS = {
                     [-54.94972409601194, -26.180512277006958], // southwestern corner of the bounds
                     [-52.30027568484421, -22.31939338230858] // northeastern corner of the bounds
                 ],
-                legend: [
-                    2
-                ],
+                legend: [2],
                 styles: [
                     {
                         'id': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr-fill',
@@ -556,9 +546,7 @@ var PROJECTS = {
                     [-48.82809677372772, -28.05547382461215], // southwestern corner of the bounds
                     [-48.046903497479974, -27.1945079332596] // northeastern corner of the bounds
                 ],
-                legend: [
-                    2
-                ],
+                legend: [2],
                 styles: [
                     {
                         'id': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis-fill',
@@ -603,9 +591,7 @@ var PROJECTS = {
                     [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
                     [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
                 ],
-                legend: [
-                    2
-                ],
+                legend: [2],
                 styles: [
                     {
                         'id': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana-fill',
@@ -656,9 +642,7 @@ var PROJECTS = {
                         6.32638916302372
                     ]
                 ],
-                legend: [
-                    2
-                ],
+                legend: [2],
                 styles: [
                     {
                         'id': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr-fill',
@@ -703,9 +687,7 @@ var PROJECTS = {
                     [-52.209372285465335, -31.180376012441414],
                     [-49.79062798683473, -26.319489869099446]
                 ],
-                legend: [
-                    2
-                ],
+                legend: [2],
                 styles: [
                     {
                         'id': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc-fill',
@@ -732,6 +714,222 @@ var PROJECTS = {
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 4.56,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    'rio-grande-do-sul-2022': {
+        title: 'Conv RS - RF1',
+        group: "Entregas",
+        subgroup: "2022",
+        description: 'O objetivo principal do projeto é a generalização cartográfica do Profeto do Convênio RS totalizando 37 carta topográfica em 1:50.000.',
+        lotes: [
+            {
+                name: 'conv-rs-carta-topo-50k-rs',
+                subtitle: '1:50.000',
+                description: 'Produção de cartas topográficas 1:50.000 por processo de generalização',
+                zoom: [
+                    [
+                        -53.07164719034553,
+                        -31.604238517208366
+                    ],
+                    [
+                        -49.139097694440665,
+                        -29.11968658972779
+                    ]
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'conv-rs-carta-topo-50k-rs-fill',
+                        'source': 'conv-rs-carta-topo-50k-rs',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'conv-rs-carta-topo-50k-rs-border',
+                        'source': 'conv-rs-carta-topo-50k-rs',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'conv-rs-carta-topo-50k-rs-text',
+                        'source': 'conv-rs-carta-topo-50k-rs',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.89,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    'rio-grande-do-sul-2021': {
+        title: 'Conv RS - RF1',
+        group: "Entregas",
+        subgroup: "2021",
+        description: 'O objetivo principal do projeto é a elaboração de 174 (cento e setenta e quatro) cartas topográficas na escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais de elevação e dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre, Região Metropolitana e municípios adjacentes, identificadas segundo a nomenclatura utilizada no Mapa-Índice (MI), de acordo com as Normas e Especificações Técnicas previstas para a Infraestrutura Nacional de Dados Espaciais (INDE).',
+        lotes: [
+            {
+                name: 'conv-rs-carta-topo-25k-rs',
+                subtitle: '1:25.000',
+                description: 'A elaboração das cartas topográficas foi executada em 5 (cinco) lotes de produção cartográfica. Além da base cartográfica digital contínua foram entregues as imagens brutas, os modelos digitais de superfície, os modelos digitais do terreno e as ortoimagens de cada carta produzida, além da carta topográfica em formato matricial.',
+                zoom: [
+                    [
+                        -53.08078039276313,
+                        -31.599938879777334
+                    ],
+                    [
+                        -49.102955546684086,
+                        -29.08630601676895
+                    ]
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'conv-rs-carta-topo-25k-rs-fill',
+                        'source': 'conv-rs-carta-topo-25k-rs',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'conv-rs-carta-topo-25k-rs-border',
+                        'source': 'conv-rs-carta-topo-25k-rs',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'conv-rs-carta-topo-25k-rs-text',
+                        'source': 'conv-rs-carta-topo-25k-rs',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.89,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    'sisfron-17rcmec':{
+        title: 'SISFRON - 17 RC Mec',
+        group: "Entregas",
+        subgroup: "2021",
+        description: 'Execução de generalização cartográfica do Projeto SISFROM - 17 R C Mec nas escalas 1:50.000 e 1:100.000, totalizando 15 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
+        lotes: [
+            {
+                name: 'sisfron-17rcmec-carta-topo-50k-pr',
+                subtitle: '1:50.000',
+                description: 'Execução de mapeamento topográfico na escalas 1:50.000 de 12 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
+                zoom: [
+                    [-54.69732378130477, -24.6805561899923],
+                    [-53.30267614980163, -22.81940267434254]
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'sisfron-17rcmec-carta-topo-50k-pr-fill',
+                        'source': 'sisfron-17rcmec-carta-topo-50k-pr',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'sisfron-17rcmec-carta-topo-50k-pr-border',
+                        'source': 'sisfron-17rcmec-carta-topo-50k-pr',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'sisfron-17rcmec-carta-topo-50k-pr-text',
+                        'source': 'sisfron-17rcmec-carta-topo-50k-pr',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.89,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'sisfron-17rcmec-carta-topo-100k-pr',
+                subtitle: '1:100.000',
+                description: 'Execução de mapeamento topográfico na escalas 1:100.000 de 03 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
+                zoom: [
+                    [-54.69732378130477, -24.6805561899923],
+                    [-53.30267614980163, -22.81940267434254]
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'sisfron-17rcmec-carta-topo-100k-pr-fill',
+                        'source': 'sisfron-17rcmec-carta-topo-100k-pr',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'sisfron-17rcmec-carta-topo-100k-pr-border',
+                        'source': 'sisfron-17rcmec-carta-topo-100k-pr',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'sisfron-17rcmec-carta-topo-100k-pr-text',
+                        'source': 'sisfron-17rcmec-carta-topo-100k-pr',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.89,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
@@ -796,121 +994,11 @@ var PROJECTS = {
             }
         ]
     },
-    'rio-grande-do-sul': {
-        title: 'Conv RS - RF1',
-        group: "Entregas",
-        subgroup: "2020",
-        description: 'O objetivo principal do projeto é a elaboração de 174 (cento e setenta e quatro) cartas topográficas na escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais de elevação e dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre, Região Metropolitana e municípios adjacentes, identificadas segundo a nomenclatura utilizada no Mapa-Índice (MI), de acordo com as Normas e Especificações Técnicas previstas para a Infraestrutura Nacional de Dados Espaciais (INDE).',
-        lotes: [
-            {
-                name: 'conv-rs-carta-topo-25k-rs',
-                subtitle: '1:25.000',
-                description: 'A elaboração das cartas topográficas foi executada em 5 (cinco) lotes de produção cartográfica. Além da base cartográfica digital contínua foram entregues as imagens brutas, os modelos digitais de superfície, os modelos digitais do terreno e as ortoimagens de cada carta produzida, além da carta topográfica em formato matricial.',
-                zoom: [
-                    [
-                        -53.08078039276313,
-                        -31.599938879777334
-                    ],
-                    [
-                        -49.102955546684086,
-                        -29.08630601676895
-                    ]
-                ],
-                legend: [3],
-                styles: [
-                    {
-                        'id': 'conv-rs-carta-topo-25k-rs-fill',
-                        'source': 'conv-rs-carta-topo-25k-rs',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'conv-rs-carta-topo-25k-rs-border',
-                        'source': 'conv-rs-carta-topo-25k-rs',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'conv-rs-carta-topo-25k-rs-text',
-                        'source': 'conv-rs-carta-topo-25k-rs',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 8.89,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'conv-rs-carta-topo-50k-rs',
-                subtitle: '1:50.000',
-                description: 'Produção de cartas topográficas 1:50.000 por processo de generalização',
-                zoom: [
-                    [
-                        -53.07164719034553,
-                        -31.604238517208366
-                    ],
-                    [
-                        -49.139097694440665,
-                        -29.11968658972779
-                    ]
-                ],
-                legend: [3],
-                styles: [
-                    {
-                        'id': 'conv-rs-carta-topo-50k-rs-fill',
-                        'source': 'conv-rs-carta-topo-50k-rs',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'conv-rs-carta-topo-50k-rs-border',
-                        'source': 'conv-rs-carta-topo-50k-rs',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'conv-rs-carta-topo-50k-rs-text',
-                        'source': 'conv-rs-carta-topo-50k-rs',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 8.89,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
     'sisfron-17rcmec':{
         title: 'SISFRON - 17 RC Mec',
         group: "Entregas",
         subgroup: "2020",
-        description: 'Execução de mapeamento topográfico, nas escalas 1:25.000, 1:50.000 e 1:100.000, totalizando 59 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
+        description: 'Execução de mapeamento topográfico, na escala 1:25.000, totalizando 44 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
         lotes: [
             {
                 name: 'sisfron-17rcmec-carta-topo-25k-pr',
@@ -920,7 +1008,7 @@ var PROJECTS = {
                     [-54.69732378130477, -24.6805561899923],
                     [-53.30267614980163, -22.81940267434254]
                 ],
-                legend: [3],
+                legend: [2],
                 styles: [
                     {
                         'id': 'sisfron-17rcmec-carta-topo-25k-pr-fill',
@@ -956,103 +1044,13 @@ var PROJECTS = {
                         }
                     }
                 ]
-            },
-            {
-                name: 'sisfron-17rcmec-carta-topo-50k-pr',
-                subtitle: '1:50.000',
-                description: 'Execução de mapeamento topográfico na escalas 1:50.000 de 12 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
-                zoom: [
-                    [-54.69732378130477, -24.6805561899923],
-                    [-53.30267614980163, -22.81940267434254]
-                ],
-                legend: [3],
-                styles: [
-                    {
-                        'id': 'sisfron-17rcmec-carta-topo-50k-pr-fill',
-                        'source': 'sisfron-17rcmec-carta-topo-50k-pr',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'sisfron-17rcmec-carta-topo-50k-pr-border',
-                        'source': 'sisfron-17rcmec-carta-topo-50k-pr',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'sisfron-17rcmec-carta-topo-50k-pr-text',
-                        'source': 'sisfron-17rcmec-carta-topo-50k-pr',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.89,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'sisfron-17rcmec-carta-topo-100k-pr',
-                subtitle: '1:100.000',
-                description: 'Execução de mapeamento topográfico na escalas 1:100.000 de 03 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
-                zoom: [
-                    [-54.69732378130477, -24.6805561899923],
-                    [-53.30267614980163, -22.81940267434254]
-                ],
-                legend: [3],
-                styles: [
-                    {
-                        'id': 'sisfron-17rcmec-carta-topo-100k-pr-fill',
-                        'source': 'sisfron-17rcmec-carta-topo-100k-pr',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'sisfron-17rcmec-carta-topo-100k-pr-border',
-                        'source': 'sisfron-17rcmec-carta-topo-100k-pr',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'sisfron-17rcmec-carta-topo-100k-pr-text',
-                        'source': 'sisfron-17rcmec-carta-topo-100k-pr',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.89,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
             }
         ]
     },
     'campo-instrucao': {
         title: 'Map Int F Ter - Campos de Instrução',
         group: "Entregas",
-        subgroup: "2018",
+        subgroup: "2017-2018",
         description: 'Execução de mapeamento topográfico, totalizando 24 folhas na escala 1:25.000, referentes à 5 (cinco) Campos de Instrução (CIB, CISM, CIR, CIMH e CIBSB) da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação e que estão contidos na área de responsabilidade do Comando Militar do Sul.',
         lotes: [
             {
@@ -1068,7 +1066,7 @@ var PROJECTS = {
                         -25.982504667730154
                     ]
                 ],
-                legend: [3],
+                legend: [2],
                 styles: [
                     {
                         'id': 'campo-instrucao-25k-fill',
@@ -1118,7 +1116,7 @@ var PROJECTS = {
                         -25.675197661624992
                     ]
                 ],
-                legend: [3],
+                legend: [2],
                 styles: [
                     {
                         'id': 'campo-instrucao-50k-fill',
@@ -1176,7 +1174,7 @@ var PROJECTS = {
                         -26.090528839826753
                     ]
                 ],
-                legend: [3],
+                legend: [2],
                 styles: [
                     {
                         'id': 'santa-catarina-25k-fill',
@@ -1220,7 +1218,7 @@ var PROJECTS = {
                     [-52.454258275555226, -28.680443365430413],
                     [-49.79574195439098, -26.069483443263103]
                 ],
-                legend: [3],
+                legend: [2],
                 styles: [
                     {
                         'id': 'santa-catarina-50k-fill',
@@ -1278,7 +1276,7 @@ var PROJECTS = {
                         8.500903062364785
                     ]
                 ],
-                legend: [3],
+                legend: [2],
                 styles: [
                     {
                         'id': 'radiografia-am-fill',
