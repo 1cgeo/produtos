@@ -844,7 +844,7 @@ var PROJECTS = {
             }
         ]
     },
-    'sisfron-17rcmec':{
+    'sisfron-17rcmec-2021':{
         title: 'SISFRON - 17 RC Mec',
         group: "Entregas",
         subgroup: "2021",
@@ -994,7 +994,7 @@ var PROJECTS = {
             }
         ]
     },
-    'sisfron-17rcmec':{
+    'sisfron-17rcmec-2020':{
         title: 'SISFRON - 17 RC Mec',
         group: "Entregas",
         subgroup: "2020",
@@ -1035,6 +1035,116 @@ var PROJECTS = {
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.89,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    'santa-catarina-2019': {
+        title: 'Map Int F Ter - Santa Catarina',
+        group: "Entregas",
+        subgroup: "2017",
+        description: 'Execução de generalização cartográfica do Projeto do Vazio SC, totalizando 42 na escala 1:50.000 na região do Santa Catarina.',
+        lotes: [
+            {
+                name: 'santa-catarina-50k',
+                subtitle: 'Escala 1:50.000',
+                zoom: [
+                    [-52.454258275555226, -28.680443365430413],
+                    [-49.79574195439098, -26.069483443263103]
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'santa-catarina-50k-fill',
+                        'source': 'santa-catarina-50k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'santa-catarina-50k-border',
+                        'source': 'santa-catarina-50k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'santa-catarina-50k-text',
+                        'source': 'santa-catarina-50k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.4,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    'santa-catarina-2018': {
+        title: 'Map Int F Ter - Santa Catarina',
+        group: "Entregas",
+        subgroup: "2017",
+        description: 'Execução de mapeamento topográfico, totalizando 168 folhas na escala 1:25.000, da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação na região de Santa Catarina.',
+        lotes: [
+            {
+                name: 'santa-catarina-25k',
+                subtitle: 'Escala 1:25.000',
+                zoom: [
+                    [
+                        -52.5586923820878,
+                        -28.700997713134676
+                    ],
+                    [
+                        -48.54318247763669,
+                        -26.090528839826753
+                    ]
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'santa-catarina-25k-fill',
+                        'source': 'santa-catarina-25k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'santa-catarina-25k-border',
+                        'source': 'santa-catarina-25k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'santa-catarina-25k-text',
+                        'source': 'santa-catarina-25k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 9.01,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
@@ -1143,108 +1253,6 @@ var PROJECTS = {
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 9.01,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    'santa-catarina': {
-        title: 'Map Int F Ter - Santa Catarina',
-        group: "Entregas",
-        subgroup: "2017",
-        description: 'Execução de mapeamento topográfico, totalizando 42 e 168 folhas nas escalas 1:50.000 e 1:25.000, respectivamente, da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação.',
-        lotes: [
-            {
-                name: 'santa-catarina-25k',
-                subtitle: 'Escala 1:25.000',
-                zoom: [
-                    [
-                        -52.5586923820878,
-                        -28.700997713134676
-                    ],
-                    [
-                        -48.54318247763669,
-                        -26.090528839826753
-                    ]
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'santa-catarina-25k-fill',
-                        'source': 'santa-catarina-25k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-25k-border',
-                        'source': 'santa-catarina-25k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-25k-text',
-                        'source': 'santa-catarina-25k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 9.01,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'santa-catarina-50k',
-                subtitle: 'Escala 1:50.000',
-                zoom: [
-                    [-52.454258275555226, -28.680443365430413],
-                    [-49.79574195439098, -26.069483443263103]
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'santa-catarina-50k-fill',
-                        'source': 'santa-catarina-50k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-50k-border',
-                        'source': 'santa-catarina-50k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-50k-text',
-                        'source': 'santa-catarina-50k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.4,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificador']]
 
