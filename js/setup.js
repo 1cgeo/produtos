@@ -1160,7 +1160,7 @@ var PROJECTS = {
     'campo-instrucao': {
         title: 'Map Int F Ter - Campos de Instrução',
         group: "Entregas",
-        subgroup: "2017-2018",
+        subgroup: "2018",
         description: 'Execução de mapeamento topográfico, totalizando 24 folhas na escala 1:25.000, referentes à 5 (cinco) Campos de Instrução (CIB, CISM, CIR, CIMH e CIBSB) da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação e que estão contidos na área de responsabilidade do Comando Militar do Sul.',
         lotes: [
             {
@@ -1268,7 +1268,7 @@ var PROJECTS = {
     'radiografia': {
         title: 'RAM',
         group: "Entregas",
-        subgroup: "2010-2019",
+        subgroup: "2018",
         description: 'O 1º CGEO foi responsável pela aquisição dos dados geoespaciais vetoriais (altimetria, hidrografia e planimetria) e edição de cartas topográficas, com base nos dados geoespaciais de vegetação obtidos pelo 2º CGEO (Brasília-DF), da área já imageada do projeto.',
         lotes: [
             {
