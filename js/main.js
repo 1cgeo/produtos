@@ -588,11 +588,12 @@ const filterSections = (projects) => {
 
 const loadSection = (name, sectionSlides) => {
     $("#slides-content").append(getSectionSlide(name))
-
+    let subgroupLoaded = []
     for (let lotes of sectionSlides) {
         let { subgroup } = lotes[0]
-        if (subgroup) {
+        if (subgroup && !subgroupLoaded.includes(subgroup)) {
             $("#slides-content").append(getSectionSlide(subgroup))
+            subgroupLoaded.push(subgroup)
         }
         for (var idx = 0; idx < lotes.length; idx++) {
             let { slideId, title, description, subtitle, loteDescription } = lotes[idx]
