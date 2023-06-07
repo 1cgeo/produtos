@@ -92,7 +92,7 @@ var PROJECTS = {
     'situacao-geral-50k': {
         title: 'Situação Geral 1:50.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:25.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:50.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
         lotes: [
             {
                 name: 'situacao-geral-ct-50k',
@@ -158,7 +158,7 @@ var PROJECTS = {
     'situacao-geral-100k': {
         title: 'Situação Geral 1:100.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:25.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:100.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
         lotes: [
             {
                 name: 'situacao-geral-ct-100k',
@@ -224,7 +224,7 @@ var PROJECTS = {
     'situacao-geral-250k': {
         title: 'Situação Geral 1:250.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:25.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:250.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
         lotes: [
             {
                 name: 'situacao-geral-ct-250k',
