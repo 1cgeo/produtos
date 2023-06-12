@@ -382,7 +382,7 @@ var PROJECTS = {
                 ]
             },
             {
-                name: 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
+                name: 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
                 subtitle: 'Carta Ortoimagem 1:50.000 no RS',
                 description: 'Construção de 95 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.',
                 zoom: [
@@ -392,8 +392,8 @@ var PROJECTS = {
                 legend: [2],
                 styles: [
                     {
-                        'id': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs-fill',
-                        'source': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-fill',
+                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -401,8 +401,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs-border',
-                        'source': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-border',
+                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -411,8 +411,59 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs-text',
-                        'source': 'pddmt-2023-sub-meta-a-carta-orto-50k-rs',
+                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-text',
+                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
+                subtitle: 'Carta Ortoimagem 1:25.000 no RS',
+                description: 'Construção de 356 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
+                zoom: [
+                    [-54.75999, -26.00903], // southwestern corner of the bounds
+                    [-52.49001, -22.49097] // northeastern corner of the bounds
+                ],
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-fill',
+                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-border',
+                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-text',
+                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
