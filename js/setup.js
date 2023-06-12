@@ -433,14 +433,7 @@ var PROJECTS = {
                     [-54.75999, -26.00903], // southwestern corner of the bounds
                     [-52.49001, -22.49097] // northeastern corner of the bounds
                 ],
-                legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
-                ],
+                legend: [2],
                 styles: [
                     {
                         'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-fill',
