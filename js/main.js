@@ -96,8 +96,10 @@ loadGeoJSON = (loteName, styles) => {
                         .setLngLat(e.lngLat)
                         .setHTML(`
                         <div class="popup">
-                            <h2>Informação</h2>
-
+                           <div style="text-align: center;">
+                                <h2>${e.features[0].properties.identificador}</h2>
+                                <h3>Informação</h3>
+                           </div>
                             <table>
                                 <tr>
                                     <th>Edição</th>
