@@ -88,9 +88,9 @@ loadGeoJSON = (loteName, styles) => {
                 map.addLayer(style)
                 if (!style.id.includes('-fill')) continue
                 map.on('click', style.id, function (e) {
-                    let situacao = e.features[0].properties.situacao
-                    //if(situacao != 'Múltiplas edições') return
-                    var editions = JSON.parse(e.features[0].properties.edicoes)
+                    let situacao_topo = e.features[0].properties.situacao_topo
+                    //if(situacao_topo != 'Múltiplas edições') return
+                    var editions = JSON.parse(e.features[0].properties.edicoes_topo)
                     if (!editions?.length > 0) return
                     new maplibregl.Popup()
                         .setLngLat(e.lngLat)
@@ -633,7 +633,7 @@ setProjectSettings = async () => {
             let subtitleSetting = getSubtitleSetting(lote.legend, lote.name)
             lote.legend = subtitleSetting
             lote.styles[0].paint['fill-color'] = [
-                'match', ['string', ['get', 'situacao']], ...subtitleSetting, '#AAAAAA'
+                'match', ['string', ['get', 'situacao_topo']], ...subtitleSetting, '#AAAAAA'
             ]
             let legendCount = await getLegendCount(lote.name)
             lote.legendCount = legendCount
@@ -648,11 +648,11 @@ getLegendCount = async (name) => {
     let data = await resp.json();
     for (let i = data.features.length; i > 0; i--) {
         let feature = data.features[i - 1]
-        if (count[feature.properties.situacao] == null) {
-            count[feature.properties.situacao] = 1
+        if (count[feature.properties._topo] == null) {
+            count[feature.properties.situacao_topo] = 1
             continue
         }
-        count[feature.properties.situacao] += 1
+        count[feature.properties.situacao_topo] += 1
     }
     return count
 }

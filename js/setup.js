@@ -75,8 +75,8 @@ var PROJECTS = {
                                 '\n',
                                 [
                                     'case',
-                                    ['>', ['length', ['get', 'edicoes']], 0],
-                                    ['at', 0, ['get', 'edicoes']],
+                                    ['>', ['length', ['get', 'edicoes_topo']], 0],
+                                    ['at', 0, ['get', 'edicoes_topo']],
                                     ''
                                 ]
                             ]
@@ -141,8 +141,8 @@ var PROJECTS = {
                                 '\n',
                                 [
                                     'case',
-                                    ['>', ['length', ['get', 'edicoes']], 0],
-                                    ['at', 0, ['get', 'edicoes']],
+                                    ['>', ['length', ['get', 'edicoes_topo']], 0],
+                                    ['at', 0, ['get', 'edicoes_topo']],
                                     ''
                                 ]
                             ]
@@ -207,8 +207,8 @@ var PROJECTS = {
                                 '\n',
                                 [
                                     'case',
-                                    ['>', ['length', ['get', 'edicoes']], 0],
-                                    ['at', 0, ['get', 'edicoes']],
+                                    ['>', ['length', ['get', 'edicoes_topo']], 0],
+                                    ['at', 0, ['get', 'edicoes_topo']],
                                     ''
                                 ]
                             ]
@@ -273,8 +273,8 @@ var PROJECTS = {
                                 '\n',
                                 [
                                     'case',
-                                    ['>', ['length', ['get', 'edicoes']], 0],
-                                    ['at', 0, ['get', 'edicoes']],
+                                    ['>', ['length', ['get', 'edicoes_topo']], 0],
+                                    ['at', 0, ['get', 'edicoes_topo']],
                                     ''
                                 ]
                             ]
