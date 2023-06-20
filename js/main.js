@@ -82,7 +82,7 @@ loadLegend = (
     var title2 = document.createElement('h4')
     title2.style.margin = '3px'
     title2.style.textAlign = 'center'
-    title2.innerHTML = 'Carta Orto Imagem'
+    title2.innerHTML = 'Carta Ortoimagem'
     titleContainer2.appendChild(title2)
     legend2.appendChild(titleContainer2)
 
@@ -192,7 +192,7 @@ showModalLegend = (
     var title2 = document.createElement('h4')
     title2.style.margin = '3px'
     title2.style.textAlign = 'center'
-    title2.innerHTML = 'Carta Orto Imagem'
+    title2.innerHTML = 'Carta Ortoimagem'
     titleContainer2.appendChild(title2)
     legend2.appendChild(titleContainer2)
 
@@ -257,7 +257,7 @@ loadGeoJSON = (loteName, styles, project) => {
                            <table>
                                 <tr>
                                     <th>Carta Topográfica</th>
-                                    <th>Carta Orto Imagem</th>
+                                    <th>Carta Ortoimagem</th>
                                 </tr>
                                 <tr>
 
