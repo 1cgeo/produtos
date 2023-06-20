@@ -17,6 +17,30 @@ const SUBTITLE_STATES = [
     }
 ]
 
+const SUBTITLE_STATES_BORDER = [
+    {
+        id: 1,
+        name: 'Não mapeado',
+        color: '#121211',
+        width: 0.5,
+        offset: 1
+    },
+    {
+        id: 2,
+        name: 'Concluído',
+        color: 'rgba(145,207,96,1)',
+        width: 5,
+        offset: 3.5
+    },
+    {
+        id: 3,
+        name: 'Múltiplas edições',
+        color: 'rgba(102,178,255,1)',
+        width: 5,
+        offset: 3.5
+    }
+]
+
 const INIT_ZOOM = {
     center: [-53.99235736195203, -27.426307807866984],
     zoom: 4.83
@@ -48,7 +72,7 @@ var PROJECTS = {
                         'type': 'fill',
                         'layout': {},
                         'paint': {
-                            
+
                         }
                     },
                     {
@@ -57,7 +81,7 @@ var PROJECTS = {
                         'type': 'line',
                         'layout': {},
                         'paint': {
-                            'line-color': '#050505',
+                            'line-color': '#32a852',
                             'line-width': 0.5
                         }
                     },
@@ -70,7 +94,7 @@ var PROJECTS = {
                         'layout': {
                             'text-field': [
                                 'concat',
-                                'MI ', 
+                                'MI ',
                                 ['get', 'identificador'],
                                 '\n',
                                 [
@@ -114,7 +138,7 @@ var PROJECTS = {
                         'type': 'fill',
                         'layout': {},
                         'paint': {
-                            
+
                         }
                     },
                     {
@@ -135,7 +159,7 @@ var PROJECTS = {
                         "maxzoom": 15,
                         'layout': {
                             'text-field': [
-                                'concat', 
+                                'concat',
                                 'MI ',
                                 ['get', 'identificador'],
                                 '\n',
@@ -180,7 +204,7 @@ var PROJECTS = {
                         'type': 'fill',
                         'layout': {},
                         'paint': {
-                            
+
                         }
                     },
                     {
@@ -201,7 +225,7 @@ var PROJECTS = {
                         "maxzoom": 15,
                         'layout': {
                             'text-field': [
-                                'concat', 
+                                'concat',
                                 'MI ',
                                 ['get', 'identificador'],
                                 '\n',
@@ -246,7 +270,7 @@ var PROJECTS = {
                         'type': 'fill',
                         'layout': {},
                         'paint': {
-                            
+
                         }
                     },
                     {
@@ -267,7 +291,7 @@ var PROJECTS = {
                         "maxzoom": 9.5,
                         'layout': {
                             'text-field': [
-                                'concat', 
+                                'concat',
                                 'MIR ',
                                 ['get', 'identificador'],
                                 '\n',
@@ -470,7 +494,7 @@ var PROJECTS = {
                 ]
             }
         ]
-    },   
+    },
     'mapeamento-interesse-da-forca-2023': {
         title: 'Map Int F Ter 2023',
         group: "Entregas",
@@ -575,7 +599,7 @@ var PROJECTS = {
                 ]
             }
         ]
-    },   
+    },
     'mapeamento-interesse-da-forca-2022': {
         title: 'Map Int F Ter 2022',
         group: "Entregas",
@@ -888,7 +912,7 @@ var PROJECTS = {
             }
         ]
     },
-    'sisfron-17rcmec-2021':{
+    'sisfron-17rcmec-2021': {
         title: 'SISFRON - 17 RC Mec',
         group: "Entregas",
         subgroup: "2021",
@@ -1038,7 +1062,7 @@ var PROJECTS = {
             }
         ]
     },
-    'sisfron-17rcmec-2020':{
+    'sisfron-17rcmec-2020': {
         title: 'SISFRON - 17 RC Mec',
         group: "Entregas",
         subgroup: "2020",

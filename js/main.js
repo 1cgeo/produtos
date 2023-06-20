@@ -7,38 +7,109 @@ const map = new maplibregl.Map({
 
 var activeSubtitle = null;
 var activeSubtitleCount = null;
+var activeSubtitleOrto = null;
+var activeSubtitleOrtoCount = null;
 var autoplay = false
 var presentationDelay = 5 * 1000
 var currentKML = null;
 
-loadLegend = (legend, legendCount) => {
+loadLegend = (
+    legend,
+    legendCount,
+    legendOrto,
+    legendCountOrto
+) => {
+
+
     if (!legend || legend.length == 0) return
+
     var layers = legend.filter((value, index) => { return (index % 2) == 0 });
     var colors = legend.filter((value, index) => { return (index % 2) != 0 });
-    let legendEl = document.getElementById('legend');
-    legendEl.style.height = `${layers.length * 18}px`
+
+    let legendEl = document.getElementById('legend')
+    
     legendEl.style.display = 'block'
+    legendEl.style.width = '270px'
     legendEl.innerHTML = ''
+
+    var legend1
+    if (legendOrto) {
+        legendEl.style.height = `${layers.length * 18 + 40}px`
+        var container = document.createElement('div')
+        container.style.display = 'flex'
+        legend1 = document.createElement('div')
+        var legend2 = document.createElement('div')
+        container.appendChild(legend1)
+        container.appendChild(legend2)
+        legendEl.appendChild(container)
+
+        var titleContainer1 = document.createElement('div')
+        var title1 = document.createElement('h4')
+        title1.style.margin = '3px'
+        title1.style.textAlign = 'center'
+        title1.innerHTML = 'Carta Topográfica'
+        titleContainer1.appendChild(title1)
+        legend1.appendChild(titleContainer1)
+    } else {
+        legend1 = legendEl
+        legendEl.style.height = `${layers.length * 18}px`
+    }
+
+    for (i = 0; i < layers.length; i++) {
+        var layer = layers[i];
+        var color = colors[i];
+        var item = document.createElement('div')
+        var key = document.createElement('span')
+        key.className = 'legend-key'
+        key.style.backgroundColor = color
+
+        var value = document.createElement('span')
+        value.className = 'legend-value'
+        let count = legendCount[layer] ? legendCount[layer] : 0
+        value.innerHTML = `${layer} (${count})`
+        item.appendChild(key)
+        item.appendChild(value)
+        legend1.appendChild(item)
+    }
+
+    if (!legendOrto || legendCountOrto.length == 0) return
+    legendEl.style.width = '300px'
+
+    var layers = legendOrto.filter((value, index) => { return (index % 2) == 0 });
+    var colors = legendOrto.filter((value, index) => { return (index % 2) != 0 });
+
+    var titleContainer2 = document.createElement('div')
+    var title2 = document.createElement('h4')
+    title2.style.margin = '3px'
+    title2.style.textAlign = 'center'
+    title2.innerHTML = 'Carta Orto Imagem'
+    titleContainer2.appendChild(title2)
+    legend2.appendChild(titleContainer2)
+
     for (i = 0; i < layers.length; i++) {
         var layer = layers[i];
         var color = colors[i];
         var item = document.createElement('div');
         var key = document.createElement('span');
-        key.className = 'legend-key';
-        key.style.backgroundColor = color;
-
+        key.className = 'legend-orto-key';
+        key.style.borderBottom = `4px solid ${color}`;
         var value = document.createElement('span');
         value.className = 'legend-value';
-        let count = legendCount[layer] ? legendCount[layer] : 0
+        let count = legendCountOrto[layer] ? legendCountOrto[layer] : 0
         value.innerHTML = `${layer} (${count})`;
         item.appendChild(key);
         item.appendChild(value);
-        legendEl.appendChild(item);
+        legend2.appendChild(item)
     }
 }
 
-showModalLegend = (legend, legendCount) => {
-    var layers = legend.filter((value, index) => { return (index % 2) == 0 });
+showModalLegend = (
+    legend,
+    legendCount,
+    legendOrto,
+    legendCountOrto
+) => {
+    /* var layers = legend.filter((value, index) => { return (index % 2) == 0 });
     var colors = legend.filter((value, index) => { return (index % 2) != 0 });
     const legendEl = document.getElementById('modal-text');
     legendEl.style.height = `${layers.length * 22}px`
@@ -57,11 +128,93 @@ showModalLegend = (legend, legendCount) => {
         item.appendChild(key);
         item.appendChild(value);
         legendEl.appendChild(item);
+    } */
+
+
+    if (!legend || legend.length == 0) return
+
+    var layers = legend.filter((value, index) => { return (index % 2) == 0 });
+    var colors = legend.filter((value, index) => { return (index % 2) != 0 });
+
+    let legendEl = document.getElementById('modal-text')
+    
+    legendEl.style.display = 'block'
+    legendEl.style.width = '270px'
+    legendEl.innerHTML = ''
+
+    var legend1
+    if (legendOrto) {
+        legendEl.style.height = `${layers.length * 22 + 40}px`
+        var container = document.createElement('div')
+        container.style.display = 'flex'
+        legend1 = document.createElement('div')
+        var legend2 = document.createElement('div')
+        container.appendChild(legend1)
+        container.appendChild(legend2)
+        legendEl.appendChild(container)
+
+        var titleContainer1 = document.createElement('div')
+        var title1 = document.createElement('h4')
+        title1.style.margin = '3px'
+        title1.style.textAlign = 'center'
+        title1.innerHTML = 'Carta Topográfica'
+        titleContainer1.appendChild(title1)
+        legend1.appendChild(titleContainer1)
+    } else {
+        legend1 = legendEl
+        legendEl.style.height = `${layers.length * 22}px`
+    }
+
+    for (i = 0; i < layers.length; i++) {
+        var layer = layers[i];
+        var color = colors[i];
+        var item = document.createElement('div')
+        var key = document.createElement('span')
+        key.className = 'legend-key'
+        key.style.backgroundColor = color
+
+        var value = document.createElement('span')
+        value.className = 'legend-value'
+        let count = legendCount[layer] ? legendCount[layer] : 0
+        value.innerHTML = `${layer} (${count})`
+        item.appendChild(key)
+        item.appendChild(value)
+        legend1.appendChild(item)
+    }
+
+    if (!legendOrto || legendCountOrto.length == 0) return
+    legendEl.style.width = '300px'
+
+    var layers = legendOrto.filter((value, index) => { return (index % 2) == 0 });
+    var colors = legendOrto.filter((value, index) => { return (index % 2) != 0 });
+
+    var titleContainer2 = document.createElement('div')
+    var title2 = document.createElement('h4')
+    title2.style.margin = '3px'
+    title2.style.textAlign = 'center'
+    title2.innerHTML = 'Carta Orto Imagem'
+    titleContainer2.appendChild(title2)
+    legend2.appendChild(titleContainer2)
+
+    for (i = 0; i < layers.length; i++) {
+        var layer = layers[i];
+        var color = colors[i];
+        var item = document.createElement('div');
+        var key = document.createElement('span');
+        key.className = 'legend-orto-key';
+        key.style.borderBottom = `4px solid ${color}`;
+        var value = document.createElement('span');
+        value.className = 'legend-value';
+        let count = legendCountOrto[layer] ? legendCountOrto[layer] : 0
+        value.innerHTML = `${layer} (${count})`;
+        item.appendChild(key);
+        item.appendChild(value);
+        legend2.appendChild(item)
     }
 
 }
 
-loadGeoJSON = (loteName, styles) => {
+loadGeoJSON = (loteName, styles, project) => {
     return fetch(`data/${loteName}.geojson`
         , {
             headers: {
@@ -76,8 +229,8 @@ loadGeoJSON = (loteName, styles) => {
         .then(async (geoJson) => {
             const extent = geojsonExtent(geoJson)
             map.fitBounds([
-                [extent[0]-1, extent[1]-1],
-                [extent[2]+1, extent[3]+1]
+                [extent[0] - 1, extent[1] - 1],
+                [extent[2] + 1, extent[3] + 1]
             ])
             setKML(tokml(geoJson), loteName)
             map.addSource(loteName, {
@@ -88,36 +241,93 @@ loadGeoJSON = (loteName, styles) => {
                 map.addLayer(style)
                 if (!style.id.includes('-fill')) continue
                 map.on('click', style.id, function (e) {
-                    let situacao_topo = e.features[0].properties.situacao_topo
-                    //if(situacao_topo != 'Múltiplas edições') return
-                    var editions = JSON.parse(e.features[0].properties.edicoes_topo)
-                    if (!editions?.length > 0) return
+                    if (project.group == "Situação Geral") {
+                        var editionsTopo = JSON.parse(e.features[0].properties.edicoes_topo)
+                        var editionsOrto = JSON.parse(e.features[0].properties.edicoes_orto)
+                        new maplibregl.Popup({
+                            maxWidth: '300px'
+                        })
+                            .setLngLat(e.lngLat)
+                            .setHTML(`
+                        <div class="popup">
+                           <div style="text-align: center;">
+                                <h2>${e.features[0].properties.identificador}</h2>
+                                <h3>Informação</h3>
+                           </div>
+                           <table>
+                                <tr>
+                                    <th>Carta Topográfica</th>
+                                    <th>Carta Orto Imagem</th>
+                                </tr>
+                                <tr>
+
+                                    <td>
+                                        ${editionsTopo.length == 0 ?
+                                    `` :
+                                    `
+                                            <table>
+                                                <tr>
+                                                    <th>Edição</th>
+                                                    <th>Data</th>
+                                                </tr>
+                                                ${editionsTopo.map((item, idx) => {
+                                        return `
+                                                            <tr>
+                                                                <td>${editionsTopo.length - idx}</td>
+                                                                <td>${item}</td>
+                                                            </tr>
+                                                            `
+                                    }).join('\n')
+                                    }
+                                            </table>
+                                            `
+                                }
+                                    </td>
+                               
+                                    <td>
+                                        ${editionsOrto.length == 0 ?
+                                    `` :
+                                    `
+                                            <table>
+                                                <tr>
+                                                    <th>Edição</th>
+                                                    <th>Data</th>
+                                                </tr>
+                                                ${editionsOrto.map((item, idx) => {
+                                        return `
+                                                            <tr>
+                                                                <td>${editionsOrto.length - idx}</td>
+                                                                <td>${item}</td>
+                                                            </tr>
+                                                            `
+                                    }).join('\n')
+                                    }
+                                            </table>
+                                            `
+                                }
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        <div/>
+                        `)
+                            .addTo(map);
+                        return
+                    }
+
                     new maplibregl.Popup()
                         .setLngLat(e.lngLat)
                         .setHTML(`
                         <div class="popup">
                            <div style="text-align: center;">
                                 <h2>${e.features[0].properties.identificador}</h2>
-                                <h3>Informação</h3>
+                               
                            </div>
-                            <table>
-                                <tr>
-                                    <th>Edição</th>
-                                    <th>Data</th>
-                                </tr>
-                                ${editions.map((item, idx) => {
-                            return `
-                                        <tr>
-                                            <td>${editions.length - idx}</td>
-                                            <td>${item}</td>
-                                        </tr>
-                                        `
-                        }).join('\n')
-                            }
-                            </table>
+                           
                         <div/>
                         `)
                         .addTo(map);
+
                 });
                 map.on('mouseenter', style.id, function () {
                     map.getCanvas().style.cursor = 'pointer';
@@ -160,11 +370,18 @@ setCurrentChapter = async (currentSlideId) => {
     let projectName = currentSlideId.split(getSeperatorId())[0]
     let loteName = currentSlideId.split(getSeperatorId())[1]
     let loteSettings = projectSettings[projectName].lotes.find(item => item.name == loteName)
-    await loadGeoJSON(loteName, loteSettings.styles)
+    await loadGeoJSON(loteName, loteSettings.styles, projectSettings[projectName])
     activeSubtitle = loteSettings.legend
     activeSubtitleCount = loteSettings.legendCount
+    activeSubtitleOrto = loteSettings.legendOrto;
+    activeSubtitleOrtoCount = loteSettings.legendCountOrto;
     if (!mobileScreen()) {
-        loadLegend(activeSubtitle, activeSubtitleCount)
+        loadLegend(
+            activeSubtitle,
+            activeSubtitleCount,
+            activeSubtitleOrto,
+            activeSubtitleOrtoCount
+        )
     }
 
 }
@@ -339,7 +556,12 @@ connectEvents = () => {
     var span = document.getElementsByClassName("close")[0];
 
     btn.onclick = () => {
-        showModalLegend(activeSubtitle, activeSubtitleCount)
+        showModalLegend(
+            activeSubtitle,
+            activeSubtitleCount,
+            activeSubtitleOrto,
+            activeSubtitleOrtoCount
+        )
         modal.style.display = "block";
     }
 
@@ -365,7 +587,12 @@ connectEvents = () => {
         } else {
             document.getElementById("legend-icon").style.display = ''
             modal.style.display = "none"
-            loadLegend(activeSubtitle, activeSubtitleCount)
+            loadLegend(
+                activeSubtitle,
+                activeSubtitleCount,
+                activeSubtitleOrto,
+                activeSubtitleOrtoCount
+            )
         }
     }, true);
 
@@ -379,16 +606,6 @@ connectEvents = () => {
         autoplay = !autoplay
 
     });
-}
-
-getSubtitleSetting = (legend, name) => {
-    let subtitleSetting = []
-    for (let legendId of legend) {
-        state = SUBTITLE_STATES.find(item => item.id == legendId)
-        if (!state) continue
-        subtitleSetting.push(state.name, state.color)
-    }
-    return subtitleSetting
 }
 
 getCoverSlide = () => {
@@ -629,11 +846,46 @@ stopLoader = () => {
 setProjectSettings = async () => {
     for (let projectName in PROJECTS) {
         let project = PROJECTS[projectName]
+        if (project.group == "Situação Geral") {
+
+            for (let lote of project.lotes) {
+                let subtitleSetting = getSubtitleSetting(lote.legend, lote.name)
+                let subtitleBorderColorSetting = getSubtitleBorderColorSetting(lote.legend, lote.name)
+                let subtitleBorderWidthSetting = getSubtitleBorderWidthSetting(lote.legend, lote.name)
+                let subtitleBorderOffsetSetting = getSubtitleBorderOffsetSetting(lote.legend, lote.name)
+
+                lote.legend = subtitleSetting
+                lote.legendOrto = subtitleBorderColorSetting
+
+                lote.styles[0].paint['fill-color'] = [
+                    'match', ['string', ['get', 'situacao_topo']], ...subtitleSetting, '#AAAAAA'
+                ]
+
+                lote.styles[1].paint['line-color'] = [
+                    'match', ['string', ['get', 'situacao_orto']], ...subtitleBorderColorSetting, '#AAAAAA'
+                ]
+                lote.styles[1].paint['line-width'] = [
+                    'match', ['string', ['get', 'situacao_orto']], ...subtitleBorderWidthSetting, 0.5
+                ]
+                lote.styles[1].paint['line-offset'] = [
+                    'match', ['string', ['get', 'situacao_orto']], ...subtitleBorderOffsetSetting, 0
+                ]
+
+                let legendCount = await getLegendCount(lote.name)
+                lote.legendCount = legendCount
+
+                let legendCountOrto = await getLegendCountOrto(lote.name)
+                lote.legendCountOrto = legendCountOrto
+
+            }
+            continue
+        }
+
         for (let lote of project.lotes) {
             let subtitleSetting = getSubtitleSetting(lote.legend, lote.name)
             lote.legend = subtitleSetting
             lote.styles[0].paint['fill-color'] = [
-                'match', ['string', ['get', 'situacao_topo']], ...subtitleSetting, '#AAAAAA'
+                'match', ['string', ['get', 'situacao']], ...subtitleSetting, '#AAAAAA'
             ]
             let legendCount = await getLegendCount(lote.name)
             lote.legendCount = legendCount
@@ -642,17 +894,72 @@ setProjectSettings = async () => {
     sessionStorage.setItem('PROJECTS', JSON.stringify(PROJECTS))
 }
 
+getSubtitleSetting = (legend, name) => {
+    let subtitleSetting = []
+    for (let legendId of legend) {
+        state = SUBTITLE_STATES.find(item => item.id == legendId)
+        if (!state) continue
+        subtitleSetting.push(state.name, state.color)
+    }
+    return subtitleSetting
+}
+
+getSubtitleBorderColorSetting = (legend, name) => {
+    let subtitleSetting = []
+    for (let legendId of legend) {
+        state = SUBTITLE_STATES_BORDER.find(item => item.id == legendId)
+        if (!state) continue
+        subtitleSetting.push(state.name, state.color)
+    }
+    return subtitleSetting
+}
+
+getSubtitleBorderWidthSetting = (legend, name) => {
+    let subtitleSetting = []
+    for (let legendId of legend) {
+        state = SUBTITLE_STATES_BORDER.find(item => item.id == legendId)
+        if (!state) continue
+        subtitleSetting.push(state.name, state.width)
+    }
+    return subtitleSetting
+}
+
+getSubtitleBorderOffsetSetting = (legend, name) => {
+    let subtitleSetting = []
+    for (let legendId of legend) {
+        state = SUBTITLE_STATES_BORDER.find(item => item.id == legendId)
+        if (!state) continue
+        subtitleSetting.push(state.name, state.offset)
+    }
+    return subtitleSetting
+}
+
 getLegendCount = async (name) => {
     let count = {}
     let resp = await fetch(`./data/${name}.geojson`);
     let data = await resp.json();
     for (let i = data.features.length; i > 0; i--) {
         let feature = data.features[i - 1]
-        if (count[feature.properties._topo] == null) {
+        if (count[feature.properties.situacao_topo] == null) {
             count[feature.properties.situacao_topo] = 1
             continue
         }
         count[feature.properties.situacao_topo] += 1
+    }
+    return count
+}
+
+getLegendCountOrto = async (name) => {
+    let count = {}
+    let resp = await fetch(`./data/${name}.geojson`);
+    let data = await resp.json();
+    for (let i = data.features.length; i > 0; i--) {
+        let feature = data.features[i - 1]
+        if (count[feature.properties.situacao_orto] == null) {
+            count[feature.properties.situacao_orto] = 1
+            continue
+        }
+        count[feature.properties.situacao_orto] += 1
     }
     return count
 }
