@@ -11,7 +11,7 @@ var activeSubtitleOrto = null;
 var activeSubtitleOrtoCount = null;
 var autoplay = false
 var presentationDelay = 5 * 1000
-var currentKML = null;
+var currentKML = null
 
 loadLegend = (
     legend,
@@ -27,7 +27,7 @@ loadLegend = (
     var colors = legend.filter((value, index) => { return (index % 2) != 0 });
 
     let legendEl = document.getElementById('legend')
-    
+
     legendEl.style.display = 'block'
     legendEl.style.width = '270px'
     legendEl.innerHTML = ''
@@ -137,7 +137,7 @@ showModalLegend = (
     var colors = legend.filter((value, index) => { return (index % 2) != 0 });
 
     let legendEl = document.getElementById('modal-text')
-    
+
     legendEl.style.display = 'block'
     legendEl.style.width = '270px'
     legendEl.innerHTML = ''
@@ -240,95 +240,7 @@ loadGeoJSON = (loteName, styles, project) => {
             for (let style of styles) {
                 map.addLayer(style)
                 if (!style.id.includes('-fill')) continue
-                map.on('click', style.id, function (e) {
-                    if (project.group == "Situação Geral") {
-                        var editionsTopo = JSON.parse(e.features[0].properties.edicoes_topo)
-                        var editionsOrto = JSON.parse(e.features[0].properties.edicoes_orto)
-                        new maplibregl.Popup({
-                            maxWidth: '300px'
-                        })
-                            .setLngLat(e.lngLat)
-                            .setHTML(`
-                        <div class="popup">
-                           <div style="text-align: center;">
-                                <h2>${e.features[0].properties.identificador}</h2>
-                                <h3>Informação</h3>
-                           </div>
-                           <table>
-                                <tr>
-                                    <th>Carta Topográfica</th>
-                                    <th>Carta Orto Imagem</th>
-                                </tr>
-                                <tr>
 
-                                    <td>
-                                        ${editionsTopo.length == 0 ?
-                                    `` :
-                                    `
-                                            <table>
-                                                <tr>
-                                                    <th>Edição</th>
-                                                    <th>Data</th>
-                                                </tr>
-                                                ${editionsTopo.map((item, idx) => {
-                                        return `
-                                                            <tr>
-                                                                <td>${editionsTopo.length - idx}</td>
-                                                                <td>${item}</td>
-                                                            </tr>
-                                                            `
-                                    }).join('\n')
-                                    }
-                                            </table>
-                                            `
-                                }
-                                    </td>
-                               
-                                    <td>
-                                        ${editionsOrto.length == 0 ?
-                                    `` :
-                                    `
-                                            <table>
-                                                <tr>
-                                                    <th>Edição</th>
-                                                    <th>Data</th>
-                                                </tr>
-                                                ${editionsOrto.map((item, idx) => {
-                                        return `
-                                                            <tr>
-                                                                <td>${editionsOrto.length - idx}</td>
-                                                                <td>${item}</td>
-                                                            </tr>
-                                                            `
-                                    }).join('\n')
-                                    }
-                                            </table>
-                                            `
-                                }
-                                    </td>
-                                </tr>
-                            </table>
-                            
-                        <div/>
-                        `)
-                            .addTo(map);
-                        return
-                    }
-
-                    new maplibregl.Popup()
-                        .setLngLat(e.lngLat)
-                        .setHTML(`
-                        <div class="popup">
-                           <div style="text-align: center;">
-                                <h2>${e.features[0].properties.identificador}</h2>
-                               
-                           </div>
-                           
-                        <div/>
-                        `)
-                        .addTo(map);
-
-                });
                 map.on('mouseenter', style.id, function () {
                     map.getCanvas().style.cursor = 'pointer';
                 });
@@ -890,6 +802,107 @@ setProjectSettings = async () => {
             let legendCount = await getLegendCount(lote.name)
             lote.legendCount = legendCount
         }
+
+    }
+
+    for (let projectName in PROJECTS) {
+        let project = PROJECTS[projectName]
+        for (let lote of project.lotes) {
+            for (let style of lote.styles) {
+                map.off('click', style.id)
+                map.on('click', style.id, function (e) {
+                    if (project.group == "Situação Geral") {
+                        var editionsTopo = JSON.parse(e.features[0].properties.edicoes_topo)
+                        var editionsOrto = JSON.parse(e.features[0].properties.edicoes_orto)
+                        new maplibregl.Popup({
+                            maxWidth: '300px'
+                        })
+                            .setLngLat(e.lngLat)
+                            .setHTML(`
+                        <div class="popup">
+                           <div style="text-align: center;">
+                                <h2>${e.features[0].properties.identificador}</h2>
+                                <h3>Informação</h3>
+                           </div>
+                           <table>
+                                <tr>
+                                    <th>Carta Topográfica</th>
+                                    <th>Carta Orto Imagem</th>
+                                </tr>
+                                <tr>
+    
+                                    <td>
+                                        ${editionsTopo.length == 0 ?
+                                    `` :
+                                    `
+                                            <table>
+                                                <tr>
+                                                    <th>Edição</th>
+                                                    <th>Data</th>
+                                                </tr>
+                                                ${editionsTopo.map((item, idx) => {
+                                        return `
+                                                            <tr>
+                                                                <td>${editionsTopo.length - idx}</td>
+                                                                <td>${item}</td>
+                                                            </tr>
+                                                            `
+                                    }).join('\n')
+                                    }
+                                            </table>
+                                            `
+                                }
+                                    </td>
+                               
+                                    <td>
+                                        ${editionsOrto.length == 0 ?
+                                    `` :
+                                    `
+                                            <table>
+                                                <tr>
+                                                    <th>Edição</th>
+                                                    <th>Data</th>
+                                                </tr>
+                                                ${editionsOrto.map((item, idx) => {
+                                        return `
+                                                            <tr>
+                                                                <td>${editionsOrto.length - idx}</td>
+                                                                <td>${item}</td>
+                                                            </tr>
+                                                            `
+                                    }).join('\n')
+                                    }
+                                            </table>
+                                            `
+                                }
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        <div/>
+                        `)
+                            .addTo(map);
+                        return
+                    }
+
+                    new maplibregl.Popup()
+                        .setLngLat(e.lngLat)
+                        .setHTML(`
+                        <div class="popup">
+                           <div style="text-align: center;">
+                                <h2>${e.features[0].properties.identificador}</h2>
+                               
+                           </div>
+                           
+                        <div/>
+                        `)
+                        .addTo(map);
+
+                });
+
+            }
+        }
+
     }
     sessionStorage.setItem('PROJECTS', JSON.stringify(PROJECTS))
 }
