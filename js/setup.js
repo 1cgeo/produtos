@@ -50,7 +50,7 @@ var PROJECTS = {
     'situacao-geral-25k': {
         title: 'Situação Geral 1:25.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:25.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:25.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição.`,
         lotes: [
             {
                 name: 'situacao-geral-ct-25k',
@@ -116,7 +116,7 @@ var PROJECTS = {
     'situacao-geral-50k': {
         title: 'Situação Geral 1:50.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:50.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:50.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição.`,
         lotes: [
             {
                 name: 'situacao-geral-ct-50k',
@@ -182,7 +182,7 @@ var PROJECTS = {
     'situacao-geral-100k': {
         title: 'Situação Geral 1:100.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:100.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:100.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição.`,
         lotes: [
             {
                 name: 'situacao-geral-ct-100k',
@@ -248,7 +248,7 @@ var PROJECTS = {
     'situacao-geral-250k': {
         title: 'Situação Geral 1:250.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:250.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:250.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição.`,
         lotes: [
             {
                 name: 'situacao-geral-ct-250k',
@@ -317,7 +317,7 @@ var PROJECTS = {
         subgroup: "2023",
         description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.',
         lotes: [
-            {
+            { // PDDMT 2022 52 CT 1:100K RS
                 name: 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
                 subtitle: 'Carta Topográfica 1:100.000 do RS',
                 description: 'Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.',
@@ -361,7 +361,7 @@ var PROJECTS = {
                     }
                 ]
             },
-            {
+            { // PDDMT 2022 30 CT 1:100K PR
                 name: 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
                 subtitle: 'Carta Topográfica 1:100.000 do PR',
                 description: 'Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.',
@@ -405,7 +405,7 @@ var PROJECTS = {
                     }
                 ]
             },
-            {
+            { // PDDMT 2023 95 CO 1:50K RS
                 name: 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
                 subtitle: 'Carta Ortoimagem 1:50.000 no RS',
                 description: 'Construção de 95 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.',
@@ -449,7 +449,7 @@ var PROJECTS = {
                     }
                 ]
             },
-            {
+            { // PDDMT 2023 356 CO 1:25K RS
                 name: 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
                 subtitle: 'Carta Ortoimagem 1:25.000 no RS',
                 description: 'Construção de 356 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
@@ -492,6 +492,94 @@ var PROJECTS = {
                         }
                     }
                 ]
+            },
+            { // PDDMT 2023 34 CO 1:50K SC
+                name: 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
+                subtitle: 'Carta Ortoimagem 1:50.000 em SC',
+                description: 'Construção de 34 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.',
+                zoom: [
+                    [-54.75999, -26.00903], // southwestern corner of the bounds
+                    [-52.49001, -22.49097] // northeastern corner of the bounds
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-fill',
+                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-border',
+                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-text',
+                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // PDDMT 2023 95 CT 1:50K RS
+                name: 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
+                subtitle: 'Carta Topográfica 1:50.000 no RS',
+                description: 'Construção de 95 cartas topográficas na escala 1:50.000 visando atender o planejamento de operações para o CMS.',
+                zoom: [
+                    [-54.75999, -26.00903], // southwestern corner of the bounds
+                    [-52.49001, -22.49097] // northeastern corner of the bounds
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-fill',
+                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-border',
+                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-text',
+                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
             }
         ]
     },
@@ -501,7 +589,7 @@ var PROJECTS = {
         subgroup: "2023",
         description: 'O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
         lotes: [
-            {
+            { // Alegrete
                 name: 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
                 subtitle: 'Carta Topográfica 1:25.000 de Alegrete',
                 description: 'Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
@@ -533,6 +621,141 @@ var PROJECTS = {
                     {
                         'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-text',
                         'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.86,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // Santana do Livramento
+                name: 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
+                subtitle: 'Carta Topográfica 1:25.000 de Santana do Livramento',
+                description: 'Construção de 04 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
+                zoom: [
+                    [-55.88536, -30.00902], // southwestern corner of the bounds
+                    [-55.61464, -29.74098] // northeastern corner of the bounds
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-fill',
+                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-border',
+                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-text',
+                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.86,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // Curitiba
+                name: 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
+                subtitle: 'Carta Topográfica 1:25.000 de Curitiba',
+                description: 'Construção de 06 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
+                zoom: [
+                    [-55.88536, -30.00902], // southwestern corner of the bounds
+                    [-55.61464, -29.74098] // northeastern corner of the bounds
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-fill',
+                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-border',
+                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-text',
+                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 8.86,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // Quaraí
+                name: 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
+                subtitle: 'Carta Topográfica 1:25.000 de Quaraí',
+                description: 'Construção de 02 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
+                zoom: [
+                    [-55.88536, -30.00902], // southwestern corner of the bounds
+                    [-55.61464, -29.74098] // northeastern corner of the bounds
+                ],
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-fill',
+                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-border',
+                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-text',
+                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 8.86,
@@ -604,7 +827,7 @@ var PROJECTS = {
         title: 'Map Int F Ter 2022',
         group: "Entregas",
         subgroup: "2022",
-        description: 'O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
+        description: 'O objetivo do presente projeto consistiu na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
         lotes: [
             {
                 name: 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis',
@@ -750,7 +973,7 @@ var PROJECTS = {
             {
                 name: 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc',
                 subtitle: 'Generalização Carta Topográfica 1:100.000',
-                description: 'O objetivo do presente projeto consiste em realizar a Generalização Cartográfica na escala 1:100.000 de produtos na região de Santa Catarina e Rio Grande do Sul, para gerar 12 cartas topográficas na escala 1:100.000.',
+                description: 'O objetivo do presente projeto consistiu em realizar a Generalização Cartográfica na escala 1:100.000 de produtos na região de Santa Catarina e Rio Grande do Sul, para gerar 12 cartas topográficas na escala 1:100.000.',
                 zoom: [
                     [-52.209372285465335, -31.180376012441414],
                     [-49.79062798683473, -26.319489869099446]
@@ -795,10 +1018,10 @@ var PROJECTS = {
         ]
     },
     'rio-grande-do-sul-2022': {
-        title: 'Conv RS - RF1',
+        title: 'Convênio RS - RF1',
         group: "Entregas",
         subgroup: "2022",
-        description: 'O objetivo principal do projeto é a generalização cartográfica do Profeto do Convênio RS totalizando 37 carta topográfica em 1:50.000.',
+        description: 'O objetivo principal do projeto foi a generalização cartográfica do Profeto do Convênio RS totalizando 37 carta topográfica em 1:50.000.',
         lotes: [
             {
                 name: 'conv-rs-carta-topo-50k-rs',
@@ -854,15 +1077,15 @@ var PROJECTS = {
         ]
     },
     'rio-grande-do-sul-2021': {
-        title: 'Conv RS - RF1',
+        title: 'Convênio RS - RF1',
         group: "Entregas",
         subgroup: "2021",
-        description: 'O objetivo principal do projeto é a elaboração de 174 (cento e setenta e quatro) cartas topográficas na escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais de elevação e dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre, Região Metropolitana e municípios adjacentes, identificadas segundo a nomenclatura utilizada no Mapa-Índice (MI), de acordo com as Normas e Especificações Técnicas previstas para a Infraestrutura Nacional de Dados Espaciais (INDE).',
+        description: 'O objetivo principal do projeto foi a elaboração de 174 (cento e setenta e quatro) cartas topográficas na escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais de elevação e dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre, Região Metropolitana e municípios adjacentes, identificadas segundo a nomenclatura utilizada no Mapa-Índice (MI), de acordo com as Normas e Especificações Técnicas previstas para a Infraestrutura Nacional de Dados Espaciais (INDE).',
         lotes: [
             {
                 name: 'conv-rs-carta-topo-25k-rs',
                 subtitle: '1:25.000',
-                description: 'A elaboração das cartas topográficas foi executada em 5 (cinco) lotes de produção cartográfica. Além da base cartográfica digital contínua foram entregues as imagens brutas, os modelos digitais de superfície, os modelos digitais do terreno e as ortoimagens de cada carta produzida, além da carta topográfica em formato matricial.',
+                description: 'A elaboração das cartas topográficas foi executada em 5 (cinco) lotes de produção cartográfica. Além da base cartográfica digital contínua, foram entregues as imagens brutas, os modelos digitais de superfície, os modelos digitais do terreno e as ortoimagens de cada carta produzida, além da carta topográfica em formato matricial.',
                 zoom: [
                     [
                         -53.08078039276313,
@@ -913,10 +1136,10 @@ var PROJECTS = {
         ]
     },
     'sisfron-17rcmec-2021': {
-        title: 'SISFRON - 17 RC Mec',
+        title: 'SISFRON - 17º RC Mec',
         group: "Entregas",
         subgroup: "2021",
-        description: 'Execução de generalização cartográfica do Projeto SISFROM - 17 R C Mec nas escalas 1:50.000 e 1:100.000, totalizando 15 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
+        description: 'Execução de generalização cartográfica do Projeto SISFROM - 17º RC Mec nas escalas 1:50.000 e 1:100.000, totalizando 15 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
         lotes: [
             {
                 name: 'sisfron-17rcmec-carta-topo-50k-pr',
@@ -1014,7 +1237,7 @@ var PROJECTS = {
         title: 'Exercício Uraricoera',
         group: "Entregas",
         subgroup: "2021",
-        description: 'O objetivo do presente projeto consiste na elaboração de 48 cartas topográficas na escala 1:50.000 distribuídas no estado de Roraima visando atender demanda do COTER relativa a realização de exercícios de Problemas Militares Simulados.',
+        description: 'O objetivo do presente projeto consistiu na elaboração de 48 cartas topográficas na escala 1:50.000 distribuídas no estado de Roraima visando atender demanda do COTER relativa a realização de exercícios de Problemas Militares Simulados.',
         lotes: [
             {
                 name: 'uraricoera',
@@ -1063,7 +1286,7 @@ var PROJECTS = {
         ]
     },
     'sisfron-17rcmec-2020': {
-        title: 'SISFRON - 17 RC Mec',
+        title: 'SISFRON - 17º RC Mec',
         group: "Entregas",
         subgroup: "2020",
         description: 'Execução de mapeamento topográfico, na escala 1:25.000, totalizando 44 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
@@ -1119,7 +1342,7 @@ var PROJECTS = {
         title: 'Map Int F Ter - Santa Catarina',
         group: "Entregas",
         subgroup: "2019",
-        description: 'Execução de generalização cartográfica do Projeto do Vazio SC, totalizando 42 na escala 1:50.000 na região do Santa Catarina.',
+        description: 'Execução de generalização cartográfica do Projeto do Vazio SC, totalizando 42 folhas na escala 1:50.000 na região do Santa Catarina.',
         lotes: [
             {
                 name: 'santa-catarina-50k',
@@ -1229,11 +1452,12 @@ var PROJECTS = {
         title: 'Map Int F Ter - Campos de Instrução',
         group: "Entregas",
         subgroup: "2018",
-        description: 'Execução de mapeamento topográfico, totalizando 24 folhas na escala 1:25.000, referentes à 5 (cinco) Campos de Instrução (CIB, CISM, CIR, CIMH e CIBSB) da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação e que estão contidos na área de responsabilidade do Comando Militar do Sul.',
+        description: 'Execução de mapeamento topográfico na escala 1:25.000 e 1:50.000, referentes à 05 Campos de Instrução da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação e que estão contidos na área de responsabilidade do Comando Militar do Sul.',
         lotes: [
-            {
+            { // CI 25K
                 name: 'campo-instrucao-25k',
                 subtitle: 'Escala 1:25.000',
+                description: 'Os campos mapeados foram CIB, CISM, CIR, CIMH e CIBSB, totalizando 24 cartas topográficas.',
                 zoom: [
                     [
                         -56.18915089919898,
@@ -1281,9 +1505,10 @@ var PROJECTS = {
                     }
                 ]
             },
-            {
+            { // CI 50K
                 name: 'campo-instrucao-50k',
                 subtitle: 'Escala 1:50.000',
+                description: 'Os campos mapeados foram CIB, CISM, CIR, CIMH e CIBSB, totalizando 6 cartas topográficas.',
                 zoom: [
                     [
                         -56.66123922488663,
@@ -1334,12 +1559,12 @@ var PROJECTS = {
         ]
     },
     'radiografia': {
-        title: 'RAM',
+        title: 'Projeto Radiografia da Amazônia',
         group: "Entregas",
         subgroup: "2018",
         description: 'O 1º CGEO foi responsável pela aquisição dos dados geoespaciais vetoriais (altimetria, hidrografia e planimetria) e edição de cartas topográficas, com base nos dados geoespaciais de vegetação obtidos pelo 2º CGEO (Brasília-DF), da área já imageada do projeto.',
         lotes: [
-            {
+            { // RAM
                 name: 'radiografia-am',
                 subtitle: '',
                 zoom: [
@@ -1391,8 +1616,4 @@ var PROJECTS = {
             }
         ]
     }
-    //2022
-    //Itaipu Orto 50k - 76 a ser carregado 
-    //SC 100k - 07 em Jul
-    //RS 50k - 37 em Jun
 }

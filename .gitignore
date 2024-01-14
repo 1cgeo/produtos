@@ -1,2 +1,6 @@
 ﻿# FME files
 FME/*
+
+# JSON Files
+
+nodemon.json

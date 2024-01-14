@@ -548,7 +548,7 @@ getCoverSlide = () => {
                     $("<a/>", {
                         href: "https://1cgeo.github.io/projetos/",
                         target: "_blank",
-                        text: "Link para o site de projetos",
+                        text: "Clique aqui para visualizar os Projetos em andamento.",
                         class: "link"
                     }).click(function (e) {
                         window.open(e.target.href);
@@ -827,7 +827,7 @@ setProjectSettings = async () => {
                            <table>
                                 <tr>
                                     <th>Carta Topográfica</th>
-                                    <th>Carta Orto Imagem</th>
+                                    <th>Carta Ortoimagem</th>
                                 </tr>
                                 <tr>
     
