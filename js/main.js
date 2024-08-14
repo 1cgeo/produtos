@@ -303,16 +303,12 @@ unsetChapter = () => {
     for (let projectName in projectSettings) {
         for (let lote of projectSettings[projectName].lotes) {
             for (let style of lote.styles) {
-                try {
-                    map.removeLayer(style.id)
-                } catch (error) {
-
+                if (map.getLayer(style.id)) { // Verifica se a camada existe
+                    map.removeLayer(style.id);
                 }
             }
-            try {
-                map.removeSource(lote.name)
-            } catch (error) {
-
+            if (map.getSource(lote.name)) { // Verifica se a fonte existe
+                map.removeSource(lote.name);
             }
         }
     }
