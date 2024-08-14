@@ -23212,7 +23212,9 @@
                 "situacao_topo": "Não mapeado",
                 "edicoes_topo": [],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -31094,7 +31096,9 @@
                 "situacao_topo": "Não mapeado",
                 "edicoes_topo": [],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -32047,7 +32051,9 @@
                     "1956"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -32087,7 +32093,9 @@
                     "1956"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -32127,7 +32135,9 @@
                     "1956"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -32167,7 +32177,9 @@
                     "1956"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -34117,7 +34129,9 @@
                     "2002"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -42754,7 +42768,9 @@
                     "2011"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -49320,7 +49336,9 @@
                     "2011"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -49560,7 +49578,9 @@
                     "2011"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -80573,11 +80593,14 @@
                 "identificador": "2927-2-SE",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2024",
                     "2017",
                     "1980"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -80614,11 +80637,14 @@
                 "identificador": "2927-2-SO",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2024",
                     "2017",
                     "1980"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -80807,10 +80833,13 @@
                 "identificador": "2927-4-NE",
                 "situacao_topo": "Concluído",
                 "edicoes_topo": [
+                    "2024",
                     "2017"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -80847,10 +80876,13 @@
                 "identificador": "2927-4-NO",
                 "situacao_topo": "Concluído",
                 "edicoes_topo": [
+                    "2024",
                     "2017"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -91158,7 +91190,9 @@
                 "situacao_topo": "Não mapeado",
                 "edicoes_topo": [],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -91234,7 +91268,9 @@
                 "situacao_topo": "Não mapeado",
                 "edicoes_topo": [],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -100505,6 +100541,7 @@
                 "identificador": "2962-4-NE",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2024",
                     "2017",
                     "2013",
                     "2007",
@@ -100512,6 +100549,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -100592,6 +100630,7 @@
                 "identificador": "2962-4-SE",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2024",
                     "2017",
                     "2013",
                     "2007",
@@ -100599,6 +100638,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -101041,6 +101081,7 @@
                 "identificador": "2963-3-NO",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2024",
                     "2017",
                     "2013",
                     "2007",
@@ -101048,6 +101089,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -101128,6 +101170,7 @@
                 "identificador": "2963-3-SO",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2024",
                     "2017",
                     "2013",
                     "2007",
@@ -101135,6 +101178,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -101977,6 +102021,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -102019,6 +102064,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -102062,6 +102108,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -102105,6 +102152,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -102315,6 +102363,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -102357,6 +102406,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -104392,7 +104442,9 @@
                     "2017"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -104904,7 +104956,9 @@
                     "2017"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -105104,7 +105158,9 @@
                     "2021"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -105144,7 +105200,9 @@
                     "2021"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -105184,7 +105242,9 @@
                     "2021"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -105224,7 +105284,9 @@
                     "2021"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -105424,7 +105486,9 @@
                     "2021"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -105464,7 +105528,9 @@
                     "2021"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -105504,7 +105570,9 @@
                     "2021"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -105544,7 +105612,9 @@
                     "2021"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -108444,7 +108514,8 @@
                 "identificador": "2977-3-NO",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
-                    "2023", "1946"
+                    "2023",
+                    "1946"
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
@@ -109528,6 +109599,7 @@
                 "identificador": "2979-2-NE",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2024",
                     "2017",
                     "2013",
                     "2007",
@@ -109535,6 +109607,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -109615,6 +109688,7 @@
                 "identificador": "2979-2-SE",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2024",
                     "2017",
                     "2013",
                     "2007",
@@ -109622,6 +109696,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -110064,6 +110139,7 @@
                 "identificador": "2980-1-NO",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2024",
                     "2017",
                     "2013",
                     "2007",
@@ -110071,6 +110147,7 @@
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -110151,12 +110228,14 @@
                 "identificador": "2980-1-SO",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2024",
                     "2017",
                     "2013",
                     "2007"
                 ],
                 "situacao_orto": "Concluído",
                 "edicoes_orto": [
+                    "2024",
                     "2023"
                 ]
             },
@@ -112636,7 +112715,9 @@
                 "situacao_topo": "Não mapeado",
                 "edicoes_topo": [],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -113362,7 +113443,9 @@
                     "2017"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
@@ -113883,7 +113966,9 @@
                     "1980"
                 ],
                 "situacao_orto": "Não mapeado",
-                "edicoes_orto": []
+                "edicoes_orto": [
+                    "2024"
+                ]
             },
             "geometry": {
                 "type": "Polygon",
