@@ -311,6 +311,202 @@ var PROJECTS = {
             }
         ]
     },
+    'plano-desenvolvimento-2024': {
+        title: 'Mapeamento para a Força Terrestre 2024',
+        group: "Entregas",
+        subgroup: "2024",
+        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Item 2. Metas de Trabalho, subitem a. do Plano Interno de Trabalho do 1° CGEO - 2024.',
+        lotes: [
+            { // CT 1:25.000 -- Campos de Instrução do Comando Militar do Sul
+                name: 'ct_ci_125000',
+                subtitle: 'Cartas Topográficas 1:25.000 de Campos de Instrução do Comando Militar do Sul',
+                description: 'Construção de 22 cartas topográficas na escala 1:25.000 visando atender a demanda de atualização de cartas nos Campos de Instrução do Comando Militar do Sul.',
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'ct_ci_125000-fill',
+                        'source': 'ct_ci_125000',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'ct_ci_125000-border',
+                        'source': 'ct_ci_125000',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ct_ci_125000-text',
+                        'source': 'ct_ci_125000',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CO 1:50.000 -- Marechal Hermes
+                name: 'co_cimh',
+                subtitle: 'Cartas Ortoimagem 1:50.000 do CIMH',
+                description: 'Construção de 6 cartas ortoimagem na escala 1:50.000 visando atualizar a geoinformação referente ao Campo de Instrução de Marechal Hermes.',
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'co_cimh-fill',
+                        'source': 'co_cimh',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co_cimh-border',
+                        'source': 'co_cimh',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co_cimh-text',
+                        'source': 'co_cimh',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CO 1:25.000 -- Região Metropolitana de Porto Alegre
+                name: 'poa_metropolitana',
+                subtitle: 'Cartas Ortoimagem 1:25.000 da Região Metropoliana de Porto Alegre',
+                description: 'Construção de 8 cartas ortoimagem na escala 1:25.000 visando atender a atualização das Cartas Ortoimagem na Região Metropolitana de Porto Alegre.',
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'poa_metropolitana-fill',
+                        'source': 'poa_metropolitana',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'poa_metropolitana-border',
+                        'source': 'poa_metropolitana',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'poa_metropolitana-text',
+                        'source': 'poa_metropolitana',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CO 1:25.000 -- Campos de Instrução do Comando Militar do Sul
+                name: 'ci_co_125000',
+                subtitle: 'Cartas Ortoimagem 1:25.000 de Campos de Instrução do CMS',
+                description: 'Construção de 35 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
+                legend: [
+                    1,
+                    12,
+                    2,
+                    5,
+                    6,
+                    3
+                ],
+                styles: [
+                    {
+                        'id': 'ci_co_125000-fill',
+                        'source': 'ci_co_125000',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'ci_co_125000-border',
+                        'source': 'ci_co_125000',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ci_co_125000-text',
+                        'source': 'ci_co_125000',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    }, 
     'plano-desenvolvimento-2023': {
         title: 'PDDMT 2023',
         group: "Entregas",

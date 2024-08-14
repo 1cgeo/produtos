@@ -770,17 +770,25 @@ setProjectSettings = async () => {
                 lote.legendOrto = subtitleBorderColorSetting
 
                 lote.styles[0].paint['fill-color'] = [
-                    'match', ['string', ['get', 'situacao_topo']], ...subtitleSetting, '#AAAAAA'
+                    'step', ['length', ['get', 'edicoes_topo']],  'rgba(255,255,255,0.0)',  // Tamanho do array = 0
+                    1, 'rgba(145,207,96,0.5)', // Tamanho do array >= 1
+                    2, 'rgba(102,178,255,0.5)' // Tamanho do array >= 2 
                 ]
 
                 lote.styles[1].paint['line-color'] = [
-                    'match', ['string', ['get', 'situacao_orto']], ...subtitleBorderColorSetting, '#AAAAAA'
+                    'step', ['length', ['get', 'edicoes_orto']],  '#121211',  // Tamanho do array = 0
+                    1, 'rgba(145,207,96,1)', // Tamanho do array >= 1
+                    2, 'rgba(102,178,255,1)' // Tamanho do array >= 2 
                 ]
                 lote.styles[1].paint['line-width'] = [
-                    'match', ['string', ['get', 'situacao_orto']], ...subtitleBorderWidthSetting, 0.5
+                    'step', ['length', ['get', 'edicoes_orto']],  0.5,  // Tamanho do array = 0
+                    1, 5, // Tamanho do array >= 1
+                    2, 5 // Tamanho do array >= 2 
                 ]
                 lote.styles[1].paint['line-offset'] = [
-                    'match', ['string', ['get', 'situacao_orto']], ...subtitleBorderOffsetSetting, 0
+                    'step', ['length', ['get', 'edicoes_orto']],  1,  // Tamanho do array = 0
+                    1, 3.5, // Tamanho do array >= 1
+                    2, 3.5 // Tamanho do array >= 2 
                 ]
 
                 let legendCount = await getLegendCount(lote.name)
@@ -948,31 +956,30 @@ getSubtitleBorderOffsetSetting = (legend, name) => {
 }
 
 getLegendCount = async (name) => {
-    let count = {}
+    let count = {"Não mapeado":0, "Concluído": 0, "Múltiplas edições":0}
     let resp = await fetch(`./data/${name}.geojson`);
     let data = await resp.json();
     for (let i = data.features.length; i > 0; i--) {
         let feature = data.features[i - 1]
-        if (count[feature.properties.situacao_topo] == null) {
-            count[feature.properties.situacao_topo] = 1
+        if (!("edicoes_topo" in feature.properties)){
+            count["Concluído"]+=1
             continue
         }
-        count[feature.properties.situacao_topo] += 1
+        feature.properties.edicoes_topo.length==0 ? count["Não mapeado"]+=1 : feature.properties.edicoes_topo.length==1 ? count["Concluído"]+=1 : count["Múltiplas edições"]+=1
     }
     return count
 }
 
 getLegendCountOrto = async (name) => {
-    let count = {}
+    let count = {"Não mapeado":0, "Concluído": 0, "Múltiplas edições":0}
     let resp = await fetch(`./data/${name}.geojson`);
     let data = await resp.json();
     for (let i = data.features.length; i > 0; i--) {
         let feature = data.features[i - 1]
-        if (count[feature.properties.situacao_orto] == null) {
-            count[feature.properties.situacao_orto] = 1
+        if (!("edicoes_orto" in feature.properties)){
             continue
         }
-        count[feature.properties.situacao_orto] += 1
+        feature.properties.edicoes_orto.length==0 ? count["Não mapeado"]+=1 : feature.properties.edicoes_orto.length==1 ? count["Concluído"]+=1 : count["Múltiplas edições"]+=1
     }
     return count
 }
