@@ -9,9 +9,50 @@ var activeSubtitle = null;
 var activeSubtitleCount = null;
 var activeSubtitleOrto = null;
 var activeSubtitleOrtoCount = null;
+var activeYearInterval = null;
+var yearFilter = null;
 var autoplay = false
 var presentationDelay = 5 * 1000
-var currentKML = null
+var currentSlide = null
+
+updateYear = (year) => {
+    yearFilter = year
+    unsetChapter()
+    setKML()
+    setCurrentChapter(currentSlide)
+    
+}
+
+loadFilterBox = (legend, legendOrto, yearInterval) => {
+        if (!legend || legend.length == 0 || !legendOrto || legendOrto.length == 0 || !yearInterval) return
+    let legendEl = document.getElementById('filter')
+    let year = yearInterval.min
+    legendEl.style.display = 'block'
+    legendEl.style.width = '300px'
+    legendEl.innerHTML = `
+        <h4>Escolha a partir de qual ano exibir as cartas</h4>
+        <input type="range" min="${yearInterval.min}" max="${yearInterval.max}" value="${year}" id="sliderFilter" list="values" />
+        <datalist id="values">
+            <option value="${yearInterval.min}" label="${yearInterval.min}"></option>
+            <option value="${yearInterval.max}" label="${yearInterval.max}"></option>
+        </datalist>
+        <span id="yearValue">${year}</span>
+        <br />
+        <div style="text-align: center; margin-top: 10px;">
+            <button id="updateButton">Atualizar</button>
+        </div>
+    `
+    let sliderFilter = document.getElementById('sliderFilter');
+    let yearValue = document.getElementById('yearValue');
+    document.getElementById('updateButton').addEventListener('click', function() {
+        updateYear(year);
+    });
+
+    sliderFilter.addEventListener('input', function() {
+        year = this.value
+        yearValue.textContent = year;
+    });
+}
 
 loadLegend = (
     legend,
@@ -72,7 +113,7 @@ loadLegend = (
         legend1.appendChild(item)
     }
 
-    if (!legendOrto || legendCountOrto.length == 0) return
+    if (!legendOrto || legendOrto.length == 0) return
     legendEl.style.width = '300px'
 
     var layers = legendOrto.filter((value, index) => { return (index % 2) == 0 });
@@ -214,7 +255,7 @@ showModalLegend = (
 
 }
 
-loadGeoJSON = (loteName, styles, project) => {
+loadGeoJSON = (loteName, styles) => {
     return fetch(`data/${loteName}.geojson`
         , {
             headers: {
@@ -233,9 +274,20 @@ loadGeoJSON = (loteName, styles, project) => {
                 [extent[2] + 1, extent[3] + 1]
             ])
             setKML(tokml(geoJson), loteName)
+            var newGeoJson = {
+                ...geoJson,
+                features: geoJson.features.map(feature => ({
+                    ...feature,
+                    properties: {
+                        ...feature.properties,
+                        edicoes_topo: feature.properties.edicoes_topo.filter(year => parseInt(year) >= (yearFilter || 1500)),
+                        edicoes_orto: feature.properties.edicoes_orto.filter(year => parseInt(year) >= (yearFilter || 1500))
+                    }
+                }))
+            };
             map.addSource(loteName, {
                 "type": "geojson",
-                "data": geoJson
+                "data": newGeoJson
             })
             for (let style of styles) {
                 map.addLayer(style)
@@ -282,11 +334,13 @@ setCurrentChapter = async (currentSlideId) => {
     let projectName = currentSlideId.split(getSeperatorId())[0]
     let loteName = currentSlideId.split(getSeperatorId())[1]
     let loteSettings = projectSettings[projectName].lotes.find(item => item.name == loteName)
-    await loadGeoJSON(loteName, loteSettings.styles, projectSettings[projectName])
+    await loadGeoJSON(loteName, loteSettings.styles)
+    currentSlide = currentSlideId
     activeSubtitle = loteSettings.legend
     activeSubtitleCount = loteSettings.legendCount
-    activeSubtitleOrto = loteSettings.legendOrto;
-    activeSubtitleOrtoCount = loteSettings.legendCountOrto;
+    activeSubtitleOrto = loteSettings.legendOrto
+    activeYearInterval = loteSettings.yearInterval
+    activeSubtitleOrtoCount = loteSettings.legendCountOrto
     if (!mobileScreen()) {
         loadLegend(
             activeSubtitle,
@@ -294,6 +348,12 @@ setCurrentChapter = async (currentSlideId) => {
             activeSubtitleOrto,
             activeSubtitleOrtoCount
         )
+        loadFilterBox(
+            activeSubtitle,
+            activeSubtitleOrto,
+            activeYearInterval
+        )
+
     }
 
 }
@@ -313,7 +373,9 @@ unsetChapter = () => {
         }
     }
     const legend = document.getElementById('legend');
+    const filter = document.getElementById('filter');
     legend.style.display = 'none'
+    filter.style.display = 'none'
 }
 
 
@@ -415,12 +477,7 @@ connectEvents = () => {
         map.flyTo(INIT_ZOOM)
         document.getElementById('info').scrollTo(0, 0)
         map.on('mouseup', () => {
-            console.log(map.getZoom())
             let bounds = map.getBounds()
-            console.log([
-                [bounds._sw.lng, bounds._sw.lat],
-                [bounds._ne.lng, bounds._ne.lat]
-            ])
         });
     })
 
@@ -486,7 +543,9 @@ connectEvents = () => {
     window.addEventListener('resize', (event) => {
         if (mobileScreen()) {
             const legend = document.getElementById('legend');
+            const filter = document.getElementById('filter');
             legend.style.display = ''
+            filter.style.display = ''
             let projectName = swiperWidget.slides[swiperWidget.activeIndex].getAttribute('id').split(getSeperatorId())[0]
             let loteName = swiperWidget.slides[swiperWidget.activeIndex].getAttribute('id').split(getSeperatorId())[1]
             if (hasSlideData(projectName, loteName)) {
@@ -500,6 +559,11 @@ connectEvents = () => {
                 activeSubtitleCount,
                 activeSubtitleOrto,
                 activeSubtitleOrtoCount
+            )
+            loadFilterBox(
+                activeSubtitle,
+                activeSubtitleOrto,
+                activeYearInterval
             )
         }
     }, true);
@@ -759,8 +823,6 @@ setProjectSettings = async () => {
             for (let lote of project.lotes) {
                 let subtitleSetting = getSubtitleSetting(lote.legend, lote.name)
                 let subtitleBorderColorSetting = getSubtitleBorderColorSetting(lote.legend, lote.name)
-                let subtitleBorderWidthSetting = getSubtitleBorderWidthSetting(lote.legend, lote.name)
-                let subtitleBorderOffsetSetting = getSubtitleBorderOffsetSetting(lote.legend, lote.name)
 
                 lote.legend = subtitleSetting
                 lote.legendOrto = subtitleBorderColorSetting
@@ -770,7 +832,6 @@ setProjectSettings = async () => {
                     1, 'rgba(145,207,96,0.5)', // Tamanho do array >= 1
                     2, 'rgba(102,178,255,0.5)' // Tamanho do array >= 2 
                 ]
-
                 lote.styles[1].paint['line-color'] = [
                     'step', ['length', ['get', 'edicoes_orto']],  '#121211',  // Tamanho do array = 0
                     1, 'rgba(145,207,96,1)', // Tamanho do array >= 1
@@ -793,6 +854,9 @@ setProjectSettings = async () => {
                 let legendCountOrto = await getLegendCountOrto(lote.name)
                 lote.legendCountOrto = legendCountOrto
 
+                let yearInterval = await getYearInterval(lote.name)
+                lote.yearInterval = yearInterval
+
             }
             continue
         }
@@ -805,6 +869,8 @@ setProjectSettings = async () => {
             ]
             let legendCount = await getLegendCount(lote.name)
             lote.legendCount = legendCount
+            let yearInterval = await getYearInterval(lote.name)
+            lote.yearInterval = yearInterval
         }
 
     }
@@ -818,6 +884,8 @@ setProjectSettings = async () => {
                     if (project.group == "Situação Geral") {
                         var editionsTopo = JSON.parse(e.features[0].properties.edicoes_topo)
                         var editionsOrto = JSON.parse(e.features[0].properties.edicoes_orto)
+                        var filteredEditionsTopo = editionsTopo.filter(year => parseInt(year, 10) >= (yearFilter || 1500))
+                        var filteredEditionsOrto = editionsOrto.filter(year => parseInt(year, 10) >= (yearFilter || 1500))
                         new maplibregl.Popup({
                             maxWidth: '300px'
                         })
@@ -836,7 +904,7 @@ setProjectSettings = async () => {
                                 <tr>
     
                                     <td>
-                                        ${editionsTopo.length == 0 ?
+                                        ${filteredEditionsTopo.length == 0 ?
                                     `` :
                                     `
                                             <table>
@@ -844,10 +912,10 @@ setProjectSettings = async () => {
                                                     <th>Edição</th>
                                                     <th>Data</th>
                                                 </tr>
-                                                ${editionsTopo.map((item, idx) => {
+                                                ${filteredEditionsTopo.map((item, idx) => {
                                         return `
                                                             <tr>
-                                                                <td>${editionsTopo.length - idx}</td>
+                                                                <td>${filteredEditionsTopo.length - idx}</td>
                                                                 <td>${item}</td>
                                                             </tr>
                                                             `
@@ -859,7 +927,7 @@ setProjectSettings = async () => {
                                     </td>
                                
                                     <td>
-                                        ${editionsOrto.length == 0 ?
+                                        ${filteredEditionsOrto.length == 0 ?
                                     `` :
                                     `
                                             <table>
@@ -867,10 +935,10 @@ setProjectSettings = async () => {
                                                     <th>Edição</th>
                                                     <th>Data</th>
                                                 </tr>
-                                                ${editionsOrto.map((item, idx) => {
+                                                ${filteredEditionsOrto.map((item, idx) => {
                                         return `
                                                             <tr>
-                                                                <td>${editionsOrto.length - idx}</td>
+                                                                <td>${filteredEditionsOrto.length - idx}</td>
                                                                 <td>${item}</td>
                                                             </tr>
                                                             `
@@ -931,26 +999,6 @@ getSubtitleBorderColorSetting = (legend, name) => {
     return subtitleSetting
 }
 
-getSubtitleBorderWidthSetting = (legend, name) => {
-    let subtitleSetting = []
-    for (let legendId of legend) {
-        state = SUBTITLE_STATES_BORDER.find(item => item.id == legendId)
-        if (!state) continue
-        subtitleSetting.push(state.name, state.width)
-    }
-    return subtitleSetting
-}
-
-getSubtitleBorderOffsetSetting = (legend, name) => {
-    let subtitleSetting = []
-    for (let legendId of legend) {
-        state = SUBTITLE_STATES_BORDER.find(item => item.id == legendId)
-        if (!state) continue
-        subtitleSetting.push(state.name, state.offset)
-    }
-    return subtitleSetting
-}
-
 getLegendCount = async (name) => {
     let count = {"Não mapeado":0, "Concluído": 0, "Múltiplas edições":0}
     let resp = await fetch(`./data/${name}.geojson`);
@@ -980,6 +1028,49 @@ getLegendCountOrto = async (name) => {
     return count
 }
 
+getYearInterval = async (name) => {
+    let minYear = Infinity;
+    let maxYear = -Infinity;
+    let resp = await fetch(`./data/${name}.geojson`);
+    let data = await resp.json();
+    for (let i = data.features.length; i > 0; i--) {
+        let feature = data.features[i - 1];
+        if (!("edicoes_orto" in feature.properties) || !("edicoes_topo" in feature.properties)) {
+            continue;
+        }
+
+        let edicoesOrto = feature.properties.edicoes_orto;
+        let edicoesTopo = feature.properties.edicoes_topo;
+
+        let allEditions = [...edicoesOrto, ...edicoesTopo];
+        for (let edition of allEditions) {
+            let year = parseInt(edition, 10);
+            if (!isNaN(year)) {
+                if (year < minYear) {
+                    minYear = year;
+                }
+                if (year > maxYear) {
+                    maxYear = year;
+                }
+            }
+        }
+    }
+    let interval = {
+        min: 1500,
+        max: 2500
+    };
+
+    if (minYear !== Infinity) {
+        interval.min = minYear;
+    }
+    if (maxYear !== -Infinity) {
+        interval.max = maxYear;
+    }
+    return {
+        ...interval
+    };
+}
+
 getProjectSettings = () => {
     return JSON.parse(sessionStorage.getItem('PROJECTS'))
 }
@@ -996,6 +1087,7 @@ const loadQuery = () => {
     );
 
 }
+
 
 main = async () => {
     await setProjectSettings()
