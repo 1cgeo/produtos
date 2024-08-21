@@ -52,6 +52,7 @@ body {
   justify-content: center;
   background-color: #fff;
   color: #F73859;
+
 }
 
 .append-buttons {
@@ -89,12 +90,21 @@ body {
   cursor: pointer;
 }
 
+#modal-text h4 {
+  font-size: 13px;
+  text-align: center
+}
+
 .map-legend h4 {
   font-size: 13px;
   text-align: center
 }
 
 .map-legend input[type=range] {
+  width: 100%;
+}
+
+#modal-text input[type=range] {
   width: 100%;
 }
 
@@ -251,7 +261,7 @@ datalist {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 300px;
 }
 
 /* The Close Button */
@@ -351,10 +361,6 @@ td {
 
   .module__item_info {
     height: 75%;
-  }
-
-  .module__item_sumary-button {
-    height: 25%;
   }
 
   .logo {

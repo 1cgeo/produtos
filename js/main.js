@@ -18,10 +18,10 @@ var fixedZoom = false
 
 updateYear = (year) => {
     yearFilter = year
-    unsetChapter()
+    unsetChapter(true)
     setKML()
     fixedZoom=true
-    setCurrentChapter(currentSlide)
+    setCurrentChapter(currentSlide, true)
 }
 
 loadLegend = (
@@ -29,7 +29,8 @@ loadLegend = (
     legendCount,
     legendOrto,
     legendCountOrto,
-    yearInterval
+    yearInterval,
+    legendElId
 ) => {
 
     if (!legend || legend.length == 0) return;
@@ -37,7 +38,7 @@ loadLegend = (
     var layers = legend.filter((value, index) => { return (index % 2) == 0 });
     var colors = legend.filter((value, index) => { return (index % 2) != 0 });
 
-    let legendEl = document.getElementById('legend');
+    let legendEl = document.getElementById(legendElId);
 
     legendEl.style.display = 'block';
     legendEl.style.width = '300px';
@@ -113,127 +114,12 @@ loadLegend = (
     sliderFilter.addEventListener('input', function() {
         year = this.value;
         yearValue.textContent = year;
-    });
-    
-    sliderFilter.addEventListener('change', function() {
         debounceUpdateYear(year);
     });
     
     let debounceUpdateYear = debounce(function(year) {
         updateYear(year);
     }, 100);
-}
-
-
-showModalLegend = (
-    legend,
-    legendCount,
-    legendOrto,
-    legendCountOrto
-) => {
-    /* var layers = legend.filter((value, index) => { return (index % 2) == 0 });
-    var colors = legend.filter((value, index) => { return (index % 2) != 0 });
-    const legendEl = document.getElementById('modal-text');
-    legendEl.style.height = `${layers.length * 22}px`
-    legendEl.innerHTML = ''
-    for (i = 0; i < layers.length; i++) {
-        var layer = layers[i];
-        var color = colors[i];
-        var item = document.createElement('div');
-        var key = document.createElement('span');
-        key.className = 'legend-key';
-        key.style.backgroundColor = color;
-        var value = document.createElement('span');
-        value.className = 'legend-value';
-        let count = legendCount[layer] ? legendCount[layer] : 0
-        value.innerHTML = `${layer} (${count})`;
-        item.appendChild(key);
-        item.appendChild(value);
-        legendEl.appendChild(item);
-    } */
-
-
-    if (!legend || legend.length == 0) return
-
-    var layers = legend.filter((value, index) => { return (index % 2) == 0 });
-    var colors = legend.filter((value, index) => { return (index % 2) != 0 });
-
-    let legendEl = document.getElementById('modal-text')
-
-    legendEl.style.display = 'block'
-    legendEl.style.width = '270px'
-    legendEl.innerHTML = ''
-
-    var legend1
-    if (legendOrto) {
-        legendEl.style.height = `${layers.length * 22 + 40}px`
-        var container = document.createElement('div')
-        container.style.display = 'flex'
-        legend1 = document.createElement('div')
-        var legend2 = document.createElement('div')
-        container.appendChild(legend1)
-        container.appendChild(legend2)
-        legendEl.appendChild(container)
-
-        var titleContainer1 = document.createElement('div')
-        var title1 = document.createElement('h4')
-        title1.style.margin = '3px'
-        title1.style.textAlign = 'center'
-        title1.innerHTML = 'Carta Topográfica'
-        titleContainer1.appendChild(title1)
-        legend1.appendChild(titleContainer1)
-    } else {
-        legend1 = legendEl
-        legendEl.style.height = `${layers.length * 22}px`
-    }
-
-    for (i = 0; i < layers.length; i++) {
-        var layer = layers[i];
-        var color = colors[i];
-        var item = document.createElement('div')
-        var key = document.createElement('span')
-        key.className = 'legend-key'
-        key.style.backgroundColor = color
-
-        var value = document.createElement('span')
-        value.className = 'legend-value'
-        let count = legendCount[layer] ? legendCount[layer] : 0
-        value.innerHTML = `${layer} (${count})`
-        item.appendChild(key)
-        item.appendChild(value)
-        legend1.appendChild(item)
-    }
-
-    if (!legendOrto || legendCountOrto.length == 0) return
-    legendEl.style.width = '300px'
-
-    var layers = legendOrto.filter((value, index) => { return (index % 2) == 0 });
-    var colors = legendOrto.filter((value, index) => { return (index % 2) != 0 });
-
-    var titleContainer2 = document.createElement('div')
-    var title2 = document.createElement('h4')
-    title2.style.margin = '3px'
-    title2.style.textAlign = 'center'
-    title2.innerHTML = 'Carta Ortoimagem'
-    titleContainer2.appendChild(title2)
-    legend2.appendChild(titleContainer2)
-
-    for (i = 0; i < layers.length; i++) {
-        var layer = layers[i];
-        var color = colors[i];
-        var item = document.createElement('div');
-        var key = document.createElement('span');
-        key.className = 'legend-orto-key';
-        key.style.borderBottom = `4px solid ${color}`;
-        var value = document.createElement('span');
-        value.className = 'legend-value';
-        let count = legendCountOrto[layer] ? legendCountOrto[layer] : 0
-        value.innerHTML = `${layer} (${count})`;
-        item.appendChild(key);
-        item.appendChild(value);
-        legend2.appendChild(item)
-    }
-
 }
 
 loadGeoJSON = (loteName, styles) => {
@@ -261,8 +147,8 @@ loadGeoJSON = (loteName, styles) => {
                     ...feature,
                     properties: {
                         ...feature.properties,
-                        edicoes_topo: feature.properties.edicoes_topo.filter(year => parseInt(year) >= (yearFilter || 1500)),
-                        edicoes_orto: feature.properties.edicoes_orto.filter(year => parseInt(year) >= (yearFilter || 1500))
+                        edicoes_topo: feature.properties.edicoes_topo?.filter(year => parseInt(year) >= (yearFilter || 1500)),
+                        edicoes_orto: feature.properties.edicoes_orto?.filter(year => parseInt(year) >= (yearFilter || 1500))
                     }
                 }))
             };
@@ -310,7 +196,7 @@ const getButtonProps = (active) => {
     }
 }
 
-setCurrentChapter = async (currentSlideId) => {
+setCurrentChapter = async (currentSlideId, sameChapter) => {
     let projectSettings = getProjectSettings()
     let projectName = currentSlideId.split(getSeperatorId())[0]
     let loteName = currentSlideId.split(getSeperatorId())[1]
@@ -322,19 +208,19 @@ setCurrentChapter = async (currentSlideId) => {
     activeSubtitleOrto = loteSettings.legendOrto
     activeYearInterval = loteSettings.yearInterval
     activeSubtitleOrtoCount = loteSettings.legendCountOrto
-    if (!mobileScreen()) {
+    if (!mobileScreen() && !sameChapter) {
         loadLegend(
             activeSubtitle,
             activeSubtitleCount,
             activeSubtitleOrto,
             activeSubtitleOrtoCount,
-            activeYearInterval
+            activeYearInterval,
+            'legend'
         )
     }
-
 }
 
-unsetChapter = () => {
+unsetChapter = (fixingLegend) => {
     let projectSettings = getProjectSettings()
     for (let projectName in projectSettings) {
         for (let lote of projectSettings[projectName].lotes) {
@@ -348,10 +234,11 @@ unsetChapter = () => {
             }
         }
     }
-    const legend = document.getElementById('legend');
-    legend.style.display = 'none'
+    if (!fixingLegend) {
+        let legend = document.getElementById('legend');
+        legend.style.display = 'none';
+    }
 }
-
 
 hasSlideData = (projectName, loteName) => {
     let projectSettings = getProjectSettings()
@@ -374,7 +261,7 @@ function plugin({ swiper, extendParams, on }) {
             let prevProjectName = previousSlideId.split(getSeperatorId())[0]
             let prevLoteName = previousSlideId.split(getSeperatorId())[1]
             if (hasSlideData(prevProjectName, prevLoteName)) {
-                unsetChapter()
+                unsetChapter(false)
             }
         }
         let currProjectName = currentSlideId.split(getSeperatorId())[0]
@@ -384,7 +271,7 @@ function plugin({ swiper, extendParams, on }) {
             return
         }
         if (mobileScreen()) document.getElementById("legend-icon").style.display = 'block'
-        await setCurrentChapter(currentSlideId)
+        await setCurrentChapter(currentSlideId, false)
     });
 
 }
@@ -495,11 +382,13 @@ connectEvents = () => {
     var span = document.getElementsByClassName("close")[0];
 
     btn.onclick = () => {
-        showModalLegend(
+        loadLegend(
             activeSubtitle,
             activeSubtitleCount,
             activeSubtitleOrto,
-            activeSubtitleOrtoCount
+            activeSubtitleOrtoCount,
+            activeYearInterval,
+            'modal-text'
         )
         modal.style.display = "block";
     }
@@ -517,11 +406,9 @@ connectEvents = () => {
     window.addEventListener('resize', (event) => {
         if (mobileScreen()) {
             const legend = document.getElementById('legend');
-            const filter = document.getElementById('filter');
             legend.style.display = ''
-            filter.style.display = ''
-            let projectName = swiperWidget.slides[swiperWidget.activeIndex].getAttribute('id').split(getSeperatorId())[0]
-            let loteName = swiperWidget.slides[swiperWidget.activeIndex].getAttribute('id').split(getSeperatorId())[1]
+            let projectName = swiperWidget?.slides[swiperWidget.activeIndex]?.getAttribute('id')?.split(getSeperatorId())[0]
+            let loteName = swiperWidget?.slides[swiperWidget.activeIndex]?.getAttribute('id')?.split(getSeperatorId())[1]
             if (hasSlideData(projectName, loteName)) {
                 document.getElementById("legend-icon").style.display = 'block'
             }
@@ -533,7 +420,8 @@ connectEvents = () => {
                 activeSubtitleCount,
                 activeSubtitleOrto,
                 activeSubtitleOrtoCount,
-                activeYearInterval
+                activeYearInterval,
+                'legend'
             )
         }
     }, true);
