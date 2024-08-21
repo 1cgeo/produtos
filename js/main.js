@@ -10,10 +10,10 @@ var activeSubtitleCount = null;
 var activeSubtitleOrto = null;
 var activeSubtitleOrtoCount = null;
 var activeYearInterval = null;
+var activeSlide = null
 var yearFilter = null;
 var autoplay = false
 var presentationDelay = 5 * 1000
-var currentSlide = null
 var fixedZoom = false
 
 updateYear = (year) => {
@@ -21,7 +21,7 @@ updateYear = (year) => {
     unsetChapter(true)
     setKML()
     fixedZoom=true
-    setCurrentChapter(currentSlide, true)
+    setCurrentChapter(activeSlide, true)
 }
 
 loadLegend = (
@@ -41,7 +41,7 @@ loadLegend = (
     let legendEl = document.getElementById(legendElId);
 
     legendEl.style.display = 'block';
-    legendEl.style.width = '300px';
+    legendEl.style.width = (legendOrto && legendOrto.length > 0) ? '300px' : '150px';
     legendEl.innerHTML = '';
 
     let legendTitle = `
@@ -80,14 +80,15 @@ loadLegend = (
     }
 
     let legendContent = `
-        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+        <div style="display: flex; flex-direction: row; justify-content: space-around;">
             <div>${legendContent1}</div>
             <div>${legendContent2}</div>
         </div>
     `;
 
     let year = (yearFilter >= yearInterval.min && yearFilter <= yearInterval.max) ? yearFilter : yearInterval.min;
-    let sliderContent = `
+    let slideIndex = getSlideIndex(activeSlide)
+    let sliderContent = (slideIndex > 2 && slideIndex < 7) ? `
         <h4>Escolha a partir de qual ano exibir as cartas</h4>
         <input type="range" min="${yearInterval.min}" max="${yearInterval.max}" value="${year}" id="sliderFilter" list="values" />
         <datalist id="values">
@@ -95,7 +96,7 @@ loadLegend = (
             <option value="${yearInterval.max}" label="${yearInterval.max}"></option>
         </datalist>
         <span id="yearValue">${year}</span>
-    `;
+    ` : '';
 
     let content = legendTitle + legendContent + sliderContent;
     legendEl.innerHTML = content;
@@ -201,8 +202,8 @@ setCurrentChapter = async (currentSlideId, sameChapter) => {
     let projectName = currentSlideId.split(getSeperatorId())[0]
     let loteName = currentSlideId.split(getSeperatorId())[1]
     let loteSettings = projectSettings[projectName].lotes.find(item => item.name == loteName)
-    currentSlide = currentSlideId
     await loadGeoJSON(loteName, loteSettings.styles)
+    activeSlide = currentSlideId
     activeSubtitle = loteSettings.legend
     activeSubtitleCount = loteSettings.legendCount
     activeSubtitleOrto = loteSettings.legendOrto
@@ -236,7 +237,7 @@ unsetChapter = (fixingLegend) => {
     }
     if (!fixingLegend) {
         let legend = document.getElementById('legend');
-        legend.style.display = 'none';
+        legend.style.display = '';
     }
 }
 
