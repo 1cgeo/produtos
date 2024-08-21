@@ -14,22 +14,79 @@ var yearFilter = null;
 var autoplay = false
 var presentationDelay = 5 * 1000
 var currentSlide = null
+var fixedZoom = false
 
 updateYear = (year) => {
     yearFilter = year
     unsetChapter()
     setKML()
+    fixedZoom=true
     setCurrentChapter(currentSlide)
-    
 }
 
-loadFilterBox = (legend, legendOrto, yearInterval) => {
-        if (!legend || legend.length == 0 || !legendOrto || legendOrto.length == 0 || !yearInterval) return
-    let legendEl = document.getElementById('filter')
-    let year = yearInterval.min
-    legendEl.style.display = 'block'
-    legendEl.style.width = '300px'
-    legendEl.innerHTML = `
+loadLegend = (
+    legend,
+    legendCount,
+    legendOrto,
+    legendCountOrto,
+    yearInterval
+) => {
+
+    if (!legend || legend.length == 0) return;
+
+    var layers = legend.filter((value, index) => { return (index % 2) == 0 });
+    var colors = legend.filter((value, index) => { return (index % 2) != 0 });
+
+    let legendEl = document.getElementById('legend');
+
+    legendEl.style.display = 'block';
+    legendEl.style.width = '300px';
+    legendEl.innerHTML = '';
+
+    let legendTitle = `
+        <div style="display: flex; flex-direction: row; justify-content: space-around; text-align:center;">
+            <h4>Carta Topográfica</h4>
+            ${legendOrto && legendOrto.length > 0 ? `<h4>Carta Ortoimagem</h4>` : ''}
+        </div>
+    `;
+
+    let legendContent1 = layers.map((layer, i) => {
+        let color = colors[i];
+        let count = legendCount[layer] ? legendCount[layer] : 0;
+        return `
+            <div>
+                <span class="legend-key" style="background-color: ${color};"></span>
+                <span class="legend-value">${layer} (${count})</span>
+            </div>
+        `;
+    }).join('');
+
+    let legendContent2 = '';
+    if (legendOrto && legendOrto.length > 0) {
+        let ortoLayers = legendOrto.filter((value, index) => (index % 2) == 0);
+        let ortoColors = legendOrto.filter((value, index) => (index % 2) != 0);
+
+        legendContent2 = ortoLayers.map((layer, i) => {
+            let color = ortoColors[i];
+            let count = legendCountOrto[layer] ? legendCountOrto[layer] : 0;
+            return `
+                <div>
+                    <span class="legend-orto-key" style="border-bottom: 4px solid ${color};"></span>
+                    <span class="legend-value">${layer} (${count})</span>
+                </div>
+            `;
+        }).join('');
+    }
+
+    let legendContent = `
+        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+            <div>${legendContent1}</div>
+            <div>${legendContent2}</div>
+        </div>
+    `;
+
+    let year = (yearFilter >= yearInterval.min && yearFilter <= yearInterval.max) ? yearFilter : yearInterval.min;
+    let sliderContent = `
         <h4>Escolha a partir de qual ano exibir as cartas</h4>
         <input type="range" min="${yearInterval.min}" max="${yearInterval.max}" value="${year}" id="sliderFilter" list="values" />
         <datalist id="values">
@@ -37,112 +94,36 @@ loadFilterBox = (legend, legendOrto, yearInterval) => {
             <option value="${yearInterval.max}" label="${yearInterval.max}"></option>
         </datalist>
         <span id="yearValue">${year}</span>
-        <br />
-        <div style="text-align: center; margin-top: 10px;">
-            <button id="updateButton">Atualizar</button>
-        </div>
-    `
+    `;
+
+    let content = legendTitle + legendContent + sliderContent;
+    legendEl.innerHTML = content;
+
     let sliderFilter = document.getElementById('sliderFilter');
     let yearValue = document.getElementById('yearValue');
-    document.getElementById('updateButton').addEventListener('click', function() {
-        updateYear(year);
-    });
+    
+    function debounce(func, delay) {
+        let timeout;
+        return function() {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, arguments), delay);
+        };
+    }
 
     sliderFilter.addEventListener('input', function() {
-        year = this.value
+        year = this.value;
         yearValue.textContent = year;
     });
+    
+    sliderFilter.addEventListener('change', function() {
+        debounceUpdateYear(year);
+    });
+    
+    let debounceUpdateYear = debounce(function(year) {
+        updateYear(year);
+    }, 100);
 }
 
-loadLegend = (
-    legend,
-    legendCount,
-    legendOrto,
-    legendCountOrto
-) => {
-
-
-    if (!legend || legend.length == 0) return
-
-    var layers = legend.filter((value, index) => { return (index % 2) == 0 });
-    var colors = legend.filter((value, index) => { return (index % 2) != 0 });
-
-    let legendEl = document.getElementById('legend')
-
-    legendEl.style.display = 'block'
-    legendEl.style.width = '270px'
-    legendEl.innerHTML = ''
-
-    var legend1
-    if (legendOrto) {
-        legendEl.style.height = `${layers.length * 18 + 40}px`
-        var container = document.createElement('div')
-        container.style.display = 'flex'
-        legend1 = document.createElement('div')
-        var legend2 = document.createElement('div')
-        container.appendChild(legend1)
-        container.appendChild(legend2)
-        legendEl.appendChild(container)
-
-        var titleContainer1 = document.createElement('div')
-        var title1 = document.createElement('h4')
-        title1.style.margin = '3px'
-        title1.style.textAlign = 'center'
-        title1.innerHTML = 'Carta Topográfica'
-        titleContainer1.appendChild(title1)
-        legend1.appendChild(titleContainer1)
-    } else {
-        legend1 = legendEl
-        legendEl.style.height = `${layers.length * 18}px`
-    }
-
-    for (i = 0; i < layers.length; i++) {
-        var layer = layers[i];
-        var color = colors[i];
-        var item = document.createElement('div')
-        var key = document.createElement('span')
-        key.className = 'legend-key'
-        key.style.backgroundColor = color
-
-        var value = document.createElement('span')
-        value.className = 'legend-value'
-        let count = legendCount[layer] ? legendCount[layer] : 0
-        value.innerHTML = `${layer} (${count})`
-        item.appendChild(key)
-        item.appendChild(value)
-        legend1.appendChild(item)
-    }
-
-    if (!legendOrto || legendOrto.length == 0) return
-    legendEl.style.width = '300px'
-
-    var layers = legendOrto.filter((value, index) => { return (index % 2) == 0 });
-    var colors = legendOrto.filter((value, index) => { return (index % 2) != 0 });
-
-    var titleContainer2 = document.createElement('div')
-    var title2 = document.createElement('h4')
-    title2.style.margin = '3px'
-    title2.style.textAlign = 'center'
-    title2.innerHTML = 'Carta Ortoimagem'
-    titleContainer2.appendChild(title2)
-    legend2.appendChild(titleContainer2)
-
-    for (i = 0; i < layers.length; i++) {
-        var layer = layers[i];
-        var color = colors[i];
-        var item = document.createElement('div');
-        var key = document.createElement('span');
-        key.className = 'legend-orto-key';
-        key.style.borderBottom = `4px solid ${color}`;
-        var value = document.createElement('span');
-        value.className = 'legend-value';
-        let count = legendCountOrto[layer] ? legendCountOrto[layer] : 0
-        value.innerHTML = `${layer} (${count})`;
-        item.appendChild(key);
-        item.appendChild(value);
-        legend2.appendChild(item)
-    }
-}
 
 showModalLegend = (
     legend,
@@ -269,10 +250,10 @@ loadGeoJSON = (loteName, styles) => {
         })
         .then(async (geoJson) => {
             const extent = geojsonExtent(geoJson)
-            map.fitBounds([
+            !fixedZoom ? map.fitBounds([
                 [extent[0] - 1, extent[1] - 1],
                 [extent[2] + 1, extent[3] + 1]
-            ])
+            ]) : fixedZoom=false
             setKML(tokml(geoJson), loteName)
             var newGeoJson = {
                 ...geoJson,
@@ -334,8 +315,8 @@ setCurrentChapter = async (currentSlideId) => {
     let projectName = currentSlideId.split(getSeperatorId())[0]
     let loteName = currentSlideId.split(getSeperatorId())[1]
     let loteSettings = projectSettings[projectName].lotes.find(item => item.name == loteName)
-    await loadGeoJSON(loteName, loteSettings.styles)
     currentSlide = currentSlideId
+    await loadGeoJSON(loteName, loteSettings.styles)
     activeSubtitle = loteSettings.legend
     activeSubtitleCount = loteSettings.legendCount
     activeSubtitleOrto = loteSettings.legendOrto
@@ -346,14 +327,9 @@ setCurrentChapter = async (currentSlideId) => {
             activeSubtitle,
             activeSubtitleCount,
             activeSubtitleOrto,
-            activeSubtitleOrtoCount
-        )
-        loadFilterBox(
-            activeSubtitle,
-            activeSubtitleOrto,
+            activeSubtitleOrtoCount,
             activeYearInterval
         )
-
     }
 
 }
@@ -373,9 +349,7 @@ unsetChapter = () => {
         }
     }
     const legend = document.getElementById('legend');
-    const filter = document.getElementById('filter');
     legend.style.display = 'none'
-    filter.style.display = 'none'
 }
 
 
@@ -558,11 +532,7 @@ connectEvents = () => {
                 activeSubtitle,
                 activeSubtitleCount,
                 activeSubtitleOrto,
-                activeSubtitleOrtoCount
-            )
-            loadFilterBox(
-                activeSubtitle,
-                activeSubtitleOrto,
+                activeSubtitleOrtoCount,
                 activeYearInterval
             )
         }
