@@ -5,6 +5,7 @@ const map = new maplibregl.Map({
 
 });
 
+var activeGeoJson = null
 var activeSubtitle = null;
 var activeSubtitleCount = null;
 var activeSubtitleOrto = null;
@@ -17,24 +18,57 @@ var presentationDelay = 5 * 1000
 var fixedZoom = false
 
 updateYear = (year) => {
-    yearFilter = year
     unsetChapter(true)
     setKML()
     fixedZoom=true
     setCurrentChapter(activeSlide, true)
+    yearFilter = year
+}
+
+filterGeo = (year, updateGeoJson = false) => {
+    let count1 = {"Não mapeado":0, "Concluído": 0, "Múltiplas edições":0}
+    let count2 = {"Não mapeado":0, "Concluído": 0, "Múltiplas edições":0}
+    var newGeoJson = {
+        ...activeGeoJson,
+        features: activeGeoJson.features.map(feature => ({
+            ...feature,
+            properties: {
+                ...feature.properties,
+                edicoes_topo: feature.properties.edicoes_topo?.filter(val => parseInt(val) >= (year || 1500)),
+                edicoes_orto: feature.properties.edicoes_orto?.filter(val => parseInt(val) >= (year || 1500))
+            }
+        }))
+    };
+    for (let i = newGeoJson.features.length; i > 0; i--) {
+        let feature = newGeoJson.features[i - 1]
+        if (!("edicoes_topo" in feature.properties)){
+            count1["Concluído"]+=1
+            continue
+        }
+        feature?.properties?.edicoes_topo?.length==0 ? count1["Não mapeado"]+=1 : feature?.properties?.edicoes_topo?.length==1 ? count1["Concluído"]+=1 : count1["Múltiplas edições"]+=1
+    }
+    for (let i = newGeoJson.features.length; i > 0; i--) {
+        let feature = newGeoJson.features[i - 1]
+        if (!("edicoes_orto" in feature.properties)){
+            continue
+        }
+        feature?.properties?.edicoes_orto?.length==0 ? count2["Não mapeado"]+=1 : feature?.properties?.edicoes_orto?.length==1 ? count2["Concluído"]+=1 : count2["Múltiplas edições"]+=1
+    }
+    activeSubtitleCount = count1
+    activeSubtitleOrtoCount = count2
+    if(updateGeoJson){
+        return newGeoJson
+    }
 }
 
 loadLegend = (
     legend,
-    legendCount,
     legendOrto,
-    legendCountOrto,
     yearInterval,
     legendElId
 ) => {
 
     if (!legend || legend.length == 0) return;
-
     var layers = legend.filter((value, index) => { return (index % 2) == 0 });
     var colors = legend.filter((value, index) => { return (index % 2) != 0 });
 
@@ -50,30 +84,31 @@ loadLegend = (
             ${legendOrto && legendOrto.length > 0 ? `<h4>Carta Ortoimagem</h4>` : ''}
         </div>
     `;
-
+    let subtitleCount = activeSubtitleCount;
     let legendContent1 = layers.map((layer, i) => {
         let color = colors[i];
-        let count = legendCount[layer] ? legendCount[layer] : 0;
+        let count = subtitleCount[layer] || 0;
         return `
             <div>
                 <span class="legend-key" style="background-color: ${color};"></span>
-                <span class="legend-value">${layer} (${count})</span>
+                <span class="legend-value">${layer} (<span id="subtitleCountValue-${i}">${JSON.stringify(count)}</span>)</span>
             </div>
         `;
     }).join('');
 
     let legendContent2 = '';
+    let subtitleOrtoCount = activeSubtitleOrtoCount;
     if (legendOrto && legendOrto.length > 0) {
         let ortoLayers = legendOrto.filter((value, index) => (index % 2) == 0);
         let ortoColors = legendOrto.filter((value, index) => (index % 2) != 0);
 
         legendContent2 = ortoLayers.map((layer, i) => {
             let color = ortoColors[i];
-            let count = legendCountOrto[layer] ? legendCountOrto[layer] : 0;
+            let count = subtitleOrtoCount[layer] || 0;
             return `
                 <div>
                     <span class="legend-orto-key" style="border-bottom: 4px solid ${color};"></span>
-                    <span class="legend-value">${layer} (${count})</span>
+                    <span class="legend-value">${layer} (<span id="subtitleOrtoCountValue-${i}">${JSON.stringify(count)}</span>)</span>
                 </div>
             `;
         }).join('');
@@ -87,7 +122,7 @@ loadLegend = (
     `;
 
     let year = (yearFilter >= yearInterval.min && yearFilter <= yearInterval.max) ? yearFilter : yearInterval.min;
-    let slideIndex = getSlideIndex(activeSlide)
+    let slideIndex = getSlideIndex(activeSlide);
     let sliderContent = (slideIndex > 2 && slideIndex < 7) ? `
         <h4>Escolha a partir de qual ano exibir as cartas</h4>
         <input type="range" min="${yearInterval.min}" max="${yearInterval.max}" value="${year}" id="sliderFilter" list="values" />
@@ -101,9 +136,8 @@ loadLegend = (
     let content = legendTitle + legendContent + sliderContent;
     legendEl.innerHTML = content;
 
-    let sliderFilter = document.getElementById('sliderFilter');
-    let yearValue = document.getElementById('yearValue');
-    
+    let sliderFilter = document?.getElementById('sliderFilter');
+    let yearValue = document?.getElementById('yearValue');
     function debounce(func, delay) {
         let timeout;
         return function() {
@@ -112,9 +146,23 @@ loadLegend = (
         };
     }
 
-    sliderFilter.addEventListener('input', function() {
+    sliderFilter?.addEventListener('input', function() {
         year = this.value;
+        filterGeo(year, false);
+        subtitleCount = activeSubtitleCount;
+        subtitleOrtoCount = activeSubtitleOrtoCount;
         yearValue.textContent = year;
+        layers.forEach((layer, i) => {
+            let subtitleCountValue = document.querySelector(`#subtitleCountValue-${i}`);
+            let count = subtitleCount[layer] || 0;
+            subtitleCountValue.textContent = JSON.stringify(count);
+        });
+        let ortoLayers = legendOrto.filter((value, index) => (index % 2) == 0);
+        ortoLayers.forEach((layer, i) => {
+            let subtitleOrtoCountValue = document.querySelector(`#subtitleOrtoCountValue-${i}`);
+            let count = subtitleOrtoCount[layer] || 0;
+            subtitleOrtoCountValue.textContent = JSON.stringify(count);
+        });
         debounceUpdateYear(year);
     });
     
@@ -136,23 +184,14 @@ loadGeoJSON = (loteName, styles) => {
             return response.json();
         })
         .then(async (geoJson) => {
+            activeGeoJson= geoJson
             const extent = geojsonExtent(geoJson)
             !fixedZoom ? map.fitBounds([
                 [extent[0] - 1, extent[1] - 1],
                 [extent[2] + 1, extent[3] + 1]
             ]) : fixedZoom=false
             setKML(tokml(geoJson), loteName)
-            var newGeoJson = {
-                ...geoJson,
-                features: geoJson.features.map(feature => ({
-                    ...feature,
-                    properties: {
-                        ...feature.properties,
-                        edicoes_topo: feature.properties.edicoes_topo?.filter(year => parseInt(year) >= (yearFilter || 1500)),
-                        edicoes_orto: feature.properties.edicoes_orto?.filter(year => parseInt(year) >= (yearFilter || 1500))
-                    }
-                }))
-            };
+            let newGeoJson = filterGeo(yearFilter, true);
             map.addSource(loteName, {
                 "type": "geojson",
                 "data": newGeoJson
@@ -205,16 +244,12 @@ setCurrentChapter = async (currentSlideId, sameChapter) => {
     await loadGeoJSON(loteName, loteSettings.styles)
     activeSlide = currentSlideId
     activeSubtitle = loteSettings.legend
-    activeSubtitleCount = loteSettings.legendCount
     activeSubtitleOrto = loteSettings.legendOrto
     activeYearInterval = loteSettings.yearInterval
-    activeSubtitleOrtoCount = loteSettings.legendCountOrto
     if (!mobileScreen() && !sameChapter) {
         loadLegend(
             activeSubtitle,
-            activeSubtitleCount,
             activeSubtitleOrto,
-            activeSubtitleOrtoCount,
             activeYearInterval,
             'legend'
         )
@@ -385,9 +420,7 @@ connectEvents = () => {
     btn.onclick = () => {
         loadLegend(
             activeSubtitle,
-            activeSubtitleCount,
             activeSubtitleOrto,
-            activeSubtitleOrtoCount,
             activeYearInterval,
             'modal-text'
         )
@@ -418,9 +451,7 @@ connectEvents = () => {
             modal.style.display = "none"
             loadLegend(
                 activeSubtitle,
-                activeSubtitleCount,
                 activeSubtitleOrto,
-                activeSubtitleOrtoCount,
                 activeYearInterval,
                 'legend'
             )
@@ -707,12 +738,6 @@ setProjectSettings = async () => {
                     2, 3.5 // Tamanho do array >= 2 
                 ]
 
-                let legendCount = await getLegendCount(lote.name)
-                lote.legendCount = legendCount
-
-                let legendCountOrto = await getLegendCountOrto(lote.name)
-                lote.legendCountOrto = legendCountOrto
-
                 let yearInterval = await getYearInterval(lote.name)
                 lote.yearInterval = yearInterval
 
@@ -726,8 +751,6 @@ setProjectSettings = async () => {
             lote.styles[0].paint['fill-color'] = [
                 'match', ['string', ['get', 'situacao']], ...subtitleSetting, '#AAAAAA'
             ]
-            let legendCount = await getLegendCount(lote.name)
-            lote.legendCount = legendCount
             let yearInterval = await getYearInterval(lote.name)
             lote.yearInterval = yearInterval
         }
@@ -856,35 +879,6 @@ getSubtitleBorderColorSetting = (legend, name) => {
         subtitleSetting.push(state.name, state.color)
     }
     return subtitleSetting
-}
-
-getLegendCount = async (name) => {
-    let count = {"Não mapeado":0, "Concluído": 0, "Múltiplas edições":0}
-    let resp = await fetch(`./data/${name}.geojson`);
-    let data = await resp.json();
-    for (let i = data.features.length; i > 0; i--) {
-        let feature = data.features[i - 1]
-        if (!("edicoes_topo" in feature.properties)){
-            count["Concluído"]+=1
-            continue
-        }
-        feature.properties.edicoes_topo.length==0 ? count["Não mapeado"]+=1 : feature.properties.edicoes_topo.length==1 ? count["Concluído"]+=1 : count["Múltiplas edições"]+=1
-    }
-    return count
-}
-
-getLegendCountOrto = async (name) => {
-    let count = {"Não mapeado":0, "Concluído": 0, "Múltiplas edições":0}
-    let resp = await fetch(`./data/${name}.geojson`);
-    let data = await resp.json();
-    for (let i = data.features.length; i > 0; i--) {
-        let feature = data.features[i - 1]
-        if (!("edicoes_orto" in feature.properties)){
-            continue
-        }
-        feature.properties.edicoes_orto.length==0 ? count["Não mapeado"]+=1 : feature.properties.edicoes_orto.length==1 ? count["Concluído"]+=1 : count["Múltiplas edições"]+=1
-    }
-    return count
 }
 
 getYearInterval = async (name) => {
