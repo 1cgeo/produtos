@@ -41,25 +41,15 @@ filterGeo = (year, updateGeoJson = false) => {
     };
     for (let i = newGeoJson.features.length; i > 0; i--) {
         let feature = newGeoJson.features[i - 1]
-        if (!("edicoes_topo" in feature.properties)){
-            count1["Concluído"]+=1
-            continue
+        if ("edicoes_topo" in feature.properties){
+            feature?.properties?.edicoes_topo?.length==0 ? count1["Não mapeado"]+=1 : feature?.properties?.edicoes_topo?.length==1 ? count1["Concluído"]+=1 : feature?.properties?.edicoes_topo?.length>1 ? count1["Múltiplas edições"]+=1 : null
         }
-        feature?.properties?.edicoes_topo?.length==0 ? count1["Não mapeado"]+=1 : feature?.properties?.edicoes_topo?.length==1 ? count1["Concluído"]+=1 : feature?.properties?.edicoes_topo?.length>1 ? count1["Múltiplas edições"]+=1 : null
-    }
-    for (let i = newGeoJson.features.length; i > 0; i--) {
-        let feature = newGeoJson.features[i - 1]
-        if (!("edicoes_orto" in feature.properties)){
-            continue
+        if ("edicoes_orto" in feature.properties){
+            feature?.properties?.edicoes_orto?.length==0 ? count2["Não mapeado"]+=1 : feature?.properties?.edicoes_orto?.length==1 ? count2["Concluído"]+=1 : feature?.properties?.edicoes_orto?.length>1 ? count2["Múltiplas edições"]+=1 : null
         }
-        feature?.properties?.edicoes_orto?.length==0 ? count2["Não mapeado"]+=1 : feature?.properties?.edicoes_orto?.length==1 ? count2["Concluído"]+=1 : feature?.properties?.edicoes_orto?.length>1 ? count2["Múltiplas edições"]+=1 : null
-    }
-    for (let i = newGeoJson.features.length; i > 0; i--) {
-        let feature = newGeoJson.features[i - 1]
-        if (!("situacao" in feature.properties)){
-            continue
+        if ("situacao" in feature.properties){
+            feature?.properties?.situacao == 'Concluído' ? count1["Concluído"]+=1 : count1["Não mapeado"]+=1
         }
-        feature?.properties?.situacao ? count1["Concluído"]+=1 : null
     }
     activeSubtitleCount = count1
     activeSubtitleOrtoCount = count2
