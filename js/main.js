@@ -45,14 +45,21 @@ filterGeo = (year, updateGeoJson = false) => {
             count1["Concluído"]+=1
             continue
         }
-        feature?.properties?.edicoes_topo?.length==0 ? count1["Não mapeado"]+=1 : feature?.properties?.edicoes_topo?.length==1 ? count1["Concluído"]+=1 : count1["Múltiplas edições"]+=1
+        feature?.properties?.edicoes_topo?.length==0 ? count1["Não mapeado"]+=1 : feature?.properties?.edicoes_topo?.length==1 ? count1["Concluído"]+=1 : feature?.properties?.edicoes_topo?.length>1 ? count1["Múltiplas edições"]+=1 : null
     }
     for (let i = newGeoJson.features.length; i > 0; i--) {
         let feature = newGeoJson.features[i - 1]
         if (!("edicoes_orto" in feature.properties)){
             continue
         }
-        feature?.properties?.edicoes_orto?.length==0 ? count2["Não mapeado"]+=1 : feature?.properties?.edicoes_orto?.length==1 ? count2["Concluído"]+=1 : count2["Múltiplas edições"]+=1
+        feature?.properties?.edicoes_orto?.length==0 ? count2["Não mapeado"]+=1 : feature?.properties?.edicoes_orto?.length==1 ? count2["Concluído"]+=1 : feature?.properties?.edicoes_orto?.length>1 ? count2["Múltiplas edições"]+=1 : null
+    }
+    for (let i = newGeoJson.features.length; i > 0; i--) {
+        let feature = newGeoJson.features[i - 1]
+        if (!("situacao" in feature.properties)){
+            continue
+        }
+        feature?.properties?.situacao ? count1["Concluído"]+=1 : null
     }
     activeSubtitleCount = count1
     activeSubtitleOrtoCount = count2
