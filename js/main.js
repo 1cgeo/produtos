@@ -121,7 +121,7 @@ loadLegend = (
         </div>
     `;
 
-    let year = (yearFilter >= yearInterval.min && yearFilter <= yearInterval.max) ? yearFilter : yearInterval.min;
+    let year = (yearFilter >= yearInterval.min && yearFilter <= yearInterval.max) ? yearFilter : yearFilter < yearInterval.min ? yearInterval.min : yearInterval.max;
     let slideIndex = getSlideIndex(activeSlide);
     let sliderContent = (slideIndex > 2 && slideIndex < 7) ? `
         <h4>Escolha a partir de qual ano exibir as cartas</h4>
