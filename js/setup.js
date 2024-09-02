@@ -322,12 +322,7 @@ var PROJECTS = {
                 subtitle: 'Cartas Topográficas 1:25.000 de Campos de Instrução do Comando Militar do Sul',
                 description: 'Construção de 22 cartas topográficas na escala 1:25.000 visando atender a demanda de atualização de cartas nos Campos de Instrução do Comando Militar do Sul.',
                 legend: [
-                    1,
-                    12,
-                    2,
-                    5,
-                    6,
-                    3
+                    2
                 ],
                 styles: [
                     {
@@ -369,12 +364,7 @@ var PROJECTS = {
                 subtitle: 'Cartas Ortoimagem 1:50.000 do CIMH',
                 description: 'Construção de 6 cartas ortoimagem na escala 1:50.000 visando atualizar a geoinformação referente ao Campo de Instrução de Marechal Hermes.',
                 legend: [
-                    1,
-                    12,
                     2,
-                    5,
-                    6,
-                    3
                 ],
                 styles: [
                     {
@@ -416,12 +406,7 @@ var PROJECTS = {
                 subtitle: 'Cartas Ortoimagem 1:25.000 da Região Metropoliana de Porto Alegre',
                 description: 'Construção de 8 cartas ortoimagem na escala 1:25.000 visando atender a atualização das Cartas Ortoimagem na Região Metropolitana de Porto Alegre.',
                 legend: [
-                    1,
-                    12,
                     2,
-                    5,
-                    6,
-                    3
                 ],
                 styles: [
                     {
@@ -463,12 +448,7 @@ var PROJECTS = {
                 subtitle: 'Cartas Ortoimagem 1:25.000 de Campos de Instrução do CMS',
                 description: 'Construção de 35 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
                 legend: [
-                    1,
-                    12,
                     2,
-                    5,
-                    6,
-                    3
                 ],
                 styles: [
                     {
