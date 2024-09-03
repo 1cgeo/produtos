@@ -72,7 +72,7 @@ loadLegend = (
     let legendEl = document.getElementById(legendElId);
 
     legendEl.style.display = 'block';
-    legendEl.style.width = (legendOrto && legendOrto.length > 0) ? '450px' : '150px';
+    legendEl.style.width = (legendOrto && legendOrto.length > 0) ? (mobileScreen() ? '350px' : '450px') : '150px';
     legendEl.innerHTML = '';
 
     let legendTitle = `
@@ -122,7 +122,7 @@ loadLegend = (
     let slideIndex = getSlideIndex(activeSlide);
     let sliderContent = (slideIndex > 2 && slideIndex < 7) ? `
         <h4>Escolha a partir de qual ano exibir as cartas</h4>
-        <input type="range" min="${yearInterval.min}" max="${yearInterval.max}" value="${year}" id="sliderFilter" list="values" step="1"/>
+        <input type="range" min="${yearInterval.min}" max="${yearInterval.max}" value="${year}" id="sliderFilter" list="values" step="1" autocomplete="false"/>
         <datalist id="values">
             <option value="${yearInterval.min}" label="${yearInterval.min}"></option>
             <option value="${yearInterval.max}" label="${yearInterval.max}"></option>
@@ -766,7 +766,7 @@ setProjectSettings = async () => {
                         var filteredEditionsTopo = editionsTopo.filter(year => parseInt(year, 10) >= (yearFilter || 1500))
                         var filteredEditionsOrto = editionsOrto.filter(year => parseInt(year, 10) >= (yearFilter || 1500))
                         new maplibregl.Popup({
-                            maxWidth: '300px'
+                            maxWidth: '350px'
                         })
                             .setLngLat(e.lngLat)
                             .setHTML(`
