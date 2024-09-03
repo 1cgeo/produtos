@@ -129,7 +129,7 @@ datalist {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.8);
   margin-left: 20px;
   margin-bottom: 10px;
   font-family: Arial, sans-serif;
@@ -257,11 +257,11 @@ datalist {
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  background-color: rgb(254, 254, 254, 0.8);
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 300px;
+  width: 450px;
 }
 
 /* The Close Button */
