@@ -12,12 +12,18 @@ var activeSubtitleOrto = null;
 var activeSubtitleOrtoCount = null;
 var activeYearInterval = null;
 var activeSlide = null
+var hideTopo = false
+var hideOrto = false
 var yearFilter = null;
 var autoplay = false
 var presentationDelay = 5 * 1000
 var fixedZoom = false
 
 updateYear = () => {
+    let closeButton = document.querySelector('.maplibregl-popup-close-button');
+    if (closeButton) {
+        closeButton.click();
+    }
     unsetChapter(true)
     setKML()
     fixedZoom=true
@@ -33,11 +39,39 @@ filterGeo = (year, updateGeoJson = false) => {
             ...feature,
             properties: {
                 ...feature.properties,
-                edicoes_topo: feature.properties.edicoes_topo?.filter(val => parseInt(val) >= (year || 1500)),
-                edicoes_orto: feature.properties.edicoes_orto?.filter(val => parseInt(val) >= (year || 1500))
+                edicoes_topo: feature.properties.edicoes_topo?.filter(val => parseInt(val) >= (year || 1900)),
+                edicoes_orto: feature.properties.edicoes_orto?.filter(val => parseInt(val) >= (year || 1900))
             }
         }))
     };
+    if(hideTopo){
+        newGeoJson = {
+            ...newGeoJson,
+            features: newGeoJson.features.map(feature => ({
+                ...feature,
+                properties: {
+                    ...feature.properties,
+                    edicoes_topo: [],
+                    situacao_topo: "Não mapeado",
+                    situacao: "Não mapeado"
+                }
+            }))
+        };
+    }
+    if(hideOrto){
+        newGeoJson = {
+            ...newGeoJson,
+            features: newGeoJson.features.map(feature => ({
+                ...feature,
+                properties: {
+                    ...feature.properties,
+                    edicoes_orto: [],
+                    situacao_orto: "Não mapeado",
+                    situacao: "Não mapeado"
+                }
+            }))
+        };
+    }
     for (let i = newGeoJson.features.length; i > 0; i--) {
         let feature = newGeoJson.features[i - 1]
         if ("edicoes_topo" in feature.properties){
@@ -63,21 +97,31 @@ loadLegend = (
     yearInterval,
     legendElId
 ) => {
+    if (!legend || legend.length === 0) return;
 
-    if (!legend || legend.length == 0) return;
-    var layers = legend.filter((value, index) => { return (index % 2) == 0 });
-    var colors = legend.filter((value, index) => { return (index % 2) != 0 });
+    var layers = legend.filter((value, index) => index % 2 === 0);
+    var colors = legend.filter((value, index) => index % 2 !== 0);
 
     let legendEl = document.getElementById(legendElId);
+    
+    // Definir visibilidade e cor inicial dos botões com base em hideTopo e hideOrto
+    let initialVisibility1 = hideTopo ? 'hidden' : 'visible';
+    let initialVisibility2 = hideOrto ? 'hidden' : 'visible';
+    let initialDisplay = (hideOrto && hideOrto) ? 'none' : 'flex';
+    let topoButtonColor = hideTopo ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.6)';
+    let ortoButtonColor = hideOrto ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.6)';
 
     legendEl.style.display = 'block';
     legendEl.style.width = (legendOrto && legendOrto.length > 0) ? (mobileScreen() ? '350px' : '450px') : '225px';
     legendEl.innerHTML = '';
 
+    let legendTitle1 = `<h4 id="topoButton" style="cursor: pointer; flex: 1; border-radius: 8px; padding: 5px 5px; margin: 10px 10px; background-color: ${topoButtonColor};">Carta Topográfica</h4>`;
+    let legendTitle2 = `${legendOrto && legendOrto.length > 0 ? `<h4 id="ortoButton" style="cursor: pointer; flex: 1; border-radius: 8px; padding: 5px 5px; margin: 10px 10px; background-color: ${ortoButtonColor};">Carta Ortoimagem</h4>` : ''}`;
+
     let legendTitle = `
         <div style="display: flex; flex-direction: row">
-            <h4 id="topoButton" style="cursor: default; flex: 1; border-radius: 8px; padding: 5px 5px; margin: 10px 10px; background-color: rgba(70, 130, 180, 0.8);">Carta Topográfica</h4>
-            ${legendOrto && legendOrto.length > 0 ? `<h4 id="ortoButton" style="cursor: default; flex: 1; border-radius: 8px; padding: 5px 5px; margin: 10px 10px; background-color: rgba(70, 130, 180, 0.8);">Carta Ortoimagem</h4>` : ''}
+            ${legendTitle1}
+            ${legendTitle2}
         </div>
     `;
 
@@ -96,8 +140,8 @@ loadLegend = (
     let legendContent2 = '';
     let subtitleOrtoCount = activeSubtitleOrtoCount;
     if (legendOrto && legendOrto.length > 0) {
-        let ortoLayers = legendOrto.filter((value, index) => (index % 2) == 0);
-        let ortoColors = legendOrto.filter((value, index) => (index % 2) != 0);
+        let ortoLayers = legendOrto.filter((value, index) => (index % 2) === 0);
+        let ortoColors = legendOrto.filter((value, index) => (index % 2) !== 0);
 
         legendContent2 = ortoLayers.map((layer, i) => {
             let color = ortoColors[i];
@@ -112,9 +156,9 @@ loadLegend = (
     }
 
     let legendContent = `
-        <div id="legendContent" style="display: flex; flex-direction: row;">
-            <div id="legendContent1" style="flex: 1;">${legendContent1}</div>
-            <div id="legendContent2" style="flex: 1;">${legendContent2}</div>
+        <div id="legendContent" style="display: ${initialDisplay}; flex-direction: row;">
+            <div id="legendContent1" style="flex: 1; visibility: ${initialVisibility1};">${legendContent1}</div>
+            <div id="legendContent2" style="flex: 1; visibility: ${initialVisibility2};">${legendContent2}</div>
         </div>
     `;
 
@@ -154,7 +198,7 @@ loadLegend = (
             let count = subtitleCount[layer] || 0;
             subtitleCountValue.textContent = JSON.stringify(count);
         });
-        let ortoLayers = legendOrto.filter((value, index) => (index % 2) == 0);
+        let ortoLayers = legendOrto.filter((value, index) => (index % 2) === 0);
         ortoLayers.forEach((layer, i) => {
             let subtitleOrtoCountValue = document.querySelector(`#subtitleOrtoCountValue-${i}`);
             let count = subtitleOrtoCount[layer] || 0;
@@ -162,13 +206,12 @@ loadLegend = (
         });
         debounceUpdateYear(year);
     });
-    
+
     let debounceUpdateYear = debounce(function(year) {
         updateYear();
-        yearFilter = year
+        yearFilter = year;
     }, 100);
 
-    // Toggle visibility and button appearance
     let topoButton = document.getElementById("topoButton");
     let ortoButton = document.getElementById("ortoButton");
     let legendContent1El = document.getElementById("legendContent1");
@@ -178,27 +221,28 @@ loadLegend = (
     topoButton?.addEventListener('click', function() {
         let isActive = legendContent1El.style.visibility !== 'hidden';
         legendContent1El.style.visibility = isActive ? 'hidden' : 'visible';
-        topoButton.style.backgroundColor = isActive ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.8)';
+        topoButton.style.backgroundColor = isActive ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.6)';
+        hideTopo = isActive ? true : false;
         updateLegendDisplay();
     });
-    
+
     ortoButton?.addEventListener('click', function() {
         let isActive = legendContent2El.style.visibility !== 'hidden';
         legendContent2El.style.visibility = isActive ? 'hidden' : 'visible';
-        ortoButton.style.backgroundColor = isActive ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.8)';
+        ortoButton.style.backgroundColor = isActive ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.6)';
+        hideOrto = isActive ? true : false;
         updateLegendDisplay();
     });
-    
+
     function updateLegendDisplay() {
-        // Verifica se ambos os conteúdos estão ocultos e altera o display do legendContent
         if (legendContent1El.style.visibility === "hidden" && legendContent2El.style.visibility === "hidden") {
             legendContentEl.style.display = "none";
         } else {
             legendContentEl.style.display = "flex";
         }
+        updateYear();
     }
 }
-
 
 
 loadGeoJSON = (loteName, styles) => {
@@ -939,8 +983,8 @@ getYearInterval = async (name) => {
         }
     }
     let interval = {
-        min: 1500,
-        max: 2500
+        min: 1900,
+        max: 2200
     };
 
     if (minYear !== Infinity) {
