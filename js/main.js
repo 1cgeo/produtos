@@ -17,12 +17,11 @@ var autoplay = false
 var presentationDelay = 5 * 1000
 var fixedZoom = false
 
-updateYear = (year) => {
+updateYear = () => {
     unsetChapter(true)
     setKML()
     fixedZoom=true
     setCurrentChapter(activeSlide, true)
-    yearFilter = year
 }
 
 filterGeo = (year, updateGeoJson = false) => {
@@ -72,15 +71,16 @@ loadLegend = (
     let legendEl = document.getElementById(legendElId);
 
     legendEl.style.display = 'block';
-    legendEl.style.width = (legendOrto && legendOrto.length > 0) ? (mobileScreen() ? '350px' : '450px') : '150px';
+    legendEl.style.width = (legendOrto && legendOrto.length > 0) ? (mobileScreen() ? '350px' : '450px') : '225px';
     legendEl.innerHTML = '';
 
     let legendTitle = `
-        <div style="display: flex; flex-direction: row; justify-content: space-around; text-align:center;">
-            <h4>Carta Topográfica</h4>
-            ${legendOrto && legendOrto.length > 0 ? `<h4>Carta Ortoimagem</h4>` : ''}
+        <div style="display: flex; flex-direction: row">
+            <h4 id="topoButton" style="cursor: default; flex: 1; border-radius: 8px; padding: 5px 5px; margin: 10px 10px; background-color: rgba(70, 130, 180, 0.8);">Carta Topográfica</h4>
+            ${legendOrto && legendOrto.length > 0 ? `<h4 id="ortoButton" style="cursor: default; flex: 1; border-radius: 8px; padding: 5px 5px; margin: 10px 10px; background-color: rgba(70, 130, 180, 0.8);">Carta Ortoimagem</h4>` : ''}
         </div>
     `;
+
     let subtitleCount = activeSubtitleCount;
     let legendContent1 = layers.map((layer, i) => {
         let color = colors[i];
@@ -112,9 +112,9 @@ loadLegend = (
     }
 
     let legendContent = `
-        <div style="display: flex; flex-direction: row; justify-content: space-around;">
-            <div>${legendContent1}</div>
-            <div>${legendContent2}</div>
+        <div id="legendContent" style="display: flex; flex-direction: row;">
+            <div id="legendContent1" style="flex: 1;">${legendContent1}</div>
+            <div id="legendContent2" style="flex: 1;">${legendContent2}</div>
         </div>
     `;
 
@@ -164,9 +164,42 @@ loadLegend = (
     });
     
     let debounceUpdateYear = debounce(function(year) {
-        updateYear(year);
+        updateYear();
+        yearFilter = year
     }, 100);
+
+    // Toggle visibility and button appearance
+    let topoButton = document.getElementById("topoButton");
+    let ortoButton = document.getElementById("ortoButton");
+    let legendContent1El = document.getElementById("legendContent1");
+    let legendContent2El = document.getElementById("legendContent2");
+    let legendContentEl = document.getElementById("legendContent");
+
+    topoButton?.addEventListener('click', function() {
+        let isActive = legendContent1El.style.visibility !== 'hidden';
+        legendContent1El.style.visibility = isActive ? 'hidden' : 'visible';
+        topoButton.style.backgroundColor = isActive ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.8)';
+        updateLegendDisplay();
+    });
+    
+    ortoButton?.addEventListener('click', function() {
+        let isActive = legendContent2El.style.visibility !== 'hidden';
+        legendContent2El.style.visibility = isActive ? 'hidden' : 'visible';
+        ortoButton.style.backgroundColor = isActive ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.8)';
+        updateLegendDisplay();
+    });
+    
+    function updateLegendDisplay() {
+        // Verifica se ambos os conteúdos estão ocultos e altera o display do legendContent
+        if (legendContent1El.style.visibility === "hidden" && legendContent2El.style.visibility === "hidden") {
+            legendContentEl.style.display = "none";
+        } else {
+            legendContentEl.style.display = "flex";
+        }
+    }
 }
+
+
 
 loadGeoJSON = (loteName, styles) => {
     return fetch(`data/${loteName}.geojson`
@@ -763,8 +796,8 @@ setProjectSettings = async () => {
                     if (project.group == "Situação Geral") {
                         var editionsTopo = JSON.parse(e.features[0].properties.edicoes_topo)
                         var editionsOrto = JSON.parse(e.features[0].properties.edicoes_orto)
-                        var filteredEditionsTopo = editionsTopo.filter(year => parseInt(year, 10) >= (yearFilter || 1500))
-                        var filteredEditionsOrto = editionsOrto.filter(year => parseInt(year, 10) >= (yearFilter || 1500))
+                        var filteredEditionsTopo = editionsTopo.filter(year => parseInt(year, 10) >= (yearFilter || 1900))
+                        var filteredEditionsOrto = editionsOrto.filter(year => parseInt(year, 10) >= (yearFilter || 1900))
                         new maplibregl.Popup({
                             maxWidth: '350px'
                         })
