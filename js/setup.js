@@ -54,7 +54,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: 'situacao-geral-ct-25k',
-                subtitle: 'Carta Topográfica 1:25.000',
+                subtitle: 'Cartas 1:25.000',
                 description: ``,
                 zoom: [
                     [-58.00, -34.00], // southwestern corner of the bounds
@@ -120,7 +120,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: 'situacao-geral-ct-50k',
-                subtitle: 'Carta Topográfica 1:50.000',
+                subtitle: 'Cartas 1:50.000',
                 description: ``,
                 zoom: [
                     [-58.125, -34.125], // southwestern corner of the bounds
@@ -186,7 +186,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: 'situacao-geral-ct-100k',
-                subtitle: 'Carta Topográfica 1:100.000',
+                subtitle: 'Cartas 1:100.000',
                 description: ``,
                 zoom: [
                     [-58.250, -34.125], // southwestern corner of the bounds
@@ -252,7 +252,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: 'situacao-geral-ct-250k',
-                subtitle: 'Carta Topográfica 1:250.000',
+                subtitle: 'Cartas 1:250.000',
                 description: ``,
                 zoom: [
                     [-58.625, -34.125], // southwestern corner of the bounds

@@ -57,7 +57,6 @@ filterGeo = (year, updateGeoJson = false) => {
                     ...feature.properties,
                     edicoes_topo: [],
                     situacao_topo: "Não mapeado",
-                    situacao: "Não mapeado"
                 }
             }))
         };
@@ -71,7 +70,6 @@ filterGeo = (year, updateGeoJson = false) => {
                     ...feature.properties,
                     edicoes_orto: [],
                     situacao_orto: "Não mapeado",
-                    situacao: "Não mapeado"
                 }
             }))
         };
@@ -108,9 +106,9 @@ loadLegend = (
 
     let legendEl = document.getElementById(legendElId);
     
-    let initialVisibility1 = hideTopo ? 'hidden' : 'visible';
-    let initialVisibility2 = hideOrto ? 'hidden' : 'visible';
-    let initialDisplay = (hideOrto && hideOrto) ? 'none' : 'flex';
+    let initialVisibility1 = (slideIndex > 2 && slideIndex < 7) ? (hideTopo ? 'hidden' : 'visible') : 'visible';
+    let initialVisibility2 = (slideIndex > 2 && slideIndex < 7) ? (hideOrto ? 'hidden' : 'visible') : 'visible';
+    let initialDisplay = (slideIndex > 2 && slideIndex < 7) ? ((hideOrto && hideOrto) ? 'none' : 'flex') : 'flex';
     let topoButtonColor = hideTopo ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.6)';
     let ortoButtonColor = hideOrto ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.6)';
 
@@ -127,7 +125,7 @@ loadLegend = (
             ${legendTitle2}
         </div>
     ` : '';
-
+    
     let subtitleCount = activeSubtitleCount;
     let legendContent1 = layers.map((layer, i) => {
         let color = colors[i];
@@ -164,7 +162,6 @@ loadLegend = (
             <div id="legendContent2" style="flex: 1; visibility: ${initialVisibility2};">${legendContent2}</div>
         </div>
     `;
-
     let year = (yearFilter >= yearInterval.min && yearFilter <= yearInterval.max) ? yearFilter : yearFilter < yearInterval.min ? yearInterval.min : yearInterval.max;
     let sliderContent = (slideIndex > 2 && slideIndex < 7) ? `
         <h4>Escolha a partir de qual ano exibir as cartas</h4>
@@ -221,18 +218,18 @@ loadLegend = (
     let legendContentEl = document.getElementById("legendContent");
 
     topoButton?.addEventListener('click', function() {
-        let isActive = legendContent1El.style.visibility !== 'hidden';
-        legendContent1El.style.visibility = isActive ? 'hidden' : 'visible';
-        topoButton.style.backgroundColor = isActive ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.6)';
-        hideTopo = isActive ? true : false;
+        let isHidden = legendContent1El.style.visibility !== 'hidden';
+        legendContent1El.style.visibility = isHidden ? 'hidden' : 'visible';
+        topoButton.style.backgroundColor = isHidden ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.6)';
+        hideTopo = isHidden ? true : false;
         updateLegendDisplay();
     });
 
     ortoButton?.addEventListener('click', function() {
-        let isActive = legendContent2El.style.visibility !== 'hidden';
-        legendContent2El.style.visibility = isActive ? 'hidden' : 'visible';
-        ortoButton.style.backgroundColor = isActive ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.6)';
-        hideOrto = isActive ? true : false;
+        let isHidden = legendContent2El.style.visibility !== 'hidden';
+        legendContent2El.style.visibility = isHidden ? 'hidden' : 'visible';
+        ortoButton.style.backgroundColor = isHidden ? 'rgba(70, 130, 180, 0.2)' : 'rgba(70, 130, 180, 0.6)';
+        hideOrto = isHidden ? true : false;
         updateLegendDisplay();
     });
 
@@ -384,8 +381,6 @@ function plugin({ swiper, extendParams, on }) {
             return
         }
         if (mobileScreen()) document.getElementById("legend-icon").style.display = 'block'
-        hideTopo = false
-        hideOrto = false
         await setCurrentChapter(currentSlideId, false)
     });
 
