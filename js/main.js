@@ -19,11 +19,15 @@ var autoplay = false
 var presentationDelay = 5 * 1000
 var fixedZoom = false
 
-updateYear = () => {
+closepopup = () => {
     let closeButton = document.querySelector('.maplibregl-popup-close-button');
     if (closeButton) {
         closeButton.click();
     }
+}
+
+updateYear = () => {
+    closepopup()
     unsetChapter(true)
     setKML()
     fixedZoom=true
@@ -98,13 +102,12 @@ loadLegend = (
     legendElId
 ) => {
     if (!legend || legend.length === 0) return;
-
+    let slideIndex = getSlideIndex(activeSlide);
     var layers = legend.filter((value, index) => index % 2 === 0);
     var colors = legend.filter((value, index) => index % 2 !== 0);
 
     let legendEl = document.getElementById(legendElId);
     
-    // Definir visibilidade e cor inicial dos botões com base em hideTopo e hideOrto
     let initialVisibility1 = hideTopo ? 'hidden' : 'visible';
     let initialVisibility2 = hideOrto ? 'hidden' : 'visible';
     let initialDisplay = (hideOrto && hideOrto) ? 'none' : 'flex';
@@ -118,12 +121,12 @@ loadLegend = (
     let legendTitle1 = `<h4 id="topoButton" style="cursor: pointer; flex: 1; border-radius: 8px; padding: 5px 5px; margin: 10px 10px; background-color: ${topoButtonColor};">Carta Topográfica</h4>`;
     let legendTitle2 = `${legendOrto && legendOrto.length > 0 ? `<h4 id="ortoButton" style="cursor: pointer; flex: 1; border-radius: 8px; padding: 5px 5px; margin: 10px 10px; background-color: ${ortoButtonColor};">Carta Ortoimagem</h4>` : ''}`;
 
-    let legendTitle = `
+    let legendTitle = (slideIndex > 2 && slideIndex < 7) ? `
         <div style="display: flex; flex-direction: row">
             ${legendTitle1}
             ${legendTitle2}
         </div>
-    `;
+    ` : '';
 
     let subtitleCount = activeSubtitleCount;
     let legendContent1 = layers.map((layer, i) => {
@@ -163,7 +166,6 @@ loadLegend = (
     `;
 
     let year = (yearFilter >= yearInterval.min && yearFilter <= yearInterval.max) ? yearFilter : yearFilter < yearInterval.min ? yearInterval.min : yearInterval.max;
-    let slideIndex = getSlideIndex(activeSlide);
     let sliderContent = (slideIndex > 2 && slideIndex < 7) ? `
         <h4>Escolha a partir de qual ano exibir as cartas</h4>
         <input type="range" min="${yearInterval.min}" max="${yearInterval.max}" value="${year}" id="sliderFilter" list="values" step="1" autocomplete="false"/>
@@ -246,6 +248,7 @@ loadLegend = (
 
 
 loadGeoJSON = (loteName, styles) => {
+    closepopup()
     return fetch(`data/${loteName}.geojson`
         , {
             headers: {
@@ -381,6 +384,8 @@ function plugin({ swiper, extendParams, on }) {
             return
         }
         if (mobileScreen()) document.getElementById("legend-icon").style.display = 'block'
+        hideTopo = false
+        hideOrto = false
         await setCurrentChapter(currentSlideId, false)
     });
 
@@ -779,6 +784,54 @@ stopLoader = () => {
     document.getElementById("loader").style.display = 'none'
 }
 
+const generatePopupHTML = (feature, topoDisplay, ortoDisplay, filteredEditionsTopo, filteredEditionsOrto) => {
+    return `
+    <div class="popup">
+       <div style="text-align: center;">
+            <h2>${feature.properties.identificador}</h2>
+            <h3 style="display:${(hideTopo && hideOrto) ? 'none' : ''};">Informação</h3>
+       </div>
+       <table>
+            <tr>
+                <th style="display:${topoDisplay};">Carta Topográfica</th>
+                <th style="display:${ortoDisplay};">Carta Ortoimagem</th>
+            </tr>
+            <tr>
+                <td style="display:${topoDisplay};">
+                    ${filteredEditionsTopo.length == 0 ? `` : `
+                    <table>
+                        <tr>
+                            <th>Edição</th>
+                            <th>Data</th>
+                        </tr>
+                        ${filteredEditionsTopo.map((item, idx) => `
+                        <tr>
+                            <td>${filteredEditionsTopo.length - idx}</td>
+                            <td>${item}</td>
+                        </tr>`).join('\n')}
+                    </table>
+                    `}
+                </td>
+                <td  style="display:${ortoDisplay};">
+                    ${filteredEditionsOrto.length == 0 ? `` : `
+                    <table>
+                        <tr>
+                            <th>Edição</th>
+                            <th>Data</th>
+                        </tr>
+                        ${filteredEditionsOrto.map((item, idx) => `
+                        <tr>
+                            <td>${filteredEditionsOrto.length - idx}</td>
+                            <td>${item}</td>
+                        </tr>`).join('\n')}
+                    </table>
+                    `}
+                </td>
+            </tr>
+        </table>
+    </div>`;
+};
+
 setProjectSettings = async () => {
     for (let projectName in PROJECTS) {
         let project = PROJECTS[projectName]
@@ -832,105 +885,41 @@ setProjectSettings = async () => {
     }
 
     for (let projectName in PROJECTS) {
-        let project = PROJECTS[projectName]
+        let project = PROJECTS[projectName];
         for (let lote of project.lotes) {
             for (let style of lote.styles) {
-                map.off('click', style.id)
+                map.off('click', style.id);
                 map.on('click', style.id, function (e) {
                     if (project.group == "Situação Geral") {
-                        var editionsTopo = JSON.parse(e.features[0].properties.edicoes_topo)
-                        var editionsOrto = JSON.parse(e.features[0].properties.edicoes_orto)
-                        var filteredEditionsTopo = editionsTopo.filter(year => parseInt(year, 10) >= (yearFilter || 1900))
-                        var filteredEditionsOrto = editionsOrto.filter(year => parseInt(year, 10) >= (yearFilter || 1900))
+                        var editionsTopo = JSON.parse(e.features[0].properties.edicoes_topo);
+                        var editionsOrto = JSON.parse(e.features[0].properties.edicoes_orto);
+                        var filteredEditionsTopo = editionsTopo.filter(year => parseInt(year, 10) >= (yearFilter || 1900));
+                        var filteredEditionsOrto = editionsOrto.filter(year => parseInt(year, 10) >= (yearFilter || 1900));
+                        let topoDisplay = hideTopo ? 'none' : '';
+                        let ortoDisplay = hideOrto ? 'none' : '';
+                        let popupHTML = generatePopupHTML(e.features[0], topoDisplay, ortoDisplay, filteredEditionsTopo, filteredEditionsOrto);
                         new maplibregl.Popup({
                             maxWidth: '350px'
                         })
-                            .setLngLat(e.lngLat)
-                            .setHTML(`
-                        <div class="popup">
-                           <div style="text-align: center;">
-                                <h2>${e.features[0].properties.identificador}</h2>
-                                <h3>Informação</h3>
-                           </div>
-                           <table>
-                                <tr>
-                                    <th>Carta Topográfica</th>
-                                    <th>Carta Ortoimagem</th>
-                                </tr>
-                                <tr>
+                        .setLngLat(e.lngLat)
+                        .setHTML(popupHTML)
+                        .addTo(map);
     
-                                    <td>
-                                        ${filteredEditionsTopo.length == 0 ?
-                                    `` :
-                                    `
-                                            <table>
-                                                <tr>
-                                                    <th>Edição</th>
-                                                    <th>Data</th>
-                                                </tr>
-                                                ${filteredEditionsTopo.map((item, idx) => {
-                                        return `
-                                                            <tr>
-                                                                <td>${filteredEditionsTopo.length - idx}</td>
-                                                                <td>${item}</td>
-                                                            </tr>
-                                                            `
-                                    }).join('\n')
-                                    }
-                                            </table>
-                                            `
-                                }
-                                    </td>
-                               
-                                    <td>
-                                        ${filteredEditionsOrto.length == 0 ?
-                                    `` :
-                                    `
-                                            <table>
-                                                <tr>
-                                                    <th>Edição</th>
-                                                    <th>Data</th>
-                                                </tr>
-                                                ${filteredEditionsOrto.map((item, idx) => {
-                                        return `
-                                                            <tr>
-                                                                <td>${filteredEditionsOrto.length - idx}</td>
-                                                                <td>${item}</td>
-                                                            </tr>
-                                                            `
-                                    }).join('\n')
-                                    }
-                                            </table>
-                                            `
-                                }
-                                    </td>
-                                </tr>
-                            </table>
-                            
-                        <div/>
-                        `)
-                            .addTo(map);
-                        return
+                        return;
                     }
-
                     new maplibregl.Popup()
                         .setLngLat(e.lngLat)
                         .setHTML(`
                         <div class="popup">
                            <div style="text-align: center;">
                                 <h2>${e.features[0].properties.identificador}</h2>
-                               
                            </div>
-                           
                         <div/>
                         `)
                         .addTo(map);
-
                 });
-
             }
         }
-
     }
     sessionStorage.setItem('PROJECTS', JSON.stringify(PROJECTS))
 }
