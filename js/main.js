@@ -495,7 +495,7 @@ connectEvents = () => {
             });
         })
 
-    var modal1 = document.getElementById("legend-modal1");
+    var modal1 = document.getElementById("legend-modal");
 
     var btn1 = document.getElementById("legend-icon");
 
