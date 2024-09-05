@@ -783,7 +783,7 @@ const generatePopupHTML = (feature, topoDisplay, ortoDisplay, filteredEditionsTo
     return `
     <div class="popup">
        <div style="text-align: center;">
-            <h2>${feature.properties.identificador}</h2>
+            <h2>${feature.properties.identificadorMI}</h2>
             <h3 style="display:${(hideTopo && hideOrto) ? 'none' : ''};">Informação</h3>
        </div>
        <table>
@@ -907,7 +907,7 @@ setProjectSettings = async () => {
                         .setHTML(`
                         <div class="popup">
                            <div style="text-align: center;">
-                                <h2>${e.features[0].properties.identificador}</h2>
+                                <h2>${e.features[0].properties.identificadorMI}</h2>
                            </div>
                         <div/>
                         `)
