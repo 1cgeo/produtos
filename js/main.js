@@ -260,6 +260,7 @@ loadGeoJSON = (loteName, styles) => {
         .then(async (geoJson) => {
             activeGeoJson= geoJson
             const extent = geojsonExtent(geoJson)
+            console.log(extent)
             !fixedZoom ? map.fitBounds([
                 [extent[0] - 1, extent[1] - 1],
                 [extent[2] + 1, extent[3] + 1]
@@ -366,6 +367,7 @@ function plugin({ swiper, extendParams, on }) {
         if (!swiper.slides[swiper.previousIndex]) return
         let previousSlideId = swiper.slides[swiper.previousIndex].getAttribute('id')
         let currentSlideId = swiper.slides[swiper.activeIndex].getAttribute('id')
+        let currentSlideIndex = getSlideIndex(currentSlideId)
         if (previousSlideId == currentSlideId) return
         if (previousSlideId || currentSlideId == "section") {
             let prevProjectName = previousSlideId.split(getSeperatorId())[0]
@@ -378,9 +380,17 @@ function plugin({ swiper, extendParams, on }) {
         let currLoteName = currentSlideId.split(getSeperatorId())[1]
         if (!hasSlideData(currProjectName, currLoteName)) {
             document.getElementById("legend-icon").style.display = ''
+            document.getElementById("search-icon").style.display = ''
             return
         }
-        if (mobileScreen()) document.getElementById("legend-icon").style.display = 'block'
+        if (mobileScreen()){
+            document.getElementById("legend-icon").style.display = 'block'
+            if(currentSlideIndex > 2 && currentSlideIndex < 7){
+                document.getElementById("search-icon").style.display = 'block'
+            }else{
+                document.getElementById("search-icon").style.display = 'none'
+            }
+        }
         await setCurrentChapter(currentSlideId, false)
     });
 
@@ -487,11 +497,23 @@ connectEvents = () => {
 
     var modal = document.getElementById("legend-modal");
 
-    var btn = document.getElementById("legend-icon");
+    var btn1 = document.getElementById("legend-icon");
+
+    var btn2 = document.getElementById("search-icon");
 
     var span = document.getElementsByClassName("close")[0];
 
-    btn.onclick = () => {
+    btn1.onclick = () => {
+        loadLegend(
+            activeSubtitle,
+            activeSubtitleOrto,
+            activeYearInterval,
+            'modal-text'
+        )
+        modal.style.display = "block";
+    }
+
+    btn2.onclick = () => {
         loadLegend(
             activeSubtitle,
             activeSubtitleOrto,

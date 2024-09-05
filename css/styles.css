@@ -75,12 +75,27 @@ body {
 }
 
 
-.btn {
+.btn1 {
   display: none;
   /*  */
   z-index: 100000;
   position: absolute;
   bottom: 0;
+  left: 0;
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 16px 21px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn2 {
+  display: none;
+  /*  */
+  z-index: 100000;
+  position: absolute;
+  top: 0;
   left: 0;
   background-color: transparent;
   border: none;
