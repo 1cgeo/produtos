@@ -105,7 +105,7 @@ body {
   cursor: pointer;
 }
 
-#modal-text h4 {
+#modal1-text h4 {
   font-size: 13px;
   text-align: center
 }
@@ -119,7 +119,7 @@ body {
   width: 100%;
 }
 
-#modal-text input[type=range] {
+#modal1-text input[type=range] {
   width: 100%;
 }
 
@@ -245,8 +245,8 @@ datalist {
 
 
 
-/* The Modal (background) */
-.modal {
+/* The Modal1 (background) */
+.modal1 {
   z-index: 10000;
   bottom: 0;
   left: 0;
@@ -270,8 +270,8 @@ datalist {
   /* Black w/ opacity */
 }
 
-/* Modal Content */
-.modal-content {
+/* Modal1 Content */
+.modal1-content {
   background-color: rgb(254, 254, 254, 0.8);
   margin: auto;
   padding: 5px;

@@ -495,7 +495,7 @@ connectEvents = () => {
             });
         })
 
-    var modal = document.getElementById("legend-modal");
+    var modal1 = document.getElementById("legend-modal1");
 
     var btn1 = document.getElementById("legend-icon");
 
@@ -508,9 +508,9 @@ connectEvents = () => {
             activeSubtitle,
             activeSubtitleOrto,
             activeYearInterval,
-            'modal-text'
+            'modal1-text'
         )
-        modal.style.display = "block";
+        modal1.style.display = "block";
     }
 
     btn2.onclick = () => {
@@ -518,18 +518,18 @@ connectEvents = () => {
             activeSubtitle,
             activeSubtitleOrto,
             activeYearInterval,
-            'modal-text'
+            'modal1-text'
         )
-        modal.style.display = "block";
+        modal1.style.display = "block";
     }
 
     span.onclick = () => {
-        modal.style.display = "none";
+        modal1.style.display = "none";
     }
 
     window.onclick = (event) => {
-        if (event.target == modal) {
-            modal.style.display = "none";
+        if (event.target == modal1) {
+            modal1.style.display = "none";
         }
     }
 
@@ -544,7 +544,7 @@ connectEvents = () => {
             }
         } else {
             document.getElementById("legend-icon").style.display = ''
-            modal.style.display = "none"
+            modal1.style.display = "none"
             loadLegend(
                 activeSubtitle,
                 activeSubtitleOrto,
@@ -805,7 +805,8 @@ const generatePopupHTML = (feature, topoDisplay, ortoDisplay, filteredEditionsTo
     return `
     <div class="popup">
        <div style="text-align: center;">
-            <h2>${feature.properties.identificadorMI}</h2>
+            <h2>MI: ${feature.properties.identificadorMI}</h2>
+            <h3>INOM: ${feature.properties.identificadorINOM}</h2>
             <h3 style="display:${(hideTopo && hideOrto) ? 'none' : ''};">Informação</h3>
        </div>
        <table>
@@ -929,7 +930,8 @@ setProjectSettings = async () => {
                         .setHTML(`
                         <div class="popup">
                            <div style="text-align: center;">
-                                <h2>${e.features[0].properties.identificadorMI}</h2>
+                                <h2>MI: ${e.features[0].properties.identificadorMI}</h2>
+                                <h3>INOM: ${e.features[0].properties.identificadorINOM}</h2>
                            </div>
                         <div/>
                         `)

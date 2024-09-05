@@ -97,6 +97,9 @@ var PROJECTS = {
                                 'MI ',
                                 ['get', 'identificadorMI'],
                                 '\n',
+                                'INOM ',
+                                ['get', 'identificadorINOM'],
+                                '\n',
                                 [
                                     'case',
                                     ['>', ['length', ['get', 'edicoes_topo']], 0],
@@ -162,6 +165,9 @@ var PROJECTS = {
                                 'concat',
                                 'MI ',
                                 ['get', 'identificadorMI'],
+                                '\n',
+                                'INOM ',
+                                ['get', 'identificadorINOM'],
                                 '\n',
                                 [
                                     'case',
@@ -229,6 +235,9 @@ var PROJECTS = {
                                 'MI ',
                                 ['get', 'identificadorMI'],
                                 '\n',
+                                'INOM ',
+                                ['get', 'identificadorINOM'],
+                                '\n',
                                 [
                                     'case',
                                     ['>', ['length', ['get', 'edicoes_topo']], 0],
@@ -294,6 +303,9 @@ var PROJECTS = {
                                 'concat',
                                 'MIR ',
                                 ['get', 'identificadorMI'],
+                                '\n',
+                                'INOM ',
+                                ['get', 'identificadorINOM'],
                                 '\n',
                                 [
                                     'case',
