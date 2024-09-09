@@ -267,8 +267,7 @@ moveBySearch = (val, searchEl) => {
         errorEl = document.createElement('div');
         errorEl.id = 'error-message';
         errorEl.style.color = 'red';
-        errorEl.style.marginTop = '10px';
-        errorEl.style.marginLeft = '10px';
+        errorEl.style.margin = '5px';
         errorEl.textContent = 'Nenhuma feature encontrada.';
         searchEl.appendChild(errorEl);
     }
@@ -284,7 +283,7 @@ loadSearch = (searchElId) => {
     }
 
     let input = `
-        <div style="display: flex; align-items: center; margin-left: 10px;">
+        <div style="display: flex; align-items: center; margin: 5px;">
             <span style="margin-right: 5px;">MI:</span>
             <input id="input" type="text" style="flex: 1; padding: 5px;" placeholder="MI/INOM"/>
             <button id="searchBtn" style="cursor: pointer; margin-left: 5px; padding: 5px;">🔍</button>
