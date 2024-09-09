@@ -276,7 +276,8 @@ moveBySearch = (val, searchEl) => {
 loadSearch = (searchElId) => {
     let searchEl = document.getElementById(searchElId);
     let slideIndex = getSlideIndex(activeSlide);
-    if(slideIndex > 2 && slideIndex < 7){
+
+    if (slideIndex > 2 && slideIndex < 7) {
         searchEl.style.display = 'block';
     } else {
         return;
@@ -286,7 +287,6 @@ loadSearch = (searchElId) => {
         <div style="display: flex; align-items: center; margin: 5px;">
             <span style="margin-right: 5px;">MI:</span>
             <input id="input" type="text" style="flex: 1; padding: 5px;" placeholder="MI/INOM"/>
-            <button id="searchBtn" style="cursor: pointer; margin-left: 5px; padding: 5px;">🔍</button>
         </div>
     `;
 
@@ -294,10 +294,11 @@ loadSearch = (searchElId) => {
 
     let inputField = document.getElementById('input');
 
-    let searchBtn = document.getElementById('searchBtn');
-    searchBtn.addEventListener('click', function() {
-        let value = inputField.value;
-        moveBySearch(value, searchEl)
+    inputField.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            let value = inputField.value;
+            moveBySearch(value, searchEl);
+        }
     });
 };
 
