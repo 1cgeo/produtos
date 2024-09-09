@@ -28,7 +28,7 @@ closepopup = () => {
 
 updateYear = () => {
     closepopup()
-    unsetChapter(true)
+    unsetChapter(true, true)
     setKML()
     fixedZoom=true
     setCurrentChapter(activeSlide, true)
@@ -243,6 +243,64 @@ loadLegend = (
     }
 }
 
+moveBySearch = (val, searchEl) => {
+    let foundFeature = null;
+    let errorEl = document.getElementById('error-message');
+
+    if (errorEl) {
+        errorEl.remove();
+    }
+
+    if (!isNaN(val.charAt(0))) {
+        foundFeature = activeGeoJson.features.find(feature => feature.properties.identificadorMI === val);
+    } else {
+        foundFeature = activeGeoJson.features.find(feature => feature.properties.identificadorINOM === val);
+    }
+
+    if (foundFeature) {
+        const extent = geojsonExtent(foundFeature);
+        map.fitBounds([
+            [extent[0] - 1, extent[1] - 1],
+            [extent[2] + 1, extent[3] + 1]
+        ]);
+    } else {
+        errorEl = document.createElement('div');
+        errorEl.id = 'error-message';
+        errorEl.style.color = 'red';
+        errorEl.style.marginTop = '10px';
+        errorEl.style.marginLeft = '10px';
+        errorEl.textContent = 'Nenhuma feature encontrada.';
+        searchEl.appendChild(errorEl);
+    }
+};
+
+loadSearch = (searchElId) => {
+    let searchEl = document.getElementById(searchElId);
+    let slideIndex = getSlideIndex(activeSlide);
+    if(slideIndex > 2 && slideIndex < 7){
+        searchEl.style.display = 'block';
+    } else {
+        return;
+    }
+
+    let input = `
+        <div style="display: flex; align-items: center; margin-left: 10px;">
+            <span style="margin-right: 5px;">MI:</span>
+            <input id="input" type="text" style="flex: 1; padding: 5px;" placeholder="MI/INOM"/>
+            <button id="searchBtn" style="cursor: pointer; margin-left: 5px; padding: 5px;">🔍</button>
+        </div>
+    `;
+
+    searchEl.innerHTML = input;
+
+    let inputField = document.getElementById('input');
+
+    let searchBtn = document.getElementById('searchBtn');
+    searchBtn.addEventListener('click', function() {
+        let value = inputField.value;
+        moveBySearch(value, searchEl)
+    });
+};
 
 loadGeoJSON = (loteName, styles) => {
     closepopup()
@@ -260,7 +318,6 @@ loadGeoJSON = (loteName, styles) => {
         .then(async (geoJson) => {
             activeGeoJson= geoJson
             const extent = geojsonExtent(geoJson)
-            console.log(extent)
             !fixedZoom ? map.fitBounds([
                 [extent[0] - 1, extent[1] - 1],
                 [extent[2] + 1, extent[3] + 1]
@@ -328,10 +385,13 @@ setCurrentChapter = async (currentSlideId, sameChapter) => {
             activeYearInterval,
             'legend'
         )
+        loadSearch(
+            'search'
+        )
     }
 }
 
-unsetChapter = (fixingLegend) => {
+unsetChapter = (fixingLegend, fixingSearch) => {
     let projectSettings = getProjectSettings()
     for (let projectName in projectSettings) {
         for (let lote of projectSettings[projectName].lotes) {
@@ -348,6 +408,10 @@ unsetChapter = (fixingLegend) => {
     if (!fixingLegend) {
         let legend = document.getElementById('legend');
         legend.style.display = '';
+    }
+    if (!fixingSearch) {
+        let search = document.getElementById('search');
+        search.style.display = '';
     }
 }
 
@@ -373,7 +437,7 @@ function plugin({ swiper, extendParams, on }) {
             let prevProjectName = previousSlideId.split(getSeperatorId())[0]
             let prevLoteName = previousSlideId.split(getSeperatorId())[1]
             if (hasSlideData(prevProjectName, prevLoteName)) {
-                unsetChapter(false)
+                unsetChapter(false, false)
             }
         }
         let currProjectName = currentSlideId.split(getSeperatorId())[0]
@@ -497,11 +561,15 @@ connectEvents = () => {
 
     var modal1 = document.getElementById("legend-modal");
 
+    var modal2 = document.getElementById("search-modal");
+
     var btn1 = document.getElementById("legend-icon");
 
     var btn2 = document.getElementById("search-icon");
 
-    var span = document.getElementsByClassName("close")[0];
+    var span1 = document.getElementsByClassName("close")[0];
+
+    var span2 = document.getElementsByClassName("close")[1];
 
     btn1.onclick = () => {
         loadLegend(
@@ -514,22 +582,26 @@ connectEvents = () => {
     }
 
     btn2.onclick = () => {
-        loadLegend(
-            activeSubtitle,
-            activeSubtitleOrto,
-            activeYearInterval,
-            'modal1-text'
+        loadSearch(
+            'modal2-text'
         )
-        modal1.style.display = "block";
+        modal2.style.display = "block";
     }
 
-    span.onclick = () => {
+    span1.onclick = () => {
         modal1.style.display = "none";
+    }
+
+    span2.onclick = () => {
+        modal2.style.display = "none";
     }
 
     window.onclick = (event) => {
         if (event.target == modal1) {
             modal1.style.display = "none";
+        }
+        if (event.target == modal2) {
+            modal2.style.display = "none";
         }
     }
 
@@ -537,20 +609,26 @@ connectEvents = () => {
         if (mobileScreen()) {
             const legend = document.getElementById('legend');
             legend.style.display = ''
+            const search = document.getElementById('search');
+            search.style.display = ''
             let projectName = swiperWidget?.slides[swiperWidget.activeIndex]?.getAttribute('id')?.split(getSeperatorId())[0]
             let loteName = swiperWidget?.slides[swiperWidget.activeIndex]?.getAttribute('id')?.split(getSeperatorId())[1]
             if (hasSlideData(projectName, loteName)) {
                 document.getElementById("legend-icon").style.display = 'block'
+                document.getElementById("search-icon").style.display = 'block'
             }
         } else {
             document.getElementById("legend-icon").style.display = ''
             modal1.style.display = "none"
+            document.getElementById("search-icon").style.display = ''
+            modal2.style.display = "none"
             loadLegend(
                 activeSubtitle,
                 activeSubtitleOrto,
                 activeYearInterval,
                 'legend'
             )
+            loadSearch('search')
         }
     }, true);
 
