@@ -287,17 +287,24 @@ loadSearch = (searchElId) => {
         <div style="display: flex; align-items: center; margin: 5px;">
             <span style="margin-right: 5px;">MI:</span>
             <input id="input" type="text" style="flex: 1; padding: 5px;" placeholder="MI/INOM"/>
+            <button id="searchBtn" style="cursor: pointer; margin-left: 5px; padding: 5px;">🔍</button>
         </div>
     `;
 
     searchEl.innerHTML = input;
 
     let inputField = document.getElementById('input');
+    let searchBtn = document.getElementById('searchBtn');
 
+    const executeSearch = () => {
+        let value = inputField.value;
+        moveBySearch(value, searchEl);
+    };
+
+    searchBtn.addEventListener('click', executeSearch);
     inputField.addEventListener('keydown', function(event) {
         if (event.key === 'Enter') {
-            let value = inputField.value;
-            moveBySearch(value, searchEl);
+            executeSearch();
         }
     });
 };
