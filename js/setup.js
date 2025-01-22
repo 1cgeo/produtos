@@ -1327,7 +1327,7 @@ var PROJECTS = {
         title: 'SISFRON - 17º RC Mec',
         group: "Entregas",
         subgroup: "2021",
-        description: 'Execução de generalização cartográfica do Projeto SISFROM - 17º RC Mec nas escalas 1:50.000 e 1:100.000, totalizando 15 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
+        description: 'Execução de generalização cartográfica do Projeto SISFRON - 17º RC Mec nas escalas 1:50.000 e 1:100.000, totalizando 15 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
         lotes: [
             {
                 name: 'sisfron-17rcmec-carta-topo-50k-pr',
