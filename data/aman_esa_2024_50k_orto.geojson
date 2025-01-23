@@ -1,0 +1,117 @@
+{
+    "type": "FeatureCollection",
+    "name": "aman_esa_2024_50k_orto",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "situacao": "Concluído",
+                "identificador": null,
+                "id": "0"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -44.625,
+                                -22.5
+                            ],
+                            [
+                                -44.625,
+                                -22.25
+                            ],
+                            [
+                                -44.375,
+                                -22.25
+                            ],
+                            [
+                                -44.375,
+                                -22.5
+                            ],
+                            [
+                                -44.625,
+                                -22.5
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "situacao": "Concluído",
+                "identificador": null,
+                "id": "1"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -45.15,
+                                -21.75
+                            ],
+                            [
+                                -45.15,
+                                -21.5
+                            ],
+                            [
+                                -44.9,
+                                -21.5
+                            ],
+                            [
+                                -44.9,
+                                -21.75
+                            ],
+                            [
+                                -45.15,
+                                -21.75
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "situacao": "Concluído",
+                "identificador": null,
+                "id": "2"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -45.4,
+                                -21.75
+                            ],
+                            [
+                                -45.4,
+                                -21.5
+                            ],
+                            [
+                                -45.15,
+                                -21.5
+                            ],
+                            [
+                                -45.15,
+                                -21.75
+                            ],
+                            [
+                                -45.4,
+                                -21.75
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

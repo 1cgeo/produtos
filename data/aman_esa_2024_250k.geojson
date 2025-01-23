@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "name": "aman_esa_2024_250k",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "situacao": "Concluído",
+                "identificador": null,
+                "id": "0"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -45.625,
+                                -22.5
+                            ],
+                            [
+                                -45.625,
+                                -21.5
+                            ],
+                            [
+                                -44.125,
+                                -21.5
+                            ],
+                            [
+                                -44.125,
+                                -22.5
+                            ],
+                            [
+                                -45.625,
+                                -22.5
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

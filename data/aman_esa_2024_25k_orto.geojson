@@ -1,0 +1,154 @@
+{
+    "type": "FeatureCollection",
+    "name": "aman_esa_2024_25k_orto",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "situacao": "Concluído",
+                "identificadorMI": null,
+                "id": "0"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -45.375,
+                                -21.75
+                            ],
+                            [
+                                -45.375,
+                                -21.625
+                            ],
+                            [
+                                -45.25,
+                                -21.625
+                            ],
+                            [
+                                -45.25,
+                                -21.75
+                            ],
+                            [
+                                -45.375,
+                                -21.75
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "situacao": "Concluído",
+                "identificadorMI": null,
+                "id": "1"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -44.625,
+                                -22.5
+                            ],
+                            [
+                                -44.625,
+                                -22.375
+                            ],
+                            [
+                                -44.5,
+                                -22.375
+                            ],
+                            [
+                                -44.5,
+                                -22.5
+                            ],
+                            [
+                                -44.625,
+                                -22.5
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "situacao": "Concluído",
+                "identificadorMI": null,
+                "id": "2"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -44.5,
+                                -22.5
+                            ],
+                            [
+                                -44.5,
+                                -22.375
+                            ],
+                            [
+                                -44.375,
+                                -22.375
+                            ],
+                            [
+                                -44.375,
+                                -22.5
+                            ],
+                            [
+                                -44.5,
+                                -22.5
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "situacao": "Concluído",
+                "identificadorMI": null,
+                "id": "3"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -45.0375,
+                                -21.6875
+                            ],
+                            [
+                                -45.0375,
+                                -21.5625
+                            ],
+                            [
+                                -44.9125,
+                                -21.5625
+                            ],
+                            [
+                                -44.9125,
+                                -21.6875
+                            ],
+                            [
+                                -45.0375,
+                                -21.6875
+                            ]
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -371,6 +371,48 @@ var PROJECTS = {
                     }
                 ]
             },
+            { // CT 1:50.000 -- Demanda CMO
+                name: 'demanda_cmo',
+                subtitle: 'Cartas Topográficas 1:50.000 da região de interesse do CMO',
+                description: 'Construção de 16 cartas topográficas na escala 1:50.000 visando atender a demanda de atualização de cartas em áreas de interesse do Comando Militar do Oeste.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'demanda_cmo-fill',
+                        'source': 'demanda_cmo',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'demanda_cmo-border',
+                        'source': 'demanda_cmo',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'demanda_cmo-text',
+                        'source': 'demanda_cmo',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
             { // CO 1:50.000 -- Marechal Hermes
                 name: 'co_cimh',
                 subtitle: 'Cartas Ortoimagem 1:50.000 do CIMH',
@@ -498,7 +540,401 @@ var PROJECTS = {
                 ]
             }
         ]
-    }, 
+    },
+    'solicitacao-decex-2024': {
+        title: 'Mapeamento DECEx',
+        group: "Entregas",
+        subgroup: "2024",
+        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Item 2. Metas de Trabalho, subitem b. do Plano Interno de Trabalho do 1° CGEO - 2024.',
+        lotes: [
+            { // CT 1:50.000 -- CPOR/CMPS
+                name: 'decex_cpor_cmsp',
+                subtitle: 'Carta Topográfica 1:5.000 de da Região de Apiai',
+                description: 'Construção de 1 carta topográfica na escala 1:50.000 visando atender a demanda apresentada pelo Departamento de Educação e Cultura do Exército.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'decex_cpor_cmsp-fill',
+                        'source': 'decex_cpor_cmsp',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'decex_cpor_cmsp-border',
+                        'source': 'decex_cpor_cmsp',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'decex_cpor_cmsp-text',
+                        'source': 'decex_cpor_cmsp',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CT 1:50.000 -- Demanda EsACosAAe
+                name: 'decex_esacosaae',
+                subtitle: 'Cartas Topográficas 1:50.000 da região metropolitana de Curitiba',
+                description: 'Construção de 4 cartas topográficas na escala 1:50.000 visando atender a demanda apresentada pela Escola de Artilharia de Costa e Antiaérea.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'decex_esacosaae-fill',
+                        'source': 'decex_esacosaae',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'decex_esacosaae-border',
+                        'source': 'decex_esacosaae',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'decex_esacosaae-text',
+                        'source': 'decex_esacosaae',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    'mapeamento-aman-esa-2024': {
+        title: 'Mapeamento por solicitação da DSG',
+        group: "Entregas",
+        subgroup: "2024",
+        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes na disseminação de produtos cartográficos aos Cadetes da AMAN e aos Alunos da ESA',
+        lotes: [
+            { // CT/CO 1:250.000 -- AMAN ESA
+                name: 'aman_esa_2024_250k',
+                subtitle: 'Carta Topográfica e Carta Ortoimagem 1:250.000 da Região da AMAN-ESA',
+                description: 'Construção de 1 carta topográfica e 1 carta ortoimagem na escala 1:250.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_250k-fill',
+                        'source': 'aman_esa_2024_250k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_250k-border',
+                        'source': 'aman_esa_2024_250k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_250k-text',
+                        'source': 'aman_esa_2024_250k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CT 1:100.000 -- AMAN ESA
+                name: 'aman_esa_2024_100k_topo',
+                subtitle: 'Cartas Topográfica 1:100.000 da Região da AMAN-ESA',
+                description: 'Construção de 2 cartas topográficas na escala 1:100.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_100k_topo-fill',
+                        'source': 'aman_esa_2024_100k_topo',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_100k_topo-border',
+                        'source': 'aman_esa_2024_100k_topo',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_100k_topo-text',
+                        'source': 'aman_esa_2024_100k_topo',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CO 1:100.000 -- AMAN ESA
+                name: 'aman_esa_2024_100k_orto',
+                subtitle: 'Cartas Ortoimagem 1:100.000 da Região da AMAN-ESA',
+                description: 'Construção de 2 cartas ortoimagem na escala 1:100.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_100k_orto-fill',
+                        'source': 'aman_esa_2024_100k_orto',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_100k_orto-border',
+                        'source': 'aman_esa_2024_100k_orto',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_100k_orto-text',
+                        'source': 'aman_esa_2024_100k_orto',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CT 1:50.000 -- AMAN ESA
+                name: 'aman_esa_2024_50k_topo',
+                subtitle: 'Carta Topográfica 1:50.000 da Região da AMAN-ESA',
+                description: 'Construção de 1 carta topográfica na escala 1:50.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_50k_topo-fill',
+                        'source': 'aman_esa_2024_50k_topo',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_50k_topo-border',
+                        'source': 'aman_esa_2024_50k_topo',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_50k_topo-text',
+                        'source': 'aman_esa_2024_50k_topo',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CO 1:50.000 -- AMAN ESA
+                name: 'aman_esa_2024_50k_orto',
+                subtitle: 'Carta Ortoimagem 1:50.000 da Região da AMAN-ESA',
+                description: 'Construção de 1 carta ortoimagem na escala 1:50.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_50k_orto-fill',
+                        'source': 'aman_esa_2024_50k_orto',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_50k_orto-border',
+                        'source': 'aman_esa_2024_50k_orto',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_50k_orto-text',
+                        'source': 'aman_esa_2024_50k_orto',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CT 1:25.000 -- AMAN ESA
+                name: 'aman_esa_2024_25k_topo',
+                subtitle: 'Cartas Topográfica 1:25.000 da Região da AMAN-ESA',
+                description: 'Construção de 4 cartas topográficas na escala 1:25.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_25k_topo-fill',
+                        'source': 'aman_esa_2024_25k_topo',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_25k_topo-border',
+                        'source': 'aman_esa_2024_25k_topo',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_25k_topo-text',
+                        'source': 'aman_esa_2024_25k_topo',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CO 1:25.000 -- AMAN ESA
+                name: 'aman_esa_2024_25k_orto',
+                subtitle: 'Cartas Ortoimagem 1:25.000 da Região da AMAN-ESA',
+                description: 'Construção de 4 cartas ortoimagem na escala 1:25.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_25k_orto-fill',
+                        'source': 'aman_esa_2024_25k_orto',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_25k_orto-border',
+                        'source': 'aman_esa_2024_25k_orto',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_25k_orto-text',
+                        'source': 'aman_esa_2024_25k_orto',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            }
+        ]
+    },
     'plano-desenvolvimento-2023': {
         title: 'PDDMT 2023',
         group: "Entregas",
