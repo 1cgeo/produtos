@@ -549,7 +549,7 @@ var PROJECTS = {
         lotes: [
             { // CT 1:50.000 -- CPOR/CMPS
                 name: 'decex_cpor_cmsp',
-                subtitle: 'Carta Topográfica 1:5.000 de da Região de Apiai',
+                subtitle: 'Carta Topográfica 1:50.000 de da Região de Apiai',
                 description: 'Construção de 1 carta topográfica na escala 1:50.000 visando atender a demanda apresentada pelo Departamento de Educação e Cultura do Exército.',
                 legend: [
                     2
