@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "name": "bloco_1l_2025",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -50.25,
+                                -25.25
+                            ],
+                            [
+                                -50.125,
+                                -25.25
+                            ],
+                            [
+                                -50.0,
+                                -25.25
+                            ],
+                            [
+                                -50.0,
+                                -25.125
+                            ],
+                            [
+                                -50.0,
+                                -25.0
+                            ],
+                            [
+                                -50.125,
+                                -25.0
+                            ],
+                            [
+                                -50.25,
+                                -25.0
+                            ],
+                            [
+                                -50.25,
+                                -25.125
+                            ],
+                            [
+                                -50.25,
+                                -25.25
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Concluído",
+                "identificadorMI": "2840-2",
+                "id": 1
+            }
+        }
+    ]
+}

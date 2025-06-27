@@ -1,0 +1,154 @@
+{
+    "type": "FeatureCollection",
+    "name": "bloco_1c_2025",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.625,
+                                -28.75
+                            ],
+                            [
+                                -53.5,
+                                -28.75
+                            ],
+                            [
+                                -53.5,
+                                -28.625
+                            ],
+                            [
+                                -53.625,
+                                -28.625
+                            ],
+                            [
+                                -53.625,
+                                -28.75
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Concluído",
+                "identificadorMI": "2931-2-SE",
+                "id": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.75,
+                                -28.625
+                            ],
+                            [
+                                -53.625,
+                                -28.625
+                            ],
+                            [
+                                -53.625,
+                                -28.5
+                            ],
+                            [
+                                -53.75,
+                                -28.5
+                            ],
+                            [
+                                -53.75,
+                                -28.625
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Concluído",
+                "identificadorMI": "2931-2-NO",
+                "id": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.75,
+                                -28.75
+                            ],
+                            [
+                                -53.625,
+                                -28.75
+                            ],
+                            [
+                                -53.625,
+                                -28.625
+                            ],
+                            [
+                                -53.75,
+                                -28.625
+                            ],
+                            [
+                                -53.75,
+                                -28.75
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Concluído",
+                "identificadorMI": "2931-2-SO",
+                "id": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [
+                                -53.625,
+                                -28.625
+                            ],
+                            [
+                                -53.5,
+                                -28.625
+                            ],
+                            [
+                                -53.5,
+                                -28.5
+                            ],
+                            [
+                                -53.625,
+                                -28.5
+                            ],
+                            [
+                                -53.625,
+                                -28.625
+                            ]
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "situacao": "Concluído",
+                "identificadorMI": "2931-2-NE",
+                "id": 4
+            }
+        }
+    ]
+}

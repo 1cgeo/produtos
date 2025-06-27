@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "bloco_1e_2025",
+"features": [
+{ "type": "Feature", "properties": { "situacao": "Concluído", "identificadorMI": "2823-1", "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -51.0, -24.75 ], [ -50.875, -24.75 ], [ -50.75, -24.75 ], [ -50.75, -24.625 ], [ -50.75, -24.5 ], [ -50.875, -24.5 ], [ -51.0, -24.5 ], [ -51.0, -24.625 ], [ -51.0, -24.75 ] ] ] ] } }
+]
+}

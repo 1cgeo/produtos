@@ -2282,8 +2282,10 @@
                 "edicoes_topo": [
                     "1964"
                 ],
-                "situacao_orto": "Não mapeado",
-                "edicoes_orto": [],
+                "situacao_orto": "Concluído",
+                "edicoes_orto": [
+                    "2025"
+                ],
                 "identificadorINOM": "SG-22-X-C-III"
             },
             "geometry": {
@@ -2731,8 +2733,10 @@
                 "edicoes_topo": [
                     "1973"
                 ],
-                "situacao_orto": "Não mapeado",
-                "edicoes_orto": [],
+                "situacao_orto": "Concluído",
+                "edicoes_orto": [
+                    "2025"
+                ],
                 "identificadorINOM": "SG-22-V-D-VI"
             },
             "geometry": {

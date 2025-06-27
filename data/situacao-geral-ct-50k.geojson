@@ -6434,11 +6434,14 @@
                 "identificadorMI": "2823-1",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2025",
                     "1981",
                     "1967"
                 ],
-                "situacao_orto": "Não mapeado",
-                "edicoes_orto": [],
+                "situacao_orto": "Concluído",
+                "edicoes_orto": [
+                    "2025"
+                ],
                 "identificadorINOM": "SG-22-X-A-IV-1"
             },
             "geometry": {
@@ -8996,8 +8999,10 @@
                     "2005",
                     "1959"
                 ],
-                "situacao_orto": "Não mapeado",
-                "edicoes_orto": [],
+                "situacao_orto": "Concluído",
+                "edicoes_orto": [
+                    "2025"
+                ],
                 "identificadorINOM": "SG-22-X-C-III-1"
             },
             "geometry": {
@@ -9038,8 +9043,10 @@
                     "2005",
                     "1966"
                 ],
-                "situacao_orto": "Não mapeado",
-                "edicoes_orto": [],
+                "situacao_orto": "Concluído",
+                "edicoes_orto": [
+                    "2025"
+                ],
                 "identificadorINOM": "SG-22-X-C-III-2"
             },
             "geometry": {
@@ -9081,8 +9088,10 @@
                     "1990",
                     "1959"
                 ],
-                "situacao_orto": "Não mapeado",
-                "edicoes_orto": [],
+                "situacao_orto": "Concluído",
+                "edicoes_orto": [
+                    "2025"
+                ],
                 "identificadorINOM": "SG-22-X-C-III-3"
             },
             "geometry": {
@@ -9123,8 +9132,10 @@
                     "2004",
                     "1960"
                 ],
-                "situacao_orto": "Não mapeado",
-                "edicoes_orto": [],
+                "situacao_orto": "Concluído",
+                "edicoes_orto": [
+                    "2025"
+                ],
                 "identificadorINOM": "SG-22-X-C-III-4"
             },
             "geometry": {
@@ -15145,6 +15156,7 @@
                 "identificadorMI": "2881-4",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2025",
                     "1981",
                     "1966"
                 ],
@@ -19524,6 +19536,7 @@
                 "identificadorMI": "2909-2",
                 "situacao_topo": "Concluído",
                 "edicoes_topo": [
+                    "2025",
                     "1981"
                 ],
                 "situacao_orto": "Não mapeado",
@@ -23046,6 +23059,7 @@
                 "identificadorMI": "2931-2",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2025",
                     "1979",
                     "1973",
                     "1945"
@@ -35165,6 +35179,7 @@
                 "identificadorMI": "3007-4",
                 "situacao_topo": "Múltiplas edições",
                 "edicoes_topo": [
+                    "2025",
                     "1980",
                     "1959"
                 ],

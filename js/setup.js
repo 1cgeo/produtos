@@ -323,6 +323,588 @@ var PROJECTS = {
             }
         ]
     },
+    'meta-1-producao-geoinformacao-2025':{
+        title: 'Meta de Produção de Geoinformação da Diretoria de Serviço Geográfico',
+        group: 'Entregas',
+        subgroup: '2025',
+        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Item 1. Metas de Trabalho, subitem a. do Plano Interno de Trabalho do 1º CGEO - 2025.',
+        lotes: [
+            {
+                name: 'bloco_1a_2025',
+                subtitle: 'Cartas Topográficas 1:25.000 da Região Oeste do Estado do Paraná, na Região de Foz do Iguaçu',
+                description: 'Construção de 25 cartas topográficas na escala 1:25.000 na região de Foz do Iguaçu',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1a_2025-fill',
+                        'source': 'bloco_1a_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1a_2025-border',
+                        'source': 'bloco_1a_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1a_2025-text',
+                        'source': 'bloco_1a_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1b_2025',
+                subtitle: 'Cartas Topográficas 1:25.000 da Região Leste do Estado do Paraná, na Região de Ponta Grossa',
+                description: 'Construção de 2 cartas topográficas na escala 1:25.000 na Região de Ponta Grossa, em complemento as Cartas da cidade de Ponta Grossa - PR',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1b_2025-fill',
+                        'source': 'bloco_1b_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1b_2025-border',
+                        'source': 'bloco_1b_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1b_2025-text',
+                        'source': 'bloco_1b_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1c_2025',
+                subtitle: 'Cartas Topográficas 1:25.000 da Escola de Aperfeiçoamento de Sargentos das Armas em Cruz Alta - RS',
+                description: 'Construção de 4 cartas topográficas na escala 1:25.000 da Escola de Aperfeiçoamento de Sargentos das Armas',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1c_2025-fill',
+                        'source': 'bloco_1c_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1c_2025-border',
+                        'source': 'bloco_1c_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1c_2025-text',
+                        'source': 'bloco_1c_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1d_2025',
+                subtitle: 'Cartas Topográficas 1:25.000 de Bagé - RS',
+                description: 'Construção de 4 cartas topográficas na escala 1:25.000 de Bagé - RS',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1d_2025-fill',
+                        'source': 'bloco_1d_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1d_2025-border',
+                        'source': 'bloco_1d_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1d_2025-text',
+                        'source': 'bloco_1d_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1e_2025',
+                subtitle: 'Cartas Topográficas 1:50.000 de Reserva - PR',
+                description: 'Construção de 1 carta topográfica na escala 1:50.000 em Reserva - PR',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1e_2025-fill',
+                        'source': 'bloco_1e_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1e_2025-border',
+                        'source': 'bloco_1e_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1e_2025-text',
+                        'source': 'bloco_1e_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1f_2025',
+                subtitle: 'Cartas Topográficas 1:50.000 em Blumenau e Florianópolis - SC',
+                description: 'Construção de 2 cartas topográficas na escala 1:50.000, sendo uma em Blumenau e outra em Florianópolis',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1f_2025-fill',
+                        'source': 'bloco_1f_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1f_2025-border',
+                        'source': 'bloco_1f_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1f_2025-text',
+                        'source': 'bloco_1f_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1g_2025',
+                subtitle: 'Carta Topográfica 1:50.000 da Escola de Aperfeiçoamento de Sargentos das Armas em Cruz Alta - RS',
+                description: 'Construção de 1 carta topográfica na escala 1:50.000, produzida pela generalização das Cartas 1:25.000 da região',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1g_2025-fill',
+                        'source': 'bloco_1g_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1g_2025-border',
+                        'source': 'bloco_1g_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1g_2025-text',
+                        'source': 'bloco_1g_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1k_2025',
+                subtitle: 'Carta Topográfica 1:50.000 de Bagé - RS',
+                description: 'Construção de 1 carta topográfica na escala 1:50.000, produzida pela generalização das Cartas 1:25.000 da região',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1k_2025-fill',
+                        'source': 'bloco_1k_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1k_2025-border',
+                        'source': 'bloco_1k_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1k_2025-text',
+                        'source': 'bloco_1k_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1l_2025',
+                subtitle: 'Carta Topográfica 1:50.000 de Ponta Grossa - RS',
+                description: 'Construção de 1 carta topográfica na escala 1:50.000, produzida pela generalização das Cartas 1:25.000 da região, que foram produzidas em 2024.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1l_2025-fill',
+                        'source': 'bloco_1l_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1l_2025-border',
+                        'source': 'bloco_1l_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1l_2025-text',
+                        'source': 'bloco_1l_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1m_2025',
+                subtitle: 'Cartas Topográficas 1:25.000 na região metropolitana de Curitiba - PR',
+                description: 'Construção de 8 cartas topográficas na escala 1:25.000, na região metropolitana de Curitiba - PR',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1m_2025-fill',
+                        'source': 'bloco_1m_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1m_2025-border',
+                        'source': 'bloco_1m_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1m_2025-text',
+                        'source': 'bloco_1m_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1n_2025',
+                subtitle: 'Cartas Ortoimagem 1:25.000 nos estados do Rio Grande do Sul e Paraná',
+                description: 'Construção de 84 cartas ortoimagem na escala 1:25.000 nos estados do Rio Grande do Sul e Paraná',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1n_2025-fill',
+                        'source': 'bloco_1n_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1n_2025-border',
+                        'source': 'bloco_1n_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1n_2025-text',
+                        'source': 'bloco_1n_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1o_2025',
+                subtitle: 'Cartas Ortoimagem 1:50.000 no estado do Paraná',
+                description: 'Construção de 5 cartas ortoimagem na escala 1:50.000 no estado do Paraná',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1o_2025-fill',
+                        'source': 'bloco_1o_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1o_2025-border',
+                        'source': 'bloco_1o_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1o_2025-text',
+                        'source': 'bloco_1o_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1p_2025',
+                subtitle: 'Cartas Ortoimagem 1:100.000 das cidades de Gaurapuava e Ponta Grossa no estado do Paraná',
+                description: 'Construção de 2 cartas ortoimagem na escala 1:100.000 nas cidades de Gaurapuava e Ponta Grossa',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1p_2025-fill',
+                        'source': 'bloco_1p_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1p_2025-border',
+                        'source': 'bloco_1p_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1p_2025-text',
+                        'source': 'bloco_1p_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'bloco_1q_2025',
+                subtitle: 'Cartas Ortoimagem 1:25.000 na região metropolitana de Porto Alegre - RS',
+                description: 'Construção de 3 cartas ortoimagem na escala 1:25.000 na região metropolitana de Porto Alegre',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'bloco_1q_2025-fill',
+                        'source': 'bloco_1q_2025',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'bloco_1q_2025-border',
+                        'source': 'bloco_1q_2025',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'bloco_1q_2025-text',
+                        'source': 'bloco_1q_2025',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+                        }
+                    }
+                ]
+            }
+        ]
+    },
     'plano-desenvolvimento-2024': {
         title: 'Mapeamento para a Força Terrestre 2024',
         group: "Entregas",
