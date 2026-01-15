@@ -5984,7 +5984,7 @@
         "id": "249",
         "identificadorMI": "3032",
         "situacao_topo": "Não mapeado",
-        "edicoes_topo": null,
+        "edicoes_topo": [],
         "situacao_orto": "Concluído",
         "edicoes_orto": ["2018"],
         "identificadorINOM": "SI-22-V-C-I"
