@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "bloco_1b_2025",
-"features": [
-{ "type": "Feature", "properties": { "situacao": "Concluído", "identificadorMI": "2840-4-NO", "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -50.25, -25.375 ], [ -50.125, -25.375 ], [ -50.125, -25.25 ], [ -50.25, -25.25 ], [ -50.25, -25.375 ] ] ] ] } },
-{ "type": "Feature", "properties": { "situacao": "Concluído", "identificadorMI": "2840-4-NE", "id": 2 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -50.125, -25.375 ], [ -50.0, -25.375 ], [ -50.0, -25.25 ], [ -50.125, -25.25 ], [ -50.125, -25.375 ] ] ] ] } }
-]
-}

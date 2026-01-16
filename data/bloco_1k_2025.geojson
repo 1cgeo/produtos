@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "bloco_1k_2025",
-"features": [
-{ "type": "Feature", "properties": { "situacao": "Concluído", "identificadorMI": "3007-4", "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -54.25, -31.5 ], [ -54.125, -31.5 ], [ -54.0, -31.5 ], [ -54.0, -31.375 ], [ -54.0, -31.25 ], [ -54.125, -31.25 ], [ -54.25, -31.25 ], [ -54.25, -31.375 ], [ -54.25, -31.5 ] ] ] ] } }
-]
-}

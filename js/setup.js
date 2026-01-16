@@ -56,24 +56,14 @@ var PROJECTS = {
                 name: 'situacao-geral-ct-25k',
                 subtitle: 'Cartas 1:25.000',
                 description: ``,
-                zoom: [
-                    [-58.00, -34.00], // southwestern corner of the bounds
-                    [-47.875, -22.875] // northeastern corner of the bounds
-                ],
-                legend: [
-                    1,
-                    2,
-                    3
-                ],
+                legend: [1, 2, 3],
                 styles: [
                     {
                         'id': 'situacao-geral-ct-25k-fill',
                         'source': 'situacao-geral-ct-25k',
                         'type': 'fill',
                         'layout': {},
-                        'paint': {
-
-                        }
+                        'paint': {}
                     },
                     {
                         'id': 'situacao-geral-ct-25k-border',
@@ -108,9 +98,7 @@ var PROJECTS = {
                                 ]
                             ]
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             }
@@ -119,30 +107,20 @@ var PROJECTS = {
     'situacao-geral-50k': {
         title: 'Situação Geral 1:50.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:50.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição.`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:50.000.`,
         lotes: [
             {
                 name: 'situacao-geral-ct-50k',
                 subtitle: 'Cartas 1:50.000',
                 description: ``,
-                zoom: [
-                    [-58.125, -34.125], // southwestern corner of the bounds
-                    [-47.875, -22.875] // northeastern corner of the bounds
-                ],
-                legend: [
-                    1,
-                    2,
-                    3
-                ],
+                legend: [1, 2, 3],
                 styles: [
                     {
                         'id': 'situacao-geral-ct-50k-fill',
                         'source': 'situacao-geral-ct-50k',
                         'type': 'fill',
                         'layout': {},
-                        'paint': {
-
-                        }
+                        'paint': {}
                     },
                     {
                         'id': 'situacao-geral-ct-50k-border',
@@ -177,9 +155,7 @@ var PROJECTS = {
                                 ]
                             ]
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             }
@@ -188,30 +164,20 @@ var PROJECTS = {
     'situacao-geral-100k': {
         title: 'Situação Geral 1:100.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:100.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição.`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:100.000.`,
         lotes: [
             {
                 name: 'situacao-geral-ct-100k',
                 subtitle: 'Cartas 1:100.000',
                 description: ``,
-                zoom: [
-                    [-58.250, -34.125], // southwestern corner of the bounds
-                    [-47.875, -22.875] // northeastern corner of the bounds
-                ],
-                legend: [
-                    1,
-                    2,
-                    3
-                ],
+                legend: [1, 2, 3],
                 styles: [
                     {
                         'id': 'situacao-geral-ct-100k-fill',
                         'source': 'situacao-geral-ct-100k',
                         'type': 'fill',
                         'layout': {},
-                        'paint': {
-
-                        }
+                        'paint': {}
                     },
                     {
                         'id': 'situacao-geral-ct-100k-border',
@@ -246,9 +212,7 @@ var PROJECTS = {
                                 ]
                             ]
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             }
@@ -257,30 +221,20 @@ var PROJECTS = {
     'situacao-geral-250k': {
         title: 'Situação Geral 1:250.000',
         group: "Situação Geral",
-        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:250.000. Ao aproximar é possível ver o ano de mapeamento da carta. Se a carta possuir mais de uma edição, ao clicar serão mostrados os anos que a carta possui edição.`,
+        description: `Apresenta a situação dos produtos existentes na área de responsabilidade do 1º CGEO, na escala 1:250.000.`,
         lotes: [
             {
                 name: 'situacao-geral-ct-250k',
                 subtitle: 'Cartas 1:250.000',
                 description: ``,
-                zoom: [
-                    [-58.625, -34.125], // southwestern corner of the bounds
-                    [-47.875, -22.875] // northeastern corner of the bounds
-                ],
-                legend: [
-                    1,
-                    2,
-                    3
-                ],
+                legend: [1, 2, 3],
                 styles: [
                     {
                         'id': 'situacao-geral-ct-250k-fill',
                         'source': 'situacao-geral-ct-250k',
                         'type': 'fill',
                         'layout': {},
-                        'paint': {
-
-                        }
+                        'paint': {}
                     },
                     {
                         'id': 'situacao-geral-ct-250k-border',
@@ -315,31 +269,27 @@ var PROJECTS = {
                                 ]
                             ]
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             }
         ]
     },
-    'meta-1-producao-geoinformacao-2025':{
-        title: 'Meta de Produção de Geoinformação da Diretoria de Serviço Geográfico',
-        group: 'Entregas',
-        subgroup: '2025',
-        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Item 1. Metas de Trabalho, subitem a. do Plano Interno de Trabalho do 1º CGEO - 2025.',
+    'carta-topografica-2025': {
+        title: 'Carta Topográfica 2025',
+        group: "Entregas",
+        subgroup: "2025",
+        description: '',
         lotes: [
-            {
-                name: 'bloco_1a_2025',
-                subtitle: 'Cartas Topográficas 1:25.000 da Região Oeste do Estado do Paraná, na Região de Foz do Iguaçu',
-                description: 'Construção de 25 cartas topográficas na escala 1:25.000 na região de Foz do Iguaçu',
-                legend: [
-                    2
-                ],
+            { // CT 25k
+                name: 'ct-2025-25k',
+                subtitle: '1:25.000',
+                description: '43 cartas na escala 1:25.000, com destaque para 25 destas na fronteira de Foz do Iguaçu.',
+                legend: [2],
                 styles: [
                     {
-                        'id': 'bloco_1a_2025-fill',
-                        'source': 'bloco_1a_2025',
+                        'id': 'ct-2025-25k-fill',
+                        'source': 'ct-2025-25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -347,8 +297,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1a_2025-border',
-                        'source': 'bloco_1a_2025',
+                        'id': 'ct-2025-25k-border',
+                        'source': 'ct-2025-25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -357,30 +307,26 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1a_2025-text',
-                        'source': 'bloco_1a_2025',
+                        'id': 'ct-2025-25k-text',
+                        'source': 'ct-2025-25k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            {
-                name: 'bloco_1b_2025',
-                subtitle: 'Cartas Topográficas 1:25.000 da Região Leste do Estado do Paraná, na Região de Ponta Grossa',
-                description: 'Construção de 2 cartas topográficas na escala 1:25.000 na Região de Ponta Grossa, em complemento as Cartas da cidade de Ponta Grossa - PR',
-                legend: [
-                    2
-                ],
+            { // CT 50k
+                name: 'ct-2025-50k',
+                subtitle: '1:50.000',
+                description: '42 cartas na escala 1:50.000, sendo destas, 33 na região sul do Estado do Rio Grande do Sul.',
+                legend: [2],
                 styles: [
                     {
-                        'id': 'bloco_1b_2025-fill',
-                        'source': 'bloco_1b_2025',
+                        'id': 'ct-2025-50k-fill',
+                        'source': 'ct-2025-50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -388,8 +334,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1b_2025-border',
-                        'source': 'bloco_1b_2025',
+                        'id': 'ct-2025-50k-border',
+                        'source': 'ct-2025-50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -398,30 +344,26 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1b_2025-text',
-                        'source': 'bloco_1b_2025',
+                        'id': 'ct-2025-50k-text',
+                        'source': 'ct-2025-50k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            {
-                name: 'bloco_1c_2025',
-                subtitle: 'Cartas Topográficas 1:25.000 da Escola de Aperfeiçoamento de Sargentos das Armas em Cruz Alta - RS',
-                description: 'Construção de 4 cartas topográficas na escala 1:25.000 da Escola de Aperfeiçoamento de Sargentos das Armas',
-                legend: [
-                    2
-                ],
+            { // CT 100k
+                name: 'ct-2025-100k',
+                subtitle: '1:100.000',
+                description: '3 cartas na escala 1:100.000 na região de Três Barras - SC e do Campo de Instrução Marechal Hermes (CIMH)',
+                legend: [2],
                 styles: [
                     {
-                        'id': 'bloco_1c_2025-fill',
-                        'source': 'bloco_1c_2025',
+                        'id': 'ct-2025-100k-fill',
+                        'source': 'ct-2025-100k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -429,8 +371,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1c_2025-border',
-                        'source': 'bloco_1c_2025',
+                        'id': 'ct-2025-100k-border',
+                        'source': 'ct-2025-100k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -439,489 +381,153 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'bloco_1c_2025-text',
-                        'source': 'bloco_1c_2025',
+                        'id': 'ct-2025-100k-text',
+                        'source': 'ct-2025-100k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            {
-                name: 'bloco_1d_2025',
-                subtitle: 'Cartas Topográficas 1:25.000 de Bagé - RS',
-                description: 'Construção de 4 cartas topográficas na escala 1:25.000 de Bagé - RS',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1d_2025-fill',
-                        'source': 'bloco_1d_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1d_2025-border',
-                        'source': 'bloco_1d_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1d_2025-text',
-                        'source': 'bloco_1d_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'bloco_1e_2025',
-                subtitle: 'Cartas Topográficas 1:50.000 de Reserva - PR',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000 em Reserva - PR',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1e_2025-fill',
-                        'source': 'bloco_1e_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1e_2025-border',
-                        'source': 'bloco_1e_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1e_2025-text',
-                        'source': 'bloco_1e_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'bloco_1f_2025',
-                subtitle: 'Cartas Topográficas 1:50.000 em Blumenau e Florianópolis - SC',
-                description: 'Construção de 2 cartas topográficas na escala 1:50.000, sendo uma em Blumenau e outra em Florianópolis',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1f_2025-fill',
-                        'source': 'bloco_1f_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1f_2025-border',
-                        'source': 'bloco_1f_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1f_2025-text',
-                        'source': 'bloco_1f_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'bloco_1g_2025',
-                subtitle: 'Carta Topográfica 1:50.000 da Escola de Aperfeiçoamento de Sargentos das Armas em Cruz Alta - RS',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000, produzida pela generalização das Cartas 1:25.000 da região',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1g_2025-fill',
-                        'source': 'bloco_1g_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1g_2025-border',
-                        'source': 'bloco_1g_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1g_2025-text',
-                        'source': 'bloco_1g_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'bloco_1k_2025',
-                subtitle: 'Carta Topográfica 1:50.000 de Bagé - RS',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000, produzida pela generalização das Cartas 1:25.000 da região',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1k_2025-fill',
-                        'source': 'bloco_1k_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1k_2025-border',
-                        'source': 'bloco_1k_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1k_2025-text',
-                        'source': 'bloco_1k_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'bloco_1l_2025',
-                subtitle: 'Carta Topográfica 1:50.000 de Ponta Grossa - RS',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000, produzida pela generalização das Cartas 1:25.000 da região, que foram produzidas em 2024.',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1l_2025-fill',
-                        'source': 'bloco_1l_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1l_2025-border',
-                        'source': 'bloco_1l_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1l_2025-text',
-                        'source': 'bloco_1l_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'bloco_1m_2025',
-                subtitle: 'Cartas Topográficas 1:25.000 na região metropolitana de Curitiba - PR',
-                description: 'Construção de 8 cartas topográficas na escala 1:25.000, na região metropolitana de Curitiba - PR',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1m_2025-fill',
-                        'source': 'bloco_1m_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1m_2025-border',
-                        'source': 'bloco_1m_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1m_2025-text',
-                        'source': 'bloco_1m_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'bloco_1n_2025',
-                subtitle: 'Cartas Ortoimagem 1:25.000 nos estados do Rio Grande do Sul e Paraná',
-                description: 'Construção de 84 cartas ortoimagem na escala 1:25.000 nos estados do Rio Grande do Sul e Paraná',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1n_2025-fill',
-                        'source': 'bloco_1n_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1n_2025-border',
-                        'source': 'bloco_1n_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1n_2025-text',
-                        'source': 'bloco_1n_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'bloco_1o_2025',
-                subtitle: 'Cartas Ortoimagem 1:50.000 no estado do Paraná',
-                description: 'Construção de 5 cartas ortoimagem na escala 1:50.000 no estado do Paraná',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1o_2025-fill',
-                        'source': 'bloco_1o_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1o_2025-border',
-                        'source': 'bloco_1o_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1o_2025-text',
-                        'source': 'bloco_1o_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'bloco_1p_2025',
-                subtitle: 'Cartas Ortoimagem 1:100.000 das cidades de Gaurapuava e Ponta Grossa no estado do Paraná',
-                description: 'Construção de 2 cartas ortoimagem na escala 1:100.000 nas cidades de Gaurapuava e Ponta Grossa',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1p_2025-fill',
-                        'source': 'bloco_1p_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1p_2025-border',
-                        'source': 'bloco_1p_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1p_2025-text',
-                        'source': 'bloco_1p_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'bloco_1q_2025',
-                subtitle: 'Cartas Ortoimagem 1:25.000 na região metropolitana de Porto Alegre - RS',
-                description: 'Construção de 3 cartas ortoimagem na escala 1:25.000 na região metropolitana de Porto Alegre',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'bloco_1q_2025-fill',
-                        'source': 'bloco_1q_2025',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'bloco_1q_2025-border',
-                        'source': 'bloco_1q_2025',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'bloco_1q_2025-text',
-                        'source': 'bloco_1q_2025',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-                        }
-                    }
-                ]
-            }
         ]
     },
-    'plano-desenvolvimento-2024': {
-        title: 'Mapeamento para a Força Terrestre 2024',
+    'carta-ortoimagem-2025': {
+        title: 'Carta Ortoimagem 2025',
+        group: "Entregas",
+        subgroup: "2025",
+        description: '',
+        lotes: [
+            { // CO 25k
+                name: 'co-2025-25k',
+                subtitle: '1:25.000',
+                description: '87 cartas na escala 1:25.000 nos três estados do Comando Militar do Sul, com o objetivo de atender demandas de OM e atualizar a base de dados da DSG.',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'co-2025-25k-fill',
+                        'source': 'co-2025-25k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co-2025-25k-border',
+                        'source': 'co-2025-25k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co-2025-25k-text',
+                        'source': 'co-2025-25k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+            { // CO 50k
+                name: 'co-2025-50k',
+                subtitle: '1:50.000',
+                description: '102 cartas na escala 1:50.000 nos três estados do Comando Militar do Sul, com o objetivo de atender demandas de OM e atualizar a base de dados da DSG',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'co-2025-50k-fill',
+                        'source': 'co-2025-50k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co-2025-50k-border',
+                        'source': 'co-2025-50k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co-2025-50k-text',
+                        'source': 'co-2025-50k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+            { // CO 100k
+                name: 'co-2025-100k',
+                subtitle: '1:100.000',
+                description: '2 cartas na escala 1:100.000 nas cidades de Guarapuava e Ponta Grossa, no Estado do Paraná',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'co-2025-100k-fill',
+                        'source': 'co-2025-100k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co-2025-100k-border',
+                        'source': 'co-2025-100k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co-2025-100k-text',
+                        'source': 'co-2025-100k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+        ]
+    },
+    'carta-topografica-2024': {
+        title: 'Carta Topográfica 2024',
         group: "Entregas",
         subgroup: "2024",
-        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Item 2. Metas de Trabalho, subitem a. do Plano Interno de Trabalho do 1° CGEO - 2024.',
+        description: '',
         lotes: [
-            { // CT 1:25.000 -- Campos de Instrução do Comando Militar do Sul
-                name: 'ct_ci_125000',
-                subtitle: 'Cartas Topográficas 1:25.000 de Campos de Instrução do Comando Militar do Sul',
-                description: 'Construção de 22 cartas topográficas na escala 1:25.000 visando atender a demanda de atualização de cartas nos Campos de Instrução do Comando Militar do Sul.',
-                legend: [
-                    2
-                ],
+            { // CT 25k - CIR, CISM, CIBSB e CIGC
+                name: 'ct-2024-25k',
+                subtitle: '1:25.000',
+                description: '22 cartas na escala 1:25.000, no contexto de atualização das cartas dos Campos de Instrução do Comando Militar do Sul: CIR, CIBSB, CISM e CIGC.',
+                legend: [2],
                 styles: [
                     {
-                        'id': 'ct_ci_125000-fill',
-                        'source': 'ct_ci_125000',
+                        'id': 'ct-2024-25k-fill',
+                        'source': 'ct-2024-25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -929,8 +535,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'ct_ci_125000-border',
-                        'source': 'ct_ci_125000',
+                        'id': 'ct-2024-25k-border',
+                        'source': 'ct-2024-25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -939,31 +545,26 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'ct_ci_125000-text',
-                        'source': 'ct_ci_125000',
+                        'id': 'ct-2024-25k-text',
+                        'source': 'ct-2024-25k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // CT 1:50.000 -- Demanda CMO
-                name: 'demanda_cmo',
-                subtitle: 'Cartas Topográficas 1:50.000 da região de interesse do CMO',
-                description: 'Construção de 16 cartas topográficas na escala 1:50.000 visando atender a demanda de atualização de cartas em áreas de interesse do Comando Militar do Oeste.',
-                legend: [
-                    2
-                ],
+            { // CT 50k
+                name: 'ct-2024-50k',
+                subtitle: '1:50.000',
+                description: '5 cartas na escala 1:50.000, sendo estas nas seguintes localidades/regiões: Apiai - SP (1) e cidade de Curitiba - PR (4)',
+                legend: [2],
                 styles: [
                     {
-                        'id': 'demanda_cmo-fill',
-                        'source': 'demanda_cmo',
+                        'id': 'ct-2024-50k-fill',
+                        'source': 'ct-2024-50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -971,8 +572,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'demanda_cmo-border',
-                        'source': 'demanda_cmo',
+                        'id': 'ct-2024-50k-border',
+                        'source': 'ct-2024-50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -981,165 +582,34 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'demanda_cmo-text',
-                        'source': 'demanda_cmo',
+                        'id': 'ct-2024-50k-text',
+                        'source': 'ct-2024-50k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // CO 1:50.000 -- Marechal Hermes
-                name: 'co_cimh',
-                subtitle: 'Cartas Ortoimagem 1:50.000 do CIMH',
-                description: 'Construção de 6 cartas ortoimagem na escala 1:50.000 visando atualizar a geoinformação referente ao Campo de Instrução de Marechal Hermes.',
-                legend: [
-                    2,
-                ],
-                styles: [
-                    {
-                        'id': 'co_cimh-fill',
-                        'source': 'co_cimh',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'co_cimh-border',
-                        'source': 'co_cimh',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'co_cimh-text',
-                        'source': 'co_cimh',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // CO 1:25.000 -- Região Metropolitana de Porto Alegre
-                name: 'poa_metropolitana',
-                subtitle: 'Cartas Ortoimagem 1:25.000 da Região Metropoliana de Porto Alegre',
-                description: 'Construção de 8 cartas ortoimagem na escala 1:25.000 visando atender a atualização das Cartas Ortoimagem na Região Metropolitana de Porto Alegre.',
-                legend: [
-                    2,
-                ],
-                styles: [
-                    {
-                        'id': 'poa_metropolitana-fill',
-                        'source': 'poa_metropolitana',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'poa_metropolitana-border',
-                        'source': 'poa_metropolitana',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'poa_metropolitana-text',
-                        'source': 'poa_metropolitana',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // CO 1:25.000 -- Campos de Instrução do Comando Militar do Sul
-                name: 'ci_co_125000',
-                subtitle: 'Cartas Ortoimagem 1:25.000 de Campos de Instrução do CMS',
-                description: 'Construção de 35 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
-                legend: [
-                    2,
-                ],
-                styles: [
-                    {
-                        'id': 'ci_co_125000-fill',
-                        'source': 'ci_co_125000',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'ci_co_125000-border',
-                        'source': 'ci_co_125000',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'ci_co_125000-text',
-                        'source': 'ci_co_125000',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             }
         ]
     },
-    'solicitacao-decex-2024': {
-        title: 'Mapeamento DECEx',
+    'carta-ortoimagem-2024': {
+        title: 'Carta Ortoimagem 2024',
         group: "Entregas",
         subgroup: "2024",
-        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Item 2. Metas de Trabalho, subitem b. do Plano Interno de Trabalho do 1° CGEO - 2024.',
+        description: '',
         lotes: [
-            { // CT 1:50.000 -- CPOR/CMPS
-                name: 'decex_cpor_cmsp',
-                subtitle: 'Carta Topográfica 1:50.000 de da Região de Apiai',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000 visando atender a demanda apresentada pelo Departamento de Educação e Cultura do Exército.',
-                legend: [
-                    2
-                ],
+            { // CO 25k
+                name: 'co-2024-25k',
+                subtitle: '1:25.000',
+                description: '43 cartas na escala 1:25.000 dos principais Campos de Instrução do CMS, visando atender demanandas de planejamento operacional.',
+                legend: [2],
                 styles: [
                     {
-                        'id': 'decex_cpor_cmsp-fill',
-                        'source': 'decex_cpor_cmsp',
+                        'id': 'co-2024-25k-fill',
+                        'source': 'co-2024-25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -1147,8 +617,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'decex_cpor_cmsp-border',
-                        'source': 'decex_cpor_cmsp',
+                        'id': 'co-2024-25k-border',
+                        'source': 'co-2024-25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -1157,31 +627,26 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'decex_cpor_cmsp-text',
-                        'source': 'decex_cpor_cmsp',
+                        'id': 'co-2024-25k-text',
+                        'source': 'co-2024-25k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // CT 1:50.000 -- Demanda EsACosAAe
-                name: 'decex_esacosaae',
-                subtitle: 'Cartas Topográficas 1:50.000 da região metropolitana de Curitiba',
-                description: 'Construção de 4 cartas topográficas na escala 1:50.000 visando atender a demanda apresentada pela Escola de Artilharia de Costa e Antiaérea.',
-                legend: [
-                    2
-                ],
+            { // CO 50k - CIMH
+                name: 'co-2024-50k',
+                subtitle: '1:50.000',
+                description: '7 cartas na escala 1:50.000 do Campo de Instrução Marechal Hermes, nos Estados de Santa Catarina e Paraná',
+                legend: [2],
                 styles: [
                     {
-                        'id': 'decex_esacosaae-fill',
-                        'source': 'decex_esacosaae',
+                        'id': 'co-2024-50k-fill',
+                        'source': 'co-2024-50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -1189,8 +654,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'decex_esacosaae-border',
-                        'source': 'decex_esacosaae',
+                        'id': 'co-2024-50k-border',
+                        'source': 'co-2024-50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -1199,242 +664,29 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'decex_esacosaae-text',
-                        'source': 'decex_esacosaae',
+                        'id': 'co-2024-50k-text',
+                        'source': 'co-2024-50k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             }
         ]
     },
     'mapeamento-aman-esa-2024': {
-        title: 'Mapeamento por solicitação da DSG',
+        title: 'Projeto AMAN e ESA',
         group: "Entregas",
         subgroup: "2024",
-        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes na disseminação de produtos cartográficos aos Cadetes da AMAN e aos Alunos da ESA',
+        description: '',
         lotes: [
-            { // CT/CO 1:250.000 -- AMAN ESA
-                name: 'aman_esa_2024_250k',
-                subtitle: 'Carta Topográfica e Carta Ortoimagem 1:250.000 da Região da AMAN-ESA',
-                description: 'Construção de 1 carta topográfica e 1 carta ortoimagem na escala 1:250.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'aman_esa_2024_250k-fill',
-                        'source': 'aman_esa_2024_250k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'aman_esa_2024_250k-border',
-                        'source': 'aman_esa_2024_250k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'aman_esa_2024_250k-text',
-                        'source': 'aman_esa_2024_250k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // CT 1:100.000 -- AMAN ESA
-                name: 'aman_esa_2024_100k_topo',
-                subtitle: 'Cartas Topográfica 1:100.000 da Região da AMAN-ESA',
-                description: 'Construção de 2 cartas topográficas na escala 1:100.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'aman_esa_2024_100k_topo-fill',
-                        'source': 'aman_esa_2024_100k_topo',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'aman_esa_2024_100k_topo-border',
-                        'source': 'aman_esa_2024_100k_topo',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'aman_esa_2024_100k_topo-text',
-                        'source': 'aman_esa_2024_100k_topo',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // CO 1:100.000 -- AMAN ESA
-                name: 'aman_esa_2024_100k_orto',
-                subtitle: 'Cartas Ortoimagem 1:100.000 da Região da AMAN-ESA',
-                description: 'Construção de 2 cartas ortoimagem na escala 1:100.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'aman_esa_2024_100k_orto-fill',
-                        'source': 'aman_esa_2024_100k_orto',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'aman_esa_2024_100k_orto-border',
-                        'source': 'aman_esa_2024_100k_orto',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'aman_esa_2024_100k_orto-text',
-                        'source': 'aman_esa_2024_100k_orto',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // CT 1:50.000 -- AMAN ESA
-                name: 'aman_esa_2024_50k_topo',
-                subtitle: 'Carta Topográfica 1:50.000 da Região da AMAN-ESA',
-                description: 'Construção de 1 carta topográfica na escala 1:50.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'aman_esa_2024_50k_topo-fill',
-                        'source': 'aman_esa_2024_50k_topo',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'aman_esa_2024_50k_topo-border',
-                        'source': 'aman_esa_2024_50k_topo',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'aman_esa_2024_50k_topo-text',
-                        'source': 'aman_esa_2024_50k_topo',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // CO 1:50.000 -- AMAN ESA
-                name: 'aman_esa_2024_50k_orto',
-                subtitle: 'Carta Ortoimagem 1:50.000 da Região da AMAN-ESA',
-                description: 'Construção de 1 carta ortoimagem na escala 1:50.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
-                legend: [
-                    2
-                ],
-                styles: [
-                    {
-                        'id': 'aman_esa_2024_50k_orto-fill',
-                        'source': 'aman_esa_2024_50k_orto',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'aman_esa_2024_50k_orto-border',
-                        'source': 'aman_esa_2024_50k_orto',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'aman_esa_2024_50k_orto-text',
-                        'source': 'aman_esa_2024_50k_orto',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
             { // CT 1:25.000 -- AMAN ESA
                 name: 'aman_esa_2024_25k_topo',
                 subtitle: 'Cartas Topográfica 1:25.000 da Região da AMAN-ESA',
-                description: 'Construção de 4 cartas topográficas na escala 1:25.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                description: '3 cartas na escala 1:25.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
                 legend: [
                     2
                 ],
@@ -1473,10 +725,136 @@ var PROJECTS = {
                     }
                 ]
             },
+            { // CT 1:50.000 -- AMAN ESA
+                name: 'aman_esa_2024_50k_topo',
+                subtitle: 'Carta Topográfica 1:50.000 da Região da AMAN-ESA',
+                description: '1 carta na escala 1:50.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_50k_topo-fill',
+                        'source': 'aman_esa_2024_50k_topo',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_50k_topo-border',
+                        'source': 'aman_esa_2024_50k_topo',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_50k_topo-text',
+                        'source': 'aman_esa_2024_50k_topo',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CT 1:100.000 -- AMAN ESA
+                name: 'aman_esa_2024_100k_topo',
+                subtitle: 'Cartas Topográfica 1:100.000 da Região da AMAN-ESA',
+                description: '2 cartas na escala 1:100.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_100k_topo-fill',
+                        'source': 'aman_esa_2024_100k_topo',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_100k_topo-border',
+                        'source': 'aman_esa_2024_100k_topo',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_100k_topo-text',
+                        'source': 'aman_esa_2024_100k_topo',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CT 1:250.000 -- AMAN ESA
+                name: 'aman_esa_2024_250k',
+                subtitle: 'Carta Topográfica 1:250.000 da Região da AMAN-ESA',
+                description: '1 carta na escala 1:250.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_250k-fill',
+                        'source': 'aman_esa_2024_250k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_250k-border',
+                        'source': 'aman_esa_2024_250k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_250k-text',
+                        'source': 'aman_esa_2024_250k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
             { // CO 1:25.000 -- AMAN ESA
                 name: 'aman_esa_2024_25k_orto',
                 subtitle: 'Cartas Ortoimagem 1:25.000 da Região da AMAN-ESA',
-                description: 'Construção de 4 cartas ortoimagem na escala 1:25.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                description: '4 cartas na escala 1:25.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
                 legend: [
                     2
                 ],
@@ -1514,28 +892,150 @@ var PROJECTS = {
                         }
                     }
                 ]
-            }
+            },
+            { // CO 1:50.000 -- AMAN ESA
+                name: 'aman_esa_2024_50k_orto',
+                subtitle: 'Carta Ortoimagem 1:50.000 da Região da AMAN-ESA',
+                description: '3 cartas na escala 1:50.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_50k_orto-fill',
+                        'source': 'aman_esa_2024_50k_orto',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_50k_orto-border',
+                        'source': 'aman_esa_2024_50k_orto',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_50k_orto-text',
+                        'source': 'aman_esa_2024_50k_orto',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CO 1:100.000 -- AMAN ESA
+                name: 'aman_esa_2024_100k_orto',
+                subtitle: 'Cartas Ortoimagem 1:100.000 da Região da AMAN-ESA',
+                description: '2 cartas na escala 1:100.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_100k_orto-fill',
+                        'source': 'aman_esa_2024_100k_orto',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_100k_orto-border',
+                        'source': 'aman_esa_2024_100k_orto',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_100k_orto-text',
+                        'source': 'aman_esa_2024_100k_orto',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            { // CO 1:250.000 -- AMAN ESA
+                name: 'aman_esa_2024_250k',
+                subtitle: 'Carta Ortoimagem 1:250.000 da Região da AMAN-ESA',
+                description: '1 carta na escala 1:250.000 visando atender a demanda da DSG para apresentação de produtos cartográficos atualizados aos Cadetes da AMAN e aos Alunos da ESA.',
+                legend: [
+                    2
+                ],
+                styles: [
+                    {
+                        'id': 'aman_esa_2024_250k-fill',
+                        'source': 'aman_esa_2024_250k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_250k-border',
+                        'source': 'aman_esa_2024_250k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'aman_esa_2024_250k-text',
+                        'source': 'aman_esa_2024_250k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
         ]
     },
-    'plano-desenvolvimento-2023': {
-        title: 'PDDMT 2023',
+    'carta-topografica-2023': {
+        title: 'Carta Topográfica 2023',
         group: "Entregas",
         subgroup: "2023",
-        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.',
+        description: '',
         lotes: [
-            { // PDDMT 2022 52 CT 1:100K RS
-                name: 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
-                subtitle: 'Carta Topográfica 1:100.000 do RS',
-                description: 'Construção de 52 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do RS.',
-                zoom: [
-                    [-58.24018173756117, -32.47368087864978], // southwestern corner of the bounds
-                    [-51.39593216041132, -28.148451192980446] // northeastern corner of the bounds
-                ],
+            { // CT 25k
+                name: 'ct-2023-25k',
+                subtitle: '1:25.000',
+                description: '15 cartas na escala 1:25.000 com o objetivo de mapear Campos de Instrução do Comando Militar do Sul, sendo estes: Alegrete - RS (3), Quaraí - RS (2), 4 cartas em Santana do Livramento - RS (4) e Curitiba - PR (6).',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-fill',
-                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        'id': 'ct-2023-25k-fill',
+                        'source': 'ct-2023-25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -1543,8 +1043,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-border',
-                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        'id': 'ct-2023-25k-border',
+                        'source': 'ct-2023-25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -1553,33 +1053,26 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs-text',
-                        'source': 'pddmt-2022-sub-meta-b1-carta-topo-100k-rs',
+                        'id': 'ct-2023-25k-text',
+                        'source': 'ct-2023-25k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // PDDMT 2022 30 CT 1:100K PR
-                name: 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
-                subtitle: 'Carta Topográfica 1:100.000 do PR',
-                description: 'Construção de 30 cartas topográficas na escala 1:100.000 visando atender o exercício de adestramento em Jogo de Guerra do C Av Ex na região do PR.',
-                zoom: [
-                    [-54.00995, -25.50903],
-                    [-50.99005, -22.99097]
-                ],
+            { // CT 50k
+                name: 'ct-2023-50k',
+                subtitle: '1:50.000',
+                description: '95 cartas na escala 1:50.000 com o planejamento de atender as demandas operacionais do CMS na região sudoeste do Estado do Rio Grande do Sul',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr-fill',
-                        'source': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
+                        'id': 'ct-2023-50k-fill',
+                        'source': 'ct-2023-50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -1587,8 +1080,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr-border',
-                        'source': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
+                        'id': 'ct-2023-50k-border',
+                        'source': 'ct-2023-50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -1597,33 +1090,26 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr-text',
-                        'source': 'pddmt-2022-sub-meta-b2-carta-topo-100k-pr',
+                        'id': 'ct-2023-50k-text',
+                        'source': 'ct-2023-50k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // PDDMT 2023 95 CO 1:50K RS
-                name: 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
-                subtitle: 'Carta Ortoimagem 1:50.000 no RS',
-                description: 'Construção de 95 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.',
-                zoom: [
-                    [-54.75999, -26.00903], // southwestern corner of the bounds
-                    [-52.49001, -22.49097] // northeastern corner of the bounds
-                ],
+            { // CT 100k
+                name: 'ct-2023-100k',
+                subtitle: '1:100.000',
+                description: '82 cartas na escala 1:100.000, 30 no oeste do Estado do Paraná e 52 no sudoeste do Estado do Rio Grande do Sul, visando atender as demandas de uma Simulação para o C Av Ex',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-fill',
-                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
+                        'id': 'ct-2023-100k-fill',
+                        'source': 'ct-2023-100k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -1631,8 +1117,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-border',
-                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
+                        'id': 'ct-2023-100k-border',
+                        'source': 'ct-2023-100k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -1641,173 +1127,34 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs-text',
-                        'source': 'pddmt-2023-sub-meta-a1-carta-orto-50k-rs',
+                        'id': 'ct-2023-100k-text',
+                        'source': 'ct-2023-100k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // PDDMT 2023 356 CO 1:25K RS
-                name: 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
-                subtitle: 'Carta Ortoimagem 1:25.000 no RS',
-                description: 'Construção de 356 cartas ortoimagem na escala 1:25.000 visando atender o planejamento de operações para o CMS.',
-                zoom: [
-                    [-54.75999, -26.00903], // southwestern corner of the bounds
-                    [-52.49001, -22.49097] // northeastern corner of the bounds
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-fill',
-                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-border',
-                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs-text',
-                        'source': 'pddmt-2023-sub-meta-a2-carta-orto-25k-rs',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // PDDMT 2023 34 CO 1:50K SC
-                name: 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
-                subtitle: 'Carta Ortoimagem 1:50.000 em SC',
-                description: 'Construção de 34 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações para o CMS.',
-                zoom: [
-                    [-54.75999, -26.00903], // southwestern corner of the bounds
-                    [-52.49001, -22.49097] // northeastern corner of the bounds
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-fill',
-                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-border',
-                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc-text',
-                        'source': 'pddmt-2023-sub-meta-b1-carta-orto-50k-sc',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // PDDMT 2023 95 CT 1:50K RS
-                name: 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
-                subtitle: 'Carta Topográfica 1:50.000 no RS',
-                description: 'Construção de 95 cartas topográficas na escala 1:50.000 visando atender o planejamento de operações para o CMS.',
-                zoom: [
-                    [-54.75999, -26.00903], // southwestern corner of the bounds
-                    [-52.49001, -22.49097] // northeastern corner of the bounds
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-fill',
-                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-border',
-                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs-text',
-                        'source': 'pddmt-2023-sub-meta-b2-carta-topo-50k-rs',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
         ]
     },
-    'mapeamento-interesse-da-forca-2023': {
-        title: 'Map Int F Ter 2023',
+    'carta-ortoimagem-2023': {
+        title: 'Carta Ortoimagem 2023',
         group: "Entregas",
         subgroup: "2023",
-        description: 'O objetivo do presente projeto consiste na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
+        description: '',
         lotes: [
-            { // Alegrete
-                name: 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
-                subtitle: 'Carta Topográfica 1:25.000 de Alegrete',
-                description: 'Construção de 03 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
-                zoom: [
-                    [-55.88536, -30.00902], // southwestern corner of the bounds
-                    [-55.61464, -29.74098] // northeastern corner of the bounds
-                ],
+            { // CO 25k
+                name: 'co-2023-25k',
+                subtitle: '1:25.000',
+                description: '356 cartas na escala 1:25.000 com o planejamento de atender as demandas operacionais do CMS na região sudoeste do estado do Rio Grande do Sul.',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-fill',
-                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
+                        'id': 'co-2023-25k-fill',
+                        'source': 'co-2023-25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -1815,8 +1162,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-border',
-                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
+                        'id': 'co-2023-25k-border',
+                        'source': 'co-2023-25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -1825,34 +1172,26 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete-text',
-                        'source': 'mapintfter-2023-sub-meta-a2-carta-topo-25k-alegrete',
+                        'id': 'co-2023-25k-text',
+                        'source': 'co-2023-25k',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 8.86,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // Santana do Livramento
-                name: 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
-                subtitle: 'Carta Topográfica 1:25.000 de Santana do Livramento',
-                description: 'Construção de 04 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
-                zoom: [
-                    [-55.88536, -30.00902], // southwestern corner of the bounds
-                    [-55.61464, -29.74098] // northeastern corner of the bounds
-                ],
+            { // CO 50k
+                name: 'co-2023-50k',
+                subtitle: '1:50.000',
+                description: '129 cartas na escala 1:50.000 com o planejamento de atender as demandas operacionais do CMS na região sudoeste do estado do Rio Grande do Sul e fronteira oeste do estado de Santa Catarina.',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-fill',
-                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        'id': 'co-2023-50k-fill',
+                        'source': 'co-2023-50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -1860,8 +1199,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-border',
-                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        'id': 'co-2023-50k-border',
+                        'source': 'co-2023-50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -1870,132 +1209,34 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento-text',
-                        'source': 'mapintfter-2023-sub-meta-a3-carta-topo-25k-stnalivramento',
+                        'id': 'co-2023-50k-text',
+                        'source': 'co-2023-50k',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 8.86,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // Curitiba
-                name: 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
-                subtitle: 'Carta Topográfica 1:25.000 de Curitiba',
-                description: 'Construção de 06 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
-                zoom: [
-                    [-55.88536, -30.00902], // southwestern corner of the bounds
-                    [-55.61464, -29.74098] // northeastern corner of the bounds
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-fill',
-                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-border',
-                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba-text',
-                        'source': 'mapintfter-2023-sub-meta-a1-carta-topo-25k-curitiba',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 8.86,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            { // Quaraí
-                name: 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
-                subtitle: 'Carta Topográfica 1:25.000 de Quaraí',
-                description: 'Construção de 02 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
-                zoom: [
-                    [-55.88536, -30.00902], // southwestern corner of the bounds
-                    [-55.61464, -29.74098] // northeastern corner of the bounds
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-fill',
-                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-border',
-                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai-text',
-                        'source': 'mapintfter-2023-sub-meta-a4-carta-topo-25k-quarai',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 8.86,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
         ]
     },
-    'plano-desenvolvimento-2022': {
-        title: 'PDDMT 2022',
+    'carta-topografica-2022': {
+        title: 'Carta Topográfica 2022',
         group: "Entregas",
         subgroup: "2022",
-        description: 'O objetivo do presente projeto consiste na elaboração de produtos para atender as demandas constantes no Anexo E - Programa de Difusão de Produtos e Serviços de Geoinformação, do PDDMT.',
+        description: '',
         lotes: [
-            {
-                name: 'pddmt-2022-sub-meta-a-carta-orto-50k-pr',
-                subtitle: 'Carta Ortoimagem 1:50.000 no PR',
-                description: 'Construção de 76 cartas ortoimagem na escala 1:50.000 visando atender o planejamento de operações no Lago de Itaipu para o CMS.',
-                zoom: [
-                    [-54.94972409601194, -26.180512277006958], // southwestern corner of the bounds
-                    [-52.30027568484421, -22.31939338230858] // northeastern corner of the bounds
-                ],
+            { // CT 25k
+                name: 'ct-2022-25k',
+                subtitle: '1:25.000',
+                description: '11 cartas na escala 1:25.000 nas cidades de Uruguaiana - RS (2) e Florianópolis - SC (9)',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr-fill',
-                        'source': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr',
+                        'id': 'ct-2022-25k-fill',
+                        'source': 'ct-2022-25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -2003,8 +1244,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr-border',
-                        'source': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr',
+                        'id': 'ct-2022-25k-border',
+                        'source': 'ct-2022-25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -2013,41 +1254,108 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr-text',
-                        'source': 'pddmt-2022-sub-meta-a-carta-orto-50k-pr',
+                        'id': 'ct-2022-25k-text',
+                        'source': 'ct-2022-25k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
-            }
+            },
+            { // CT 50k
+                name: 'ct-2022-50k',
+                subtitle: '1:50.000',
+                description: '37 cartas na escala 1:50.000 construídas pelo intermédio do processo de generalização cartográfica das 174 cartas 1:25.000 do ano de 2021, no contexto do Convênio com o Estado do Rio Grande do Sul',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'ct-2022-50k-fill',
+                        'source': 'ct-2022-50k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'ct-2022-50k-border',
+                        'source': 'ct-2022-50k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ct-2022-50k-text',
+                        'source': 'ct-2022-50k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+            { // CT 100k
+                name: 'ct-2022-100k',
+                subtitle: '1:100.000',
+                description: '12 cartas na escala 1:100.000 construídas por intermédio do processo de generalização cartográfica, na região de Porto Alegre - RS e na região central do Estado de Santa Catarina.',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'ct-2022-100k-fill',
+                        'source': 'ct-2022-100k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'ct-2022-100k-border',
+                        'source': 'ct-2022-100k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ct-2022-100k-text',
+                        'source': 'ct-2022-100k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
         ]
     },
-    'mapeamento-interesse-da-forca-2022': {
-        title: 'Map Int F Ter 2022',
+    'carta-ortoimagem-2022': {
+        title: 'Carta Ortoimagem 2022',
         group: "Entregas",
         subgroup: "2022",
-        description: 'O objetivo do presente projeto consistiu na elaboração de cartas topográfica em escalas entre 1:25.000 e 1:250.000 de áreas de interesse da Força Terrestre pelo território nacional. A Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação (1º CGEO) corresponde à área de responsabilidade do Comando Militar do Sul (CMS), abrangendo os estados do Rio Grande do Sul, Santa Catarina e Paraná. Dessa forma, o 1º CGEO será responsável por executar esse projeto em sua respectiva área de responsabilidade.',
+        description: '',
         lotes: [
-            {
-                name: 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis',
-                subtitle: 'Carta Topográfica 1:25.000 de Florianópolis',
-                description: 'Construção de 09 cartas topográficas na escala 1:25.000 visando atender a atualização das capitais do ASC.',
-                zoom: [
-                    [-48.82809677372772, -28.05547382461215], // southwestern corner of the bounds
-                    [-48.046903497479974, -27.1945079332596] // northeastern corner of the bounds
-                ],
+            { // CO 50k
+                name: 'co-2022-50k',
+                subtitle: '1:50.000',
+                description: '76 cartas na escala 1:50.000 visando atender as demandas do Comando Militar do Sul no planejamento de operação ao longo do Rio Paraná',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis-fill',
-                        'source': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis',
+                        'id': 'co-2022-50k-fill',
+                        'source': 'co-2022-50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -2055,8 +1363,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis-border',
-                        'source': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis',
+                        'id': 'co-2022-50k-border',
+                        'source': 'co-2022-50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -2065,70 +1373,29 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis-text',
-                        'source': 'mapintfter-2022-sub-meta-a1-carta-topo-25k-florianopolis',
+                        'id': 'co-2022-50k-text',
+                        'source': 'co-2022-50k',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 8.86,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            {
-                name: 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana',
-                subtitle: 'Carta Topográfica 1:25.000 de Uruguaiana',
-                description: 'Construção de 02 cartas topográficas na escala 1:25.000 visando atender a atualização das campos de instrução das ASC.',
-                zoom: [
-                    [-57.33202394228996, -30.055420752836497], // southwestern corner of the bounds
-                    [-56.79297573646644, -29.444567158256913] // northeastern corner of the bounds
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana-fill',
-                        'source': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana-border',
-                        'source': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana-text',
-                        'source': 'mapintfter-2022-sub-meta-a2-carta-topo-25k-uruguaiana',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 8.86,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr',
-                subtitle: 'Carta Topográfica 1:50.000 de Roraima',
-                description: 'Construção de 22 cartas topográficas na escala 1:50.000 na região da fronteira de Roraima.',
+        ]
+    },
+    'projeto-roraima-2022': {
+        title: 'Projeto Roraima',
+        group: "Entregas",
+        subgroup: "2022",
+        description: '',
+        lotes: [
+            { // Complemento Uraricoera
+                name: 'roraima',
+                subtitle: '1:50.000',
+                description: '22 cartas topográficas na escala 1:50.000 na região da fronteira de Roraima em complemento as cartas do Projeto Uraricoera.',
                 zoom: [
                     [
                         -63.93490169478686,
@@ -2142,8 +1409,8 @@ var PROJECTS = {
                 legend: [2],
                 styles: [
                     {
-                        'id': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr-fill',
-                        'source': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr',
+                        'id': 'roraima-fill',
+                        'source': 'roraima',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -2152,7 +1419,7 @@ var PROJECTS = {
                     },
                     {
                         'id': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr-border',
-                        'source': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr',
+                        'source': 'roraima',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -2161,8 +1428,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr-text',
-                        'source': 'mapintfter-2022-sub-meta-b-carta-topo-50k-rr',
+                        'id': 'roraima-text',
+                        'source': 'roraima',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 6.03,
@@ -2170,143 +1437,27 @@ var PROJECTS = {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
 
                         },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            {
-                name: 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc',
-                subtitle: 'Generalização Carta Topográfica 1:100.000',
-                description: 'O objetivo do presente projeto consistiu em realizar a Generalização Cartográfica na escala 1:100.000 de produtos na região de Santa Catarina e Rio Grande do Sul, para gerar 12 cartas topográficas na escala 1:100.000.',
-                zoom: [
-                    [-52.209372285465335, -31.180376012441414],
-                    [-49.79062798683473, -26.319489869099446]
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc-fill',
-                        'source': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc-border',
-                        'source': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc-text',
-                        'source': 'mapintfter-2022-sub-meta-c-carta-topo-100k-rs-sc',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 4.56,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             }
         ]
     },
-    'rio-grande-do-sul-2022': {
-        title: 'Convênio RS - RF1',
-        group: "Entregas",
-        subgroup: "2022",
-        description: 'O objetivo principal do projeto foi a generalização cartográfica do Profeto do Convênio RS totalizando 37 carta topográfica em 1:50.000.',
-        lotes: [
-            {
-                name: 'conv-rs-carta-topo-50k-rs',
-                subtitle: '1:50.000',
-                description: 'Produção de cartas topográficas 1:50.000 por processo de generalização',
-                zoom: [
-                    [
-                        -53.07164719034553,
-                        -31.604238517208366
-                    ],
-                    [
-                        -49.139097694440665,
-                        -29.11968658972779
-                    ]
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'conv-rs-carta-topo-50k-rs-fill',
-                        'source': 'conv-rs-carta-topo-50k-rs',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'conv-rs-carta-topo-50k-rs-border',
-                        'source': 'conv-rs-carta-topo-50k-rs',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'conv-rs-carta-topo-50k-rs-text',
-                        'source': 'conv-rs-carta-topo-50k-rs',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 8.89,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    'rio-grande-do-sul-2021': {
-        title: 'Convênio RS - RF1',
+    'carta-topografica-2021': {
+        title: 'Carta Topográfica 2021',
         group: "Entregas",
         subgroup: "2021",
-        description: 'O objetivo principal do projeto foi a elaboração de 174 (cento e setenta e quatro) cartas topográficas na escala 1:25.000, e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais de elevação e dados geoespaciais vetoriais), correspondentes à RF 1, compreendendo Porto Alegre, Região Metropolitana e municípios adjacentes, identificadas segundo a nomenclatura utilizada no Mapa-Índice (MI), de acordo com as Normas e Especificações Técnicas previstas para a Infraestrutura Nacional de Dados Espaciais (INDE).',
+        description: '',
         lotes: [
-            {
-                name: 'conv-rs-carta-topo-25k-rs',
+            { // CT 25k
+                name: 'ct-2021-25k',
                 subtitle: '1:25.000',
-                description: 'A elaboração das cartas topográficas foi executada em 5 (cinco) lotes de produção cartográfica. Além da base cartográfica digital contínua, foram entregues as imagens brutas, os modelos digitais de superfície, os modelos digitais do terreno e as ortoimagens de cada carta produzida, além da carta topográfica em formato matricial.',
-                zoom: [
-                    [
-                        -53.08078039276313,
-                        -31.599938879777334
-                    ],
-                    [
-                        -49.102955546684086,
-                        -29.08630601676895
-                    ]
-                ],
+                description: '174 cartas na escala 1:25.000 e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais de elevação e dados geoespaciais vetoriais), correspondentes à RF1, compreendendo Porto Alegre, Região Metropolitana e municípios adjacentes. O projeto foi executado no contexto da parceria entre o Governo do Estado do Rio Grande do Sul e o Exército Brasileiro.',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'conv-rs-carta-topo-25k-rs-fill',
-                        'source': 'conv-rs-carta-topo-25k-rs',
+                        'id': 'ct-2021-25k-fill',
+                        'source': 'ct-2021-25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -2314,8 +1465,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'conv-rs-carta-topo-25k-rs-border',
-                        'source': 'conv-rs-carta-topo-25k-rs',
+                        'id': 'ct-2021-25k-border',
+                        'source': 'ct-2021-25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -2324,87 +1475,26 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'conv-rs-carta-topo-25k-rs-text',
-                        'source': 'conv-rs-carta-topo-25k-rs',
+                        'id': 'ct-2021-25k-text',
+                        'source': 'ct-2021-25k',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 8.89,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    'sisfron-17rcmec-2021': {
-        title: 'SISFRON - 17º RC Mec',
-        group: "Entregas",
-        subgroup: "2021",
-        description: 'Execução de generalização cartográfica do Projeto SISFRON - 17º RC Mec nas escalas 1:50.000 e 1:100.000, totalizando 15 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
-        lotes: [
-            {
-                name: 'sisfron-17rcmec-carta-topo-50k-pr',
-                subtitle: '1:50.000',
-                description: 'Execução de mapeamento topográfico na escalas 1:50.000 de 12 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
-                zoom: [
-                    [-54.69732378130477, -24.6805561899923],
-                    [-53.30267614980163, -22.81940267434254]
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'sisfron-17rcmec-carta-topo-50k-pr-fill',
-                        'source': 'sisfron-17rcmec-carta-topo-50k-pr',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'sisfron-17rcmec-carta-topo-50k-pr-border',
-                        'source': 'sisfron-17rcmec-carta-topo-50k-pr',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'sisfron-17rcmec-carta-topo-50k-pr-text',
-                        'source': 'sisfron-17rcmec-carta-topo-50k-pr',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.89,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            {
-                name: 'sisfron-17rcmec-carta-topo-100k-pr',
-                subtitle: '1:100.000',
-                description: 'Execução de mapeamento topográfico na escalas 1:100.000 de 03 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
-                zoom: [
-                    [-54.69732378130477, -24.6805561899923],
-                    [-53.30267614980163, -22.81940267434254]
-                ],
+            { // CT 50k
+                name: 'ct-2021-50k',
+                subtitle: '1:50.000',
+                description: '12 cartas na escala 1:50.000 na região de fronteira do Estado do Paraná no contexto do Projeto SISFRON (17º RC Mec)',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'sisfron-17rcmec-carta-topo-100k-pr-fill',
-                        'source': 'sisfron-17rcmec-carta-topo-100k-pr',
+                        'id': 'ct-2021-50k-fill',
+                        'source': 'ct-2021-50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -2412,8 +1502,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'sisfron-17rcmec-carta-topo-100k-pr-border',
-                        'source': 'sisfron-17rcmec-carta-topo-100k-pr',
+                        'id': 'ct-2021-50k-border',
+                        'source': 'ct-2021-50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -2422,36 +1512,66 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'sisfron-17rcmec-carta-topo-100k-pr-text',
-                        'source': 'sisfron-17rcmec-carta-topo-100k-pr',
+                        'id': 'ct-2021-50k-text',
+                        'source': 'ct-2021-50k',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 7.89,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
+                        'paint': {}
+                    }
+                ]
+            },
+            { // CT 100k
+                name: 'ct-2021-100k',
+                subtitle: '1:100.000',
+                description: '3 cartas na escala 1:100.000 na região de fronteira do Estado do Paraná no contexto do Projeto SISFRON (17º RC Mec)',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'ct-2021-100k-fill',
+                        'source': 'ct-2021-100k',
+                        'type': 'fill',
+                        'layout': {},
                         'paint': {
-
+                            'fill-opacity': 0.9
                         }
+                    },
+                    {
+                        'id': 'ct-2021-100k-border',
+                        'source': 'ct-2021-100k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ct-2021-100k-text',
+                        'source': 'ct-2021-100k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
                     }
                 ]
             }
         ]
     },
-    'uraricoera': {
-        title: 'Exercício Uraricoera',
+    'uraricoera-2021': {
+        title: 'Projeto Uraricoera',
         group: "Entregas",
         subgroup: "2021",
-        description: 'O objetivo do presente projeto consistiu na elaboração de 48 cartas topográficas na escala 1:50.000 distribuídas no estado de Roraima visando atender demanda do COTER relativa a realização de exercícios de Problemas Militares Simulados.',
+        description: '',
         lotes: [
-            {
+            { // Uraricoera
                 name: 'uraricoera',
-                subtitle: '',
-                zoom: [
-                    [-61.68024984824885, 1.3191292999480237],
-                    [-60.31974985130867, 4.9308586451198915]
-                ],
+                subtitle: '1:50.000',
+                description: '54 cartas na escala 1:50.000 distribuídas no estado de Roraima visando atender demanda do COTER relativa a realização de exercícios de Problemas Militares Simulados.',
                 legend: [2],
                 styles: [
                     {
@@ -2478,38 +1598,30 @@ var PROJECTS = {
                         'source': 'uraricoera',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 7.26,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             }
         ]
     },
-    'sisfron-17rcmec-2020': {
-        title: 'SISFRON - 17º RC Mec',
+    'carta-topografica-2020': {
+        title: 'Carta Topográfica 2020',
         group: "Entregas",
         subgroup: "2020",
-        description: 'Execução de mapeamento topográfico, na escala 1:25.000, totalizando 44 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
+        description: '',
         lotes: [
-            {
-                name: 'sisfron-17rcmec-carta-topo-25k-pr',
+            { // CT 25k
+                name: 'ct-2020-25k',
                 subtitle: '1:25.000',
-                description: 'Execução de mapeamento topográfico na escalas 1:25.000 de 44 cartas topográficas e seus dados vetoriais na região de fronteira do Paraná.',
-                zoom: [
-                    [-54.69732378130477, -24.6805561899923],
-                    [-53.30267614980163, -22.81940267434254]
-                ],
+                description: '44 cartas na escala 1:25.000 na região de fronteira do Estado do Paraná no contexto do Projeto SISFRON (17º RC Mec)',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'sisfron-17rcmec-carta-topo-25k-pr-fill',
-                        'source': 'sisfron-17rcmec-carta-topo-25k-pr',
+                        'id': 'ct-2020-25k-fill',
+                        'source': 'ct-2020-25k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -2517,8 +1629,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'sisfron-17rcmec-carta-topo-25k-pr-border',
-                        'source': 'sisfron-17rcmec-carta-topo-25k-pr',
+                        'id': 'ct-2020-25k-border',
+                        'source': 'ct-2020-25k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -2527,209 +1639,34 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'sisfron-17rcmec-carta-topo-25k-pr-text',
-                        'source': 'sisfron-17rcmec-carta-topo-25k-pr',
+                        'id': 'ct-2020-25k-text',
+                        'source': 'ct-2020-25k',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 8.89,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    'santa-catarina-2019': {
-        title: 'Map Int F Ter - Santa Catarina',
-        group: "Entregas",
-        subgroup: "2019",
-        description: 'Execução de generalização cartográfica do Projeto do Vazio SC, totalizando 42 folhas na escala 1:50.000 na região do Santa Catarina.',
-        lotes: [
-            {
-                name: 'santa-catarina-50k',
-                subtitle: 'Escala 1:50.000',
-                zoom: [
-                    [-52.454258275555226, -28.680443365430413],
-                    [-49.79574195439098, -26.069483443263103]
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'santa-catarina-50k-fill',
-                        'source': 'santa-catarina-50k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-50k-border',
-                        'source': 'santa-catarina-50k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-50k-text',
-                        'source': 'santa-catarina-50k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.4,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    'santa-catarina-2018': {
-        title: 'Map Int F Ter - Santa Catarina',
-        group: "Entregas",
-        subgroup: "2018",
-        description: 'Execução de mapeamento topográfico, totalizando 168 folhas na escala 1:25.000, da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação na região de Santa Catarina.',
-        lotes: [
-            {
-                name: 'santa-catarina-25k',
-                subtitle: 'Escala 1:25.000',
-                zoom: [
-                    [
-                        -52.5586923820878,
-                        -28.700997713134676
-                    ],
-                    [
-                        -48.54318247763669,
-                        -26.090528839826753
-                    ]
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'santa-catarina-25k-fill',
-                        'source': 'santa-catarina-25k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-25k-border',
-                        'source': 'santa-catarina-25k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'santa-catarina-25k-text',
-                        'source': 'santa-catarina-25k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 9.01,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    'campo-instrucao': {
-        title: 'Map Int F Ter - Campos de Instrução',
-        group: "Entregas",
-        subgroup: "2018",
-        description: 'Execução de mapeamento topográfico na escala 1:25.000 e 1:50.000, referentes à 05 Campos de Instrução da Área de Suprimento Cartográfico (ASC) do 1º Centro de Geoinformação e que estão contidos na área de responsabilidade do Comando Militar do Sul.',
-        lotes: [
-            { // CI 25K
-                name: 'campo-instrucao-25k',
-                subtitle: 'Escala 1:25.000',
-                description: 'Os campos mapeados foram CIB, CISM, CIR, CIMH e CIBSB, totalizando 24 cartas topográficas.',
-                zoom: [
-                    [
-                        -56.18915089919898,
-                        -31.213375905552738
-                    ],
-                    [
-                        -48.04916183186424,
-                        -25.982504667730154
-                    ]
-                ],
-                legend: [2],
-                styles: [
-                    {
-                        'id': 'campo-instrucao-25k-fill',
-                        'source': 'campo-instrucao-25k',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'campo-instrucao-25k-border',
-                        'source': 'campo-instrucao-25k',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'campo-instrucao-25k-text',
-                        'source': 'campo-instrucao-25k',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 8.86,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificadorMI']]
-
-                        },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             },
-            { // CI 50K
-                name: 'campo-instrucao-50k',
-                subtitle: 'Escala 1:50.000',
-                description: 'Os campos mapeados foram CIB, CISM, CIR, CIMH e CIBSB, totalizando 6 cartas topográficas.',
-                zoom: [
-                    [
-                        -56.66123922488663,
-                        -31.498994346004366
-                    ],
-                    [
-                        -47.59830566095303,
-                        -25.675197661624992
-                    ]
-                ],
+        ]
+    },
+    'carta-topografica-2019': {
+        title: 'Carta Topográfica 2019',
+        group: "Entregas",
+        subgroup: "2019",
+        description: '',
+        lotes: [
+            { // CT 50k
+                name: 'ct-2019-50k',
+                subtitle: '1:50.000',
+                description: '42 cartas na escala 1:50.000, construídas por intermédio de procesos de generalização cartográfica no contexto do Projeto de Mapeamento do Vazio de Santa Catarina.',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'campo-instrucao-50k-fill',
-                        'source': 'campo-instrucao-50k',
+                        'id': 'ct-2019-50k-fill',
+                        'source': 'ct-2019-50k',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -2737,8 +1674,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'campo-instrucao-50k-border',
-                        'source': 'campo-instrucao-50k',
+                        'id': 'ct-2019-50k-border',
+                        'source': 'ct-2019-50k',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -2747,46 +1684,115 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'campo-instrucao-50k-text',
-                        'source': 'campo-instrucao-50k',
+                        'id': 'ct-2019-50k-text',
+                        'source': 'ct-2019-50k',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 9.01,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
-            }
+            },
         ]
     },
-    'radiografia': {
-        title: 'Projeto Radiografia da Amazônia',
+    'carta-topografica-2018': {
+        title: 'Carta Topográfica 2018',
         group: "Entregas",
         subgroup: "2018",
-        description: 'O 1º CGEO foi responsável pela aquisição dos dados geoespaciais vetoriais (altimetria, hidrografia e planimetria) e edição de cartas topográficas, com base nos dados geoespaciais de vegetação obtidos pelo 2º CGEO (Brasília-DF), da área já imageada do projeto.',
+        description: '',
         lotes: [
-            { // RAM
-                name: 'radiografia-am',
-                subtitle: '',
-                zoom: [
-                    [
-                        -75.4914065314648,
-                        -13.074583626077953
-                    ],
-                    [
-                        -45.8294395582202,
-                        8.500903062364785
-                    ]
-                ],
+            { // CT 25k
+                name: 'ct-2018-25k',
+                subtitle: '1:25.000',
+                description: '190 cartas na escala 1:25.000, sendo 168 (duas cartas em sobreposição com o CIMH) cartas na região central do Estado de Santa Catarina e 24 cartas nos principais Campos de Instrução do Comando Militar do Sul.',
                 legend: [2],
                 styles: [
                     {
-                        'id': 'radiografia-am-fill',
+                        'id': 'ct-2018-25k-fill',
+                        'source': 'ct-2018-25k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'ct-2018-25k-border',
+                        'source': 'ct-2018-25k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ct-2018-25k-text',
+                        'source': 'ct-2018-25k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+            { // CT 50k
+                name: 'ct-2018-50k',
+                subtitle: '1:50.000',
+                description: '6 cartas na escala 1:50.000 dos principais Campos de Instrução do Comando Militar do Sul: Campo de Instrução de Rincão (CIR), Campo de Instrução de Santa Maria (CISM), Campo de Instrução Barão de São Borja (CIBSB), Campo de Instrução de Butiá (CIB), Campo de Instrução de Marechal Hermes (CIMH).',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'ct-2018-50k-fill',
+                        'source': 'ct-2018-50k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'ct-2018-50k-border',
+                        'source': 'ct-2018-50k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ct-2018-50k-text',
+                        'source': 'ct-2018-50k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+        ]
+    },
+    'radiografia-amazonia-2018': {
+        title: 'Projeto Radiografia da Amazônia',
+        group: "Entregas",
+        subgroup: "2018",
+        description: '',
+        lotes: [
+            { // Radiografia AM
+                name: 'radiografia-am',
+                subtitle: '1:50.000',
+                description: '614 cartas na escala 1:50.000, sendo o 1º CGEO o responsável pela extração dos dados vetoriais e edição das cartas com base nos dados geoespaciais de vegetação obtidos pelo 2º CGEO, da área já imageada do projeto.',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'radiografia-am-50k-fill',
                         'source': 'radiografia-am',
                         'type': 'fill',
                         'layout': {},
@@ -2809,14 +1815,10 @@ var PROJECTS = {
                         'source': 'radiografia-am',
                         "type": "symbol",
                         "maxzoom": 10,
-                        "minzoom": 7.4,
                         'layout': {
                             'text-field': ['to-string', ['get', 'identificadorMI']]
-
                         },
-                        'paint': {
-
-                        }
+                        'paint': {}
                     }
                 ]
             }
