@@ -1138,6 +1138,43 @@ var PROJECTS = {
                     }
                 ]
             },
+            { // CT 250k
+                name: 'ct-2023-250k',
+                subtitle: '1:250.000',
+                description: '1 carta na escala 1:250.000, na região sudoeste do Rio Grande do Sul, construída por meio do processo de generalização cartográfica.',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'ct-2023-250k-fill',
+                        'source': 'ct-2023-250k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'ct-2023-250k-border',
+                        'source': 'ct-2023-250k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ct-2023-250k-text',
+                        'source': 'ct-2023-250k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
         ]
     },
     'carta-ortoimagem-2023': {
@@ -1220,6 +1257,43 @@ var PROJECTS = {
                     }
                 ]
             },
+            { // CO 250k
+                name: 'co-2023-250k',
+                subtitle: '1:250.000',
+                description: '1 carta na escala 1:250.000, na região sudoeste do Rio Grande do Sul, construída por meio do processo de generalização cartográfica.',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'co-2023-250k-fill',
+                        'source': 'co-2023-250k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co-2023-250k-border',
+                        'source': 'co-2023-250k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co-2023-250k-text',
+                        'source': 'co-2023-250k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
         ]
     },
     'carta-topografica-2022': {
@@ -1268,7 +1342,7 @@ var PROJECTS = {
             { // CT 50k
                 name: 'ct-2022-50k',
                 subtitle: '1:50.000',
-                description: '37 cartas na escala 1:50.000 construídas pelo intermédio do processo de generalização cartográfica das 174 cartas 1:25.000 do ano de 2021, no contexto do Convênio com o Estado do Rio Grande do Sul',
+                description: '39 cartas na escala 1:50.000 construídas pelo intermédio do processo de generalização cartográfica das 182 cartas 1:25.000 do ano de 2021, no contexto do Convênio com o Estado do Rio Grande do Sul',
                 legend: [2],
                 styles: [
                     {
@@ -1305,7 +1379,7 @@ var PROJECTS = {
             { // CT 100k
                 name: 'ct-2022-100k',
                 subtitle: '1:100.000',
-                description: '12 cartas na escala 1:100.000 construídas por intermédio do processo de generalização cartográfica, na região de Porto Alegre - RS e na região central do Estado de Santa Catarina.',
+                description: '13 cartas na escala 1:100.000 construídas por intermédio do processo de generalização cartográfica, na região de Porto Alegre - RS e na região central do Estado de Santa Catarina.',
                 legend: [2],
                 styles: [
                     {
@@ -1452,7 +1526,7 @@ var PROJECTS = {
             { // CT 25k
                 name: 'ct-2021-25k',
                 subtitle: '1:25.000',
-                description: '174 cartas na escala 1:25.000 e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais de elevação e dados geoespaciais vetoriais), correspondentes à RF1, compreendendo Porto Alegre, Região Metropolitana e municípios adjacentes. O projeto foi executado no contexto da parceria entre o Governo do Estado do Rio Grande do Sul e o Exército Brasileiro.',
+                description: '182 cartas na escala 1:25.000 e seus respectivos insumos geoespaciais (ortoimagens, modelos digitais de elevação e dados geoespaciais vetoriais), correspondentes à RF1, compreendendo Porto Alegre, Região Metropolitana e municípios adjacentes. O projeto foi executado no contexto da parceria entre o Governo do Estado do Rio Grande do Sul e o Exército Brasileiro.',
                 legend: [2],
                 styles: [
                     {
@@ -1641,6 +1715,162 @@ var PROJECTS = {
                     {
                         'id': 'ct-2020-25k-text',
                         'source': 'ct-2020-25k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+        ]
+    },
+    'carta-ortoimagem-2020': {
+        title: 'Carta Ortoimagem 2020',
+        group: "Entregas",
+        subgroup: "2020",
+        description: '',
+        lotes: [
+            { // CO 25k
+                name: 'co-2020-25k',
+                subtitle: '1:25.000',
+                description: '41 cartas na escala 1:25.000 nos Estados do Paraná e Santa Catarina, na região de fronteira.',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'co-2020-25k-fill',
+                        'source': 'co-2020-25k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co-2020-25k-border',
+                        'source': 'co-2020-25k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co-2020-25k-text',
+                        'source': 'co-2020-25k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+            { // CO 50k
+                name: 'co-2020-50k',
+                subtitle: '1:50.000',
+                description: '99 cartas na escala 1:50.000 na região de fronteira do Estado do Rio Grande do Sul e uma carta na fronteira do Mato Grosso do Sul',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'co-2020-50k-fill',
+                        'source': 'co-2020-50k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co-2020-50k-border',
+                        'source': 'co-2020-50k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co-2020-50k-text',
+                        'source': 'co-2020-50k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+            { // CO 100k
+                name: 'co-2020-100k',
+                subtitle: '1:100.000',
+                description: '84 cartas na escala 1:100.000 na região de fronteira dos estados da Região Sul do Brasil.',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'co-2020-100k-fill',
+                        'source': 'co-2020-100k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co-2020-100k-border',
+                        'source': 'co-2020-100k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co-2020-100k-text',
+                        'source': 'co-2020-100k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+            { // CO 250k
+                name: 'co-2020-250k',
+                subtitle: '1:250.000',
+                description: '17 cartas na escala 1:250.000 na região de fronteira dos estados da Região Sul do Brasil.',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'co-2020-250k-fill',
+                        'source': 'co-2020-250k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co-2020-250k-border',
+                        'source': 'co-2020-250k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co-2020-250k-text',
+                        'source': 'co-2020-250k',
                         "type": "symbol",
                         "maxzoom": 10,
                         'layout': {
