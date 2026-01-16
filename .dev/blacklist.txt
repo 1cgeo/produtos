@@ -1,0 +1,10 @@
+uraricoera.geojson,
+roraima.geojson,
+radiografia-am.geojson,
+aman_esa_2024_100k_orto,
+aman_esa_2024_100k_topo,
+aman_esa_2024_250k,
+aman_esa_2024_25k_orto,
+aman_esa_2024_25k_topo,
+aman_esa_2024_50k_orto,
+aman_esa_2024_50k_topo

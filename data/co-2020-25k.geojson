@@ -1,0 +1,1522 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-1-NE",
+        "id": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.875,
+                -23.125
+              ],
+              [
+                -53.75,
+                -23.125
+              ],
+              [
+                -53.75,
+                -23.0
+              ],
+              [
+                -53.875,
+                -23.0
+              ],
+              [
+                -53.875,
+                -23.125
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-1-NO",
+        "id": 2
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.0,
+                -23.125
+              ],
+              [
+                -53.875,
+                -23.125
+              ],
+              [
+                -53.875,
+                -23.0
+              ],
+              [
+                -54.0,
+                -23.0
+              ],
+              [
+                -54.0,
+                -23.125
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-1-SE",
+        "id": 3
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.875,
+                -23.25
+              ],
+              [
+                -53.75,
+                -23.25
+              ],
+              [
+                -53.75,
+                -23.125
+              ],
+              [
+                -53.875,
+                -23.125
+              ],
+              [
+                -53.875,
+                -23.25
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-1-SO",
+        "id": 4
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.0,
+                -23.25
+              ],
+              [
+                -53.875,
+                -23.25
+              ],
+              [
+                -53.875,
+                -23.125
+              ],
+              [
+                -54.0,
+                -23.125
+              ],
+              [
+                -54.0,
+                -23.25
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-2-NE",
+        "id": 5
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.625,
+                -23.125
+              ],
+              [
+                -53.5,
+                -23.125
+              ],
+              [
+                -53.5,
+                -23.0
+              ],
+              [
+                -53.625,
+                -23.0
+              ],
+              [
+                -53.625,
+                -23.125
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-2-NO",
+        "id": 6
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.75,
+                -23.125
+              ],
+              [
+                -53.625,
+                -23.125
+              ],
+              [
+                -53.625,
+                -23.0
+              ],
+              [
+                -53.75,
+                -23.0
+              ],
+              [
+                -53.75,
+                -23.125
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-2-SE",
+        "id": 7
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.625,
+                -23.25
+              ],
+              [
+                -53.5,
+                -23.25
+              ],
+              [
+                -53.5,
+                -23.125
+              ],
+              [
+                -53.625,
+                -23.125
+              ],
+              [
+                -53.625,
+                -23.25
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-2-SO",
+        "id": 8
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.75,
+                -23.25
+              ],
+              [
+                -53.625,
+                -23.25
+              ],
+              [
+                -53.625,
+                -23.125
+              ],
+              [
+                -53.75,
+                -23.125
+              ],
+              [
+                -53.75,
+                -23.25
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-3-NE",
+        "id": 9
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.875,
+                -23.375
+              ],
+              [
+                -53.75,
+                -23.375
+              ],
+              [
+                -53.75,
+                -23.25
+              ],
+              [
+                -53.875,
+                -23.25
+              ],
+              [
+                -53.875,
+                -23.375
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-3-NO",
+        "id": 10
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.0,
+                -23.375
+              ],
+              [
+                -53.875,
+                -23.375
+              ],
+              [
+                -53.875,
+                -23.25
+              ],
+              [
+                -54.0,
+                -23.25
+              ],
+              [
+                -54.0,
+                -23.375
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-3-SE",
+        "id": 11
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.875,
+                -23.5
+              ],
+              [
+                -53.75,
+                -23.5
+              ],
+              [
+                -53.75,
+                -23.375
+              ],
+              [
+                -53.875,
+                -23.375
+              ],
+              [
+                -53.875,
+                -23.5
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-3-SO",
+        "id": 12
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.0,
+                -23.5
+              ],
+              [
+                -53.875,
+                -23.5
+              ],
+              [
+                -53.875,
+                -23.375
+              ],
+              [
+                -54.0,
+                -23.375
+              ],
+              [
+                -54.0,
+                -23.5
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-4-NE",
+        "id": 13
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.625,
+                -23.375
+              ],
+              [
+                -53.5,
+                -23.375
+              ],
+              [
+                -53.5,
+                -23.25
+              ],
+              [
+                -53.625,
+                -23.25
+              ],
+              [
+                -53.625,
+                -23.375
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-4-NO",
+        "id": 14
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.75,
+                -23.375
+              ],
+              [
+                -53.625,
+                -23.375
+              ],
+              [
+                -53.625,
+                -23.25
+              ],
+              [
+                -53.75,
+                -23.25
+              ],
+              [
+                -53.75,
+                -23.375
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-4-SE",
+        "id": 15
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.625,
+                -23.5
+              ],
+              [
+                -53.5,
+                -23.5
+              ],
+              [
+                -53.5,
+                -23.375
+              ],
+              [
+                -53.625,
+                -23.375
+              ],
+              [
+                -53.625,
+                -23.5
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2753-4-SO",
+        "id": 16
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.75,
+                -23.5
+              ],
+              [
+                -53.625,
+                -23.5
+              ],
+              [
+                -53.625,
+                -23.375
+              ],
+              [
+                -53.75,
+                -23.375
+              ],
+              [
+                -53.75,
+                -23.5
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-1-NE",
+        "id": 17
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.875,
+                -23.625
+              ],
+              [
+                -53.75,
+                -23.625
+              ],
+              [
+                -53.75,
+                -23.5
+              ],
+              [
+                -53.875,
+                -23.5
+              ],
+              [
+                -53.875,
+                -23.625
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-1-NO",
+        "id": 18
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.0,
+                -23.625
+              ],
+              [
+                -53.875,
+                -23.625
+              ],
+              [
+                -53.875,
+                -23.5
+              ],
+              [
+                -54.0,
+                -23.5
+              ],
+              [
+                -54.0,
+                -23.625
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-1-SE",
+        "id": 19
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.875,
+                -23.75
+              ],
+              [
+                -53.75,
+                -23.75
+              ],
+              [
+                -53.75,
+                -23.625
+              ],
+              [
+                -53.875,
+                -23.625
+              ],
+              [
+                -53.875,
+                -23.75
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-1-SO",
+        "id": 20
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.0,
+                -23.75
+              ],
+              [
+                -53.875,
+                -23.75
+              ],
+              [
+                -53.875,
+                -23.625
+              ],
+              [
+                -54.0,
+                -23.625
+              ],
+              [
+                -54.0,
+                -23.75
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-2-NE",
+        "id": 21
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.625,
+                -23.625
+              ],
+              [
+                -53.5,
+                -23.625
+              ],
+              [
+                -53.5,
+                -23.5
+              ],
+              [
+                -53.625,
+                -23.5
+              ],
+              [
+                -53.625,
+                -23.625
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-2-NO",
+        "id": 22
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.75,
+                -23.625
+              ],
+              [
+                -53.625,
+                -23.625
+              ],
+              [
+                -53.625,
+                -23.5
+              ],
+              [
+                -53.75,
+                -23.5
+              ],
+              [
+                -53.75,
+                -23.625
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-2-SO",
+        "id": 23
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.75,
+                -23.75
+              ],
+              [
+                -53.625,
+                -23.75
+              ],
+              [
+                -53.625,
+                -23.625
+              ],
+              [
+                -53.75,
+                -23.625
+              ],
+              [
+                -53.75,
+                -23.75
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-3-NE",
+        "id": 24
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.875,
+                -23.875
+              ],
+              [
+                -53.75,
+                -23.875
+              ],
+              [
+                -53.75,
+                -23.75
+              ],
+              [
+                -53.875,
+                -23.75
+              ],
+              [
+                -53.875,
+                -23.875
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-3-NO",
+        "id": 25
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.0,
+                -23.875
+              ],
+              [
+                -53.875,
+                -23.875
+              ],
+              [
+                -53.875,
+                -23.75
+              ],
+              [
+                -54.0,
+                -23.75
+              ],
+              [
+                -54.0,
+                -23.875
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-3-SE",
+        "id": 26
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.875,
+                -24.0
+              ],
+              [
+                -53.75,
+                -24.0
+              ],
+              [
+                -53.75,
+                -23.875
+              ],
+              [
+                -53.875,
+                -23.875
+              ],
+              [
+                -53.875,
+                -24.0
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-3-SO",
+        "id": 27
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.0,
+                -24.0
+              ],
+              [
+                -53.875,
+                -24.0
+              ],
+              [
+                -53.875,
+                -23.875
+              ],
+              [
+                -54.0,
+                -23.875
+              ],
+              [
+                -54.0,
+                -24.0
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-4-NO",
+        "id": 28
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.75,
+                -23.875
+              ],
+              [
+                -53.625,
+                -23.875
+              ],
+              [
+                -53.625,
+                -23.75
+              ],
+              [
+                -53.75,
+                -23.75
+              ],
+              [
+                -53.75,
+                -23.875
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2779-4-SO",
+        "id": 29
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -53.75,
+                -24.0
+              ],
+              [
+                -53.625,
+                -24.0
+              ],
+              [
+                -53.625,
+                -23.875
+              ],
+              [
+                -53.75,
+                -23.875
+              ],
+              [
+                -53.75,
+                -24.0
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-1-NE",
+        "id": 30
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.375,
+                -24.125
+              ],
+              [
+                -54.25,
+                -24.125
+              ],
+              [
+                -54.25,
+                -24.0
+              ],
+              [
+                -54.375,
+                -24.0
+              ],
+              [
+                -54.375,
+                -24.125
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-1-SE",
+        "id": 31
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.375,
+                -24.25
+              ],
+              [
+                -54.25,
+                -24.25
+              ],
+              [
+                -54.25,
+                -24.125
+              ],
+              [
+                -54.375,
+                -24.125
+              ],
+              [
+                -54.375,
+                -24.25
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-2-NE",
+        "id": 32
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.125,
+                -24.125
+              ],
+              [
+                -54.0,
+                -24.125
+              ],
+              [
+                -54.0,
+                -24.0
+              ],
+              [
+                -54.125,
+                -24.0
+              ],
+              [
+                -54.125,
+                -24.125
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-2-NO",
+        "id": 33
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.25,
+                -24.125
+              ],
+              [
+                -54.125,
+                -24.125
+              ],
+              [
+                -54.125,
+                -24.0
+              ],
+              [
+                -54.25,
+                -24.0
+              ],
+              [
+                -54.25,
+                -24.125
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-2-SE",
+        "id": 34
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.125,
+                -24.25
+              ],
+              [
+                -54.0,
+                -24.25
+              ],
+              [
+                -54.0,
+                -24.125
+              ],
+              [
+                -54.125,
+                -24.125
+              ],
+              [
+                -54.125,
+                -24.25
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-2-SO",
+        "id": 35
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.25,
+                -24.25
+              ],
+              [
+                -54.125,
+                -24.25
+              ],
+              [
+                -54.125,
+                -24.125
+              ],
+              [
+                -54.25,
+                -24.125
+              ],
+              [
+                -54.25,
+                -24.25
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-3-NE",
+        "id": 36
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.375,
+                -24.375
+              ],
+              [
+                -54.25,
+                -24.375
+              ],
+              [
+                -54.25,
+                -24.25
+              ],
+              [
+                -54.375,
+                -24.25
+              ],
+              [
+                -54.375,
+                -24.375
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-3-SE",
+        "id": 37
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.375,
+                -24.5
+              ],
+              [
+                -54.25,
+                -24.5
+              ],
+              [
+                -54.25,
+                -24.375
+              ],
+              [
+                -54.375,
+                -24.375
+              ],
+              [
+                -54.375,
+                -24.5
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-4-NE",
+        "id": 38
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.125,
+                -24.375
+              ],
+              [
+                -54.0,
+                -24.375
+              ],
+              [
+                -54.0,
+                -24.25
+              ],
+              [
+                -54.125,
+                -24.25
+              ],
+              [
+                -54.125,
+                -24.375
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-4-NO",
+        "id": 39
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.25,
+                -24.375
+              ],
+              [
+                -54.125,
+                -24.375
+              ],
+              [
+                -54.125,
+                -24.25
+              ],
+              [
+                -54.25,
+                -24.25
+              ],
+              [
+                -54.25,
+                -24.375
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-4-SE",
+        "id": 40
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.125,
+                -24.5
+              ],
+              [
+                -54.0,
+                -24.5
+              ],
+              [
+                -54.0,
+                -24.375
+              ],
+              [
+                -54.125,
+                -24.375
+              ],
+              [
+                -54.125,
+                -24.5
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "situacao": "Concluído",
+        "identificadorMI": "2799-4-SO",
+        "id": 41
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -54.25,
+                -24.5
+              ],
+              [
+                -54.125,
+                -24.5
+              ],
+              [
+                -54.125,
+                -24.375
+              ],
+              [
+                -54.25,
+                -24.375
+              ],
+              [
+                -54.25,
+                -24.5
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    }
+  ]
+}
