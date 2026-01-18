@@ -26,6 +26,9 @@ SITUACAO_GERAL_FILES = {
     "250k": DATA_DIR / "situacao-geral-ct-250k.geojson",
 }
 
+# ARQUIVO DE EXCEÇÕES
+EXCECOES_ANO_FILE = BASE_DIR / ".dev" / "excecoes_ano.txt"
+
 
 def load_geojson(filepath):
     """Carrega um arquivo GeoJSON."""
@@ -38,6 +41,19 @@ def load_geojson(filepath):
     except json.JSONDecodeError as e:
         print(f"  [ERRO] Erro ao decodificar JSON: {filepath} - {e}")
         return None
+    
+def load_excecoes_ano():
+    excecoes = {}  # {(mi, escala, tipo, ano_situacao): ano_arquivo}
+    if EXCECOES_ANO_FILE.exists():
+        with open(EXCECOES_ANO_FILE, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#'):
+                    parts = line.split(',')
+                    if len(parts) == 5:
+                        mi, escala, tipo, ano_sg, ano_arq = parts
+                        excecoes[(mi.strip(), escala.strip(), tipo.strip(), ano_sg.strip())] = ano_arq.strip()
+    return excecoes
 
 
 def extract_produtos_recentes_situacao_geral():
@@ -131,6 +147,7 @@ def extract_produtos_from_files():
 
 
 def main():
+    excecoes_ano = load_excecoes_ano()
     """Função principal."""
     print("=" * 70)
     print(f"Comparação Inversa - Situação Geral vs Arquivos de Dados")
@@ -172,16 +189,20 @@ def main():
     for escala, produtos in mapeados_topo.items():
         for mi, anos in produtos.items():
             for ano in anos:
+                # Verificar se existe exceção de ano para este produto
+                ano_verificar = excecoes_ano.get((mi, escala, "CT", ano), ano)
                 # Verificar se existe no arquivo correspondente
-                if mi not in produtos_arquivos["CT"].get(escala, {}).get(ano, set()):
+                if mi not in produtos_arquivos["CT"].get(escala, {}).get(ano_verificar, set()):
                     nao_encontrados[("CT", escala, ano)].append(mi)
 
     # Verificar CO (orto)
     for escala, produtos in mapeados_orto.items():
         for mi, anos in produtos.items():
             for ano in anos:
+                # Verificar se existe exceção de ano para este produto
+                ano_verificar = excecoes_ano.get((mi, escala, "CO", ano), ano)
                 # Verificar se existe no arquivo correspondente
-                if mi not in produtos_arquivos["CO"].get(escala, {}).get(ano, set()):
+                if mi not in produtos_arquivos["CO"].get(escala, {}).get(ano_verificar, set()):
                     nao_encontrados[("CO", escala, ano)].append(mi)
 
     # Gerar relatório

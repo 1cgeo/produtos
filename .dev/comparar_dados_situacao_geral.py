@@ -17,6 +17,7 @@ DATA_DIR = BASE_DIR / "data"
 
 # Arquivos de blacklist (a ignorar)
 BLACKLIST_FILE = BASE_DIR / ".dev" / "blacklist.txt"
+BLACKLIST_MI_FILE = BASE_DIR / ".dev" / "blacklist_mi.txt"
 
 # Arquivos de situação geral (fonte de verdade)
 SITUACAO_GERAL_FILES = {
@@ -37,6 +38,17 @@ def load_blacklist():
                     # Remove extensão .geojson se presente
                     if line.endswith('.geojson'):
                         line = line[:-8]
+                    blacklist.add(line)
+    return blacklist
+
+
+def load_blacklist_mi():
+    blacklist = set()
+    if BLACKLIST_MI_FILE.exists():
+        with open(BLACKLIST_MI_FILE, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#'):
                     blacklist.add(line)
     return blacklist
 
@@ -147,14 +159,15 @@ def detect_tipo_escala(filename):
 
     # Detectar escala
     escala = None
-    if '25k' in filename_lower or '25000' in filename_lower:
-        escala = '25k'
-    elif '50k' in filename_lower or '50000' in filename_lower:
-        escala = '50k'
+    if '250k' in filename_lower or '250000' in filename_lower:
+        escala = '250k'
     elif '100k' in filename_lower or '100000' in filename_lower:
         escala = '100k'
-    elif '250k' in filename_lower or '250000' in filename_lower:
-        escala = '250k'
+    elif '50k' in filename_lower or '50000' in filename_lower:
+        escala = '50k'
+    elif '25k' in filename_lower or '25000' in filename_lower:
+        escala = '25k'
+
 
     return tipo, escala
 
@@ -170,6 +183,7 @@ def main():
     print(f"\nArquivos na blacklist ({len(blacklist)}):")
     for item in sorted(blacklist):
         print(f"  - {item}")
+    blacklist_mi = load_blacklist_mi()
 
     # Extrair produtos mapeados da situação geral
     print("\n" + "-" * 70)
@@ -215,6 +229,8 @@ def main():
 
         # Verificar quais não estão na situação geral
         for mi in produtos:
+            if mi in blacklist_mi:
+                continue
             # Inferir escala do MI se não detectada do nome do arquivo
             mi_escala = escala or get_escala_from_mi(mi)
 
