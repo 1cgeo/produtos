@@ -1186,7 +1186,7 @@ var PROJECTS = {
             { // CO 25k
                 name: 'co-2023-25k',
                 subtitle: '1:25.000',
-                description: '356 cartas na escala 1:25.000 com o planejamento de atender as demandas operacionais do CMS na região sudoeste do estado do Rio Grande do Sul.',
+                description: '354 cartas na escala 1:25.000 com o planejamento de atender as demandas operacionais do CMS na região sudoeste do estado do Rio Grande do Sul.',
                 legend: [2],
                 styles: [
                     {
