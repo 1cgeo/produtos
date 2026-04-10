@@ -275,6 +275,170 @@ var PROJECTS = {
             }
         ]
     },
+    'carta-topografica-2026': {
+        title: 'Carta Topográfica 2026',
+        group: "Entregas",
+        subgroup: "2026",
+        description: '',
+        lotes: [
+            { // CT 25k
+                name: 'ct-2026-25k',
+                subtitle: '1:25.000',
+                description: '26 cartas na escala 1:25.000, nas seguintes regiões: Cascavel - PR, Faxinal do Soturno - RS, Tubarão - SC e Ponta Grossa - PR.',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'ct-2026-25k-fill',
+                        'source': 'ct-2026-25k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'ct-2026-25k-border',
+                        'source': 'ct-2026-25k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ct-2026-25k-text',
+                        'source': 'ct-2026-25k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+            { // CT 50k
+                name: 'ct-2026-50k',
+                subtitle: '1:50.000',
+                description: '53 cartas na escala 1:50.000, nas seguintes regiões: Parque Nacional do Iguaçu - PR, União da Vitória e Três Barras, Santiago - RS e Faxinal do Soturno - RS.',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'ct-2026-50k-fill',
+                        'source': 'ct-2026-50k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'ct-2026-50k-border',
+                        'source': 'ct-2026-50k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'ct-2026-50k-text',
+                        'source': 'ct-2026-50k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            }
+        ]
+    },
+    'carta-ortoimagem-2026': {
+        title: 'Carta Ortoimagem 2026',
+        group: "Entregas",
+        subgroup: "2026",
+        description: '',
+        lotes: [
+            { // CO 25k
+                name: 'co-2026-25k',
+                subtitle: '1:25.000',
+                description: '72 cartas nas seguintes localidades/regiões: Caxias do Sul - RS (6), Porto Alegre - RS (7), Rincão do Inhandui - RS (1), Tubarão - SC (6), Palmas - PR (4), Oeste do Estado do Paraná - PR (48)',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'co-2026-25k-fill',
+                        'source': 'co-2026-25k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co-2026-25k-border',
+                        'source': 'co-2026-25k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co-2026-25k-text',
+                        'source': 'co-2026-25k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            },
+            { // CO 50k
+                name: 'co-2026-50k',
+                subtitle: '1:50.000',
+                description: '2 cartas na região metropolitana de Porto Alegre - RS',
+                legend: [2],
+                styles: [
+                    {
+                        'id': 'co-2026-50k-fill',
+                        'source': 'co-2026-50k',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'co-2026-50k-border',
+                        'source': 'co-2026-50k',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'co-2026-50k-text',
+                        'source': 'co-2026-50k',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificadorMI']]
+                        },
+                        'paint': {}
+                    }
+                ]
+            }
+        ]
+    },
     'carta-topografica-2025': {
         title: 'Carta Topográfica 2025',
         group: "Entregas",
